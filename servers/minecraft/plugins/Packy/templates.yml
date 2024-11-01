@@ -34,14 +34,6 @@ custom_blocks:
   default: true
   required: true
   filePath: Blocky/pack
-build:
-  default: true
-  required: true
-  githubDownload:
-    org: MineInAbyss
-    repo: MineInAbyss-resourcepack
-    branch: develop
-    subFolder: build
 premium_content:
   default: true
   required: true
