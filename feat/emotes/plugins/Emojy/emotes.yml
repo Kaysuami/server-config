@@ -210,6 +210,9 @@ emotes:
   - id: troopaw
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/troopaw.png
+  - id: rabbitw
+    font: mineinabyss:whistles
+    texture: mineinabyss:whistles/rabbitw.png
   - id: admin
     template: role_template
     texture: mineinabyss:ui/roles/admin.png
