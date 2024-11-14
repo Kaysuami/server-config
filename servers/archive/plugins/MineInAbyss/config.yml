@@ -19,8 +19,6 @@ descent:
   enabled: false
 displayLocker:
   enabled: false
-enchants:
-  enabled: false
 exp:
   enabled: false
 gondolas:
