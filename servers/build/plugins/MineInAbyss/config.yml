@@ -17,8 +17,6 @@ descent:
   enabled: false
 displayLocker:
   enabled: false
-exp:
-  enabled: false
 gondolas:
   enabled: false
 guilds:
