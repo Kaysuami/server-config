@@ -12,6 +12,7 @@ l1_silkfang:
   inherit: l1_hostile
   type: mm:silkfang
   conditions:
+    - $inherit
     # - blockBelow:
     #      allow: [ grass_block ]
     - maxNearby:
