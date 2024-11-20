@@ -29,5 +29,5 @@ daikonchu:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=Changetarget} ~onTimer:160 <99%
-    - model{mid=daikonchu;n=false} @Self ~onSpawn
+    - model{mid=daikonchu;n=false} @Self ~onSpawnOrLoad
     - skill:DaikonchuAttack @Self ~onAttack

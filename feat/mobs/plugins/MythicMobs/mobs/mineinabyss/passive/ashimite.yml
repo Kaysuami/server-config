@@ -37,9 +37,8 @@ ashimite:
   Skills:
     - skill{s=displayHealth} ~onDamaged
 
-    #- bodyclamp{m=orbpiercer;c=15} @self ~onSpawn
-    #- bodyclamp{m=orbpiercer;c=15} @self ~onLoad
-    - setspeed{type=walking;speed=2.0} @self ~onSpawn
+    #- bodyclamp{m=orbpiercer;c=15} @self ~onSpawnOrLoad
+    - setspeed{type=walking;speed=2.0} @self ~onSpawnOrLoad
     #- sound{s=mineinabyss:entity.stingerhead.hurt;v=1;sc=HOSTILE} @self ~onDamaged
     #- sound{s=mineinabyss:entity.stingerhead.death;v=1;sc=HOSTILE} @self ~onDeath
     #- sound{s=mineinabyss:entity.stingerhead.ambient;v=1;sc=HOSTILE} @self ~onTimer:400
@@ -80,8 +79,7 @@ baby_ashimite:
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    #- bodyclamp{m=orbpiercer;c=15} @self ~onSpawn
-    #- bodyclamp{m=orbpiercer;c=15} @self ~onLoad
+    #- bodyclamp{m=orbpiercer;c=15} @self ~onSpawnOrLoad
     - setspeed{type=walking;speed=1.8} @self ~onSpawn 0.2
     #- sound{s=mineinabyss:entity.stingerhead.hurt;v=1;sc=HOSTILE} @self ~onDamaged
     #- sound{s=mineinabyss:entity.stingerhead.death;v=1;sc=HOSTILE} @self ~onDeath

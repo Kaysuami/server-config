@@ -20,12 +20,11 @@ mia_baby_corpse_weeper:
     Scale: 0.3
   Skills:
     #  - skill{s=mia_death} @self ~onDeath
-    #  - skill{s=mia_spawn} @self ~onSpawn
     #  - skill{s=mia_baby_corpse_weeper_spell} @target ~onTimer:20
     #  - skill:MIAPetExpNearby{exp=1;radius=10} ~onDeath
     - skill{s=mia_feed} @self ~onInteract
 
-    - bodyclamp{mh=10;mb=10;s=0} @self ~onSpawn
+    - bodyclamp{mh=10;mb=10;s=0} @self ~onSpawnOrLoad
   Health: 450
   Damage: 0
   Options:
@@ -73,15 +72,15 @@ mia_corpse_weeper:
     - potion{p=false;type=SLOW_FALLING;duration=25;level=1} @owner ~onTimer:20
     - skill{s=mia_feed} @self ~onInteract <100%
     # - skill{s=mia_death} @self ~onDeath
-    #  - skill{s=mia_spawn} @self ~onSpawn
+    #  - skill{s=mia_spawn} @self ~onSpawnOrLoad
     - skill{s=mia_corpseweeper_spell} @ring{r=4;p=6} ~onTimer:20
     - skill{s=mia_corpseweeper_attack_1_sync;sync=true} @target ~onAttack
 
-    - setspeed{type=flying;speed=1.5} @self ~onSpawn
+    - setspeed{type=flying;speed=1.5} @self ~onSpawnOrLoad
     - state{mid=corpse_weeper;s=attack} @self ~onAttack
     - skill{s=mia_feed} @self ~onInteract
 
-    - bodyclamp{mh=10;mb=10;s=0} @self ~onSpawn
+    - bodyclamp{mh=10;mb=10;s=0} @self ~onSpawnOrLoad
   Health: 450
   Damage: 1
   Options:

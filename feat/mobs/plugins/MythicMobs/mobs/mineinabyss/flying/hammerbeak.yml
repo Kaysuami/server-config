@@ -36,7 +36,6 @@ hammerbeak:
 
   Skills:
     - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
-    #  - skill{s=hammerbeakspawn} @self ~onspawn
     # Misc
     - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=12} @self ~onTimer:10
     - potion{t=LEVITATION;l=1;force=true;p=true;d=10} @self ~onTimer:20 ?stance{s=idleAir}
@@ -45,7 +44,7 @@ hammerbeak:
     #  - summon{type=qmob_hammerbeakSmallCorpse;amount=1;radius=0;delay=42} @self ~onDeath
     - velocity{m=add;x=0;y=-0.4;z=0;repeat=120;repeatInterval=1} @self ~onDeath
     # Stances/AI
-    - stance{s=landed} @self ~onSpawn
+    - stance{s=landed} @self ~onSpawnOrLoad
     - skill{s=hammerbeakTakeoff} @self ~onTimer:100 ?targetwithin{d=10}
     - skill{s=hammerbeakTakeoff} @self ~onSignal:danger
     - skill{s=hammerbeakTakeoff} @self ~onHurt ?onGround{}
@@ -108,7 +107,7 @@ hammerbeakLarge:
     #- summon{type=qmob_hammerbeakCorpse;amount=1;radius=0;delay=46} @self ~onDeath
     - velocity{m=add;x=0;y=-0.8;z=0;repeat=120;repeatInterval=1} @self ~onDeath
     # Stances/AI
-    - stance{s=landed} @self ~onSpawn
+    - stance{s=landed} @self ~onSpawnOrLoad
     - skill{s=hammerbeakTakeoff} @self ~onTimer:100 ?targetwithin{d=14}
     - skill{s=hammerbeakTakeoff} @self ~onSignal:danger
     - skill{s=hammerbeakTakeoff} @self ~onHurt ?onGround{}

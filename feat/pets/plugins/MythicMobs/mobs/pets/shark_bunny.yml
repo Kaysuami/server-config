@@ -22,7 +22,7 @@ Aerial_Bunny:
   AITargetSelectors:
     - 0 clear
   Skills:
-    - model{mid=aerial_bunny;n=false} @self ~onSpawn
+    - model{mid=aerial_bunny;n=false} @self ~onSpawnOrLoad
     - effect:particlering{particle=cloud;radius=1;points=7;amount=1;hS=0;vS=0;y=0.1} @PetOwner ~onTimer:20
     - skill{s=HighJump_POTION} @PetOwner ~onTimer:10
     - skill{s=SlowFalling} @PetOwner ~onTimer:10
@@ -54,7 +54,7 @@ Baby_Shark:
   AITargetSelectors:
     - 0 clear
   Skills:
-    - model{mid=baby_shark;n=false} @self ~onSpawn
+    - model{mid=baby_shark;n=false} @self ~onSpawnOrLoad
     - skill{s=Aqua_Buff} @PetOwner ~onTimer:10
     - skill{s=Aqua_Buff_FX} @PetOwner ~onTimer:15
     - effect:sound{s=mopets4_sounds:samus.baby_shark_idle;volume=1;pitch=1} @self ~onTimer:140 0.4

@@ -21,7 +21,7 @@ delverarcher:
 
   Skills:
     - skill{s=displayHealth} ~onDamaged
-    - model{mid=DelverArcher;n=false;d=false} @self ~onSpawn
+    - model{mid=DelverArcher;n=false;d=false} @self ~onSpawnOrLoad
     - state{mid=DelverArcher;s=hurt} @self ~onDamaged
     - skill{s=maarcherShoot;sync=true} @Target ~onShoot
     - effect:sound{s=entity.pillager.hurt;p=1;v=1} @self ~onDamaged 1
@@ -47,8 +47,7 @@ delvertrade:
   Drops:
     - exp 15
   Skills:
-    - model{mid=DelverTrader;n=false;d=false} @self ~onSpawn
-    - model{mid=DelverTrader;n=false;d=false} @self ~onLoad
+    - model{mid=DelverTrader;n=false;d=false} @self ~onSpawnOrLoad
     - state{mid=DelverTrader;s=swing} @self ~onAttack
     - state{mid=DelverTrader;s=hurt} @self ~onDamaged
     - skill{s=piratesword} @target ~onTimer:300

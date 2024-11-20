@@ -37,9 +37,8 @@ inkflower:
     - skill{s=displayHealth} ~onDamaged
 
 
-    - bodyclamp{m=inkflower;c=15} @self ~onSpawn
-    - bodyclamp{m=inkflower;c=15} @self ~onLoad
-    - setspeed{type=flying;speed=1.4} @self ~onSpawn
+    - bodyclamp{m=inkflower;c=15} @self ~onSpawnOrLoad
+    - setspeed{type=flying;speed=1.4} @self ~onSpawnOrLoad
     - state{mid=inkflower;s=attack} @self ~onAttack
     
     #- skill{s=inkflower_airball} @target ~onTimer:20

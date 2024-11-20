@@ -32,7 +32,7 @@ shroombear:
     ####### Misc
     - CancelEvent{sync=true} @self ~onAttack
     - CancelEvent{sync=true} @self ~onInteract
-    - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawn
+    - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
     - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:100 0.66 <55%
     - skill{s=Shroom_Harvest} @self ~oninteract
     - skill{s=displayHealth} ~onDamaged
@@ -68,7 +68,7 @@ baby_shroombear:
     ####### Misc
     - CancelEvent{sync=true} @self ~onAttack
     - CancelEvent{sync=true} @self ~onInteract
-    - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawn
+    - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
     - skill{s=shroombearAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - skill{s=shroombearHurt} @self ~onHurt
     - skill{s=shroombearDeath} @self ~onDeath

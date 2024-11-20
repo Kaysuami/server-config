@@ -41,8 +41,7 @@ yomotsubi:
     # - skill{s=Damage_8} @self ~onAttack
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    - bodyclamp{m=yomotsubi;c=15} @self ~onSpawn
-    - bodyclamp{m=yomotsubi;c=15} @self ~onLoad
+    - bodyclamp{m=yomotsubi;c=15} @self ~onSpawnOrLoad
     - state{mid=yomotsubi;s=attack} @self ~onAttack
 
     - skill{s=yomotsubi_airball} @target ~onTimer:20

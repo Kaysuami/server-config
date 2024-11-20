@@ -35,7 +35,7 @@ spittleshrub:
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    - skill:SpittleshrubSpawn @self ~onSpawn
+    - skill:SpittleshrubSpawn @self ~onSpawnOrLoad
     - skill:SpittleshrubDamaged @self ~onDamaged
     - skill:SpittleshrubHiddenDamaged{sync=true} @self ~onDamaged
     - skill:SpittleshrubBurrow @self ~onDropCombat

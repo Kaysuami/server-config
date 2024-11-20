@@ -165,8 +165,8 @@ stingerhead_stun_hit:
 ## Stingerhead Stinger skills
 stingerhead_stinger_detached_spawn:
   Skills:
-    - model{mid=stingerhead_stinger;d=true} @self ~onSpawn
-    - state{mid=stingerhead_stinger;s=detatching;lo=3;li=3} @self ~onSpawn
+    - model{mid=stingerhead_stinger;d=true} @self ~onSpawnOrLoad
+    - state{mid=stingerhead_stinger;s=detatching;lo=3;li=3} @self ~onSpawnOrLoad
 
 stingerhead_stinger_detached_death:
   Skills:

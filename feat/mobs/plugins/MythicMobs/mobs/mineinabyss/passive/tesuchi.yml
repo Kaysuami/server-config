@@ -35,7 +35,7 @@ tesuchi:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 
     - look{} @target ~onTimer:20
-    - defaultstate{t=walk;s=walk;sp=2.2} @self ~onSpawn
+    - defaultstate{t=walk;s=walk;sp=2.2} @self ~onSpawnOrLoad
     - CancelEvent{sync=true} @self ~onAttack
     - CancelEvent{sync=true} @self ~onInteract
     ####### Stances/AI

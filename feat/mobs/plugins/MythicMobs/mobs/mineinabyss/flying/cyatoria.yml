@@ -36,9 +36,8 @@ cyatoria:
     - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_3} @self ~onAttack
-    - bodyclamp{m=cyatoria;c=15} @self ~onSpawn
-    - bodyclamp{m=cyatoria;c=15} @self ~onLoad
-    - setspeed{type=flying;speed=1.1} @self ~onSpawn
+    - bodyclamp{m=cyatoria;c=15} @self ~onSpawnOrLoad
+    - setspeed{type=flying;speed=1.1} @self ~onSpawnOrLoad
     - state{mid=cyatoria;s=attack} @self ~onAttack
     # - skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=displayHealth} ~onDamaged

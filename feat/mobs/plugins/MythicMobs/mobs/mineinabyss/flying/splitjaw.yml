@@ -44,9 +44,8 @@ splitjaw:
   Skills:
     - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
     # - CancelEvent{sync=true} ~onAttack
-    - bodyclamp{m=splitjaw;c=15} @self ~onSpawn
-    - bodyclamp{m=splitjaw;c=15} @self ~onLoad
-    - setspeed{type=flying;speed=1.35} @self ~onSpawn
+    - bodyclamp{m=splitjaw;c=15} @self ~onSpawnOrLoad
+    - setspeed{type=flying;speed=1.35} @self ~onSpawnOrLoad
     - state{mid=splitjaw;s=attack} @self ~onAttack
     - DefaultState{m=splitjaw;t=walk;s=walk_aggro} @self ~onEnterCombat
     - DefaultState{m=splitjaw;t=walk;s=walk} @self ~onDropCombat
