@@ -36,7 +36,6 @@ swarmshocker:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    - model{mid=swarmshocker} @self ~onSpawnOrLoad
     - skill{s=swarmshockerShock;delay=<random.0to20>} @self ~onHurt 0.55 <100%
     - skill{s=swarmshockerShock;delay=<random.0to20>} @self ~onTimer:165 ?inCombat{}
     - sound{s=entity.glow_squid.hurt;sc=master;p=1.95;v=0.65;cd=0.5} @self ~onHurt 0.8
@@ -81,7 +80,6 @@ swarmhoarder:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    - model{mid=swarmshockermid} @self ~onSpawnOrLoad
     - skill{s=swarmshockerbigShock;delay=<random.0to20>} @self ~onHurt 0.55 <100%
     - skill{s=swarmshockerbigShock;delay=<random.0to20>} @self ~onTimer:165 ?inCombat{}
     - sound{s=entity.glow_squid.hurt;sc=master;p=1.95;v=0.65;cd=0.5} @self ~onHurt 0.8

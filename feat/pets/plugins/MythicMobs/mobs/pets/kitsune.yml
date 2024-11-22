@@ -3,6 +3,10 @@ Kitsune_Normal:
   Display: '&fKitsune'
   Health: 100
   Damage: 3
+  Model:
+    Id: kitsune_normal
+    Step: 1
+    Drive: true
   Options:
     MovementSpeed: 0.19
     PreventRandomEquipment: true
@@ -19,7 +23,6 @@ Kitsune_Normal:
   AITargetSelectors:
     - 0 clear
   Skills:
-    - model{mid=kitsune_normal;n=false;step=1;drive=true} @self ~onSpawnOrLoad
     - skill{s=Cancelattack;sync=true} ~onAttack
     - effect:sound{s=entity.fox.ambient;volume=0.7;pitch=1} @self ~onTimer:220 0.4
     - skill{s=Kitsune_Normal_Dash} ~onSignal:DASH

@@ -32,7 +32,6 @@ himushi:
     - MAGMA_BLOCK 1-2 0.6
   Skills:
     - skill{s=displayHealth} ~onDamaged
-    - model{mid=magma_snail} @self ~onSpawnOrLoad
     - bodyclamp{m=magma_snail;c=0} @self ~onSpawnOrLoad
     - CancelEvent{sync=true} @self ~onAttack
     - effect:sound{s=item.armor.equip_leather;v=2;p=1} @self ~onDamaged

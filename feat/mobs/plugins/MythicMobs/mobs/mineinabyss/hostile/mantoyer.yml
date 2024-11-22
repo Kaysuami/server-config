@@ -37,6 +37,3 @@ mantoyer:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 
     - state{mid=mantoyer;s=attack} @self ~onAttack
-  #- model{mid=daikonchu;n=false} @Self ~onSpawnOrLoad
-  # - skill:DaikonchuAttack @Self ~onAttack
-#  - skill:DwellingBugTame @Self ~onInteract COMING SOON!!!!!!!
