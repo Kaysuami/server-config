@@ -16,7 +16,7 @@ stinger:
     - clear
     #  - OtherFaction
     - players
-    - nearestConditionalTarget{conditions=[- mythicmobtype{t=qmob_hammerbeak,qmob_hammerbeakLarge} true]}
+    - nearestConditionalTarget{conditions=[- mythicmobtype{t=hammerbeak,hammerbeakLarge} true]}
   Faction: stingers
   Health: 16 # change this
   Damage: 0 # keep this 0
@@ -27,7 +27,7 @@ stinger:
     MovementSpeed: 0.0   # replaced with skills
     KnockbackResistance: 0.0
   Model:
-    Id: qmob_stinger
+    Id: stinger
     ViewRadius: 64
     Drive: false
     DamageTint: true
@@ -72,7 +72,7 @@ stinger2:
     - clear
     #  - OtherFaction
     - players
-    - nearestConditionalTarget{conditions=[- mythicmobtype{t=qmob_hammerbeak,qmob_hammerbeakLarge} true]}
+    - nearestConditionalTarget{conditions=[- mythicmobtype{t=hammerbeak,hammerbeakLarge} true]}
   Faction: stingers
   Health: 16 # change this
   Damage: 0 # keep this 0
@@ -83,7 +83,7 @@ stinger2:
     MovementSpeed: 0.0   # replaced with skills
     KnockbackResistance: 0.0
   Model:
-    Id: qmob_stinger
+    Id: stinger
     ViewRadius: 64
     Drive: false
     DamageTint: true

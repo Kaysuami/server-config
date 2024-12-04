@@ -23,7 +23,7 @@ shroombear:
     DigOutOfGround: true
     PreventOtherDrops: true
   Model:
-    Id: qmob_shroombear
+    Id: shroombear
     ViewRadius: 64
     Drive: false
     DamageTint: true
@@ -59,7 +59,7 @@ baby_shroombear:
     FollowRange: 10
     MovementSpeed: 0.18
   Model:
-    Id: qmob_shroombear
+    Id: shroombear
     ViewRadius: 64
     Drive: false
     DamageTint: true

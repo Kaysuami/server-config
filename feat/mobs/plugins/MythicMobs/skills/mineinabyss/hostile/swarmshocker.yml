@@ -1,5 +1,5 @@
 # Misc #
-qmob_swarmshockerpropel:
+swarmshockerpropel:
   Cooldown: 0
   Conditions:
     - inBlock{b=WATER}

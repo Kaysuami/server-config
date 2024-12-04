@@ -22,7 +22,7 @@ mia_baby_shroombear:
   AITargetSelectors:
     - 0 clear
   Model:
-    Id: qmob_shroombear
+    Id: shroombear
     ViewRadius: 64
     Drive: false
     DamageTint: true
@@ -58,7 +58,7 @@ mia_shroombear:
   AITargetSelectors:
     - 0 clear
   Model:
-    Id: qmob_shroombear
+    Id: shroombear
     ViewRadius: 64
     Drive: false
     DamageTint: true

@@ -48,3 +48,14 @@ secret_api_key: "{{ lookup('ansible.builtin.env', 'MY_SECRET_KEY') }}"
 ## License
 
 The (Ansible) automation part of this project is under the MIT license in the `LICENSE` file. The server configs themselves (under `servers/`) remain unlicensed.
+
+### Other files
+
+The following MythicMobs mob and skill files were originally created by `queenofants` for another project and donated to the Mine in Abyss project with permission to modify as needed. They are NOT licensed under this project's license:
+
+- demonfish
+- hammerbeak
+- leaflizard
+- shroombear
+- silkfang
+- stinger

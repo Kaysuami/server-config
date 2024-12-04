@@ -1,4 +1,4 @@
-qmob_shroombearstep:
+shroombearstep:
   Cooldown: 0
   Conditions:
     - onground{} true

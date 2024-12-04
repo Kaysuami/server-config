@@ -24,7 +24,7 @@ hammerbeak:
     PreventOtherDrops: true
     Silent: true
   Model:
-    Id: qmob_hammerbeaksmall
+    Id: hammerbeaksmall
     ViewRadius: 64
     Drive: false
     DamageTint: true
@@ -41,7 +41,7 @@ hammerbeak:
     - potion{t=LEVITATION;l=1;force=true;p=true;d=10} @self ~onTimer:20 ?stance{s=idleAir}
     - look{} @target ~onTimer:20
     - CancelEvent{sync=true} @self ~onAttack
-    #  - summon{type=qmob_hammerbeakSmallCorpse;amount=1;radius=0;delay=42} @self ~onDeath
+    #  - summon{type=hammerbeakSmallCorpse;amount=1;radius=0;delay=42} @self ~onDeath
     - velocity{m=add;x=0;y=-0.4;z=0;repeat=120;repeatInterval=1} @self ~onDeath
     # Stances/AI
     - stance{s=landed} @self ~onSpawnOrLoad
@@ -78,7 +78,7 @@ hammerbeakLarge:
   AITargetSelectors:
     - clear
     - players
-    - nearestConditionalTarget{conditions=[- mythicmobtype{t=qmob_ikenosuke,qmob_demonfish,qmob_stinger} true]}
+    - nearestConditionalTarget{conditions=[- mythicmobtype{t=ikenosuke,demonfish,stinger} true]}
   Faction: hammerbeaks
   Health: 50
   Damage: 0
@@ -95,7 +95,7 @@ hammerbeakLarge:
     - geary mineinabyss:hammerbeak_feather 1-3 0.7
     - geary mineinabyss:hammerbeak_egg 1-2 0.5
   Model:
-    Id: qmob_hammerbeaksmall
+    Id: hammerbeaksmall
     Scale: 1.5
 
   Skills:
@@ -104,7 +104,7 @@ hammerbeakLarge:
     - potion{t=LEVITATION;l=1;force=true;p=true;d=10} @self ~onTimer:20 ?stance{s=idleAir}
     - look{} @target ~onTimer:20
     - CancelEvent{sync=true} @self ~onAttack
-    #- summon{type=qmob_hammerbeakCorpse;amount=1;radius=0;delay=46} @self ~onDeath
+    #- summon{type=hammerbeakCorpse;amount=1;radius=0;delay=46} @self ~onDeath
     - velocity{m=add;x=0;y=-0.8;z=0;repeat=120;repeatInterval=1} @self ~onDeath
     # Stances/AI
     - stance{s=landed} @self ~onSpawnOrLoad

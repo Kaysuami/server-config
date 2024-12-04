@@ -22,7 +22,7 @@ fukaiasai:
     KnockbackResistance: 0.0
     PreventOtherDrops: true
   Model:
-    Id: qmob_fukaiasai
+    Id: fukaiasai
 
   Skills:
     ####### Misc

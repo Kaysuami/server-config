@@ -11,7 +11,7 @@ bloodEffectSmall:
   - effect:particles{particle=block;m=weeping_vines;y=1;a=12;hs=0.15;vs=0.15;s=0;y=-0.1}       # children or otherwise.
 
 
-qmob_HammerbeakFlap: # wing flap sfx                    - replace with custom if you want
+HammerbeakFlap: # wing flap sfx                    - replace with custom if you want
   Cooldown: 0.1
   Skills:
   - velocity{m=add;x=0;y=0.3;z=0} @self ?!stance{s=approach} ?!stance{s=landing} !stance{s=swoop}
@@ -28,7 +28,7 @@ hammerbeakAmbient:
   - sound{s=entity.strider.ambient;sc=master;p=<random.float.1.3to1.4>;v=1.1} @self
   - sound{s=entity.phantom.ambient;sc=master;p=<random.float.1.15to1.25>;v=0.7} @self
 
-qmob_hammerbeakScreech:
+hammerbeakScreech:
   Cooldown: 0.3
   Skills:
   - delay <random.0to10>
@@ -61,7 +61,7 @@ hammerbeakDeath:
   - sound{s=entity.phantom.death;sc=master;p=<random.float.1.45to1.55>;v=0.7} @self
   - sound{s=particle.soul_escape;sc=master;p=2.0;v=2.25;delay=5;repeat=5;repeatInterval=1} @self
 
-qmob_HammerbeakFlapSmall: # wing flap sfx                    - replace with custom if you want
+HammerbeakFlapSmall: # wing flap sfx                    - replace with custom if you want
   Cooldown: 0.1
   Skills:
   - velocity{m=add;x=0;y=0.2;z=0} @self ?!stance{s=approach} ?!stance{s=landing} !stance{s=swoop}
@@ -78,7 +78,7 @@ hammerbeakAmbientSmall:
   - sound{s=entity.strider.ambient;sc=master;p=<random.float.1.2to1.3>;v=1.1} @self
   - sound{s=entity.phantom.ambient;sc=master;p=<random.float.1.25to1.35>;v=0.7} @self
 
-qmob_hammerbeakScreechSmall:
+hammerbeakScreechSmall:
   Cooldown: 0.3
   Skills:
   - delay <random.0to10>
@@ -283,7 +283,7 @@ hammerbeakSwoopS:
   - delay 10
   - randomskill{s=hammerbeakAirHoverS 1,hammerbeakAirUpS 5,hammerbeakAirDownS 3,hammerbeakSwoopS 5} @self
 
-qmob_hammerbeakDamager:
+hammerbeakDamager:
   Cooldown: 0
   Conditions:
   Skills:
@@ -294,7 +294,7 @@ qmob_hammerbeakDamager:
   - damage{a=1;pi=true} @PIR{r=1.85}
   - potion{t=CONFUSION;l=1;force=true;p=true;d=80} @PIR{r=2.85}
 
-qmob_hammerbeakDamagerSmall:
+hammerbeakDamagerSmall:
   Cooldown: 0
   Conditions:
   Skills:

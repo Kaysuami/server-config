@@ -28,7 +28,7 @@ demonfish:
   Drops:
     - geary mineinabyss:demonfish_raw 1-2 0.6
   Model:
-    Id: qmob_demonfish
+    Id: demonfish
     ViewRadius: 64
     DamageTint: true
   Skills:

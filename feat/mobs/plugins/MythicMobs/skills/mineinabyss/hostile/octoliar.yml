@@ -1,7 +1,7 @@
 ############ octoliar #############
 
 # Misc #
-qmob_octoliarStep:
+octoliarStep:
   Cooldown: 0
   Conditions:
     - onground{} true

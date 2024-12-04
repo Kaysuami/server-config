@@ -168,22 +168,22 @@ leaflizardDisguise:
     - sound{s=block.candle.extinguish;p=0.5;v=0.82;sc=master} @self
     - sound{s=entity.frog.ambient;p=1.9;v=0.82;sc=master} @self
     - effect:particles{particle=falling_spore_blossom;a=30;hs=0.9;vs=0.04;y=0.2;repeat=2;repeatInterval=1} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=torso} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=head} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=backtorso} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=frontarml} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=frontarmr} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=reararml} @self
-    - partvisibility{m=qmob_leafLizard;v=false;p=reararmr} @self
+    - partvisibility{m=leafLizard;v=false;p=torso} @self
+    - partvisibility{m=leafLizard;v=false;p=head} @self
+    - partvisibility{m=leafLizard;v=false;p=backtorso} @self
+    - partvisibility{m=leafLizard;v=false;p=frontarml} @self
+    - partvisibility{m=leafLizard;v=false;p=frontarmr} @self
+    - partvisibility{m=leafLizard;v=false;p=reararml} @self
+    - partvisibility{m=leafLizard;v=false;p=reararmr} @self
     - setstance{s=hiding} @self
     - delay <random.160to200>
-    - partvisibility{m=qmob_leafLizard;v=true;p=torso} @self
-    - partvisibility{m=qmob_leafLizard;v=true;p=head} @self
-    - partvisibility{m=qmob_leafLizard;v=true;p=backtorso} @self
-    - partvisibility{m=qmob_leafLizard;v=true;p=frontarml} @self
-    - partvisibility{m=qmob_leafLizard;v=true;p=frontarmr} @self
-    - partvisibility{m=qmob_leafLizard;v=true;p=reararml} @self
-    - partvisibility{m=qmob_leafLizard;v=true;p=reararmr} @self
+    - partvisibility{m=leafLizard;v=true;p=torso} @self
+    - partvisibility{m=leafLizard;v=true;p=head} @self
+    - partvisibility{m=leafLizard;v=true;p=backtorso} @self
+    - partvisibility{m=leafLizard;v=true;p=frontarml} @self
+    - partvisibility{m=leafLizard;v=true;p=frontarmr} @self
+    - partvisibility{m=leafLizard;v=true;p=reararml} @self
+    - partvisibility{m=leafLizard;v=true;p=reararmr} @self
     - sound{s=entity.frog.ambient;p=1.9;v=0.82;sc=master;sync=true} @self
     - setstance{s=clear} @self
 
@@ -196,7 +196,7 @@ leaflizardInvis:
     - potion{t=SPEED;l=4;force=true;p=false;d=15} @self
 
 
-qmob_leaflizardstep:
+leaflizardstep:
   Cooldown: 0
   Conditions:
     - onground{} true

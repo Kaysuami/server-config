@@ -39,13 +39,13 @@ stingerAttack:
   - sound{s=entity.bee.pollinate;p=1.8;v=1.2;sc=master} @self
   - sound{s=block.sand.break;p=2.0;v=0.65;sc=master} @self
   - leap{velocity=<random.100to150>} @target
-  - skill{s=qmob_stingerDamager;repeat=20;repeatInterval=1} @self
+  - skill{s=stingerDamager;repeat=20;repeatInterval=1} @self
   - delay 20
   - lockmodel{l=false} @self
   - look{immediately=true;immediately=true} @target
   - stance{s=idleAir} @self
 
-qmob_stingerDamager:
+stingerDamager:
   Cooldown: 0
   Conditions:
   Skills:
