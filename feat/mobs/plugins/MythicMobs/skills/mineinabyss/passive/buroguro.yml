@@ -1,9 +1,3 @@
-buroguroSpawn:
-  Skills:
-    - model{m=glowfly;n=false;s=1}
-    - bodyclamp{angle=0}
-    - gcd{ticks=20}
-
 buroguroMelee:
   Skills:
     - cancelevent
@@ -63,6 +57,7 @@ buroguroBeAnnoying:
   Skills:
     - skill:buroguroBeAnnoyingMove @NearestPlayer
     - potion{type=LEVITATION;d=20;level=1} @self 0.33
+
 buroguroBeAnnoyingMove:
   Skills:
     - goto @RLNT{a=1;r=3}

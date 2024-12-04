@@ -8,7 +8,7 @@ buroguro:
     - exp 50-90
     - geary mineinabyss:buroguro_lantern 1 0.3
     # - geary mineinabyss:buroguro_stinger 1-2 0.6
-  Faction: glowfly
+  Faction: buroguro
   Options:
     Silent: true
     MovementSpeed: 0.46
@@ -27,14 +27,14 @@ buroguro:
     - clear
     - attacker
   Model:
-    Id: glowfly
+    Id: buroguro
     ViewRadius: 64
     Drive: false
     DamageTint: true
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    #  - skill{s=buruguroDamaged} @self ~onDamaged
-    #  - skill{s=buruguroTick} @self ~onTimer:20
+    #  - skill{s=buroguroDamaged} @self ~onDamaged
+    #  - skill{s=buroguroTick} @self ~onTimer:20
     - skill{s=buroguroMelee} @trigger ~onAttack
   
