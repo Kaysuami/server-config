@@ -47,8 +47,11 @@ Kitsune_Demonic:
     - 2 float
   AITargetSelectors:
     - 0 clear
+  Model:
+    Id: kitsune_demonic
+    Step: 1
+    Drive: true
   Skills:
-    - model{mid=kitsune_demonic;n=false;step=1;drive=true} @self ~onSpawnOrLoad
     - skill{s=Cancelattack;sync=true} ~onAttack
     - effect:sound{s=entity.fox.ambient;volume=0.7;pitch=1} @self ~onTimer:220 0.4
     - skill{s=Kitsune_Demonic_Dash} ~onSignal:DASH
@@ -73,8 +76,11 @@ Kitsune_Inferno:
     - 2 float
   AITargetSelectors:
     - 0 clear
+  Model:
+    Id: kitsune_inferno
+    Step: 1
+    Drive: true
   Skills:
-    - model{mid=kitsune_inferno;n=false;step=1;drive=true} @self ~onSpawnOrLoad
     - skill{s=Cancelattack;sync=true} ~onAttack
     - effect:sound{s=entity.fox.ambient;volume=0.7;pitch=1} @self ~onTimer:220 0.4
     - skill{s=Kitsune_Inferno_Dash} ~onSignal:DASH

@@ -53,8 +53,9 @@ Baby_Shark:
     - 2 lookatplayers
   AITargetSelectors:
     - 0 clear
+  Model:
+    Id: baby_shark
   Skills:
-    - model{mid=baby_shark;n=false} @self ~onSpawnOrLoad
     - skill{s=Aqua_Buff} @PetOwner ~onTimer:10
     - skill{s=Aqua_Buff_FX} @PetOwner ~onTimer:15
     - effect:sound{s=mopets4_sounds:samus.baby_shark_idle;volume=1;pitch=1} @self ~onTimer:140 0.4

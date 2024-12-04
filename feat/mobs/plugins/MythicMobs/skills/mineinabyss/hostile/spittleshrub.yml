@@ -1,6 +1,5 @@
 SpittleshrubSpawn:
   Skills:
-    - model{m=spittleshrub;invisible=false;n=false;s=1}
     - state{s=plant}
     - potion{type=INVISIBILITY;d=999999;particles=false}
     - bodyclamp{angle=0}
