@@ -1,7 +1,6 @@
 l3_water:
   position: WATER
   regions: [ layerthree ]
-  priority: 0.00005
   amount: 1-2
   spread: 5
   conditions:

@@ -1,6 +1,5 @@
 l1_hostile:
   position: GROUND
-  priority: 0.0005
   regions: [ layerone ]
   conditions:
     - mythicConditions:
@@ -11,9 +10,8 @@ l1_hostile:
 l1_silkfang:
   inherit: l1_hostile
   type: mm:silkfang
+  chance: 0.2
   conditions:
     - $inherit
-    # - blockBelow:
-    #      allow: [ grass_block ]
     - maxNearby:
         amount: 4

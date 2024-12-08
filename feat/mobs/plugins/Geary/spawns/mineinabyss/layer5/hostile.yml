@@ -1,6 +1,5 @@
 l5_hostile:
   position: GROUND
-  priority: 0.004
   regions: [ layerfive ]
   conditions:
     #  - mythicConditions:
@@ -48,37 +47,24 @@ l5_horncrier: { inherit: l5_hostile_snow, type: mm:horncrier }
 # Sand
 l5_spikewalker: { inherit: l5_hostile_sand, type: mm:spikewalker }
 l5_kagi_tachikiri: { inherit: l5_hostile_sand, type: mm:kagi_tachikiri }
-l5_virinsipede: { inherit: l5_hostile_sand, type: mm:virinsipede, priority: 0.0006 }
+l5_virinsipede: { inherit: l5_hostile_sand, type: mm:virinsipede, priority: 0.1 }
 
 # Uncommon
 l5_swarmhoarder:
   inherit: l5_hostile
-  priority: 0.0005
+  priority: 0.1
   type: mm:swarmhoarder
-
 
 
 # Rare
 l5_tachikatana:
   inherit: l5_hostile
   type: mm:tachikatana
-  priority: 0.0001
+  priority: 0.05
   conditions:
     - $inherit
     - $remove maxNearby blockBelow
     - blockBelow:
         allow: [ grass_block, stone, moss_block, dirt_path ]
-    - maxNearby:
-        amount: 2
-
-l5_rarestingerhead:
-  inherit: l5_hostile
-  type: mm:Stingerhead
-  priority: 0.0001
-  conditions:
-    - $inherit
-    - $remove maxNearby blockBelow
-    - blockBelow:
-        allow: [ SAND,SANDSTONE,RED_SAND,RED_SANDSTONE,SANDSTONE_SLAB,SANDSTONE_STAIRS,SMOOTH_SANDSTONE,SOUL_SOIL ]
     - maxNearby:
         amount: 2

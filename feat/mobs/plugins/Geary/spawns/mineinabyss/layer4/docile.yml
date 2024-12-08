@@ -1,6 +1,5 @@
 l4_docile:
   position: GROUND
-  priority: 0.0003
   regions: [ layerfour ]
   amount: 1-3
   spread: 5
@@ -19,7 +18,6 @@ l4_stinger:
   inherit: l4_docile
   type: mm:stinger
   amount: 3-5
-  priority: 0.0002
   regions: [ layerfour ]
   conditions:
     - blockBelow:

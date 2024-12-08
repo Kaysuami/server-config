@@ -1,6 +1,5 @@
 l2_hostile:
   position: GROUND
-  priority: 0.00025
   regions: [ layertwo ]
     # conditions:
     # - mythicConditions:
@@ -9,6 +8,7 @@ l2_hostile:
 l2_ottobas:
   inherit: l2_hostile
   type: mm:ottobas
+  priority: 0.25
   conditions:
     - $inherit
     - gap: 4..600
@@ -21,8 +21,6 @@ l2_silkfang:
   conditions:
     - $inherit
     - gap: 4..600
-    # - blockBelow:
-    #     allow: [ grass_block, stone ]
     - maxNearby:
         amount: 3
 

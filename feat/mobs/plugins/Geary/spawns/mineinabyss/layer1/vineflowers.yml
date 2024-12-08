@@ -1,6 +1,6 @@
 l1_vineflowers:
   position: GROUND
-  priority: 0.00025
+  chance: 0.1
   regions: [ layerone ]
   conditions:
     - blockBelow:
@@ -10,4 +10,4 @@ l1_vineflowers:
 
 l1_vinebinder: { inherit: l1_vineflowers, type: mm:vinebinder }
 l1_vinepoofer: { inherit: l1_vineflowers, type: mm:vinepoofer }
-l2_vineblaster: { inherit: l1_vineflowers, type: mm:vineblaster, priority: 0.0001 }
+l2_vineblaster: { inherit: l1_vineflowers, type: mm:vineblaster, priority: 0.25 }

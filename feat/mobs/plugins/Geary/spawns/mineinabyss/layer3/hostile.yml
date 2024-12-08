@@ -1,6 +1,5 @@
 l3_hostile:
   position: GROUND
-  priority: 0.00025
   regions: [ layerthree ]
     #conditions:
     # - mythicConditions:
@@ -29,5 +28,5 @@ l3_silkfang:
         amount: 4
 
 
-l3_yomotsubi: { inherit: l3_hostile, type: mm:yomotsubi, priority: 0.00007 }
+l3_yomotsubi: { inherit: l3_hostile, type: mm:yomotsubi, priority: 0.5 }
 l3_daikonchu: { inherit: l3_hostile, type: mm:daikonchu }

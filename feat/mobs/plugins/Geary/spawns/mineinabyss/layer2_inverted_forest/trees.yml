@@ -1,7 +1,6 @@
 l2s2_trees:
   position: WATER
   regions: [ l2s2 ]
-  priority: 0.00025
   amount: 1-6
   spread: 5
   conditions:

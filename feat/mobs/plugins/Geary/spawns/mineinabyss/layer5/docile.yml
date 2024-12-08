@@ -1,6 +1,5 @@
 l5_docile:
   position: GROUND
-  priority: 0.00025
   regions: [ layerfive ]
   conditions:
     - blockBelow:

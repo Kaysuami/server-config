@@ -1,7 +1,7 @@
 l2_vineflowers:
   position: GROUND
-  priority: 0.00025
   regions: [ layertwo ]
+  chance: 0.1
   conditions:
     - blockBelow:
         allow: [ grass_block, moss_block, dirt_path, dirt ]
@@ -10,4 +10,4 @@ l2_vineflowers:
 
 l2_vinebinder: { inherit: l2_vineflowers, type: mm:vinebinder }
 l2_vinepoofer: { inherit: l2_vineflowers, type: mm:vinepoofer }
-l2_vineblaster: { inherit: l2_vineflowers, type: mm:vineblaster, priority: 0.0001 }
+l2_vineblaster: { inherit: l2_vineflowers, type: mm:vineblaster, priority: 0.25 }

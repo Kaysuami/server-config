@@ -1,6 +1,5 @@
 l4_hostile:
   position: GROUND
-  priority: 0.0025
   regions: [ layerfour ]
   conditions:
     #   - mythicConditions:
@@ -14,8 +13,16 @@ l4_kuongatari: { inherit: l4_hostile, type: mm:kuongatari }
 l4_horncrier: { inherit: l4_hostile, type: mm:horncrier }
 l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker }
 
-l4_orbpiercer: { inherit: l4_hostile, type: mm:orbpiercer, priority: 0.0001 }
+l4_orbpiercer:
+  inherit: l4_hostile
+  type: mm:orbpiercer
+  chance: 0.1
+  priority: 0.5
 
 
-l4_tachikatana: { inherit: l4_hostile, type: mm:tachikatana, priority: 0.00001 }
+l4_tachikatana:
+  inherit: l4_hostile
+  type: mm:tachikatana
+  chance: 0.1
+  priority: 0.5
 

@@ -1,6 +1,5 @@
 l3_docile:
   position: GROUND
-  priority: 0.0003
   regions: [ layerthree ]
   conditions:
     - blockBelow:

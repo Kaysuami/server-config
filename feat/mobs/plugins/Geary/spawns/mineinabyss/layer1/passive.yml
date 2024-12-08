@@ -1,6 +1,5 @@
 l1_passive:
   position: GROUND
-  priority: 0.001
   regions: [ layerone ]
   amount: 1-2
   spread: 5
@@ -17,7 +16,8 @@ l1_okibo:
   inherit: l1_passive
   type: mm:okibo
   amount: 1-2
-  priority: 0.0002
+  chance: 0.1
+  priority: 0.2
   regions: [ orth, l1s0 ]
   conditions:
     - blockBelow:

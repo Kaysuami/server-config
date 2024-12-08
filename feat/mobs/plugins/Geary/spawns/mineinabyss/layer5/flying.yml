@@ -1,6 +1,5 @@
 l5_flying:
   position: AIR
-  priority: 0.00001
   regions: [ layerfive ]
   conditions:
     - gap: 10..600
