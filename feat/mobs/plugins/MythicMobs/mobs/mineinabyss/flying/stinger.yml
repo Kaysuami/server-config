@@ -52,6 +52,7 @@ stinger:
     - sound{s=entity.bee.pollinate;sc=master;p=<random.float.1.5to1.6>;v=0.25} @self ~onTimer:1
     - skill{s=stingerHurt} @self ~onHurt
     - skill{s=stingerDeath} @self ~onDeath
+    - skill{s=displayHealth} ~onDamaged
 
 
 stinger2:
@@ -107,3 +108,4 @@ stinger2:
     - sound{s=entity.bee.pollinate;sc=master;p=<random.float.1.5to1.6>;v=0.25} @self ~onTimer:1
     - skill{s=stingerHurt} @self ~onHurt
     - skill{s=stingerDeath} @self ~onDeath
+    - skill{s=displayHealth} ~onDamaged

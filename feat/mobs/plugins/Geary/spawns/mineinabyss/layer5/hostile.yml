@@ -3,7 +3,7 @@ l5_hostile:
   regions: [ layerfive ]
   conditions:
     - mythicConditions:
-        - lightlevelfromblocks{l=0}
+        - lightlevelfromblocks{l=<12}
     - blockBelow:
         allow: [ grass_block, stone ]
     - maxNearby:

@@ -3,7 +3,7 @@ l2_hostile:
   regions: [ layertwo ]
   conditions:
     - mythicConditions:
-        - lightlevelfromblocks{l=0}
+        - lightlevelfromblocks{l=<12}
 
 l2_ottobas:
   inherit: l2_hostile
@@ -22,6 +22,6 @@ l2_silkfang:
     - $inherit
     - gap: 4..600
     - maxNearby:
-        amount: 3
+        amount: 5
 
 l2_woodcrier: { inherit: l2_silkfang, type: mm:woodcrier }

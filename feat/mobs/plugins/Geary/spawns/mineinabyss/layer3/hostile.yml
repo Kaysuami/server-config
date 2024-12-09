@@ -5,7 +5,7 @@ l3_hostile:
     - maxNearby:
         amount: 2
     - mythicConditions:
-        - lightlevelfromblocks{l=0}
+        - lightlevelfromblocks{l=<12}
 
 l3_ottobas:
   inherit: l3_hostile

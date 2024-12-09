@@ -79,7 +79,8 @@ baby_titanjaw:
     ####### Misc
     - CancelEvent{sync=true} @self ~onAttack
     - CancelEvent{sync=true} @self ~onInteract
-    - skill{s=tj_backup} @self ~ondamaged
+    - skill{s=tj_backup} @self ~onDamaged
+    - skill{s=displayHealth} ~onDamaged
     - skill{s=tjAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - skill{s=tjHurt} @self ~onHurt
     - skill{s=tjDeath} @self ~onDeath

@@ -3,7 +3,7 @@ l4_hostile:
   regions: [ layerfour ]
   conditions:
     - mythicConditions:
-        - lightlevelfromblocks{l=0}
+        - lightlevelfromblocks{l=<12}
     - maxNearby:
         amount: 3
 

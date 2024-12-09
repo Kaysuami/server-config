@@ -3,7 +3,7 @@ l1_hostile:
   regions: [ layerone ]
   conditions:
     - mythicConditions:
-        - lightlevelfromblocks{l=0}
+        - lightlevelfromblocks{l=<12}
     - maxNearby:
         amount: 3
 

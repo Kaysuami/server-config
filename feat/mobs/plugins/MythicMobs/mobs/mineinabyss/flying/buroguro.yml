@@ -37,4 +37,5 @@ buroguro:
     #  - skill{s=buroguroDamaged} @self ~onDamaged
     #  - skill{s=buroguroTick} @self ~onTimer:20
     - skill{s=buroguroMelee} @trigger ~onAttack
+    - skill{s=displayHealth} ~onDamaged
   
