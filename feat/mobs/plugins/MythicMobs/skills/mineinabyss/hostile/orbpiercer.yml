@@ -120,16 +120,16 @@ orby_shout:
     - skill{s=orby_knockback} @PIR{r=10}
     - skill{s=orby_screenshake;repeat=6;repeatInterval=8} @pir{r=20}
     - particles{p=crit_magic;a=50;speed=2;hs=1;vs=1;repeat=6;repeatInterval=3} @ModelPart{mid=orbpiercer;part=torso}
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=1} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=0.9} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=0.8} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=0.7} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=1} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=0.9} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=0.8} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=0.7} @self
     - delay 1
     - potion{t=WEAKNESS;d=200;l=1} @PIR{r=30}
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=1} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=0.9} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=0.8} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=0.7} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=1} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=0.9} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=0.8} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=0.7} @self
     - particlering{p=dustColorTransition;color1=#49DEEA;color2=#A559F7;size=2;a=10;r=8;points=16;hs=1;vs=1;repeat=1;repeatInterval=5} @self
     - delay 41
     - state{s=roar;remove=true} @self
@@ -167,18 +167,18 @@ orby_spike_eject:
     - skill{s=orby_screenshake;repeat=6;repeatInterval=8} @pir{r=20}
     - particles{p=crit_magic;a=50;speed=2;hs=1;vs=1;repeat=6;repeatInterval=3} @ModelPart{mid=orbpiercer;part=torso}
     - effect:particlesphere{p=reddust;y=0.5;r=1;a=60;color=#00d63a} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=1} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=0.9} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=0.8} @self
-    - effect:sound{s=entity.polar_bear.warning;v=5;p=0.7} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=1} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=0.9} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=0.8} @self
+    - effect:sound{s=entity.polar_bear.warning;v=3;p=0.7} @self
     - delay 1
     - delay 2
     - skill{s=orbyspikespin} @target
     - effect:particlesphere{p=reddust;y=0.5;r=1;a=60;color=#00d63a} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=1} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=0.9} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=0.8} @self
-    - effect:sound{s=entity.ender_dragon.growl;v=5;p=0.7} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=1} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=0.9} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=0.8} @self
+    - effect:sound{s=entity.ender_dragon.growl;v=3;p=0.7} @self
     - delay 2
     - state{s=spikeless_state;li=0;lo=0} @self
     - setstance{stance=spikeless} @self

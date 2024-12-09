@@ -35,6 +35,6 @@ hisomukuro:
     - skill{s=HS_charge} @self ~onTimer:1
     - skill{s=HSAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - setstance{stance=hscharge} @self ~onSpawnOrLoad
-    # - effect:sound{s=entity.polar_bear.warning;v=5;p=1} @self ~onSpawnOrLoad
+    # - effect:sound{s=entity.polar_bear.warning;v=3;p=1} @self ~onSpawnOrLoad
     # - skill{s=HS_grab} @self ~oninteract
     - skill:MIAPetExpNearby{exp=1} ~onDeath
