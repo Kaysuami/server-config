@@ -72,6 +72,8 @@ orbpiercer_projectile:
     Silent: true
     Invincible: true
     PreventBlockInfection: true
+  Model:
+    Id: orbpiercer_projectile
   Skills:
     - skill{s=meteorONSPAWN} @self ~onSpawnOrLoad
     - remove{delay=200} @self ~onSpawnOrLoad
