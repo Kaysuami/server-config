@@ -2,8 +2,8 @@ l4_hostile:
   position: GROUND
   regions: [ layerfour ]
   conditions:
-    #   - mythicConditions:
-    #       - lightlevelfromblocks{l=0}
+    - mythicConditions:
+        - lightlevelfromblocks{l=0}
     - maxNearby:
         amount: 3
 

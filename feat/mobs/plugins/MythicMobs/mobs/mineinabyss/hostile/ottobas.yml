@@ -27,6 +27,7 @@ ottobas:
     Id: ottobas
     ViewRadius: 64
     DamageTint: true
+    Scale: 1.1
   Drops:
     - exp 55-90
     - geary mineinabyss:ottobas_meat_raw 4-15

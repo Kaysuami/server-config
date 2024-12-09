@@ -19,7 +19,7 @@ inbyo:
     KnockbackResistance: 0.12
     Collidable: true
     Silent: true
-    FollowRange: 64
+    FollowRange: 50
     Interactable: true
     MovementSpeed: 0.25
     PreventSunburn: true

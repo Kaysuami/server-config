@@ -2,15 +2,14 @@ l5_hostile:
   position: GROUND
   regions: [ layerfive ]
   conditions:
-    #  - mythicConditions:
-    #      - lightlevelfromblocks{l=0}
+    - mythicConditions:
+        - lightlevelfromblocks{l=0}
     - blockBelow:
         allow: [ grass_block, stone ]
     - maxNearby:
         amount: 4
 
 l5_chikyuoebi: { inherit: l5_hostile, type: mm:chikyuoebi }
-
 
 l5_hostile_snow:
   inherit: l5_hostile
@@ -36,7 +35,7 @@ l5_kuongatari:
   spread: 7
 
 
-l5_yomotsubi: { inherit: l5_hostile, type: mm:yomotsubi }
+l5_yomotsubi: { inherit: l5_hostile, type: mm:yomotsubi, priority: 0.5 }
 l5_swarmshocker: { inherit: l5_hostile, type: mm:swarmshocker }
 
 

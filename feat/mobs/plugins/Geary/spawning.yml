@@ -11,8 +11,8 @@ playerCaps:
   miniboss: 2
 # Options about the spawn range of mobs around each player
 range:
-  maxDistance: 60
-  minDistance: 12
+  maxDistance: 70
+  minDistance: 24
   maxVerticalDistance: 32
   # Radius around the player to count mob categories for spawn caps.
   playerCapRadius: 200

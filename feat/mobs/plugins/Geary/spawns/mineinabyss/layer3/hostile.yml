@@ -1,13 +1,16 @@
 l3_hostile:
   position: GROUND
   regions: [ layerthree ]
-    #conditions:
-    # - mythicConditions:
-  #     - lightlevelfromblocks{l=0}
+  conditions:
+    - maxNearby:
+        amount: 2
+    - mythicConditions:
+        - lightlevelfromblocks{l=0}
 
 l3_ottobas:
   inherit: l3_hostile
   type: mm:ottobas
+  priority: 0.8
   conditions:
     - $inherit
     - gap: 4..600
@@ -28,5 +31,5 @@ l3_silkfang:
         amount: 4
 
 
-l3_yomotsubi: { inherit: l3_hostile, type: mm:yomotsubi, priority: 0.5 }
+l3_yomotsubi: { inherit: l3_hostile, type: mm:yomotsubi, priority: 0.3 }
 l3_daikonchu: { inherit: l3_hostile, type: mm:daikonchu }
