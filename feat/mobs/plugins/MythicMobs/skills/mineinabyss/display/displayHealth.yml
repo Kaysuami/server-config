@@ -1,4 +1,4 @@
 displayHealth:
   Skills:
-    - setvar{var=skill.hp;type=FLOAT;val="ceil(max(0, <mob.hp>-<skill.var.damage-amount>) * 10) / 10"}
-    - sendactionmessage{m="<mob.name><&sp>&6<skill.var.hp>&8/&6<mob.mhp{round=2}>"} @Trigger
+    - setvar{var=skill.hp;type=INTEGER;val="ceil(max(0, <mob.hp>-<skill.var.damage-amount>) * 1) / 1"}
+    - sendactionmessage{m="<mob.name><&sp>&6<skill.var.hp{round=0}>&8/&6<mob.mhp{round=0}>"} @Trigger

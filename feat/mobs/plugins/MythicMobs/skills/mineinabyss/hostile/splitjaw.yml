@@ -99,10 +99,10 @@ sj_roar:
     - setAI{ai=true} @self
 sj_shake:
   Skills:
-    - recoil{r=15;pitch=-0.2}
+    # - recoil{r=15;pitch=-0.2}
     - delay 2
-    - recoil{r=15;pitch=.1}
+    # - recoil{r=15;pitch=.1}
     - delay 2
-    - recoil{r=15;pitch=-0.1}
+    # - recoil{r=15;pitch=-0.1}
     - delay 2
-    - recoil{r=15;pitch=.1} 
+    # - recoil{r=15;pitch=.1} 

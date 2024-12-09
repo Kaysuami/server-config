@@ -4,7 +4,7 @@ defaultCap: 10
 playerCaps:
   flying: 5
   passive: 12
-  water: 6
+  water: 10
   hostile: 6
   swarm: 7
   uncommon: 4
@@ -21,7 +21,7 @@ range:
 # How often should each spawn category, attempt spawns. The higher a value, the more time between spawn attempts.
 runTimes:
   GROUND: 5t
-  WATER: 1s
+  WATER: 10t
   # Air mobs are far more likely to spawn because so many air positions are valid, don't run as often
   AIR: 20s
 # How many times to try and find a valid spawn position around a player before giving up.

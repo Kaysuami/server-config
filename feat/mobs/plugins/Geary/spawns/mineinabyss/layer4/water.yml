@@ -12,18 +12,21 @@ l4_kazura: { inherit: l4_water, type: mm:kazura }
 l4_rohana: { inherit: l4_water, type: mm:rohana }
 l4_spiralsquid: { inherit: l4_water, type: mm:spiralsquid }
 l4_ikenosuke: { inherit: l4_water, type: mm:ikenosuke }
-
-# Uncommon
 l4_hagamizukin:
   inherit: l4_water
+  priority: 0.75
   type: mm:hagamizukin
-  conditions: # Ensure we're at water surface
+  conditions:
     - maxNearby:
-        amount: 2
+        amount: 3
+
+# Uncommon
 
 l4_uibuta:
   inherit: l4_water
   type: mm:uibuta
+  priority: 0.5
+  amount: 1
   conditions: # Ensure we're at water surface
     - $inherit
     - $remove maxNearby
@@ -35,6 +38,7 @@ l4_uibuta:
 l4_makihige:
   inherit: l4_water
   type: mm:makihige
+  priority: 0.5
   conditions:
     - $inherit
     - $remove maxNearby

@@ -140,13 +140,13 @@ orby_knockback:
     - throw{v=17;vy=2} @pir{r=8}
 orby_screenshake:
   Skills:
-    - recoil{r=15;pitch=-0.2}
+    # - recoil{r=15;pitch=-0.2}
     - delay 2
-    - recoil{r=15;pitch=.1}
+    # - recoil{r=15;pitch=.1}
     - delay 2
-    - recoil{r=15;pitch=-0.1}
+    # - recoil{r=15;pitch=-0.1}
     - delay 2
-    - recoil{r=15;pitch=0.1}
+    # - recoil{r=15;pitch=0.1}
 orby_knockback2:
   Skills:
     - delay 1

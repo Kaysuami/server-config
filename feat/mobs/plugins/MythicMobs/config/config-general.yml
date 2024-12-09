@@ -31,8 +31,8 @@ Configuration:
   # ================================================================================
   Features:
     PlayerFactions: true
-    RandomSpawning: true
-    Spawners: true
+    RandomSpawning: false
+    Spawners: false
   
   # ================================================================================
   # Commands - Options related to commands

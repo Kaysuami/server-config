@@ -18,6 +18,9 @@ l4_orbpiercer:
   type: mm:orbpiercer
   chance: 0.1
   priority: 0.5
+  conditions:
+    - mythicConditions:
+        - lightlevelfromblocks{l=<8}
 
 
 l4_tachikatana:
