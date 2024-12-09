@@ -6,6 +6,7 @@ mantoyer:
   Damage: 5
   AIGoalSelectors:
     - clear
+    - meleeattack
     - randomstroll
     - lookatplayers
     - randomlookaround
