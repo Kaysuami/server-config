@@ -17,17 +17,18 @@ AmethystGolemAttack:
       - setai{ai=true} @Self
       ]}
 AmethystGolemAttackSlam:
-  - skill{s=[
-    - state{s=attack2} @Self
-    - setai{ai=false} @Self
-    - effect:sound{s=block.anvil.hit} @Self
-    - delay 30
-    - totem{ch=3;
-    onStart=[
-    - skill:AmethystGolemThrow @ENO{r=3}
-    ];int=1;hR=3;md=1} @Forward{f=1.5}
-    - setai{ai=true} @Self
-    ]}
+  Skills:
+    - skill{s=[
+      - state{s=attack2} @Self
+      - setai{ai=false} @Self
+      - effect:sound{s=block.anvil.hit} @Self
+      - delay 30
+      - totem{ch=3;
+      onStart=[
+      - skill:AmethystGolemThrow @ENO{r=3}
+      ];int=1;hR=3;md=1} @Forward{f=1.5}
+      - setai{ai=true} @Self
+      ]}
 AmethystGolemDamage:
   Skills:
     - effect:sound{s=entity.iron_golem.hurt;v=1;p=0.8} @self

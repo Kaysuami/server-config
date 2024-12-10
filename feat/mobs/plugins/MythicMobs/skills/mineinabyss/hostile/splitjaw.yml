@@ -22,7 +22,7 @@ SJ_Attack_DAMAGE:
 
 SJ_Hit:
   Cooldown: 1
-  Skills:
+  Skills: []
   # - effect:sound{s=;volume=0.65;pitch=1.2} @self
 
 
@@ -63,7 +63,6 @@ SJ_dashhit:
     - delay 100
 
 SJ_dashmiss:
-  Cooldown:
   Conditions:
     - stance{s=dashhit} false
   Skills:

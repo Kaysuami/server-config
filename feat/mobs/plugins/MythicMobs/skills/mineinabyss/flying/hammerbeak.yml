@@ -177,7 +177,7 @@ hammerbeakAirUpS:
   - setstance{s=idleAir} @self
   - randomskill{s=hammerbeakAirHoverS 1,hammerbeakAirUpS 3,hammerbeakAirDownS 3,hammerbeakSwoopS 2,hammerbeakAirApproachS 1} @self
 hammerbeakAirUp:
-  Coodlown: 0.1
+  Cooldown: 0.1
   Conditions:
   - stance{s=up} true
   Skills:
@@ -196,7 +196,7 @@ hammerbeakAirDownS:
   - setstance{s=idleAir} @self
   - randomskill{s=hammerbeakAirHoverS 1,hammerbeakAirUpS 3,hammerbeakAirDownS 3,hammerbeakSwoopS 2,hammerbeakAirApproachS 1} @self
 hammerbeakAirDown:
-  Coodlown: 0.1
+  Cooldown: 0.1
   Conditions:
   - stance{s=down} true
   Skills:
@@ -285,7 +285,6 @@ hammerbeakSwoopS:
 
 hammerbeakDamager:
   Cooldown: 0
-  Conditions:
   Skills:
   - effect:particles{particle=white_ash;a=2;hs=0.2;vs=0.2;uel=true} @self
   - effect:particles{particle=cloud;a=2;hs=0.2;vs=0.2;uel=true} @self
@@ -296,7 +295,6 @@ hammerbeakDamager:
 
 hammerbeakDamagerSmall:
   Cooldown: 0
-  Conditions:
   Skills:
   - effect:particles{particle=white_ash;a=2;hs=0.2;vs=0.2;uel=true} @self
   - effect:particles{particle=cloud;a=2;hs=0.2;vs=0.2;uel=true} @self

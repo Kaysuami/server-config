@@ -36,7 +36,7 @@ SH_Attack_DAMAGE:
     - skill{s=Bleeding} @target
 SH_Hit:
   Cooldown: 1
-  Skills:
+  Skills: []
   # - effect:sound{s=;volume=0.65;pitch=1.2} @self
 
 ## Stingerhead skills
@@ -60,7 +60,7 @@ stingerhead_speed:
     - setspeed{type=walking;speed=0} @self
 
 stingerhead_death:
-  Skills:
+  Skills: []
   #- skill{s=stingerhead_detach_stinger1} @self 0.2
   #- skill{s=stingerhead_detach_stinger2} @self 0.2
 
@@ -141,7 +141,7 @@ stingerhead_stun50:
     - setai{ai=true} @self
     - setstance{stance=nostun} @self
 stingerhead_stun25:
-  Conditions:
+  Conditions: []
   # - variableisset{var=target.stun25} false
   Skills:
     #- setvariable{var=target.stun25;value=1;save=true} @self
@@ -232,7 +232,8 @@ stingerhead_venom_impact:
     - damage{a=13} @target
     - skill{s=Bleeding} @target
 stingerhead_venom_stinger:
-  - potion{type=POISON;duration=<caster.stingerhead_stinger_count>*1.5;level=<caster.stingerhead_stinger_count>-1} @trigger
+  Skills:
+    - potion{type=POISON;duration=<caster.stingerhead_stinger_count>*1.5;level=<caster.stingerhead_stinger_count>-1} @trigger
 
 stingerhead_spin:
   Cooldown: 3
@@ -260,7 +261,6 @@ stingerhead_spin:
 
 Bleeding:
   Cooldown: 2
-  Conditions:
   Skills:
     - effect:sound{s=entity.generic.hurt;v=1;p=1;} @target
     - effect:particles{p=dripLava;vs=0.5;hs=0.5;a=10;s=0.25;y=0.5;repeat=5;repeatInterval=20} @target

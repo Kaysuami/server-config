@@ -41,7 +41,6 @@ hc_dashhit:
     - delay 100
 
 hc_dashmiss:
-  Cooldown:
   Conditions:
     - stance{s=dashhit} false
   Skills:
@@ -134,7 +133,7 @@ hc_Attack_DAMAGE:
 
 
 hc_backup:
-  Skills:
+  Skills: []
   # - rally{types=hisoishi,baby_hisoishi;radius=30;ot=false} @Trigger
 
 hcAmbient:

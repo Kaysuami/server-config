@@ -1,10 +1,8 @@
 tachiATTACK:
-  Conditions:
   Skills:
     - CancelEvent
     - skill{s=tachiATTACKskill} @self
 tachiATTACKskill:
-  Conditions:
   Cooldown: 3
   Skills:
     - state{s=swipe_attack;li=3;lo=2} @self
@@ -95,8 +93,6 @@ tachishockwave:
     - delay 25
     - setAI{ai=true} @self
 tachicircle:
-  Conditions:
-  Cooldown:
   Skills:
     - effect:particlering{p=reddust;color=#2ce8f5;a=2;y=0.2;r=12;points=50}
 

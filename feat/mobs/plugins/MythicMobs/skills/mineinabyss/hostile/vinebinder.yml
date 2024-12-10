@@ -1,10 +1,8 @@
 vbATTACK:
-  Conditions:
   Skills:
     - CancelEvent
     - skill{s=vbATTACKskill} @self
 vbATTACKskill:
-  Conditions:
   Cooldown: 3
   Skills:
     - state{s=attack;li=3;lo=2} @self

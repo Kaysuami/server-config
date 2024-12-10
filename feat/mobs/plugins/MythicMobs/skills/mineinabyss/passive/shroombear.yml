@@ -35,7 +35,6 @@ shroombearDeath:
 
 shroombearHeal:
   Cooldown: 10
-  Conditions:
   Skills:
     - sound{s=item.dye.use;p=0.5;v=0.82;sc=master} @self
     - sound{s=block.candle.extinguish;p=0.5;v=0.82;sc=master;repeat=2;repeatInterval=10} @self

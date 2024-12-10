@@ -28,11 +28,31 @@
               <option name="generatedName" value="New Schema" />
               <option name="name" value="MythicMobs" />
               <option name="relativePathToSchema" value="https://raw.githubusercontent.com/MineInAbyss/plugin-schemas/refs/heads/master/generated/mythicmobs.json" />
+              <option name="schemaVersion" value="JSON Schema 7" />
               <option name="patterns">
                 <list>
                   <Item>
                     <option name="pattern" value="true" />
                     <option name="path" value="**/MythicMobs/mobs/**.yml" />
+                    <option name="mappingKind" value="Pattern" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="MythicMobs-Skill">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="MythicMobs-Skill" />
+              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/MineInAbyss/plugin-schemas/refs/heads/master/generated/mythicmobs-skill.json" />
+              <option name="schemaVersion" value="JSON Schema 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="pattern" value="true" />
+                    <option name="path" value="**/MythicMobs/skills/**.yml" />
                     <option name="mappingKind" value="Pattern" />
                   </Item>
                 </list>
@@ -46,6 +66,7 @@
               <option name="generatedName" value="New Schema" />
               <option name="name" value="geary" />
               <option name="relativePathToSchema" value="https://raw.githubusercontent.com/MineInAbyss/plugin-schemas/refs/heads/master/generated/geary.json" />
+              <option name="schemaVersion" value="JSON Schema 7" />
               <option name="patterns">
                 <list>
                   <Item>

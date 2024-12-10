@@ -129,8 +129,6 @@ virinburrow:
     - delay 20
     - setAI{ai=true} @self
 viricircle:
-  Conditions:
-  Cooldown:
   Skills:
     - effect:particlering{p=reddust;color=#2ce8f5;a=2;y=0.2;r=6;points=50} @self
     - particles{p=blockcrack;amount=40;hS=4;vS=1;material=DIRT;repeat=10;repeati=4} @self

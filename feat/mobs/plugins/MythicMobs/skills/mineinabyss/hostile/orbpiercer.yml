@@ -24,7 +24,6 @@ orbyATTACK:
     - skill{s=orbyATTACKskill} @self
 
 orbyATTACKskill:
-  Conditions:
   Cooldown: 1
   Skills:
     - state{s=attack;li=3;lo=2} @self
@@ -80,14 +79,10 @@ orbyspear2:
     - delay 8
     - state{mid=orbpiercer;s=normal_shot;r=true} @self
 orbyt:
-  Conditions:
-  Cooldown:
   Skills:
     - effect:particles{particle=FALLING_SPORE_BLOSSOM;amount=5;hS=.1;vS=.1;speed=1.25}
 
 orbyhit:
-  Conditions:
-  Cooldown:
   Skills:
     - shieldbreak{duration=50} @target
     - damage{amount=8} @target
@@ -96,8 +91,6 @@ orbyhit:
     - skill{s=Bleeding} @target
 
 orbyend:
-  Conditions:
-  Cooldown:
   Skills:
     - damage{amount=8} @target
     - potion{type=POISON;duration=100;level=5}
@@ -213,7 +206,6 @@ orbySpikesSingle:
     - projectile{bulletType=MOB;mob=orbpiercer_projectile;onTick=orbyt;onHit=orbyhit;onEnd=orbyend;i=1;v=8;mr=20;hO=360;sE=true;syo=2;tyo=1.5;hR=2} @Target
 
 orbyspikespin:
-  Conditions:
   Cooldown: 25
   Skills:
     - skill{s=orbySpikesSingle}

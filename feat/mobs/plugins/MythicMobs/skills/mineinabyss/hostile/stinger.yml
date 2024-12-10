@@ -47,7 +47,6 @@ stingerAttack:
 
 stingerDamager:
   Cooldown: 0
-  Conditions:
   Skills:
   - damage{a=5;pk=true;cd=0.5} @EIR{r=1.75;ignore=samefaction} # make this what you want
   - sound{s=entity.bee.sting;sc=master;p=<random.float.1.35to1.45>;v=1.85;cd=0.5} @self ?targetwithin{d=1.2}
