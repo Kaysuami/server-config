@@ -28,13 +28,16 @@ shroombear:
     Drive: false
     DamageTint: true
     Scale: 0.8
+  Drops:
+    - exp 3-7
+    - geary mineinabyss:shroombear_meat_raw 1-2 0.6
   Skills:
     ####### Misc
     - CancelEvent{sync=true} @self ~onAttack
     - CancelEvent{sync=true} @self ~onInteract
     - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
     - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:100 0.66 <55%
-    - skill{s=Shroom_Harvest} @self ~oninteract
+    - skill{s=shroombearHarvest} @self ~oninteract
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 baby_shroombear:
