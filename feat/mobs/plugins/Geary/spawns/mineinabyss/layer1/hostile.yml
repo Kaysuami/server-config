@@ -2,8 +2,8 @@ l1_hostile:
   position: GROUND
   regions: [ layerone ]
   conditions:
-    - mythicConditions:
-        - lightlevelfromblocks{l=<12}
+    - blockBelow:
+        allow: [ "#base_stone_overworld", "#dirt", "#terracotta" ]
     - maxNearby:
         amount: 3
 
@@ -13,5 +13,6 @@ l1_silkfang:
   chance: 0.2
   conditions:
     - $inherit
+    - remove maxNearby
     - maxNearby:
         amount: 4

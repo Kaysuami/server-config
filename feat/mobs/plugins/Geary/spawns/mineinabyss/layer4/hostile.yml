@@ -2,14 +2,20 @@ l4_hostile:
   position: GROUND
   regions: [ layerfour ]
   conditions:
-    - mythicConditions:
-        - lightlevelfromblocks{l=<12}
     - maxNearby:
         amount: 3
+    - blockBelow:
+        allow: [ "#base_stone_overworld", "#dirt", "#terracotta" ]
 
 
-l4_kuongatari: { inherit: l4_hostile, type: mm:kuongatari }
-#l4_yomotsubi: { inherit: l4_hostile, type: mm:yomotsubi }
+l4_kuongatari:
+  inherit: l4_hostile
+  type: mm:kuongatari
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: [ "#dirt" ]
 l4_horncrier: { inherit: l4_hostile, type: mm:horncrier }
 l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker }
 
@@ -19,6 +25,8 @@ l4_orbpiercer:
   chance: 0.1
   priority: 0.5
   conditions:
+    - $inherit
+    - $remove maxNearby
     - mythicConditions:
         - lightlevelfromblocks{l=<8}
 

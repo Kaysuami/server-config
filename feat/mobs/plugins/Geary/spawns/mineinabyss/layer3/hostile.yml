@@ -4,8 +4,8 @@ l3_hostile:
   conditions:
     - maxNearby:
         amount: 2
-    - mythicConditions:
-        - lightlevelfromblocks{l=<12}
+    - blockBelow:
+        allow: [ "#base_stone_overworld", "#dirt", "#terracotta" ]
 
 l3_ottobas:
   inherit: l3_hostile
@@ -14,8 +14,6 @@ l3_ottobas:
   conditions:
     - $inherit
     - gap: 4..600
-    - blockBelow:
-        allow: [ grass_block, stone,green_terracotta, moss_block, dirt_path ]
     - maxNearby:
         amount: 2
 
@@ -25,8 +23,6 @@ l3_silkfang:
   conditions:
     - $inherit
     - gap: 4..600
-    - blockBelow:
-        allow: [ grass_block, stone,green_terracotta, moss_block, dirt_path ]
     - maxNearby:
         amount: 4
 

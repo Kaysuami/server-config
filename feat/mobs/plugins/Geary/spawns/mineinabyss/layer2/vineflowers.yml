@@ -4,7 +4,7 @@ l2_vineflowers:
   chance: 0.1
   conditions:
     - blockBelow:
-        allow: [ grass_block, moss_block, dirt_path, dirt ]
+        allow: [ "#dirt" ]
     - maxNearby:
         amount: 4
 

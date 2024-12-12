@@ -2,8 +2,8 @@ l2_hostile:
   position: GROUND
   regions: [ layertwo ]
   conditions:
-    - mythicConditions:
-        - lightlevelfromblocks{l=<12}
+    - blockBelow:
+        allow: [ "#base_stone_overworld", "#dirt", "#terracotta" ]
 
 l2_ottobas:
   inherit: l2_hostile

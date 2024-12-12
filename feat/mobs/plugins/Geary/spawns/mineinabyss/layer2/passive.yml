@@ -6,7 +6,7 @@ l2_passive:
   ySpread: 1
   conditions:
     - blockBelow:
-        allow: [ grass_block, dirt, moss_block, dirt_path ]
+        allow: [ "#dirt" ]
     - maxNearby:
         amount: 3
 

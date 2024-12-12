@@ -3,7 +3,7 @@ l3_docile:
   regions: [ layerthree ]
   conditions:
     - blockBelow:
-        allow: [ GRASS_BLOCK,DIRT,PODZOL ]
+        allow: [ "#dirt" ]
     - maxNearby:
         amount: 5
 

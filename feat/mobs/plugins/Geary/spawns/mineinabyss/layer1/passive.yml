@@ -5,8 +5,8 @@ l1_passive:
   spread: 5
   ySpread: 1
   conditions:
-    # - blockBelow:
-    #      allow: [ grass_block ]
+    - blockBelow:
+        allow: [ "#dirt" ]
     - maxNearby:
         amount: 4
 
@@ -21,6 +21,6 @@ l1_okibo:
   regions: [ orth, l1s0 ]
   conditions:
     - blockBelow:
-        allow: [ grass_block, moss_block, dirt_path, dirt ]
+        allow: [ "#dirt" ]
     - maxNearby:
         amount: 2
