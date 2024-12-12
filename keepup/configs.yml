@@ -97,6 +97,10 @@ dev:
     - feat/bosses
     - feat/hud
 
+dev-basic:
+  include:
+    - dev
+
 archive:
   copyPaths: [ servers/archive ]
   variables:
