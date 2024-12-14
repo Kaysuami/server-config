@@ -1,5 +1,6 @@
 squidfly:
   Type: ALLAY
+  Prefabs: [ mineinabyss:custom_allay ]
   SpawnCategory: flying
   Display: "<#85512E>Squidfly"
   Health: 16
@@ -32,8 +33,6 @@ squidfly:
     - geary mineinabyss:squidfly_brain_raw 1 0.8
 
   Skills:
-    - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
-
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_5} @self ~onAttack
     - bodyclamp{m=squidfly;c=15} @self ~onSpawnOrLoad

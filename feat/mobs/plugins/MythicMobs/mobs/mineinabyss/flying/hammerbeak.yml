@@ -1,5 +1,6 @@
 hammerbeak:
   Type: ALLAY
+  Prefabs: [ mineinabyss:custom_allay ]
   SpawnCategory: flying
   Display: "<#613F0C>Small Hammerbeak"
   Health: 18
@@ -35,7 +36,6 @@ hammerbeak:
     - geary mineinabyss:hammerbeak_feather 1-2 0.5
 
   Skills:
-    - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
     # Misc
     - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=12} @self ~onTimer:10
     - potion{t=LEVITATION;l=1;force=true;p=true;d=10} @self ~onTimer:20 ?stance{s=idleAir}

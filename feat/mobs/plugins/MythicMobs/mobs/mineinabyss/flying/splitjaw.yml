@@ -1,5 +1,6 @@
 splitjaw:
   Type: ALLAY
+  Prefabs: [ mineinabyss:custom_allay ]
   SpawnCategory: miniboss
   Display: "<#9A1CAD>Splitjaw"
   Health: 90
@@ -42,7 +43,6 @@ splitjaw:
     - EMERALD 1 0.1
 
   Skills:
-    - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
     # - CancelEvent{sync=true} ~onAttack
     - bodyclamp{m=splitjaw;c=15} @self ~onSpawnOrLoad
     - setspeed{type=flying;speed=1.35} @self ~onSpawnOrLoad

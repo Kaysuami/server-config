@@ -117,4 +117,4 @@ velocity:
     velocityForwardingSecret: "{{ lookup('ansible.builtin.file', '/run/secrets/velocity_forwarding_secret', errors='ignore') | default(lookup('env', 'VELOCITY_FORWARDING_SECRET'), true) }}"
     spicord:
       token: "{{ lookup('env', 'SPICORD_TOKEN') }}"
-  include: []
+  include: [ ]

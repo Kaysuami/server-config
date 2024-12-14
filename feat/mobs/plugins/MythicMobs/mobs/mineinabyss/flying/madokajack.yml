@@ -1,5 +1,6 @@
 madokajack:
   Type: ALLAY
+  Prefabs: [ mineinabyss:custom_allay ]
   SpawnCategory: flying
   Display: "<#1C439E>Madokajack"
   Health: 40
@@ -36,7 +37,6 @@ madokajack:
     - geary mineinabyss:madokajack_poop 1 0.3
 
   Skills:
-    - prefabs{p=mineinabyss:custom_allay} @self ~onSpawnOrLoad
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_5} @self ~onAttack
     - bodyclamp{m=madokajack;c=15} @self ~onSpawnOrLoad
