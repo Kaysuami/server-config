@@ -49,5 +49,7 @@ Configuration:
     IgnoreUnnaturalMobs: false
     ReplaceObeysCap: false
     MaxGenerationAttempts: 10
+    LocalGroupMultiplier: 0.1
+    LocalSpawningLimit: -1
   Spawners:
     DisableCommandSaving: false
