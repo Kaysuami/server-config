@@ -15,6 +15,5 @@
 
   roles:
     - role: bbmodels
-      when: "'minecraft' in servers[server_name].include"
 
     - role: configs
