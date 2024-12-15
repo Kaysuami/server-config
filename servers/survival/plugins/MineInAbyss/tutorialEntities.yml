@@ -1,115 +1,25 @@
+# Tutorial indoor section
   - location:
       world: world
-      x: -168.5
-      y: 98.0
-      z: -517.5
-    text: '<lang:mineinabyss.tutorial.ores.1></lang>
+      x: -114.5
+      y: 116
+      z: -611.5
+    text: '<lang:mineinabyss.tutorial.start.1></lang>
 
-      <lang:mineinabyss.tutorial.ores.2></lang>
-
-      <lang:mineinabyss.tutorial.ores.3></lang>
+      <lang:mineinabyss.tutorial.start.2></lang>
 
       '
   - location:
       world: world
-      x: -126.0
-      y: 136.0
-      z: -567.5
-    text: <lang:mineinabyss.tutorial.start></lang>
+      x: -122.5
+      y: 110
+      z: -603.5
+    text: <lang:mineinabyss.tutorial.start.3></lang>
   - location:
       world: world
-      x: -150.5
-      y: 125.0
-      z: -555.0
-    text: '<lang:mineinabyss.tutorial.bonfire.1></lang>
-
-      <lang:mineinabyss.tutorial.bonfire.2></lang>
-
-      <lang:mineinabyss.tutorial.bonfire.3></lang>
-
-      <lang:mineinabyss.tutorial.bonfire.4></lang>
-
-      '
-  - location:
-      world: world
-      x: -171.0
-      y: 55.0
-      z: -485.0
-    text: '<lang:mineinabyss.tutorial.crops.1></lang>
-
-      <lang:mineinabyss.tutorial.crops.2></lang>
-
-      <lang:mineinabyss.tutorial.crops.3></lang>
-
-      '
-  - location:
-      world: world
-      x: -161.0
-      y: 118.0
-      z: -549.0
-    text: '<lang:mineinabyss.tutorial.recipes.1></lang>
-
-      <lang:mineinabyss.tutorial.recipes.2></lang>
-
-      <lang:mineinabyss.tutorial.recipes.3></lang>
-
-      '
-  - location:
-      world: world
-      x: -138.0
-      y: 130.0
-      z: -565.0
-    text: '<lang:mineinabyss.tutorial.emotes.1></lang>
-
-      <lang:mineinabyss.tutorial.emotes.2></lang>
-
-      <lang:mineinabyss.tutorial.emotes.3></lang>
-
-      <lang:mineinabyss.tutorial.emotes.4></lang>
-
-      '
-  - location:
-      world: world
-      x: -183.0
-      y: 53.0
-      z: -472.0
-    text: '<lang:mineinabyss.tutorial.end.1></lang>
-
-      <lang:mineinabyss.tutorial.end.2></lang>
-
-      '
-  - location:
-      world: world
-      x: -164.5
-      y: 85.0
-      z: -502.5
-    text: '<lang:mineinabyss.tutorial.water.1></lang>
-
-      <lang:mineinabyss.tutorial.water.2></lang>
-
-      <lang:mineinabyss.tutorial.water.3></lang>
-
-      <lang:mineinabyss.tutorial.water.4></lang>
-
-      '
-  - location:
-      world: world
-      x: -113.0
-      y: 135.0
-      z: -533.5
-    text: <lang:mineinabyss.tutorial.welcome.1></lang>
-
-      <lang:mineinabyss.tutorial.welcome.2></lang>
-
-
-      <lang:mineinabyss.tutorial.welcome.3></lang>
-
-      <lang:mineinabyss.tutorial.welcome.4></lang>
-  - location:
-      world: world
-      x: -162.0
-      y: 99.0
-      z: -521.0
+      x: -132.5
+      y: 110
+      z: -606.5
     text: '<lang:mineinabyss.tutorial.climb.1></lang>
 
       <lang:mineinabyss.tutorial.climb.2></lang>
@@ -119,22 +29,129 @@
       '
   - location:
       world: world
-      x: -155.0
-      y: 100.0
-      z: -524.0
-    text: '<lang:mineinabyss.tutorial.loot.1></lang>
+      x: -140.5
+      y: 115
+      z: -605.5
+    text: '<lang:mineinabyss.tutorial.climb.4></lang>
 
-      <lang:mineinabyss.tutorial.loot.2></lang>
+      <lang:mineinabyss.tutorial.climb.5></lang>
 
       '
   - location:
       world: world
-      x: -168.0
-      y: 114.0
-      z: -539.0
-    text: '<lang:mineinabyss.tutorial.villagers.1></lang>
+      x: -136.5
+      y: 120.5
+      z: -607.5
+    text: <lang:mineinabyss.tutorial.climb.6></lang>
+  - location:
+      world: world
+      x: -144.5
+      y: 115
+      z: -612.5
+    text: <lang:mineinabyss.tutorial.water.1</lang>
+  - location:
+      world: world
+      x: -145.5
+      y: 115
+      z: -627.5
+    text: '<lang:mineinabyss.tutorial.falling.1></lang>
 
-      <lang:mineinabyss.tutorial.villagers.2></lang>
+      <lang:mineinabyss.tutorial.falling.2></lang>
+
+      '
+  - location:
+      world: world
+      x: -160.5
+      y: 106
+      z: -617.5
+    text: '<lang:mineinabyss.tutorial.rules.1></lang>
+
+      <lang:mineinabyss.tutorial.rules.2></lang>
+
+      <lang:mineinabyss.tutorial.rules.3></lang>
+
+      <lang:mineinabyss.tutorial.rules.4></lang>
+
+      <lang:mineinabyss.tutorial.rules.5></lang>
+
+      <lang:mineinabyss.tutorial.rules.6></lang>
+
+      <lang:mineinabyss.tutorial.rules.7></lang>
+
+      <lang:mineinabyss.tutorial.rules.8></lang>
+
+      '
+  - location:
+      world: world
+      x: -159
+      y: 105.5
+      z: -613
+    text: '<lang:mineinabyss.tutorial.rules.9></lang>
+
+      <lang:mineinabyss.tutorial.climb.A></lang>
+
+      '
+# Tutorial outdoor section
+  - location:
+      world: world
+      x: -163.5
+      y: 118
+      z: -560
+    text: '<lang:mineinabyss.tutorial.bonfire.1></lang>
+
+      <lang:mineinabyss.tutorial.bonfire.2></lang>
+
+      '
+  - location:
+      world: world
+      x: -160.5
+      y: 123
+      z: -556
+    text: <lang:mineinabyss.tutorial.outside.1></lang>
+  - location:
+      world: world
+      x: -158
+      y: 118
+      z: -544
+    text: '<lang:mineinabyss.tutorial.outside.2></lang>
+      
+      <lang:mineinabyss.tutorial.outside.3></lang>
+
+      '
+  - location:
+      world: world
+      x: -168
+      y: 114
+      z: -539
+    text: '<lang:mineinabyss.tutorial.outside.4></lang>
+
+      <lang:mineinaybss.tutorial.outside.5></lang>
+
+      '
+  - location:
+      world: world
+      x: -162
+      y: 98
+      z: -520
+    text: '<lang:mineinabyss.tutorial.recipes.1></lang>
+
+      <lang:mineinabyss.tutorial.recipes.2></lang>
+
+      <lang:mineinabyss.tutorial.recipes.3></lang>
+
+      '
+  - location:
+      world: world
+      x: -170
+      y: 55
+      z: -485
+    text: '<lang:mineinabyss.tutorial.emotes.1></lang>
+
+      <lang:mineinabyss.tutorial.emotes.2></lang>
+
+      <lang:mineinabyss.tutorial.emotes.3></lang>
+
+      <lang:mineinabyss.tutorial.emotes.4></lang>
 
       '
   - location:
@@ -148,51 +165,11 @@
       '
   - location:
       world: world
-      x: -122.0
-      y: 135.0
-      z: -542.5
-    text: '      <lang:mineinabyss.tutorial.general_info></lang>
+      x: -145.5
+      y: 115
+      z: -627.5
+    text: '<lang:mineinabyss.tutorial.end.1></lang>
 
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.1></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.2></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.3></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.4></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.5></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.6></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.7></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.8></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.9></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.10></lang>
-
-      <gray>*</gray> <lang:mineinabyss.tutorial.general_info.11></lang>
-
-      '
-  - location:
-      world: world
-      x: -114.0
-      y: 135.0
-      z: -542.5
-    text: '      <lang:mineinabyss.tutorial.rules></lang>
-
-      1. <lang:mineinabyss.tutorial.rules.1></lang>
-
-      2. <lang:mineinabyss.tutorial.rules.2></lang>
-
-      3. <lang:mineinabyss.tutorial.rules.3></lang>
-
-      4. <lang:mineinabyss.tutorial.rules.4></lang>
-
-      5. <lang:mineinabyss.tutorial.rules.5></lang>
-
-      6. <lang:mineinabyss.tutorial.rules.6></lang>
+      <lang:mineinabyss.tutorial.end.2></lang>
 
       '
