@@ -12,13 +12,13 @@
   - location:
       world: world
       x: -122.5
-      y: 110
+      y: 110.5
       z: -603.5
     text: <lang:mineinabyss.tutorial.start.3></lang>
   - location:
       world: world
       x: -132.5
-      y: 110
+      y: 110.5
       z: -606.5
     text: '<lang:mineinabyss.tutorial.climb.1></lang>
 
@@ -30,7 +30,7 @@
   - location:
       world: world
       x: -140.5
-      y: 115
+      y: 116
       z: -605.5
     text: '<lang:mineinabyss.tutorial.climb.4></lang>
 
@@ -41,18 +41,18 @@
       world: world
       x: -136.5
       y: 120.5
-      z: -607.5
+      z: -607
     text: <lang:mineinabyss.tutorial.climb.6></lang>
   - location:
       world: world
       x: -144.5
-      y: 115
+      y: 116.5
       z: -612.5
-    text: <lang:mineinabyss.tutorial.water.1</lang>
+    text: <lang:mineinabyss.tutorial.water.1></lang>
   - location:
       world: world
       x: -145.5
-      y: 115
+      y: 116
       z: -627.5
     text: '<lang:mineinabyss.tutorial.falling.1></lang>
 
@@ -84,19 +84,19 @@
   - location:
       world: world
       x: -159
-      y: 105.5
+      y: 106
       z: -613
     text: '<lang:mineinabyss.tutorial.rules.9></lang>
 
-      <lang:mineinabyss.tutorial.climb.A></lang>
+      <lang:mineinabyss.tutorial.rules.A></lang>
 
       '
 # Tutorial outdoor section
   - location:
       world: world
-      x: -163.5
-      y: 118
-      z: -560
+      x: -162.5
+      y: 119
+      z: -560.5
     text: '<lang:mineinabyss.tutorial.bonfire.1></lang>
 
       <lang:mineinabyss.tutorial.bonfire.2></lang>
@@ -105,13 +105,13 @@
   - location:
       world: world
       x: -160.5
-      y: 123
+      y: 123.5
       z: -556
     text: <lang:mineinabyss.tutorial.outside.1></lang>
   - location:
       world: world
       x: -158
-      y: 118
+      y: 117
       z: -544
     text: '<lang:mineinabyss.tutorial.outside.2></lang>
       
@@ -121,7 +121,7 @@
   - location:
       world: world
       x: -168
-      y: 114
+      y: 114.5
       z: -539
     text: '<lang:mineinabyss.tutorial.outside.4></lang>
 
@@ -131,7 +131,7 @@
   - location:
       world: world
       x: -162
-      y: 98
+      y: 98.5
       z: -520
     text: '<lang:mineinabyss.tutorial.recipes.1></lang>
 
@@ -143,7 +143,7 @@
   - location:
       world: world
       x: -170
-      y: 55
+      y: 54.5
       z: -485
     text: '<lang:mineinabyss.tutorial.emotes.1></lang>
 
@@ -165,9 +165,9 @@
       '
   - location:
       world: world
-      x: -145.5
-      y: 115
-      z: -627.5
+      x: -183.5
+      y: 52.5
+      z: -473.5
     text: '<lang:mineinabyss.tutorial.end.1></lang>
 
       <lang:mineinabyss.tutorial.end.2></lang>

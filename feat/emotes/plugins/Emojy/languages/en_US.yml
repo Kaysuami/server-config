@@ -1,6 +1,6 @@
 mineinabyss.tutorial.start.1: <yellow>Welcome to <bold><gradient:#ff7043:#ffca28:#ff7043><!bold><yellow>!
 mineinabyss.tutorial.start.2: <yellow>Please, follow the tutorial.
-mineinabyss.tutorial.start.3: <light_purple>The tutorial leads to the Abyss -->
+mineinabyss.tutorial.start.3: '<light_purple>The tutorial leads to the Abyss -->'
 
 mineinabyss.tutorial.climb.1: <aqua>You can <bold>climb walls<!bold> on this server.
 mineinabyss.tutorial.climb.2: <aqua>Stand against the brick wall,
@@ -14,7 +14,7 @@ mineinabyss.tutorial.water.1: <green><bold>Flowing water damages you.<!bold>
 mineinabyss.tutorial.falling.1: <yellow><bold>Water doesn't cancel fall damage.<!bold>
 mineinabyss.tutorial.falling.2: <yellow>There is no way to escape fall damage.
 
-mineinabyss.tutorial.rules.1: <gold><bold>Server Rules:<!bold>
+mineinabyss.tutorial.rules.1: '<gold><bold>Server Rules:<!bold>'
 mineinabyss.tutorial.rules.2: '<gold>- Don't hack, grief or steal.'
 mineinabyss.tutorial.rules.3: '<gold>- Don't spam or argue in chat.'
 mineinabyss.tutorial.rules.4: '<gold>- Don't exploit bugs. Report them on our discord (<bold>/discord<bold>).'
@@ -22,20 +22,20 @@ mineinabyss.tutorial.rules.5: '<gold>- Don't bully or harass other people.'
 mineinabyss.tutorial.rules.6: '<gold>- Don't build staircases or elevators in layer 1, 2 or 3.'
 mineinabyss.tutorial.rules.7: '<gold>- Don't discuss Made in Abyss past season 2 of the anime.'
 mineinabyss.tutorial.rules.8: '<gold>- For the complete rules, visit www.mineinabyss.com/rules'
-mineinabyss.tutorial.rules.9: '<red>Walk through the door to agree with the rules'
+mineinabyss.tutorial.rules.9: '<red>Walk through the door to agree with the rules.'
 mineinabyss.tutorial.rules.A: '<red>and go to the Abyss.'
 
 mineinabyss.tutorial.bonfire.1: <purple>You can craft <bold>respawn points<!bold> called bonfires.
 mineinabyss.tutorial.bonfire.2: <purple>Look at your <bold>advancements<!bold> for more info.
 
-mineinabyss.tutorial.outside.1: <aqua>Do /tutorial if you want to do the tutorial again.
-mineinabyss.tutorial.outside.2: <aqua><bold>Abyss<!bold> -->
-mineinabyss.tutorial.outside.3: <aqua><-- <bold>Orth<!bold>
-mineinabyss.tutorial.outside.4: <aqua>If you have questions, type <bold>/wiki<!bold>.
-mineinaybss.tutorial.outside.5: <aqua>Join our community on Discord with <bold>/discord<!bold>.
+mineinabyss.tutorial.outside.1: '<aqua>Do /tutorial if you want to do the tutorial again.'
+mineinabyss.tutorial.outside.2: '<aqua><bold>Abyss<!bold> -->'
+mineinabyss.tutorial.outside.3: '<aqua><-- <bold>Orth<!bold>'
+mineinabyss.tutorial.outside.4: '<aqua>If you have questions, type <bold>/wiki<!bold>.'
+mineinaybss.tutorial.outside.5: '<aqua>Join our community on Discord with <bold>/discord<!bold>.'
 
 mineinabyss.tutorial.emotes.1: '<green>Emotes can be used by typing <dark_green><underlined>:emotename::siggy:'
-mineinabyss.tutorial.emotes.2: <green>You can find all the emotes in <dark_green><bold>/emojy list
+mineinabyss.tutorial.emotes.2: '<green>You can find all the emotes in <dark_green><bold>/emojy list'
 mineinabyss.tutorial.emotes.3: <gold>Patreon <yellow>and <gold>Ko-Fi <yellow>supporters have access
 mineinabyss.tutorial.emotes.4: '<yellow>to using GIFs like <white>:gurawave:'
 
