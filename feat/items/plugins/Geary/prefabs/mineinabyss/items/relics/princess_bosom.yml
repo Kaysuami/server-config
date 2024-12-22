@@ -14,9 +14,7 @@ disableItemInteractions: {}
 observe:
   itemRightClick:
     - become: parent
-    - ensure:
-        cooldownsComplete: [ princess_bosom ]
-    - startCooldown:
+    - cooldown:
         id: princess_bosom
         length: 10s
         display: <#C13523><b>Princess Bosom

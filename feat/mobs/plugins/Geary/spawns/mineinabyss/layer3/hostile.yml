@@ -7,16 +7,6 @@ l3_hostile:
     - blockBelow:
         allow: [ "#base_stone_overworld", "#dirt", "#terracotta" ]
 
-l3_ottobas:
-  inherit: l3_hostile
-  type: mm:ottobas
-  priority: 0.8
-  conditions:
-    - $inherit
-    - gap: 4..600
-    - maxNearby:
-        amount: 2
-
 l3_silkfang:
   inherit: l3_hostile
   type: mm:silkfang

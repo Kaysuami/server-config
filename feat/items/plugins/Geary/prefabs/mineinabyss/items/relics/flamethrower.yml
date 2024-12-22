@@ -9,14 +9,12 @@ observe:
   itemRightClick:
     - become: parent
     - ensure:
-        cooldownsComplete: [ flamethrower ]
-    - ensure:
         hasConsumable:
           type: mineinabyss:flamethrower_fuel
       onFail:
         - sendActionBar:
             text: <red>Out of fuel
-    - startCooldown:
+    - cooldown:
         id: flamethrower
         length: 2s
         display: <dark_aqua>Flamethrower

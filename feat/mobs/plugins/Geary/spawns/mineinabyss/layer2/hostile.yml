@@ -24,4 +24,10 @@ l2_silkfang:
     - maxNearby:
         amount: 5
 
-l2_woodcrier: { inherit: l2_silkfang, type: mm:woodcrier }
+l2_woodcrier:
+  inherit: l2_hostile
+  type: mm:woodcrier
+  conditions:
+    - $inherit
+    - maxNearby:
+        amount: 5

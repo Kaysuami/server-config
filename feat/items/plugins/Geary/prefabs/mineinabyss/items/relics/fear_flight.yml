@@ -14,7 +14,7 @@ passive:
             - health{h=<5}
       - particle:
           particle: CLOUD
-          offsetY: 1
+          offset: [ 0, 1, 0 ]
           count: 3
           speed: 0
         with:

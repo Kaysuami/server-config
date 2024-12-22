@@ -14,10 +14,9 @@ observe:
   itemRightClick:
     - become: parent
     - ensure:
-        cooldownsComplete: [ blaze_reap ]
         player:
           sneaking: true
-    - startCooldown:
+    - cooldown:
         id: blaze_reap
         length: 2s
         display: <#617B94>Blaze Reap

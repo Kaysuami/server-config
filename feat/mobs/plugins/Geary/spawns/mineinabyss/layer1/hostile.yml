@@ -13,6 +13,20 @@ l1_silkfang:
   chance: 0.2
   conditions:
     - $inherit
-    - remove maxNearby
+    - $remove maxNearby
     - maxNearby:
         amount: 4
+
+l1_mantoyer:
+  inherit: l1_hostile
+  type: mm:mantoyer
+  amount: 2-3
+
+# Uncommon
+
+l1_woodcrier:
+  inherit: l1_hostile
+  type: mm:woodcrier
+  priority: 0.5
+  conditions:
+    - $inherit
