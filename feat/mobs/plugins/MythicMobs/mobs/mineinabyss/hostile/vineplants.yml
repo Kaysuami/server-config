@@ -15,6 +15,7 @@ vinebinder:
   Damage: 0 # keep this 0
   Options:
     PreventSunburn: true
+    Collidable: false
     PreventOtherDrops: true
     PreventJockeyMounts: true
     Silent: true
@@ -63,6 +64,7 @@ vineblaster:
     FollowRange: 15
     MovementSpeed: 0   # replaced with skills
     KnockbackResistance: 1.0
+    Collidable: false
   Model:
     Id: vineblaster
     ViewRadius: 64
@@ -104,6 +106,7 @@ vinepoofer:
     FollowRange: 15
     MovementSpeed: 0   # replaced with skills
     KnockbackResistance: 1.0
+    Collidable: false
   Model:
     Id: vinepoofer
     ViewRadius: 64

@@ -27,6 +27,7 @@ demonfish:
     PreventOtherDrops: true
   Drops:
     - geary mineinabyss:demonfish_raw 1-2 0.6
+    - exp 5-15
   Model:
     Id: demonfish
     ViewRadius: 64
