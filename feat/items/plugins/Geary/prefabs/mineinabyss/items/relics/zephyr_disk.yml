@@ -12,7 +12,7 @@ observe:
         cooldownsComplete: [ zephyr_disk ]
     - eval: entity.getLocation
       register: center
-    - actionGroup:
+    - run:
         - become: it
         - playSound:
             sound: minecraft:entity.generic.extinguish_fire

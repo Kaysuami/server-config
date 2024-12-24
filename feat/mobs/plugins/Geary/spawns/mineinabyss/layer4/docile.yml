@@ -10,10 +10,6 @@ l4_docile:
     - maxNearby:
         amount: 5
 
-# stinger,mantoyer
-l4_mantoyer: { inherit: l4_docile, type: mm:mantoyer }
-
-
 l4_stinger:
   inherit: l4_docile
   type: mm:stinger

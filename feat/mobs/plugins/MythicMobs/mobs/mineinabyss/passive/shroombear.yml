@@ -28,6 +28,26 @@ shroombear:
     Drive: false
     DamageTint: true
     Scale: 0.8
+  Observe:
+    onSheared:
+      - cooldown:
+          id: shroombear_shear
+          length: 120s
+      - dropItems:
+          - prefab: mineinabyss:parasitic_watershrooms
+            amount: 2
+      - playSound: { sound: block.frogspawn.hatch, pitch: 2, volume: 0.46 }
+      - playSound: { sound: item.dye.use, pitch: 0.5, volume: 0.82 }
+      - run:
+          - playSound: { sound: item.honeycomb.wax_on, pitch: 1.2, volume: 1.46 }
+          - playSound: { sound: block.candle.extinguish, pitch: 0.5, volume: 0.82 }
+          - playSound: { sound: block.honey_block.place, pitch: 2.0, volume: 0.46 }
+          - playSound: { sound: block.honey_block.slide, pitch: 1.0, volume: 0.46 }
+          - particle: { particle: ITEM, item: minecraft:purple_glazed_terracotta, count: 6, spread: 0.4, spreadY: 0.2, offset: [0, 1, 0] }
+          - particle: { particle: ITEM, item: minecraft:magenta_candle, count: 6, spread: 0.4, spreadY: 0.2, offset: [0, 1, 0] }
+        repeat: 10
+        repeatInterval: 0.5s
+
   Drops:
     - exp 3-7
     - geary mineinabyss:shroombear_meat_raw 1-2 0.6
@@ -38,7 +58,7 @@ shroombear:
     - CancelEvent{sync=true} @self ~onInteract
     - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
     - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:100 0.66 <55%
-#    - skill{s=shroombearHarvest} @self ~oninteract
+    #    - skill{s=shroombearHarvest} @self ~oninteract
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 

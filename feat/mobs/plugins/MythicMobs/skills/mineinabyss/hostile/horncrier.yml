@@ -24,6 +24,7 @@ hc_dash:
     - delay 110
     - state{s=charge_run;remove=true} @self
     - skill{s=hc_dashmiss} @self
+    - setspeed{speed=1;type=walking} @self
     - delay 50
 
     #- setai{ai=true}
