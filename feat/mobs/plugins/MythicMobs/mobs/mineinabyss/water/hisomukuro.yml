@@ -10,7 +10,7 @@ hisomukuro:
     - meleeattack
     - movetowardstarget
     - randomlookaround
-    - randomfly
+    #- randomfly
   AITargetSelectors:
     - players
   Options:
@@ -18,7 +18,7 @@ hisomukuro:
     Silent: true
     FollowRange: 20
     Interactable: true
-    MovementSpeed: 0.6
+    MovementSpeed: 0.9
     PreventOtherDrops: true
   Model:
     Id: hisomukuro
@@ -31,7 +31,7 @@ hisomukuro:
   Skills:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=displayHealth} ~onDamaged
-    - skill{s=HS_ball} @target ~onTimer:20
+    - skill{s=HS_ball} @target ~onTimer:10
     - skill{s=HS_charge} @self ~onTimer:1
     - skill{s=HSAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - setstance{stance=hscharge} @self ~onSpawnOrLoad

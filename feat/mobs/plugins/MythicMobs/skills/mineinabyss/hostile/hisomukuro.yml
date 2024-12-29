@@ -1,5 +1,5 @@
 HS_ball:
-  Cooldown: 10
+  Cooldown: 6
   Conditions:
     - incombat true
     - offgcd true
@@ -12,7 +12,7 @@ HS_ball:
     #  - effect:particlebox{p=bubble_pop;a=9;repeat=15;repeatInterval=1} @Self
     - delay 15
     - setstance{stance=bullet} @self
-    - projectile{onTick=HSA_tick;onHit=HS_impact;v=18;i=1;hR=1;vR=1;hnp=true;tyo=-1} @targetlocation
+    - projectile{onTick=HSA_tick;onHit=HS_impact;v=18;i=1;hR=1.5;vR=2;hnp=true;tyo=-0.8} @targetlocation
     - delay 35
     - delay 20
     - setstance{stance=hscharge} @self

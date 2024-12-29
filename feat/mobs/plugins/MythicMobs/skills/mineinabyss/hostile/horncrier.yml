@@ -152,7 +152,6 @@ hcAmbient:
 hcHurt:
   Cooldown: 0.3
   Skills:
-
     - effect:sound{s=entity.horse.hurt;volume=0.6;pitch=0.9} @self
     - sound{s=item.crop.plant;p=2.0;v=1.18;sc=master;sync=true} @self
     - sound{s=block.candle.extinguish;p=0.8;v=2.0;sc=master;sync=true} @self

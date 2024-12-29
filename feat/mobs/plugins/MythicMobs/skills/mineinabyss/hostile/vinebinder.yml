@@ -106,5 +106,5 @@ vinepooferattack:
     - effect:particles{particle=FALLING_SPORE_BLOSSOM;amount=300;hS=5;vS=5;y=1} @self
     - effect:particles{particle=FALLING_SPORE_BLOSSOM;amount=30;hS=1;vS=2} @self
     - potion{type=POISON;duration=80;level=2} @PIR{r=6}
-    - potion{type=WITHER;duration=50;level=1} @PIR{r=6}
+    - potion{type=WITHER;duration=80;level=1} @PIR{r=6}
     - potion{type=SLOWNESS;duration=100;level=1} @PIR{r=6}

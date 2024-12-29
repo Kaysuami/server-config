@@ -9,7 +9,6 @@ kazura:
     - randomstroll
     - lookatplayers
     - randomlookaround
-    - float
   AITargetSelectors:
     - clear
   Options:

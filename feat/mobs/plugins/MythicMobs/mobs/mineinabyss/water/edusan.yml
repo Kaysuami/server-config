@@ -9,9 +9,9 @@ edusan:
     - movetowater
     - meleeattack
     - movetowardstarget
-    - fleeplayers
+   # - fleeplayers
     - randomlookaround
-    - randomfly
+   # - randomfly
   AITargetSelectors:
     - clear
   Options:

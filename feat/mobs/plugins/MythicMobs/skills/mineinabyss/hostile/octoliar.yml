@@ -69,10 +69,11 @@ octoliarBite: # melee attack
     - sound{s=item.glow_ink_sac.use;sc=master;p=1.85;v=1.1} @self
     - delay 2
     - potion{t=POISON;l=1;force=true;p=true;d=<random.120to180>} @EIC{a=175.0;r=2.9;rot=0.0}
-    - damage{a=<random.5to7>;pi=true} @EIC{a=175.0;r=2.9;rot=0.0}
+    - damage{a=7;pi=true} @EIC{a=175.0;r=2.9;rot=0.0}
     - delay <random.10to30>
     - stance{s=idle} @self
     - setspeed{speed=1;type=walking}
+    - shieldbreak{duration=20} @target
 
 octoliarSpit: # melee attack
   Cooldown: 2.0
@@ -106,7 +107,7 @@ octoliarSpitHit:
     - sound{s=block.slime_block.step;sc=master;p=2.0;v=1.1}
     - sound{s=item.ink_sac.use;sc=master;p=2.0;v=1.1}
     - potion{t=POISON;l=2;force=true;p=true;d=<random.120to180>}
-
+    - potion{t=SLOWNESS;l=1;force=true;p=true;d=<random.120to180>}
 octoliarWeb: # web attack
   Cooldown: 10
   Conditions:
@@ -136,7 +137,7 @@ octoliarWeb: # web attack
     - sound{s=item.glow_ink_sac.use;sc=master;p=1.85;v=1.1} @self
     - sound{s=entity.cat.hiss;sc=master;p=1.75;v=2.1} @self
     - sound{s=entity.squid.squirt;sc=master;p=2.0;v=1.1} @self
-    - projectile{hft=true;onTick=octoliarWebTick;onEnd=octoliarWebEnd;onHit=octoliarWebHit;v=12;i=1;hR=0.65;vr=0.75;g=0.5;hnp=true;fromorigin=true;origin=@ModelPart{p=cap};syo=1.25;sfo=0;repeat=2;repeatInterval=1} @Cone{angle=90;p=16;range=16;rotation=0} #change this
+    - projectile{hft=true;onTick=octoliarWebTick;onEnd=octoliarWebEnd;onHit=octoliarWebHit;v=14;i=1;hR=0.65;vr=0.75;g=0.5;hnp=true;fromorigin=true;origin=@ModelPart{p=cap};syo=1.25;sfo=0;repeat=3;repeatInterval=1} @Cone{angle=90;p=16;range=16;rotation=0} #change this
     - delay <random.20to50>
     - stance{s=idle} @self
     - setspeed{speed=1;type=walking}

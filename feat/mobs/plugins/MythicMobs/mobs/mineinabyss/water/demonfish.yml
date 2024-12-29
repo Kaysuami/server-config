@@ -11,7 +11,7 @@ demonfish:
     - movetowardstarget
     - fleeplayers
     - randomlookaround
-    - randomfly
+   # - randomfly
   AITargetSelectors:
     - clear
     - attacker
@@ -21,7 +21,7 @@ demonfish:
   Options:
     Silent: false
     FollowRange: 25
-    MovementSpeed: 0.6
+    MovementSpeed: 0.9
     Interactable: true
     KnockbackResistance: 0.0
     PreventOtherDrops: true

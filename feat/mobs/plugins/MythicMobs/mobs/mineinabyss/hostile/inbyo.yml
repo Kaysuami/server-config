@@ -35,6 +35,9 @@ inbyo:
     - geary mineinabyss:inbyo_fur 1-3 0.6
 
   Skills:
+    - skill{s=displayHealth} ~onDamaged
+    - skill:MIAPetExpNearby{exp=1} ~onDeath
+
     - state{mid=inbyo;s=attack} @self ~onAttack
     - skill{s=inbyopoop} @target ~onTimer:20
     - effect:sound{s=mineinabyss:entity.inbyo.ambient;v=4;p=0.8} @self ~onAmbient

@@ -29,5 +29,6 @@ l1_woodcrier:
   inherit: l1_hostile
   type: mm:woodcrier
   priority: 0.5
+  chance: 0.2
   conditions:
     - $inherit

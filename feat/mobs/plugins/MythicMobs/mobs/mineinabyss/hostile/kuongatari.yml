@@ -21,7 +21,6 @@ kuongatari:
     MaxCombatDistance: 20
     DigOutOfGround: true
     PreventOtherDrops: true
-    Silent: true
   Model:
     Id: kuongatari
     ViewRadius: 64

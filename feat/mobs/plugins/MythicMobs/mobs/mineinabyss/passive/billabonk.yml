@@ -23,7 +23,8 @@ billabonk:
   Options:
     PreventOtherDrops: true
     Silent: true    #MovementSpeed: 0.25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.6
+    Interactable: false
   Model:
     Id: billabonk
     ViewRadius: 64

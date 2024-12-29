@@ -79,7 +79,7 @@ hammerbeakLarge:
   AITargetSelectors:
     - clear
     - players
-    - nearestConditionalTarget{conditions=[- mythicmobtype{t=ikenosuke,demonfish,stinger} true]}
+   # - nearestConditionalTarget{conditions=[- mythicmobtype{t=ikenosuke,demonfish,stinger} true]}
   Faction: hammerbeaks
   Health: 50
   Damage: 7

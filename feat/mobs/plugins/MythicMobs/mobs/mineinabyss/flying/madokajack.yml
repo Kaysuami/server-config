@@ -7,7 +7,7 @@ madokajack:
   Damage: 8
   AIGoalSelectors:
     - clear
-    - meleeattack
+    - meleeattack{speed=1.5;range=1.5}
     - float
     - randomFly
     - randomlookaround

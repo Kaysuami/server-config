@@ -19,7 +19,7 @@ kakatsumuri:
     Silent: true
     FollowRange: 20
     Interactable: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.18
   Model:
     Id: kakatsumuri
     ViewRadius: 64
