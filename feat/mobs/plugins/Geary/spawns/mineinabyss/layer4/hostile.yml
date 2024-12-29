@@ -1,6 +1,7 @@
 l4_hostile:
   position: GROUND
   regions: [ layerfour ]
+  spread: 5
   conditions:
     - maxNearby:
         amount: 3

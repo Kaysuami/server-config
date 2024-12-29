@@ -1,6 +1,7 @@
 l5_hostile:
   position: GROUND
   regions: [ layerfive ]
+  spread: 5
   conditions:
     - mythicConditions:
         - lightlevelfromblocks{l=<12}

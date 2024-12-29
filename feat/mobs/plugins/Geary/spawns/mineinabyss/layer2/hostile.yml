@@ -1,6 +1,7 @@
 l2_hostile:
   position: GROUND
   regions: [ layertwo ]
+  spread: 5
   conditions:
     - blockBelow:
         allow: [ "#base_stone_overworld", "#dirt", "#terracotta" ]
