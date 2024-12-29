@@ -34,6 +34,7 @@ l4_uibuta:
         amount: 2
     - blockAbove:
         allow: [ AIR ]
+    - waterDepth: 2..600
 
 l4_makihige:
   inherit: l4_water
@@ -46,3 +47,4 @@ l4_makihige:
         amount: 3
     - blockAbove:
         allow: [ AIR ]
+    - waterDepth: 2..600

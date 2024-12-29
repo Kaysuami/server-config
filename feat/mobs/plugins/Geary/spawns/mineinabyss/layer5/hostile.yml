@@ -3,8 +3,7 @@ l5_hostile:
   regions: [ layerfive ]
   spread: 5
   conditions:
-    - blockBelow:
-        allow: [ "#base_stone_overworld", "#dirt" ]
+    - blockBelow: { allow: [ "#base_stone_overworld", "#dirt" ], deny: [ DIORITE ] }
     - maxNearby:
         amount: 4
 

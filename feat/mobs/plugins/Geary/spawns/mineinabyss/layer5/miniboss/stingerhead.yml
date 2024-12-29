@@ -9,6 +9,9 @@ l5_stingerheadnest:
     - stingerheadsanddesert
     - stingerheadsnow
   conditions:
+    - blockBelow:
+        deny:
+          - '#ice'
     - maxNearby:
         amount: 2
 

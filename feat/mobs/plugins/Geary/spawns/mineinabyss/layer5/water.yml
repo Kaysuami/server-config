@@ -20,6 +20,7 @@ l5_uibuta:
     - $inherit
     - blockAbove:
         allow: [ AIR ]
+    - waterDepth: 2..600
 l5_makihige:
   inherit: l5_water
   type: mm:makihige
@@ -28,14 +29,27 @@ l5_makihige:
     - $inherit
     - blockAbove:
         allow: [ AIR ]
+    - waterDepth: 2..600
 
 # Rare
 l5_edusan:
   inherit: l5_water
   type: mm:edusan
   priority: 0.2
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 1
+    - waterDepth: 10..600
 
 l5_hisomukuro:
   inherit: l5_water
   type: mm:hisomukuro
   priority: 0.2
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 3
+    - waterDepth: 5..600
