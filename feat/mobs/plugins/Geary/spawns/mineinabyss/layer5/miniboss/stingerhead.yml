@@ -2,8 +2,12 @@ l5_stingerheadnest:
   type: mm:Stingerhead
   position: GROUND
   priority: 0.5
-  chance: 0.05
-  regions: [ stingerheaddesert, stingerheadnestcave, stingerheadsanddesert, stingerheadsnow ]
+  chance: 0.1
+  regions:
+    - stingerheaddesert
+    - stingerheadnestcave
+    - stingerheadsanddesert
+    - stingerheadsnow
   conditions:
     - maxNearby:
         amount: 2

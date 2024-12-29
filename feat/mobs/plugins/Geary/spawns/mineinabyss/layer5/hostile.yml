@@ -3,10 +3,8 @@ l5_hostile:
   regions: [ layerfive ]
   spread: 5
   conditions:
-    - mythicConditions:
-        - lightlevelfromblocks{l=<12}
     - blockBelow:
-        allow: [ grass_block, stone ]
+        allow: [ "#base_stone_overworld", "#dirt" ]
     - maxNearby:
         amount: 4
 
@@ -18,7 +16,9 @@ l5_hostile_snow:
     - $inherit
     - $remove blockBelow
     - blockBelow:
-        allow: [ SNOW_BLOCK,POWDER_SNOW,SNOW,ICE,PACKED_ICE ]
+        allow:
+          - '#snow'
+          - '#ice'
 
 l5_hostile_sand:
   inherit: l5_hostile
@@ -26,7 +26,14 @@ l5_hostile_sand:
     - $inherit
     - $remove blockBelow
     - blockBelow:
-        allow: [ SAND,SANDSTONE,RED_SAND,RED_SANDSTONE,SANDSTONE_SLAB,SANDSTONE_STAIRS,SMOOTH_SANDSTONE,SOUL_SOIL ]
+        allow:
+          - '#sand'
+          - SANDSTONE
+          - RED_SANDSTONE
+          - SANDSTONE_SLAB
+          - SANDSTONE_STAIRS
+          - SMOOTH_SANDSTONE
+          - SOUL_SOIL
 
 # Mobs
 l5_kuongatari:
@@ -60,11 +67,10 @@ l5_swarmhoarder:
 l5_tachikatana:
   inherit: l5_hostile
   type: mm:tachikatana
-  priority: 0.05
+  chance: 0.1
+  priority: 0.5
   conditions:
     - $inherit
-    - $remove maxNearby blockBelow
-    - blockBelow:
-        allow: [ grass_block, stone, moss_block, dirt_path ]
+    - $remove maxNearby
     - maxNearby:
         amount: 2
