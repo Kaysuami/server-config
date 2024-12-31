@@ -44,7 +44,7 @@
 - location:
     world: world
     x: -160.5
-    y: 104.5
+    y: 105
     z: -617.5
   text: <lang:mineinabyss.tutorial.rules.1></lang>
   alignment: LEFT
@@ -103,6 +103,7 @@
     y: 52.5
     z: -473.5
   text: <lang:mineinabyss.tutorial.end></lang>
+# Text at Guild HQ
 - location:
     world: world
     x: -128.5
@@ -121,6 +122,13 @@
     y: 136
     z: -569.5
   text: <lang:mineinabyss.tutorial.guildhq.3></lang>
+- location:
+    world: world
+    x: -124.5
+    y: 135
+    z: -540.5
+  text: <lang:mineinabyss.tutorial.rules.1>
+  alignment: LEFT
 - location:
     world: world
     x: -16.0
