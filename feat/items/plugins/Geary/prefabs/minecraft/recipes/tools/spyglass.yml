@@ -1,0 +1,21 @@
+set.recipes:
+  discoverRecipes: true
+  removeRecipes:
+    - "minecraft:spyglass"
+  result:
+    type: SPYGLASS
+  recipes:
+    - type: shaped
+      items:
+        E:
+          prefab: mineinabyss:corpse_weeper_eye
+        I:
+          type: iron_ingot
+        B:
+          tag: buttons
+        C:
+          type: cyan_terracotta
+      configuration: |-
+        | BE|
+        | IB|
+        |C  |
