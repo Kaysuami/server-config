@@ -69,6 +69,7 @@ baby_ashimite:
     #MovementSpeed: 0.25"
   Drops:
     - exp 1-10
+    - geary mineinabyss:ashimite_antlers 2 1.0
     - geary mineinabyss:ashimite_meat_raw 1-2 0.3
     - geary mineinabyss:ashimite_hoof 1 0.1
     - LIGHT_BLUE_WOOL 1 0.3

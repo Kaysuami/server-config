@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:quartz
-    itemName: <#0B6623>Hagamizukin
+    itemName: <#0B6623>Hagamizukin Tooth
     customModelData: 4
     lore:
       - <yellow>Can be obtained by finding and

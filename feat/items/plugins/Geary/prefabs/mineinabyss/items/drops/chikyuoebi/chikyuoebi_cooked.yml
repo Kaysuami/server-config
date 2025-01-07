@@ -11,6 +11,8 @@ set.item:
     food:
       saturation: 9.6
       nutrition: 7
+resourcepack:
+  textures: mineinabyss:item/food/creatures/chikyuoebi_cooked
 set.recipes:
   discoverRecipes: true
   recipes:

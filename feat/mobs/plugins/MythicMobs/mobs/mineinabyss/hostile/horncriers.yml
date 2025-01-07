@@ -35,7 +35,7 @@ woodcrier:
     - PROJECTILE 0.5
   Drops:
     - exp 10-30
-    - geary mineinabyss:horncrier_horn 1-2 0.6
+    - geary mineinabyss:woodcrier_horn 1-2 0.6
     - WHITE_WOOL 1-3 0.6
   Skills:
     # - CancelEvent{sync=true} ~onAttack

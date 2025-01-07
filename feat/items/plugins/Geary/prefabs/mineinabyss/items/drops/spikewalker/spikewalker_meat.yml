@@ -8,4 +8,4 @@ set.item:
       - <#ED4C4C><i><#116AAD>Spikewalker <#ED4C4C><i>
       - <#ED4C4C><i>It's rough and gamey...
 resourcepack:
-  textures: mineinabyss:item/creature_drops/spikewalker_meat
+  textures: mineinabyss:item/food/creatures/spikewalker_meat

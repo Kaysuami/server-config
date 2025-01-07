@@ -13,3 +13,5 @@ set.item:
       nutrition: 2
 replaceBurnedDrop:
   prefab: mineinabyss:spiralsquid_cooked
+resourcepack:
+  textures: mineinabyss:item/food/creatures/spiralsquid_raw

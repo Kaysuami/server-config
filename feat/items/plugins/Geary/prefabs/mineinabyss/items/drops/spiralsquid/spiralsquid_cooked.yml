@@ -11,6 +11,8 @@ set.item:
     food:
       saturation: 6
       nutrition: 5
+resourcepack:
+  textures: mineinabyss:item/food/creatures/spiralsquid_cooked
 set.recipes:
   discoverRecipes: true
   recipes:
@@ -18,3 +20,7 @@ set.recipes:
       input: mineinabyss:spiralsquid_raw
       experience: 1
       cookingTime: 100
+    - type: smoking
+      input: mineinabyss:spiralsquid_raw
+      experience: 2
+      cookingTime: 50

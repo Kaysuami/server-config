@@ -8,3 +8,5 @@ set.item:
       - <green>Goblets of Giants <yellow>and the <green>Great Fault <yellow>.
       - <yellow>the metallic sturdy wings of a <#25D648>Yumotsubi
       - <#167D2A><i>Perhaps i can make a device out of this...
+resourcepack:
+  textures: mineinabyss:item/creature_drops/yomotsubi_wing
