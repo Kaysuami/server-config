@@ -1,5 +1,5 @@
 l5_stingerheadnest:
-  type: mm:Stingerhead
+  type: mm:stingerhead
   position: GROUND
   priority: 0.5
   chance: 0.1
@@ -18,7 +18,7 @@ l5_stingerheadnest:
 # TODO split conditions by region? We might want more/less spawns in certain nests etc...
 #l5_stingerhead_desert:
 #  inherit: l5_hostile
-#  type: mm:Stingerhead
+#  type: mm:stingerhead
 #  conditions:
 #    - $inherit
 #    - $remove maxNearby blockBelow
