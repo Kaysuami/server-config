@@ -2,13 +2,17 @@ set.recipes:
   discoverRecipes: true
   result:
     type: minecraft:suspicious_gravel
-    amount: 8
+    amount: 4
   recipes:
     - type: shaped
       items:
-        S: { type: minecraft:gravel }
-        D: { prefab: mineinabyss:hashofu_body }
+        G:
+          type: minecraft:gravel
+        F:
+          type: minecraft:fermented_spider_eye
+        X:
+          type: minecraft:suspicious_stew
       configuration: |-
-        |SSS|
-        |SDS|
-        |SSS|
+        |FG |
+        |GXG|
+        | GF|

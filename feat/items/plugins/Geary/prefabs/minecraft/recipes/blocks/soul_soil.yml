@@ -1,0 +1,10 @@
+set.recipes:
+  discoverRecipes: true
+  result:
+    type: SOUL_SOIL
+  group: "looty:soul_soil"
+  recipes:
+    - type: shapeless
+      items:
+        - type: minecraft:soul_sand
+        - type: minecraft:dirt

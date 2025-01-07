@@ -2,13 +2,20 @@ set.recipes:
   discoverRecipes: true
   result:
     type: minecraft:tuff
-    amount: 12
+    amount: 6
   group: "mineinabyss:tuff"
   recipes:
     - type: shaped
       items:
-        S: { type: minecraft:bone }
+        S:
+          type: minecraft:cobblestone
+        D:
+          type: minecraft:cobbled_deepslate
+        I:
+          type: minecraft:raw_iron
+        B:
+          type: minecraft:bone_meal
       configuration: |-
-        |SS |
-        |SS |
-        |   |
+        |BS |
+        |DID|
+        | SB|

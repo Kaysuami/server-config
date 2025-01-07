@@ -72,6 +72,7 @@ swarmhoarder:
     - exp 20-35
     - geary mineinabyss:swarmshocker_charged_powder 1-2 0.6
     - geary mineinabyss:swarmshocker_jelly 1-2 0.6
+    - SOUL_SAND 1 1
   Model:
     Id: swarmshockermid
     ViewRadius: 64
