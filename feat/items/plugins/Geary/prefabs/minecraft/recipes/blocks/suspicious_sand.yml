@@ -8,11 +8,9 @@ set.recipes:
       items:
         S:
           type: minecraft:sand
-        F:
-          type: minecraft:fermented_spider_eye
-        X:
-          type: minecraft:suspicious_stew
+        D:
+          type: minecraft:decorated_pot
       configuration: |-
-        |FS |
-        |SXS|
-        | SF|
+        | S |
+        |SDS|
+        | S |
