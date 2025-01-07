@@ -6,8 +6,7 @@ spiralsquid:
   Damage: 0
   AIGoalSelectors:
     - clear
-    - randomstroll
-    - lookatplayers
+    - fleeplayers
     - randomlookaround
     - movetowater
   AITargetSelectors:

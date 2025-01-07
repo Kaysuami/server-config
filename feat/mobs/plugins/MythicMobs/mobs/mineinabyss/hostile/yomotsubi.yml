@@ -45,3 +45,6 @@ yomotsubi:
     - state{mid=yomotsubi;s=attack} @self ~onAttack
 
     - skill{s=yomotsubi_airball} @target ~onTimer:20
+    - skill{s=yomoAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
+    - skill{s=yomoHurt} @self ~onHurt
+    - skill{s=yomoDeath} @self ~onDeath
