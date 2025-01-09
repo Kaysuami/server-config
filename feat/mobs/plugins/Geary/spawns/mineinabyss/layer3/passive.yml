@@ -5,7 +5,7 @@ l3_passive:
   spread: 7
   ySpread: 1
   conditions:
-   - blockBelow:
+    - blockBelow:
         allow: [ "#stone", "white_concrete", "cobblestone", "diorite", "calcite" ]
     - maxNearby:
         amount: 3
