@@ -657,3 +657,24 @@ emotes:
     ascent: 7
   - id: orthmap
     template: orth_map
+  - id: layer_orth
+    template: layers
+    texture: mineinabyss:ui/layers/layer_orth.png
+  - id: layer_1
+    template: layers
+    texture: mineinabyss:ui/layers/layer_1.png
+  - id: layer_2
+    template: layers
+    texture: mineinabyss:ui/layers/layer_2.png
+  - id: layer_3
+    template: layers
+    texture: mineinabyss:ui/layers/layer_3.png
+  - id: layer_4
+    template: layers
+    texture: mineinabyss:ui/layers/layer_4.png
+  - id: layer_5
+    template: layers
+    texture: mineinabyss:ui/layers/layer_5.png
+  - id: layer_6
+    template: layers
+    texture: mineinabyss:ui/layers/layer_6.png
