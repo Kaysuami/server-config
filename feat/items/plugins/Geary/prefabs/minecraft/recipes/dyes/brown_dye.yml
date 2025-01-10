@@ -1,9 +1,0 @@
-set.recipes:
-  discoverRecipes: true
-  result:
-    type: BROWN_DYE
-  group: "brown_dye"
-  recipes:
-    - type: shapeless
-      items:
-        - prefab: mineinabyss:madokajack_poop

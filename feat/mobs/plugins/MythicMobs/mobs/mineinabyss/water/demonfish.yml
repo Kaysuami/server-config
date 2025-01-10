@@ -26,8 +26,9 @@ demonfish:
     KnockbackResistance: 0.0
     PreventOtherDrops: true
   Drops:
-    - geary mineinabyss:demonfish_raw 1-2 0.6
     - exp 5-15
+    - geary mineinabyss:demonfish_raw 1-2 0.6
+    - prismarine_shard 1-8 0.9
   Model:
     Id: demonfish
     ViewRadius: 64

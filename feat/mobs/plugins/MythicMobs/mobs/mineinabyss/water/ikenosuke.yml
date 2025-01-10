@@ -23,6 +23,7 @@ ikenosuke:
   Drops: # put stuff here
     - exp 5-15
     - geary mineinabyss:ikenosuke_raw 1-2 0.6
+    - prismarine_crystals 1-8 0.9
   Model:
     Id: ikenosuke
 
