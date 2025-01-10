@@ -33,7 +33,6 @@ stinger:
     DamageTint: true
   Drops:
     - exp 5-15
-    - geary mineinabyss:stinger_raw 1 0.5
     - geary mineinabyss:stinger_wing 1 0.5
     - geary mineinabyss:stinger_horn 1 0.2
 
