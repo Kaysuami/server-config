@@ -6,3 +6,5 @@ set.item:
     lore:
       - ":layer_3:"
       - <yellow>Rock hard!
+resourcepack:
+  textures: mineinabyss:item/creature_drops/buroguro_stinger

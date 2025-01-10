@@ -6,3 +6,5 @@ set.item:
     lore:
       - ":layer_3:"
       - <#FFE817>They're still buzzing...
+resourcepack:
+  textures: mineinabyss:item/creature_drops/daikonchu_wing

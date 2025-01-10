@@ -6,3 +6,5 @@ set.item:
     lore:
       - ":layer_3:"
       - <#FFE817>I could totally wear this.
+resourcepack:
+  textures: mineinabyss:item/creature_drops/daikonchu_carapace

@@ -9,6 +9,8 @@ set.item:
     food:
       saturation: 0.6
       nutrition: 1
+resourcepack:
+  textures: mineinabyss:item/food/creatures/yomotsubi_abdomen_cooked
 set.recipes:
   discoverRecipes: true
   recipes:

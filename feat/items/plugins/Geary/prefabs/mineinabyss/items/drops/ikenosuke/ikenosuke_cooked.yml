@@ -20,3 +20,5 @@ set.recipes:
       input: mineinabyss:ikenosuke_raw
       experience: 2
       cookingTime: 50
+resourcepack:
+  textures: mineinabyss:item/food/creatures/ikenosuke_cooked

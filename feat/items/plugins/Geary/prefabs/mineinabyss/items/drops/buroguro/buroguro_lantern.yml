@@ -6,3 +6,5 @@ set.item:
     lore:
       - ":layer_3:"
       - <yellow>Seems to be poisonous, I best not eat it...
+resourcepack:
+  textures: mineinabyss:item/creature_drops/buroguro_lantern
