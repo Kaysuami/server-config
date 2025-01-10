@@ -96,6 +96,7 @@ horncrier:
     MovementSpeed: 0.45
     Silent: true
     PreventSunburn: true
+    PreventOtherDrops: true
   Model:
     Id: horncrier_hard
     ViewRadius: 64

@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:brown_wool
-    itemName: <#BDA55D>Man-toyer Tail
+    itemName: <#BDA55D>Man-toyer Fur
     customModelData: 1
     lore:
       - ":layer_1::layer_4:"

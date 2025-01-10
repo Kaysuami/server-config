@@ -40,9 +40,7 @@ tachikatana:
     - exp 100-250
     - geary mineinabyss:tachikatana_leg 1-2 0.8
     - geary mineinabyss:tachikatana_claw 1-2 0.8
-    - geary mineinabyss:tachikatana_scale 1-2 0.8
-    - prismarine_shard 1-16 0.9
-    - prismarine_crystals 1-16 0.9
+    - geary mineinabyss:tachikatana_scale 1-16 0.8
 
   Skills:
     - skill{s=displayHealth} ~onDamaged

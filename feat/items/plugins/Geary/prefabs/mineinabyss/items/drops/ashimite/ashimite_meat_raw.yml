@@ -6,9 +6,6 @@ set.item:
     lore:
       - ":layer_5:"
       - <#824E21><i>Seems like a great source of food.
-    jukeboxPlayable:
-      song: minecraft:creator
-      showInTooltip: true
     food:
       saturation: 1.8
       nutrition: 3

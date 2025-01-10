@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:leather
     itemName: "<#FFF821>Daikonchu Carapace"
-    customModelData: 2
+    customModelData: 223
     lore:
       - ":layer_3:"
       - <#FFE817>I could totally wear this.
