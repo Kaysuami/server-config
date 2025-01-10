@@ -4,9 +4,7 @@ set.item:
     itemName: "<#2597D9>Cooked Ashimite Meat"
     customModelData: 411
     lore:
-      - <yellow>Can be obtained by hunting down an
-      - <#2597D9>Ashimite <yellow>in the <green>Sea of Corpses
-      - <yellow>and cooking its meat.
+      - ":layer_5:"
       - <#824E21><i>Very tasty and rich in nutrients!
     food:
       nutrition: 8

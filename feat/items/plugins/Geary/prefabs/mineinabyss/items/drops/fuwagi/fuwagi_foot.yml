@@ -4,9 +4,7 @@ set.item:
     itemName: "<#E0E0E0>Fuwagi Foot"
     customModelData: 1
     lore:
-      - <yellow>Dropped from the fast and the curious
-      - <white>Fuwagi <yellow>deep in the <green>Edge of the
-      - <green>Abyss <yellow>and the <green>Forest of Temptation<yellow>.
+      - ":layer_1::layer_2:"
       - <#FF3A24><i>Rumor has it if you have a fuwagi
       - <#FF3A24><i>foot in your inventory, you will
       - <#FF3A24><i>have good luck.

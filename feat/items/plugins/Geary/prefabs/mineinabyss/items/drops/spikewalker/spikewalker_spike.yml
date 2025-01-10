@@ -4,8 +4,8 @@ set.item:
     itemName: <#116AAD>Spikewalker Spike
     customModelData: 2
     lore:
+      - ":layer_5:"
       - <#ED4C4C><i>Large Spike removed
-      - <#ED4C4C><i>from that back of a <#116AAD>Spikewalker
-      - <#ED4C4C><i>I can make something sharp from this....
+      - <#ED4C4C><i>from that back of a <#116AAD>Spikewalker<#ED4C4C>.
 resourcepack:
   textures: mineinabyss:item/creature_drops/spikewalker_spike

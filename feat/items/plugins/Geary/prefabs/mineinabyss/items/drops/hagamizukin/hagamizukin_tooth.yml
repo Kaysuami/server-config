@@ -4,9 +4,8 @@ set.item:
     itemName: <#0B6623>Hagamizukin Tooth
     customModelData: 4
     lore:
-      - <yellow>Can be obtained by finding and
-      - <yellow>killing a <#0B6623>Hagamizukin <yellow>in the
-      - <yellow>waters of the <green>Sea of Corpses<yellow>.
-      - <#A759FF>extremely sharp tooth used to make hard things
+      - ":layer_4::layer_5:"
+      - <#A759FF>Warped and sharp like some of
+      - <#A759FF>the tempestuous abyssal bedrock.
 resourcepack:
   textures: mineinabyss:item/creature_drops/hagamizukin_tooth

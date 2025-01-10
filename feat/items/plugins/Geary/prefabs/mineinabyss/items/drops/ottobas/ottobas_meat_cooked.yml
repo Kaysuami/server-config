@@ -4,8 +4,7 @@ set.item:
     itemName: <#D8D8D8>Cooked Ottobas Meat
     customModelData: 414
     lore:
-      - <yellow>Due to proper preparations, the
-      - <#D4D4D4>Ottobas <yellow>flesh is now edible.
+      - ":layer_2:"
       - <white><i>This should be enough food
       - <white><i>to last for daaaaayyss!!
     food:

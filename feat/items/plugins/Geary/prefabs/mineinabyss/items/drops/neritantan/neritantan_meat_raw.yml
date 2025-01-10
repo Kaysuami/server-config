@@ -4,8 +4,7 @@ set.item:
     itemName: <#BDBDBD>Raw Neritantan Meat
     customModelData: 309
     lore:
-      - <yellow>Dropped from the small and flexible <#EBEBEB>Neritantans
-      - <yellow>found <yellow>deep in the caverns of the <green>Great Fault<yellow>.
+      - ":layer_2::layer_3:"
       - <white><i>Very tasty as they mostly eat <#B82DEB><i>Baracocha fruit.
       - <white><i>Do not get in between a Neritantan and a Baracocha fruit!
     food:

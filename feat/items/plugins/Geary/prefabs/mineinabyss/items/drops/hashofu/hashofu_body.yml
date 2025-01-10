@@ -4,10 +4,8 @@ set.item:
     itemName: <#454545>Hashofu Body
     customModelData: 1
     lore:
-      - <yellow>Obtained by slaughtering a <#616161>Hashofu <yellow>in
-      - <yellow>the <green>Goblets of Giants <yellow>and <green>Sea of Corpses<yellow>.
-      - <#595959><i>Seems useless by itself.
-      - <#595959><i>Perhaps I should look for a vendor?
+      - ":layer_4::layer_5:"
+      - <#595959>I can use this for <i>what</i>?
 disableItemInteractions: {}
 resourcepack:
   textures: mineinabyss:item/creature_drops/hashofu_body

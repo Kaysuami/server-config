@@ -4,6 +4,4 @@ set.item:
     itemName: "<#2597D9>Ashimite Meat Bone"
     customModelData: 0
     lore:
-      - <yellow>Can be obtained by hunting down
-      - <yellow>an <#2597D9>Ashimite <yellow>in the <green>Sea of Corpses<yellow>,
-      - <yellow>and eating its meat.
+      - ":layer_5:"

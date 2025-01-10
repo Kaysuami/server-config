@@ -4,10 +4,9 @@ set.item:
     itemName: <#0B6623>Cooked Hagamizukin
     customModelData: 422
     lore:
-      - <yellow>Can be obtained by finding and
-      - <yellow>catching a <#1B91B5>Hagamizukin <yellow>in the
-      - <yellow>waters of the <green>Sea of Corpses<yellow>.
-      - <#A759FF>Seems like a great source for food!
+      - ":layer_4::layer_5:"
+      - <#A759FF>The meat still feels angry with me,
+      - <#A759FF>but smells good now.
     food:
       saturation: 9.6
       nutrition: 6

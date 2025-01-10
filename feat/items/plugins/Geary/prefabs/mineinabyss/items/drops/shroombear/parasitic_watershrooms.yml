@@ -4,12 +4,8 @@ set.item:
     customModelData: 0
     itemName: <#913188>Parasitic Watershrooms
     lore:
-      - <yellow>Most commonly found growing
-      - <yellow>on <#85562D>Shroombears <yellow>in the
-      - <green>Goblets of Giants<yellow>. <yellow>Sucks the
-      - <yellow>nutrients from the host, releasing
-      - <yellow>them back when host is near death.
-      - <#AB3AA0><i>These are damaged from being killed
-      - <#AB3AA0><i>seems like a source for antidotes and recovery...
+      - ":layer_4:"
+      - <yellow>Sucks nutrients from its host, releasing
+      - <yellow>them back when the host is near death.
 resourcepack:
   textures: mineinabyss:item/creature_drops/parasitic_watershrooms

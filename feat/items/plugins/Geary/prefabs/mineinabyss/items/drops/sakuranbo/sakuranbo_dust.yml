@@ -4,8 +4,7 @@ set.item:
     itemName: <gold>Sakuranbo Dust
     customModelData: 1
     lore:
-      - <yellow>Explosive powder obtained from
-      - <gold>Sakuranbo <yellow>in the <green>Great Fault<yellow>.
-      - <gold><i>Sniffing it is probably a bad idea...
+      - ":layer_3:"
+      - <gold><i>Careful! Ignites easily.
 resourcepack:
   textures: mineinabyss:item/creature_drops/sakuranbo_dust

@@ -1,10 +1,9 @@
 set.item:
   item:
-    type: minecraft:brown_wool
+    type: minecraft:flint
     itemName: <#BDA55D>Man-toyer Horn
     customModelData: 1
     lore:
-      - <yellow>Dropped by <#BDA55D>Man-toyers <yellow>in
-      - <yellow>the <green>Inverted Forest<yellow>.
+      - ":layer_1::layer_4:"
       - <#A68348><i>I could cut myself on these
       - <#A68348><i>if I'm not careful.

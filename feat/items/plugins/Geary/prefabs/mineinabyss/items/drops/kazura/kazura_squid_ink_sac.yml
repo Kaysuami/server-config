@@ -4,10 +4,7 @@ set.item:
     itemName: <#A9CCCA>Kazura Squid Ink Sac
     customModelData: 1
     lore:
-      - <yellow>Obtainable from <white>Kazura Squids,
-      - <yellow>creatures that hatch from eggs at
-      - <yellow>the bottom of the <green>Great Fault
-      - <yellow>and fall into the <green>Goblets of Giants<yellow>.
-      - <#807E78><i>White Sac.
+      - ":layer_4:"
+      - <#807E78>The sac is white, but its ink is black.
 resourcepack:
   textures: mineinabyss:item/creature_drops/kazura_squid_ink_sac

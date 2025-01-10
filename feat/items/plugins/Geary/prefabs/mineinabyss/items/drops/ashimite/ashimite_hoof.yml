@@ -4,8 +4,7 @@ set.item:
     itemName: "<#2597D9>Ashimite Hoof"
     customModelData: 3
     lore:
-      - <yellow>Can be obtained by hunting down an
-      - <#2597D9>Ashimite <yellow>in the <green>Sea of Corpses<yellow>.
+      - ":layer_5:"
       - <#824E21><i>Excellent for starting fires!
 resourcepack:
   textures: mineinabyss:item/creature_drops/ashimite_hoof

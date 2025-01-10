@@ -4,8 +4,7 @@ set.item:
     itemName: <#1C439E>Madokajack Bone
     customModelData: 2
     lore:
-      - <yellow>Dropped by <#2252C2>Madokajacks
-      - <yellow>in the <green>Great Fault<yellow>.
+      - ":layer_3:"
       - <#369AFF><i>Even their bones smell rancid.
 resourcepack:
   textures: mineinabyss:item/creature_drops/madokajack_bone

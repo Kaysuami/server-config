@@ -4,7 +4,7 @@ set.item:
     itemName: <#696112>Spittleshrub Root
     customModelData: 1
     lore:
-      - <yellow>Dropped by various plant-like creatures throughout the <green>Abyss<yellow>.
+      - ":layer_3:"
       - <#A68348><i>This looks like a pretty vital ingredient
       - <#A68348><i>for some plants.
 resourcepack:

@@ -4,9 +4,7 @@ set.item:
     itemName: <#613F0C>Hammerbeak Egg
     customModelData: 1
     lore:
-      - <yellow>Dropped from <#705723>Hammerbeaks <yellow>in
-      - <yellow>the <green>Edge of the Abyss <yellow>or
-      - <yellow>the <green>Forest of Temptation<yellow>.
+      - ":layer_1::layer_2::layer_4:"
       - <yellow>Can be used as a cooking ingredient
       - <yellow>or mischievious acts of tomfoolery.
       - <#A9CCCA><i>Mother Hammerbeak does

@@ -4,6 +4,7 @@ set.item:
     itemName: <#10DEA7>Raw Okibo Meat
     customModelData: 313
     lore:
+      - ":layer_orth::layer_1:"
       - <yellow>Usually found in <green>Orth as a source of
       - <yellow>transportation of goods, <#11E8AF>Okibos
       - <yellow>are also a great source of food

@@ -4,7 +4,7 @@ set.item:
     itemName: <#10DEA7>Cooked Okibo Meat
     customModelData: 413
     lore:
-      - <yellow>Tastes excellent when prepared well.
+      - ":layer_orth::layer_1:"
       - <yellow>There is a ritual in <green>Orth<yellow>, for whenever
       - <yellow>a <dark_gray>Black Whistle <yellow>or <white>White Whistle
       - <yellow>return from their plunge into the <green>Abyss<yellow>.

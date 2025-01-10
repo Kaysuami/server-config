@@ -4,8 +4,7 @@ set.item:
     itemName: <#03AC13>Cooked Stinger Abdomen
     customModelData: 121
     lore:
-      - <yellow>Dropped by <#25D648>Stinger's <yellow>infesting the
-      - <green>Inverted Forest<yellow>and the <green>Sea of Corpses<yellow>.
+      - ":layer_2::layer_4::layer_5:"
       - <#167D2A><i>Tastes pretty bad...
     food:
       saturation: 0.6

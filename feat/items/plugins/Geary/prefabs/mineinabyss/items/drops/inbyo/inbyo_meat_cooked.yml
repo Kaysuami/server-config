@@ -4,12 +4,9 @@ set.item:
     itemName: <#3D3D3D>Cooked Inbyo Meat
     customModelData: 401
     lore:
-      - <yellow>Obtained from slaying an <#636363>Inbyo
-      - <yellow>with fire in the <green>Inverted Forest.
-      - <yellow>Can also be prepared by cooking
-      - <#636363>Raw Inbyo Meat<yellow>.
+      - ":layer_2:"
       - <#B5B5B5><i>Seems more edible now, though
-      - <#B5B5B5><i>is still smells horrid...
+      - <#B5B5B5><i>it still smells horrid...
     food:
       saturation: 12.8
       nutrition: 8

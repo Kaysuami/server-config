@@ -4,9 +4,7 @@ set.item:
     itemName: <#D8D8D8>Raw Ottobas Meat
     customModelData: 314
     lore:
-      - <yellow>Obtained by carving up the
-      - <yellow>massive corpse of an <#D4D4D4>Ottobas
-      - <yellow>in the <green>Forest of Temptation<yellow>.
+      - ":layer_2:"
       - <white><i>A thick layer of fat clings to the meat.
       - <white><i>Cooking it should help making it edible.
     food:

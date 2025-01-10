@@ -4,8 +4,7 @@ set.item:
     itemName: <#3D3D3D>Inbyo Fur
     customModelData: 1
     lore:
-      - <yellow>Aquired by skinning an <#636363>Inbyo
-      - <yellow>in the <green>Inverted Forest<yellow>.
+      - ":layer_2:"
       - <#B5B5B5><i>This stench is nauseating...
 disableItemInteractions: {}
 resourcepack:

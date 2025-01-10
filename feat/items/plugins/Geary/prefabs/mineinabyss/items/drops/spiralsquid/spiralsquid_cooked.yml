@@ -4,10 +4,8 @@ set.item:
     itemName: <#6CE5F5>Cooked Spiralsquid
     customModelData: 418
     lore:
-      - <yellow>Can be obtained by finding and
-      - <yellow>catching a <#6CE5F5>Spiralsquid <yellow>in the
-      - <yellow>waters of the <green>Sea of Corpses<yellow>.
-      - <#35ADBD><i>Seems like a great source for food!
+      - ":layer_1::layer_4:"
+      - <#35ADBD><i>Seems like a great source of food!
     food:
       saturation: 6
       nutrition: 5

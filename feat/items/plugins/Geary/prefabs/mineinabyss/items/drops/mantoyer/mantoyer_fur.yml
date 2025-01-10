@@ -4,6 +4,5 @@ set.item:
     itemName: <#BDA55D>Man-toyer Tail
     customModelData: 1
     lore:
-      - <yellow>Soft fur obtained from <#BDA55D>Man-toyers
-      - <yellow>in the <green>Inverted Forest<yellow>.
-      - <#A68348><i>Thickly furred, and very sturdy...
+      - ":layer_1::layer_4:"
+      - <#A68348>Thickly furred, and very sturdy...

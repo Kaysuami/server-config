@@ -4,9 +4,7 @@ set.item:
     itemName: "<#257BEB>Swarmshocker Charged Powder"
     customModelData: 2
     lore:
-      - <yellow>Can be obtained by finding and
-      - <yellow>catching a <#257BEB>Swarm Shocker <yellow>in the
-      - <yellow>waters of the <green>Sea of Corpses<yellow>.
+      - ":layer_4::layer_5:"
       - <#1B5BAD><i>This stores an impressive amount of energy!
 disableItemInteractions: { }
 resourcepack:

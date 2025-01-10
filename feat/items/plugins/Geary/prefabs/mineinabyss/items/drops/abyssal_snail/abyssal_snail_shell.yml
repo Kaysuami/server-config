@@ -4,8 +4,7 @@ set.item:
     itemName: <#785F34>Abyssal Snail Shell
     customModelData: 1
     lore:
-      - <yellow>Dropped by <#785F34>Abyssal Snails <yellow>in
-      - <yellow>the <green>Sea of Corpses</green>.
+      - ":layer_5:"
       - <#A68348><i>If you put it to your ear, you might hear
       - <#A68348><i>the wailing of the souls lost to the sea.
 resourcepack:

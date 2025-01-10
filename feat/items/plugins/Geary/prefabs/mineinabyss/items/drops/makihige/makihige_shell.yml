@@ -4,12 +4,9 @@ set.item:
     itemName: <#FF771C>Makihige Shell
     customModelData: 1
     lore:
-      - <yellow>Can be obtained from slaughtering an
-      - <yellow>innocent and friendly <#FF9721>Makihige
-      - <yellow>in the <green>Goblets of Giants <yellow>or
-      - <yellow>in the <green>Sea of Corpses<yellow>.
-      - <#5221A6><i>It used to be the home to a
-      - <#5221A6><i>Makihige. Not anymore...
+      - ":layer_4::layer_5:"
+      - <#5221A6>I hope I can make armor from this
+      - <#5221A6>some day. But how?
 disableItemInteractions: {}
 resourcepack:
   textures: mineinabyss:item/creature_drops/makihige_shell

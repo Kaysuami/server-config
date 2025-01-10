@@ -4,9 +4,7 @@ set.item:
     itemName: <#5C7BCAD>Hisomukuro Rib
     customModelData: 4
     lore:
-      - <yellow>Can be obtained by finding
-      - <yellow>a <#5C7BCAD>Hisomukuro <yellow>in the waters
-      - <yellow>of the <green>Sea of Corpses<yellow>.
+      - ":layer_5:"
       - <#524D47><i>Its bony on the outside but
       - <#524D47><i>Metallic on the inside!
       - <#524D47><i>prehaps i can use this to launch something...

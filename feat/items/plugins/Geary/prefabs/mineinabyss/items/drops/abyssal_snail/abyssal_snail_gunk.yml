@@ -4,8 +4,7 @@ set.item:
     itemName: <reset><#785F34>Abyssal Snail Gunk
     customModelData: 1
     lore:
-      - <yellow>Sticky slime dropped by <#785F34>Abyssal Snails
-      - <yellow>in the <green>Sea of Corpses</green>.
+      - ":layer_5:"
       - <#A68348><i>Many delvers feel strangely compelled
       - <#A68348><i>to lick slime such as this. Well, <b>DON'T</b>!
 resourcepack:

@@ -4,11 +4,8 @@ set.item:
     itemName: <#1C439E>Madokajack Poop
     customModelData: 1
     lore:
-      - <yellow>Obtained from <#2252C2>Madokajacks <yellow>in
-      - <yellow>the <green>Great Fault<yellow>. They don't
-      - <yellow>appear to have much of a purpose.
-      - <#369AFF><i>Seems the Madokajack shat itself
-      - <#369AFF><i>before it died. Strangely its
-      - <#369AFF><i>droppings do not smell like feces?!
+      - ":layer_3:"
+      - <#369AFF>Did I scare it so much that
+      - <#369AFF>it pooped itself on death?
 resourcepack:
   textures: mineinabyss:item/creature_drops/madokajack_poop

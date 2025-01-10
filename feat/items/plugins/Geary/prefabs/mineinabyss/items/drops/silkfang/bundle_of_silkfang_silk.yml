@@ -4,10 +4,8 @@ set.item:
     itemName: <#116AAD>Bundle of Silkfang Silk
     customModelData: 1
     lore:
-      - <#1580D1>Silkfangs about to make nests
-      - <yellow>often drop more silk than usual.
-      - <#ED4C4C><i>A large bundle of webbing
-      - <#ED4C4C><i>like this has a lot of potential
-      - <#ED4C4C><i>for traps.
+      - ":layer_1::layer_2:"
+      - <#ED4C4C>Most people don't enjoy getting
+      - <#ED4C4C>stuck in this.
 resourcepack:
   textures: mineinabyss:item/creature_drops/bundle_of_silkfang_silk

@@ -4,10 +4,8 @@ set.item:
     itemName: <#9C0F2C>Stingerhead Scale
     customModelData: 1
     lore:
-      - <yellow>Obtained from slaying
-      - <yellow>a <#9C0F2C>Stingerhead <yellow>found in
-      - <yellow>nests in the <green>Sea of Corpses<yellow>.
-      - <yellow>It is said to be the toughest
+      - ":layer_5:"
+      - <yellow>It is said to be the toughest known
       - <yellow>material in the <green>Abyss<yellow>.
       - <#EB1742><i>Perhaps I can upgrade my
       - <#EB1742><i>armour with this?

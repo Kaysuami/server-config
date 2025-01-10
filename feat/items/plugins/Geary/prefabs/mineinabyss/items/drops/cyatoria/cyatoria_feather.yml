@@ -4,9 +4,7 @@ set.item:
     itemName: "<#3DDFFF>Cyatoria Feather"
     customModelData: 2
     lore:
-      - <yellow>Dropped by <#3DDFFF>Cyatoria <yellow>at
-      - <yellow>the <green>Edge of the Abyss
-      - <yellow>and in <green>Forest of Temptation<yellow>.
+      - ":layer_1::layer_2:"
       - <#54FFA4><i>It resembles the feathers
       - <#54FFA4><i>of a <#3DDFFF>Sakawatari<#54FFA4><i>...
 resourcepack:

@@ -4,10 +4,8 @@ set.item:
     itemName: <#1C439E>Madokajack Scales
     customModelData: 1
     lore:
-      - <yellow>Dropped by <#2252C2>Madokajacks <yellow>in
-      - <yellow>the <green>Great Fault<yellow>. They don't
-      - <yellow>appear to have much of a purpose.
-      - <#369AFF><i>Though hard, these scales are
-      - <#369AFF><i>slimy and smell of feces?!
+      - ":layer_3:"
+      - <#369AFF>Though hard, these scales are
+      - <#369AFF>slimy and smell of feces!?
 resourcepack:
   textures: mineinabyss:item/creature_drops/madokajack_scales

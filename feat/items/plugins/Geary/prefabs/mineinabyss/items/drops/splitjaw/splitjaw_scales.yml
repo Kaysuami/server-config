@@ -4,9 +4,7 @@ set.item:
     itemName: <#9A1CAD>Splitjaw Scales
     customModelData: 1
     lore:
-      - <yellow>Occasionally dropped by <#B321C9>Splitjaws
-      - <reset><yellow>in the <green>Forest of Temptation
-      - <reset><yellow>and the <green>Great Fault<yellow>.
+      - ":layer_1::layer_2::layer_3:"
       - <reset><light_purple><i>Can be used to
       - <reset><light_purple><i>make certain blocks.
 resourcepack:

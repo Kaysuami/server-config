@@ -4,6 +4,5 @@ set.item:
     itemName: <#ADD8E6>Buroguro Stinger
     customModelData: 1
     lore:
-      - <yellow>Dropped by <#0357AB>Billabonks <yellow>in
-      - <yellow>the <green>Forest of Temptation<yellow>.
-      - <yellow>Seems to be poisonous, I best not eat it...
+      - ":layer_3:"
+      - <yellow>Rock hard!

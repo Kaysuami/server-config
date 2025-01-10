@@ -4,6 +4,5 @@ set.item:
     itemName: <#ADD8E6>Buroguro Lantern
     customModelData: 1
     lore:
-      - <yellow>Dropped by <#0357AB>Buroguro <yellow>in
-      - <yellow>the <green>Forest of Temptation<yellow>.
+      - ":layer_3:"
       - <yellow>Seems to be poisonous, I best not eat it...

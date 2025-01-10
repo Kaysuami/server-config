@@ -4,9 +4,8 @@ set.item:
     itemName: <#9A1CAD>Horncrier Horn
     customModelData: 1
     lore:
-      - <yellow>Dropped by <#9A1CAD>Woodcrier <yellow>in
-      - <yellow>the plains of the <green>Sea of Corpses<yellow>.
-      - <#A68348><i>Its hard and solid...
-      - <#A68348><i>I can build structures with this.
+      - ":layer_4::layer_5:"
+      - <#A68348>These colors are unlike anything
+      - <#A68348>I've encountered before.
 resourcepack:
   textures: mineinabyss:item/creature_drops/horncrier_horn
