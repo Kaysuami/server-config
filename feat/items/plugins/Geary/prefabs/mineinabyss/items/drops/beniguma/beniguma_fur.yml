@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:black_wool
     itemName: "<red>Beniguma Fur"
-    customModelData: 0
+    customModelData: 226
     lore:
       - ":layer_1:"
       - <yellow>This used to be a cute fox-like creature...
