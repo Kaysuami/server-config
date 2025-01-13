@@ -10,7 +10,11 @@ l1_passive:
     - maxNearby:
         amount: 4
 
-l1_beniguma: { inherit: l1_passive, type: mm:beniguma }
+l1_beniguma:
+  inherit: l1_passive
+  type: mm:beniguma
+  priority: 0.75
+
 l1_fuwagi: { inherit: l1_passive, type: mm:fuwagi }
 l1_okibo:
   inherit: l1_passive

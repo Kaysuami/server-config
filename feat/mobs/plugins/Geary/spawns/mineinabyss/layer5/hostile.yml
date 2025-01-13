@@ -71,7 +71,7 @@ l5_swarmhoarder:
 l5_tachikatana:
   inherit: l5_hostile
   type: mm:tachikatana
-  chance: 0.1
+  chance: 0.05
   priority: 0.5
   conditions:
     - $inherit

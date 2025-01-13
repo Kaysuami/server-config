@@ -2,11 +2,18 @@ l1_flying:
   position: AIR
   regions: [ layerone ]
   conditions:
-    - gap: 5..600
+    - gap: 10..600
     - maxNearby:
         amount: 3
 
 l1_hammerbeak: { inherit: l1_flying, type: mm:hammerbeak }
 l1_cyatoria: { inherit: l1_flying, type: mm:cyatoria }
-l1_hammerbeakLarge: { inherit: l1_flying, type: mm:hammerbeakLarge, priority: 0.2 }
+l1_hammerbeakLarge:
+  inherit: l1_flying
+  type: mm:hammerbeakLarge
+  priority: 0.2
+  conditions:
+    - gap: 10..600
+    - maxNearby:
+        amount: 1
 l1_splitjaw: { inherit: l1_flying, type: mm:splitjaw, priority: 0.05 }

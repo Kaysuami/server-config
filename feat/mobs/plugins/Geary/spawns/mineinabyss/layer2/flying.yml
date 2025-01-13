@@ -13,6 +13,13 @@ l2_dosetori: { inherit: l2_flying, type: mm:dosetori }
 
 # Uncommon
 l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.5 }
-l2_hammerbeakLarge: { inherit: l2_flying, type: mm:hammerbeakLarge, priority: 0.25 }
+l2_hammerbeakLarge:
+  inherit: l2_flying
+  type: mm:hammerbeakLarge
+  priority: 0.25
+  conditions:
+    - gap: 10..600
+    - maxNearby:
+        amount: 2
 # Rare
 l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.1 }

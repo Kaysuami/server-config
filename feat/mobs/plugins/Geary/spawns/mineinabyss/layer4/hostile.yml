@@ -17,8 +17,13 @@ l4_kuongatari:
     - $remove blockBelow
     - blockBelow:
         allow: [ "#dirt", "#moss_blocks", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
-l4_horncrier: { inherit: l4_hostile, type: mm:horncrier }
+
 l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker }
+
+l4_horncrier:
+  inherit: l4_hostile
+  priority: 0.6
+  type: mm:horncrier
 
 l4_orbpiercer:
   inherit: l4_hostile
@@ -28,6 +33,8 @@ l4_orbpiercer:
   conditions:
     - $inherit
     - $remove maxNearby
+    - maxNearby:
+        amount: 2
     - mythicConditions:
         - lightlevelfromblocks{l=<12}
 
@@ -41,6 +48,6 @@ l4_tachikatana:
     - $inherit
     - $remove maxNearby
     - maxNearby:
-        amount: 2
+        amount: 1
 
 
