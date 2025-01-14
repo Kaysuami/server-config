@@ -12,10 +12,41 @@ background_cogs:
     - gamemode{gm=survival,adventure} true hide
     - placeholder{ph=%hmccosmetics_wardrobe-enabled%} false hide
   layers:
+    padding_1:
+      texture:
+        path: assets/mineinabyss/main_background_cogs.png
+      color: "#FFFFFF"
+      offset:
+        x: 0
+        y: -10000
+    padding_2:
+      texture:
+        path: assets/mineinabyss/main_background_cogs.png
+      color: "#FFFFFF"
+      offset:
+        x: 0
+        y: -10000
+    padding_3:
+      texture:
+        path: assets/mineinabyss/main_background_cogs.png
+      color: "#FFFFFF"
+      offset:
+        x: 0
+        y: -10000
+    padding_4:
+      texture:
+        path: assets/mineinabyss/main_background_cogs.png
+      color: "#FFFFFF"
+      offset:
+        x: 0
+        y: -10000
     icon:
       texture:
         path: assets/mineinabyss/main_background_cogs.png
       color: "#FFFFFF"
+      offset:
+        x: 0
+        y: 0
 armor_air_background:
   conditions:
     - gamemode{gm=survival,adventure} true hide
