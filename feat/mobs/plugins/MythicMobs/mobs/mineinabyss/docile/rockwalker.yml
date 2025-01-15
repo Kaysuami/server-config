@@ -30,7 +30,7 @@ rockwalker:
     DamageTint: true
   Drops:
     - exp 10-15
-    - geary mineinabyss:rockwalker_mandible 1-2 0.8
+    - geary mineinabyss:rockwalker_mandible 1-4 0.8
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
