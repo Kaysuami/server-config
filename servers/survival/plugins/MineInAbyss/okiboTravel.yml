@@ -5,861 +5,241 @@ okiboStations:
       x: -617.0
       y: 147.0
       z: -68.0
-    subStations: []
+    iconHitboxOffset: -0.01,1.19,-0.16
   - name: GuildHQ
     location:
       world: world
       x: -121.0
       y: 130.0
       z: -571.0
-    subStations: []
+    iconHitboxOffset: -0.01,1.26,0.24
   - name: TowerDistrict
     location:
       world: world
       x: 422.0
       y: 136.0
       z: -345.0
-    subStations: []
+    iconHitboxOffset: -0.01,1.05,0.35
   - name: DocksEast
     location:
       world: world
       x: 1010.0
       y: 32.0
       z: -405.0
-    subStations: []
+    iconHitboxOffset: -0.01,0.8,0.65
   - name: VillageDistrict
     location:
       world: world
       x: 580.0
       y: 128.0
       z: 130.0
-    subStations: []
+    iconHitboxOffset: -0.01,0.85,0.26
   - name: CliffDistrict
     location:
       world: world
       x: 422.0
       y: 128.0
       z: 450.0
-    subStations: []
+    iconHitboxOffset: -0.01,0.7,0.1
   - name: SlumDistrict
     location:
       world: world
       x: -67.0
       y: 131.0
       z: 647.0
-    subStations: []
+    iconHitboxOffset: -0.01,0.9,-0.33
   - name: DocksWest
     location:
       world: world
       x: -985.0
       y: 34.0
       z: 665.0
-    subStations: []
+    iconHitboxOffset: -0.01,1.15,-0.66
   - name: Orphanage
     location:
       world: world
       x: -643.0
       y: 145.0
       z: 177.0
-    subStations: []
+    iconHitboxOffset: -0.01,1.19,-0.33
 okiboMaps:
   - station: GoldenBridge
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      yaw: 0.0
-    offset:
-      x: 5.76
-      y: 0.95
-      z: 0.4
+      offset: 1,0.0,0.5
+      yaw: 180.0
+    offset: 5.76,0.95,-0.6
     yaw: 90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: GuildHQ
-        offset:
-          x: -0.01
-          y: 1.26
-          z: 0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: -0.01
-          y: 1.05
-          z: 0.35
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: -0.01
-          y: 0.8
-          z: 0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: -0.01
-          y: 0.85
-          z: 0.26
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: -0.01
-          y: 0.7
-          z: 0.1
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: -0.01
-          y: 0.9
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: -0.01
-          y: 1.15
-          z: -0.66
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: -0.01
-          y: 1.19
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - GuildHQ
+      - TowerDistrict
+      - DocksEast
+      - VillageDistrict
+      - CliffDistrict
+      - SlumDistrict
+      - DocksWest
+      - Orphanage
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.0,-0.08,0.01
   - station: GuildHQ
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
+      offset: 0.0,0.0,0.0
       yaw: 0.0
-    offset:
-      x: -5.6
-      y: 0.9
-      z: 0.25
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    offset: -5.6,0.9,0.25
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: TowerDistrict
-        offset:
-          x: 0.35
-          y: 1.05
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: 0.65
-          y: 0.8
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: 0.26
-          y: 0.85
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: 0.1
-          y: 0.7
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: -0.33
-          y: 0.9
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: -0.66
-          y: 1.15
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: -0.33
-          y: 1.19
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: -0.16
-          y: 1.19
-          z: 0.03
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - TowerDistrict
+      - DocksEast
+      - VillageDistrict
+      - CliffDistrict
+      - SlumDistrict
+      - DocksWest
+      - Orphanage
+      - GoldenBridge
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.0,-0.08,0.01
   - station: TowerDistrict
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
+      offset: -1.0,0.0,0.0
       yaw: 0.0
-    offset:
-      x: -5.76
-      y: 0.95
-      z: -1.41
+    offset: -6.76,0.95,-1.41
     yaw: -90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: DocksEast
-        offset:
-          x: 0.01
-          y: 0.8
-          z: 0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: 0.01
-          y: 0.85
-          z: 0.26
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: 0.01
-          y: 0.7
-          z: 0.1
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: 0.01
-          y: 0.9
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: 0.01
-          y: 1.15
-          z: -0.66
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: 0.01
-          y: 1.19
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: 0.01
-          y: 1.19
-          z: -0.16
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: 0.01
-          y: 1.26
-          z: 0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - DocksEast
+      - VillageDistrict
+      - CliffDistrict
+      - SlumDistrict
+      - DocksWest
+      - Orphanage
+      - GoldenBridge
+      - GuildHQ
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.1,-0.08,0.01
   - station: DocksEast
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      yaw: 0.0
-    offset:
-      x: -0.42
-      y: 0.95
-      z: 3.8
+      offset: 0.0,0.0,1.0
+      yaw: -90.0
+    offset: -1.42,0.95,2.8
     yaw: 180.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: VillageDistrict
-        offset:
-          x: -0.26
-          y: 0.85
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: -0.1
-          y: 0.7
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: 0.33
-          y: 0.9
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: 0.66
-          y: 1.15
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: 0.33
-          y: 1.19
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: 0.16
-          y: 1.19
-          z: 0.03
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: -0.24
-          y: 1.26
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: -0.35
-          y: 1.05
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - VillageDistrict
+      - CliffDistrict
+      - SlumDistrict
+      - DocksWest
+      - Orphanage
+      - GoldenBridge
+      - GuildHQ
+      - TowerDistrict
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: -0.01
+      offset: 0.0,-0.08,-0.01
   - station: VillageDistrict
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      yaw: 0.0
-    offset:
-      x: 2.8
-      y: 0.95
-      z: 1.3
+      offset: 1.0,0.0,0.0
+      yaw: 180.0
+    offset: 2.8,0.95,1.3
     yaw: 90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: CliffDistrict
-        offset:
-          x: -0.01
-          y: 0.7
-          z: 0.1
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: -0.01
-          y: 0.9
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: -0.01
-          y: 1.15
-          z: -0.66
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: -0.01
-          y: 1.19
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: -0.01
-          y: 1.19
-          z: -0.16
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: -0.01
-          y: 1.26
-          z: 0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: -0.01
-          y: 1.05
-          z: 0.35
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: -0.01
-          y: 0.8
-          z: 0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - CliffDistrict
+      - SlumDistrict
+      - DocksWest
+      - Orphanage
+      - GoldenBridge
+      - GuildHQ
+      - TowerDistrict
+      - DocksEast
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.0,-0.08,0.01
   - station: CliffDistrict
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      yaw: 0.0
-    offset:
-      x: 4.76
-      y: 0.95
-      z: 2.4
+      offset: 1.0,0.0,0.0
+      yaw: 180.0
+    offset: 4.76,0.95,2.4
     yaw: 90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: SlumDistrict
-        offset:
-          x: -0.01
-          y: 0.9
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: -0.01
-          y: 1.15
-          z: -0.66
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: -0.01
-          y: 1.19
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: -0.01
-          y: 1.19
-          z: -0.16
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: -0.01
-          y: 1.26
-          z: 0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: -0.01
-          y: 1.05
-          z: 0.35
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: -0.01
-          y: 0.8
-          z: 0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: -0.01
-          y: 0.85
-          z: 0.26
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - SlumDistrict
+      - DocksWest
+      - Orphanage
+      - GoldenBridge
+      - GuildHQ
+      - TowerDistrict
+      - DocksEast
+      - VillageDistrict
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.0,-0.08,0.01
   - station: SlumDistrict
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
+      offset: -1.0,0.0,0.0
       yaw: 0.0
-    offset:
-      x: -4.76
-      y: 0.95
-      z: 0.6
+    offset: -5.76,0.95,0.6
     yaw: -90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: DocksWest
-        offset:
-          x: 0.01
-          y: 1.15
-          z: 0.66
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: 0.01
-          y: 1.19
-          z: 0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: 0.01
-          y: 1.19
-          z: 0.16
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: 0.01
-          y: 1.26
-          z: -0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: 0.01
-          y: 1.05
-          z: -0.35
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: 0.01
-          y: 0.8
-          z: -0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: 0.01
-          y: 0.85
-          z: -0.26
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: 0.01
-          y: 0.7
-          z: -0.1
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - DocksWest
+      - Orphanage
+      - GoldenBridge
+      - GuildHQ
+      - TowerDistrict
+      - DocksEast
+      - VillageDistrict
+      - CliffDistrict
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.1,-0.08,0.0
   - station: DocksWest
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
+      offset: -1.0,0.0,0.0
       yaw: 0.0
-    offset:
-      x: -6.76
-      y: 0.95
-      z: -2.4
+    offset: -7.76,0.95,-2.4
     yaw: -90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: Orphanage
-        offset:
-          x: 0.01
-          y: 1.19
-          z: 0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GoldenBridge
-        offset:
-          x: 0.01
-          y: 1.19
-          z: 0.16
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: 0.01
-          y: 1.26
-          z: -0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: 0.01
-          y: 1.05
-          z: -0.35
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: 0.01
-          y: 0.8
-          z: -0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: 0.01
-          y: 0.85
-          z: -0.26
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: 0.01
-          y: 0.7
-          z: -0.1
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: 0.01
-          y: 0.9
-          z: 0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: Orphanage
-        offset:
-          x: -0.33
-          y: 1.19
-          z: 0.0
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - Orphanage
+      - GoldenBridge
+      - GuildHQ
+      - TowerDistrict
+      - DocksEast
+      - VillageDistrict
+      - CliffDistrict
+      - SlumDistrict
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
+      offset: 0.05,-0.08,0.00
   - station: Orphanage
     noticeBoardFurniture:
       prefab: mineinabyss:noticeboard_okibo
-      offset:
-        x: 0.0
-        y: 0.0
-        z: 0.0
-      yaw: 0.0
-    offset:
-      x: 3.76
-      y: 0.95
-      z: 4.36
+      offset: 1.0,0.0,0.0
+      yaw: 180.0
+    offset: 3.76,0.95,4.4
     yaw: 90.0
-    scale:
-      x: 1.3
-      y: 1.3
-      z: 1.3
+    scale: 1.3,1.3,1.3
     hitboxes:
-      - destStation: GoldenBridge
-        offset:
-          x: -0.01
-          y: 1.19
-          z: -0.16
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: GuildHQ
-        offset:
-          x: -0.01
-          y: 1.26
-          z: 0.24
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: TowerDistrict
-        offset:
-          x: -0.01
-          y: 1.05
-          z: 0.35
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksEast
-        offset:
-          x: -0.01
-          y: 0.8
-          z: 0.65
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: VillageDistrict
-        offset:
-          x: -0.01
-          y: 0.85
-          z: 0.26
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: CliffDistrict
-        offset:
-          x: -0.01
-          y: 0.7
-          z: 0.1
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: SlumDistrict
-        offset:
-          x: -0.01
-          y: 0.9
-          z: -0.33
-        hitbox:
-          width: 0.15
-          height: 0.15
-      - destStation: DocksWest
-        offset:
-          x: -0.01
-          y: 1.15
-          z: -0.66
-        hitbox:
-          width: 0.15
-          height: 0.15
+      - GoldenBridge
+      - GuildHQ
+      - TowerDistrict
+      - DocksEast
+      - VillageDistrict
+      - CliffDistrict
+      - SlumDistrict
+      - DocksWest
     icon:
       text: ':orthmap_icon:'
-      offset:
-        x: 0.0
-        y: -0.08
-        z: 0.01
-costPerKM: 2.0
+      offset: 0.0,-0.08,0.01
+costPerKM: 0.0

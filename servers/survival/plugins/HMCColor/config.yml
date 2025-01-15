@@ -1,12 +1,12 @@
 # FOR HMCCOSMETICS USERS:
 # Vanilla RP Title: <white>
-# Oraxen Configuration Title: <white><s:-8><g:dye_menu>
+# Nexo Configuration Title: <white><shift:-8><glyph:dye_menu>
 # ItemsAdder Configuration Title: '<white>:img_offset_-8::img_dye_menu:'
 title: ':space_-8::cosmetic_dye_menu:'
 rows: 6
 buttons:
   # Can also be: 
-  # oraxenItem: paintbrush
+  # nexoItem: paintbrush
   # crucibleItem: something
   # itemsadderItem: hmccosmetics:paintbrush
   # prefab: namespace:something
@@ -31,11 +31,11 @@ buttons:
       backwardItem:
         type: minecraft:arrow
         customModelData: 1
-        displayName: Scroll base-colors backwards
+        itemName: Scroll base-colors backwards
       forwardItem:
         type: minecraft:arrow
         customModelData: 2
-        displayName: Scroll base-colors forward
+        itemName: Scroll base-colors forward
     # baseColorItem can be specified, null defaults to Buttons.item
     baseColorItem: null
   subColorGrid:
@@ -58,22 +58,21 @@ buttons:
     subColorItem: null
   effectButton: 31
 blacklistedItems:
-  oraxenItems: []
+  nexoItems:
+    - banned_nexo_id
   crucibleItems: []
   itemsadderItems: []
   gearyItems: []
   types: []
 enableEffectsMenu: true
 # Can also be: 
-# oraxenItem: something
+# nexoItem: something
 # crucibleItem: something
 # itemsadderItem: hmccosmetics:something
 # prefab: namespace:something
 effectItem:
   type: minecraft:paper
   customModelData: 1
-  displayName: <gold>E</gold><#ffb107>f</#ffb107><#ffb80e>f</#ffb80e><#ffbf15>e</#ffbf15><#ffc61c>c</#ffc61c><#ffcd23>t</#ffcd23><#ffd52b>
-    </#ffd52b><#ffdc32>T</#ffdc32><#ffe339>o</#ffe339><#ffea40>g</#ffea40><#fff147>g</#fff147><#fff84e>l</#fff84e><yellow>e
   color: "#FFFCFC"
 effects:
   space_effect:
