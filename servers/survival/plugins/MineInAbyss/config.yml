@@ -11,6 +11,7 @@ core:
   waterfallMoveMultiplier: 0.15
   bubbleColumnDamageMultiplier: 2.0
   bubbleColumnBreathMultiplier: 2
+  serverLinks: []
 cosmetics:
   enabled: true
   equipWhistleCosmetic: false

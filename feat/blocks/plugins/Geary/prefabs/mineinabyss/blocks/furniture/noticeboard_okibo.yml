@@ -20,7 +20,9 @@ blocky:furniture:
       z: 2.5
   rotationType: VERY_STRICT
   interactionHitbox:
-    - width: 2
+    - offset:
+        y: 2.0
+      width: 2
       height: 0.5
 blocky:drops:
   drops:

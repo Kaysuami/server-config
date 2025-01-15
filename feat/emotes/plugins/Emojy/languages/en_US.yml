@@ -1,159 +1,160 @@
-mineinabyss.tutorial.start.1: >
-  <yellow>Welcome to <bold><gradient:#ff7043:#ffca28:#ff7043>Mine in Abyss<!bold><yellow>!
-  
+mineinabyss.tutorial.start.1: '<yellow>Welcome to <bold><gradient:#ff7043:#ffca28:#ff7043>Mine
+  in Abyss<!bold><yellow>!
+
   <#FBFB98>Please, follow the tutorial.
 
-mineinabyss.tutorial.start.2: >
-  <#FBFB98>The tutorial leads
-  
+  '
+mineinabyss.tutorial.start.2: '<#FBFB98>The tutorial leads
+
   to the <yellow><bold>Abyss<!bold><#FBFB98> -->
 
-mineinabyss.tutorial.climb.1: >
-  <#44CCCC>You can <aqua><bold>climb walls<!bold></aqua> on this server.
+  '
+mineinabyss.tutorial.climb.1: '<#44CCCC>You can <aqua><bold>climb walls<!bold></aqua>
+  on this server.
 
   Stand against the wall,
-  
+
   look at it, and hold right-click.
 
-mineinabyss.tutorial.climb.2: >
-  <#44CCCC>Who needs block pillars
+  '
+mineinabyss.tutorial.climb.2: '<#44CCCC>Who needs block pillars
 
   if you can simply climb up? :siggy:
 
-mineinabyss.tutorial.climb.3: >
-  <blue><bold>Tip:<!bold><#3B3BB0> left-click to
-  
+  '
+mineinabyss.tutorial.climb.3: '<blue><bold>Tip:<!bold><#3B3BB0> left-click to
+
   jump from the wall.
 
-mineinabyss.tutorial.water: >
-  <green><bold>Flowing water<!bold>
-  
+  '
+mineinabyss.tutorial.water: '<green><bold>Flowing water<!bold>
+
   <#3BB23B>damages you.
 
-mineinabyss.tutorial.falling: >
-  <green><bold>Water doesn't
-  
+  '
+mineinabyss.tutorial.falling: '<green><bold>Water doesn''t
+
   cancel fall damage.<!bold>
-  
+
   <#3BB23B>There is no way to
-  
+
   escape fall damage.
 
-mineinabyss.tutorial.rules.1: >
-  <yellow><bold><underlined>Server Rules:</underlined><!bold>
+  '
+mineinabyss.tutorial.rules.1: '<yellow><bold><underlined>Server Rules:</underlined><!bold>
 
   Conduct:
 
-  <#FBFB98>> Don't <#FFCC66>hack</#FFCC66>, <#FFCC66>grief</#FFCC66> or <#FFCC66>steal</#FFCC66>.
+  <#FBFB98>> Don''t <#FFCC66>hack</#FFCC66>, <#FFCC66>grief</#FFCC66> or <#FFCC66>steal</#FFCC66>.
 
-  > Don't <#FFCC66>exploit</#FFCC66> bugs.
-  
+  > Don''t <#FFCC66>exploit</#FFCC66> bugs.
+
     Please, report them on discord.
 
-  > Don't <#FFCC66>spam</#FFCC66> or <#FFCC66>argue</#FFCC66> in chat.
+  > Don''t <#FFCC66>spam</#FFCC66> or <#FFCC66>argue</#FFCC66> in chat.
 
-  > Don't <#FFCC66>bully</#FFCC66> or <#FFCC66>harrass</#FFCC66> other people.
+  > Don''t <#FFCC66>bully</#FFCC66> or <#FFCC66>harrass</#FFCC66> other people.
 
    
 
   <yellow>Other:
 
-  <#FBFB98>> Don't build staircases or elevators
-  
+  <#FBFB98>> Don''t build staircases or elevators
+
     in layer 1, 2 or 3.
 
-  > Don't discuss Made in Abyss past
-  
+  > Don''t discuss Made in Abyss past
+
     season 2 of the anime.
 
    
 
   <yellow>For the complete rules, visit
-  
+
   <italic>www.mineinabyss.com/rules<!italic>
 
-mineinabyss.tutorial.rules.2: >
-  <#44CCCC>Walk through the
-  
+  '
+mineinabyss.tutorial.rules.2: '<#44CCCC>Walk through the
+
   door to <aqua><italic>agree
-  
+
   with the rules<!italic></aqua>
 
   and <aqua><italic><bold>go to the
-  
+
   Abyss...<!bold><!italic></aqua>
 
-mineinabyss.tutorial.bonfire: >
-  <#FBFB98>You can craft <aqua><bold>respawn points<!bold></aqua>
-  
+  '
+mineinabyss.tutorial.bonfire: '<#FBFB98>You can craft <aqua><bold>respawn points<!bold></aqua>
+
   called bonfires.
-  
+
   Look in the <aqua>recipe book in a
-  
+
   crafting table</aqua> for more info.
 
-mineinabyss.tutorial.outside.1: >
-  <#B2B2B2>Do <#7D7D7D><bold>/tutorial<!bold></#7D7D7D> if you want to do the tutorial again.
+  '
+mineinabyss.tutorial.outside.1: '<#B2B2B2>Do <#7D7D7D><bold>/tutorial<!bold></#7D7D7D>
+  if you want to do the tutorial again.
 
-mineinabyss.tutorial.outside.2: >
-  <aqua>Follow this path down
-  
+  '
+mineinabyss.tutorial.outside.2: '<aqua>Follow this path down
+
   into the <blue><bold>Abyss<!bold></blue>...
 
-mineinabyss.tutorial.outside.3: >
-  <#FBFB98>Follow this path up
-  
+  '
+mineinabyss.tutorial.outside.3: '<#FBFB98>Follow this path up
+
   to <gold><bold>Orth<!bold></gold>...
 
-mineinabyss.tutorial.links: >
-  <white>If you have questions,
-  
+  '
+mineinabyss.tutorial.links: '<white>If you have questions,
+
   type <#FFCC66><bold>/wiki<!bold></#FFCC66>.
 
    
-  
+
   <#3B3BB0>Join our community on Discord
-  
+
   with <blue><bold>/discord<!bold></blue>.
 
-mineinabyss.tutorial.emotes: >
-  <green>Emotes can be used by
-  
+  '
+mineinabyss.tutorial.emotes: '<green>Emotes can be used by
+
   typing <dark_green><underlined>:emotename:</underlined> :siggy:
 
   <green>You can find all the emotes
-  
+
   in <dark_green><bold>/emojy list
 
    
 
   <gold>Patreon <yellow>and <gold>Ko-Fi
-  
+
   <yellow>supporters have access
 
   <yellow>to GIFs like <white>:gurawave:
 
-mineinabyss.tutorial.recipes: >
-  <#3BB23B>We have many <green><bold>custom items<!bold></green>
-  
+  '
+mineinabyss.tutorial.recipes: '<#3BB23B>We have many <green><bold>custom items<!bold></green>
+
   and <green><bold>custom recipes<!bold></green>!
-  
+
   To see them, go to your inventory
-  
+
   and click on the <green><italic>Recipe Book<!italic></green>.
 
-mineinabyss.tutorial.end:
-  <dark_aqua>You are on your own now!
-  
+  '
+mineinabyss.tutorial.end: <dark_aqua>You are on your own now!
+
   Find or make your own way...
+mineinabyss.tutorial.guildhq.1: '<#FBFB98>Path to <gold><bold>Orth<!bold></gold>
 
-mineinabyss.tutorial.guildhq.1: >
-  <#FBFB98>Path to <gold><bold>Orth<!bold></gold>
+  '
+mineinabyss.tutorial.guildhq.2: '<aqua>Path to the <blue><bold>Abyss<!bold></blue>
 
-mineinabyss.tutorial.guildhq.2: >
-  <aqua>Path to the <blue><bold>Abyss<!bold></blue>
+  '
+mineinabyss.tutorial.guildhq.3: '<aqua>Path down to the <blue><bold>Abyss<!bold>
 
-mineinabyss.tutorial.guildhq.3: >
-  <aqua>Path down to the <blue><bold>Abyss<!bold>
-
+  '
 mineinabyss.tutorial.cosmetics: <gold><bold>Cosmetics coming soon!
