@@ -1,4 +1,12 @@
 emotes:
+# Logos
+  - id: logo
+    font: minecraft:default
+    texture: mineinabyss:ui/icons/logo/full_logo.png
+    height: 30
+    ascent: 30
+    bitmapWidth: 3
+# Chat emotes
   - id: bonegun
   - id: pog
   - id: bonethink
@@ -120,6 +128,7 @@ emotes:
   - id: skull
   - id: sheesh
   - id: nou
+# Whistles
   - id: bell
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/bell.png
@@ -213,96 +222,217 @@ emotes:
   - id: rabbitw
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/rabbitw.png
-  - id: admin
-    template: role_template
-    texture: mineinabyss:ui/roles/admin.png
-  - id: moderator
-    template: role_template
-    texture: mineinabyss:ui/roles/moderator.png
-  - id: helper
-    template: role_template
-    texture: mineinabyss:ui/roles/helper.png
-  - id: srdeveloper
-    template: role_template
-    texture: mineinabyss:ui/roles/srdev.png
-  - id: developer
-    template: role_template
-    texture: mineinabyss:ui/roles/dev.png
-  - id: jrdeveloper
-    template: role_template
-    texture: mineinabyss:ui/roles/jrdev.png
-  - id: srdesigner
-    template: role_template
-    texture: mineinabyss:ui/roles/srdesigner.png
-  - id: designer
-    template: role_template
-    texture: mineinabyss:ui/roles/designer.png
-  - id: jrdesigner
-    template: role_template
-    texture: mineinabyss:ui/roles/jrdesigner.png
-  - id: srbuilder
-    template: role_template
-    texture: mineinabyss:ui/roles/srbuilder.png
-  - id: buildlead
-    template: role_template
-    texture: mineinabyss:ui/roles/buildlead.png
-  - id: builder
-    template: role_template
-    texture: mineinabyss:ui/roles/builder.png
-  - id: jrbuilder
-    template: role_template
-    texture: mineinabyss:ui/roles/jrbuilder.png
-  - id: patreonplus
-    template: role_template
-    texture: mineinabyss:ui/roles/patreonplus.png
-  - id: patreon
-    template: role_template
-    texture: mineinabyss:ui/roles/patreon.png
-  - id: afk
-    template: role_template
-    texture: mineinabyss:ui/roles/afk.png
-  - id: survival
-    template: role_template
-    texture: mineinabyss:ui/icons/survival.png
-  - id: build
-    template: role_template
-    texture: mineinabyss:ui/icons/build.png
+# Prefixes: server
   - id: adventure
     template: role_template
-    texture: mineinabyss:ui/icons/adventure.png
+    texture: mineinabyss:ui/prefixes/server/adventure.png
+  - id: build
+    template: role_template
+    texture: mineinabyss:ui/prefixes/server/build.png
+  - id: survival
+    template: role_template
+    texture: mineinabyss:ui/prefixes/server/survival.png
   - id: test
     template: role_template
-    texture: mineinabyss:ui/icons/test.png
+    texture: mineinabyss:ui/prefixes/server/test.png
+# Prefixes: chat mode
+  - id: afk
+    template: role_template
+    texture: mineinabyss:ui/prefixes/chat/afk.png
   - id: discord
     template: role_template
-    texture: mineinabyss:ui/icons/discord.png
-  - id: patreonlogo
-    template: role_template
-    texture: mineinabyss:ui/icons/patreonlogo.png
-  - id: party
-    template: role_template
-    texture: mineinabyss:ui/icons/party.png
-  - id: local
-    template: role_template
-    texture: mineinabyss:ui/icons/local.png
+    texture: mineinabyss:ui/prefixes/chat/discord.png
   - id: guildchat
     template: role_template
-    texture: mineinabyss:ui/icons/guildchat.png
+    texture: mineinabyss:ui/prefixes/chat/guildchat.png
+  - id: local
+    template: role_template
+    texture: mineinabyss:ui/prefixes/chat/local.png
+  - id: party
+    template: role_template
+    texture: mineinabyss:ui/prefixes/chat/party.png
+# Prefixes: layer
+  - id: layer_orth
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_orth.png
+  - id: layer_1
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_1.png
+  - id: layer_2
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_2.png
+  - id: layer_3
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_3.png
+  - id: layer_4
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_4.png
+  - id: layer_5
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_5.png
+  - id: layer_6
+    template: role_template
+    texture: mineinabyss:ui/prefixes/layer/layer_6.png
+# Prefix: patreon
+  - id: patreonlogo
+    template: role_template
+    texture: mineinabyss:ui/prefixes/patreonlogo.png
+# Prefixes: staff role
+  - id: admin
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/admin.png
+  - id: builder
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/builder.png
+  - id: buildlead
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/buildlead.png
   - id: communitymanager
     template: role_template
-    texture: mineinabyss:ui/roles/communitymanager.png
-  - id: dev
+    texture: mineinabyss:ui/prefixes/role/communitymanager.png
+  - id: designer
     template: role_template
-    texture: mineinabyss:ui/icons/dev.png
+    texture: mineinabyss:ui/prefixes/role/designer.png
+  - id: developer
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/dev.png
+  - id: helper
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/helper.png
+  - id: jrbuilder
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/jrbuilder.png
+  - id: jrdesigner
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/jrdesigner.png
+  - id: jrdeveloper
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/jrdev.png
+  - id: moderator
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/moderator.png
+  - id: patreon
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/patreon.png
+  - id: patreonplus
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/patreonplus.png
   - id: projectmanager
     template: role_template
-    texture: mineinabyss:ui/roles/projectmanager.png
-  - id: logo
-    font: minecraft:default
-    texture: mineinabyss:ui/icons/logo/full_logo.png
-    height: 30
-    ascent: 30
-    bitmapWidth: 3
+    texture: mineinabyss:ui/prefixes/role/projectmanager.png
+  - id: srbuilder
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/srbuilder.png
+  - id: srdesigner
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/srdesigner.png
+  - id: srdeveloper
+    template: role_template
+    texture: mineinabyss:ui/prefixes/role/srdev.png
+# Player profile: general
+  - id: player_profile_armor_visible
+    font: mineinabyss:playerprofile
+    texture: mineinabyss:ui/player_profiles/player_profile_armor_visible.png
+    height: 224
+    ascent: 15
+  - id: player_profile_patreon_armor_visible
+    font: mineinabyss:playerprofile
+    texture: mineinabyss:ui/player_profiles/player_profile_patreon_armor_visible.png
+    height: 224
+    ascent: 15
+  - id: player_profile_armor_hidden
+    font: mineinabyss:playerprofile
+    texture: mineinabyss:ui/player_profiles/player_profile_armor_hidden.png
+    height: 224
+    ascent: 15
+  - id: player_profile_patreon_armor_hidden
+    font: mineinabyss:playerprofile
+    texture: mineinabyss:ui/player_profiles/player_profile_patreon_armor_hidden.png
+    height: 224
+    ascent: 15
+  - id: orth_background
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/orth_background.png
+  - id: funeral_plaque
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/funeral_plaque.png
+  - id: ancient_ship
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/ancient_ship.png
+  - id: nanachi_hut
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/nanachi_hut.png
+  - id: golden_bridge
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/golden_bridge.png
+  - id: layer2_windmills
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/layer2_windmills.png
+  - id: layer6
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/layer6.png
+  - id: seeker_camp
+    template: playerprofile_background
+    texture: mineinabyss:ui/player_profiles/seeker_camp.png
+# Player profile: staff roles
+  - id: player_profile_rank_admin
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/admin.png
+  - id: player_profile_rank_artist
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/artist.png
+  - id: player_profile_rank_builder
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/builder.png
+  - id: player_profile_rank_buildlead
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/buildlead.png
+  - id: player_profile_rank_communitymanager
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/communitymanager.png
+  - id: player_profile_rank_designer
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/designer.png
+  - id: player_profile_rank_developer
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/dev.png
+  - id: player_profile_rank_helper
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/helper.png
+  - id: player_profile_rank_juniorbuilder
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/jrbuilder.png
+  - id: player_profile_rank_juniordesigner
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/jrdesigner.png
+  - id: player_profile_rank_juniordeveloper
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/jrdev.png
+  - id: player_profile_rank_modeller
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/modeller.png
+  - id: player_profile_rank_moderator
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/moderator.png
+  - id: player_profile_rank_patreon
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/patreon.png
+  - id: player_profile_rank_patreonplus
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/patreonplus.png
+  - id: player_profile_rank_projectmanager
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/projectmanager.png
+  - id: player_profile_rank_seniorbuilder
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/srbuilder.png
+  - id: player_profile_rank_seniordesigner
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/srdesigner.png
+  - id: player_profile_rank_seniordeveloper
+    template: playerprofile
+    texture: mineinabyss:ui/prefixes/role/srdev.png
+# Star compass arrow
   - id: arrow_s
     template: starcompass
     texture: mineinabyss:ui/compass/arrow_s.png
@@ -354,16 +484,7 @@ emotes:
   - id: arrow_null
     template: starcompass
     texture: mineinabyss:ui/compass/arrow_null.png
-  - id: bank_orthcoin
-    font: mineinabyss:orthbanking
-    texture: mineinabyss:ui/orthbanking/orthcoin.png
-    height: 10
-    ascent: -12
-  - id: bank_mittytoken
-    font: mineinabyss:orthbanking
-    texture: mineinabyss:ui/orthbanking/mittytoken.png
-    height: 12
-    ascent: -11
+# Menu: PvP menu
   - id: pvp_menu
     font: mineinabyss:pvp
     texture: mineinabyss:ui/pvp/pvp_menu.png
@@ -374,6 +495,7 @@ emotes:
     texture: mineinabyss:ui/pvp/pvp_menu_toggle.png
     height: 196
     ascent: 23
+# Menu: Guild menu
   - id: guild_main_menu
     template: guilds
     texture: mineinabyss:ui/guilds/menus/guild_main_menu.png
@@ -472,98 +594,7 @@ emotes:
   - id: guild_lookup_members3
     template: guilds
     texture: mineinabyss:ui/guilds/menus/guild_lookup_members3.png
-  - id: player_profile_armor_visible
-    font: mineinabyss:playerprofile
-    texture: mineinabyss:ui/player_profiles/player_profile_armor_visible.png
-    height: 224
-    ascent: 15
-  - id: player_profile_patreon_armor_visible
-    font: mineinabyss:playerprofile
-    texture: mineinabyss:ui/player_profiles/player_profile_patreon_armor_visible.png
-    height: 224
-    ascent: 15
-  - id: player_profile_armor_hidden
-    font: mineinabyss:playerprofile
-    texture: mineinabyss:ui/player_profiles/player_profile_armor_hidden.png
-    height: 224
-    ascent: 15
-  - id: player_profile_patreon_armor_hidden
-    font: mineinabyss:playerprofile
-    texture: mineinabyss:ui/player_profiles/player_profile_patreon_armor_hidden.png
-    height: 224
-    ascent: 15
-  - id: orth_background
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/orth_background.png
-  - id: funeral_plaque
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/funeral_plaque.png
-  - id: ancient_ship
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/ancient_ship.png
-  - id: nanachi_hut
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/nanachi_hut.png
-  - id: golden_bridge
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/golden_bridge.png
-  - id: layer2_windmills
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/layer2_windmills.png
-  - id: layer6
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/layer6.png
-  - id: seeker_camp
-    template: playerprofile_background
-    texture: mineinabyss:ui/player_profiles/seeker_camp.png
-  - id: player_profile_rank_admin
-    template: playerprofile
-    texture: mineinabyss:ui/roles/admin.png
-  - id: player_profile_rank_moderator
-    template: playerprofile
-    texture: mineinabyss:ui/roles/moderator.png
-  - id: player_profile_rank_helper
-    template: playerprofile
-    texture: mineinabyss:ui/roles/helper.png
-  - id: player_profile_rank_seniordeveloper
-    template: playerprofile
-    texture: mineinabyss:ui/roles/srdev.png
-  - id: player_profile_rank_developer
-    template: playerprofile
-    texture: mineinabyss:ui/roles/dev.png
-  - id: player_profile_rank_juniordeveloper
-    template: playerprofile
-    texture: mineinabyss:ui/roles/jrdev.png
-  - id: player_profile_rank_seniordesigner
-    template: playerprofile
-    texture: mineinabyss:ui/roles/srdesigner.png
-  - id: player_profile_rank_designer
-    template: playerprofile
-    texture: mineinabyss:ui/roles/designer.png
-  - id: player_profile_rank_juniordesigner
-    template: playerprofile
-    texture: mineinabyss:ui/roles/jrdesigner.png
-  - id: player_profile_rank_seniorbuilder
-    template: playerprofile
-    texture: mineinabyss:ui/roles/srbuilder.png
-  - id: player_profile_rank_buildlead
-    template: playerprofile
-    texture: mineinabyss:ui/roles/buildlead.png
-  - id: player_profile_rank_builder
-    template: playerprofile
-    texture: mineinabyss:ui/roles/builder.png
-  - id: player_profile_rank_juniorbuilder
-    template: playerprofile
-    texture: mineinabyss:ui/roles/jrbuilder.png
-  - id: player_profile_rank_patreonplus
-    template: playerprofile
-    texture: mineinabyss:ui/roles/patreonplus.png
-  - id: player_profile_rank_patreon
-    template: playerprofile
-    texture: mineinabyss:ui/roles/patreon.png
-  - id: player_profile_rank_communitymanager
-    template: playerprofile
-    texture: mineinabyss:ui/roles/communitymanager.png
+# Menu: Cosmetics menu
   - id: cosmetic_orth_coin
     font: mineinabyss:cosmetics
     texture: mineinabyss:ui/orthbanking/orthcoin.png
@@ -594,6 +625,17 @@ emotes:
     texture: cosmetics:ui/wardrobe_transition.png
     height: 256
     ascent: 50
+# Other
+  - id: bank_orthcoin
+    font: mineinabyss:orthbanking
+    texture: mineinabyss:ui/orthbanking/orthcoin.png
+    height: 10
+    ascent: -12
+  - id: bank_mittytoken
+    font: mineinabyss:orthbanking
+    texture: mineinabyss:ui/orthbanking/mittytoken.png
+    height: 12
+    ascent: -11
   - id: shade_row_1
     template: cosmetic_shade
     ascent: -4
@@ -657,24 +699,3 @@ emotes:
     ascent: 7
   - id: orthmap
     template: orth_map
-  - id: layer_orth
-    template: layers
-    texture: mineinabyss:ui/layers/layer_orth.png
-  - id: layer_1
-    template: layers
-    texture: mineinabyss:ui/layers/layer_1.png
-  - id: layer_2
-    template: layers
-    texture: mineinabyss:ui/layers/layer_2.png
-  - id: layer_3
-    template: layers
-    texture: mineinabyss:ui/layers/layer_3.png
-  - id: layer_4
-    template: layers
-    texture: mineinabyss:ui/layers/layer_4.png
-  - id: layer_5
-    template: layers
-    texture: mineinabyss:ui/layers/layer_5.png
-  - id: layer_6
-    template: layers
-    texture: mineinabyss:ui/layers/layer_6.png
