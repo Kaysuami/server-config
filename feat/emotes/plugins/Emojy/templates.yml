@@ -1,7 +1,7 @@
 role_template:
   font: mineinabyss:roles
-  height: 8
-  ascent: 8
+  height: 7
+  ascent: 7
 starcompass:
   font: mineinabyss:hud
   height: 24
