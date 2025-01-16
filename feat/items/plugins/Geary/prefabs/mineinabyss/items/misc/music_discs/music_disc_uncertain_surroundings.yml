@@ -5,7 +5,7 @@ set.item:
     customModelData: 2103
     rarity: RARE
     jukeboxPlayable:
-      song: mineinabyss:music.custom.layer5.uncertain_surroundings
+      song: mineinabyss:the_lilypad_uncertain_surroundings
       showInTooltip: true
 resourcepack:
   textures: mineinabyss:item/other/music_discs/music_disc_blue
