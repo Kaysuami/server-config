@@ -3,6 +3,7 @@ set.item:
     type: minecraft:paper
     itemName: Music Disc
     customModelData: 2102
+    maxStackSize: 1
     rarity: RARE
     jukeboxPlayable:
       song: mineinabyss:the_lilypad_droplets_lament
