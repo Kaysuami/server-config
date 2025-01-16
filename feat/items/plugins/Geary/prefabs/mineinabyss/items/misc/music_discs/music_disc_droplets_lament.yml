@@ -5,7 +5,7 @@ set.item:
     customModelData: 2102
     rarity: RARE
     jukeboxPlayable:
-      song: mineinabyss:music.layer2.droplets_lament
+      song: mineinabyss:music.custom.layer2.droplets_lament
       showInTooltip: true
 resourcepack:
   textures: mineinabyss:item/other/music_discs/music_disc_lime
