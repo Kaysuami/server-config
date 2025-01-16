@@ -1,3 +1,4 @@
+tutorialEntities:
   - location:
       world: world
       x: -114.5
@@ -25,7 +26,7 @@
   - location:
       world: world
       x: -136.5
-      y: 120.5
+      y: 116.5
       z: -608.0
     text: <lang:mineinabyss.tutorial.climb.3></lang>
   - location:
@@ -43,22 +44,20 @@
   - location:
       world: world
       x: -160.5
-      y: 105.0
-      z: -617.5
-    text: <lang:mineinabyss.tutorial.rules.1></lang>
-    alignment: LEFT
-  - location:
-      world: world
-      x: -160.5
       y: 105.5
       z: -613.5
     text: <lang:mineinabyss.tutorial.rules.2></lang>
   - location:
       world: world
-      x: -162.5
-      y: 119.0
-      z: -560.5
+      x: -161.875
+      y: 118.875
+      z: -561.3125
     text: <lang:mineinabyss.tutorial.bonfire></lang>
+    billboard: FIXED
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
   - location:
       world: world
       x: -160.5
@@ -132,3 +131,15 @@
       y: 141.0
       z: -522.5
     text: <lang:mineinabyss.tutorial.cosmetics></lang>
+start:
+  region:
+    start: -158,118,-565
+    end: -157,121,-564
+  target: -113.5,116,-614.5
+  targetYaw: 45.0
+end:
+  region:
+    start: -162,105,-612
+    end: -163,108,-613
+  target: -161.5,119,-554.5
+  targetYaw: 0.0
