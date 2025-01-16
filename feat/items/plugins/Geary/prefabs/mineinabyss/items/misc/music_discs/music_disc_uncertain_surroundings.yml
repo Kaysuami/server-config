@@ -1,0 +1,11 @@
+set.item:
+  item:
+    type: minecraft:paper
+    itemName: Music Disc
+    customModelData: 2103
+    rarity: RARE
+    jukeboxPlayable:
+      song: mineinabyss:music.layer5.uncertain_surroundings
+      showInTooltip: true
+resourcepack:
+  textures: mineinabyss:item/other/music_discs/music_disc_blue

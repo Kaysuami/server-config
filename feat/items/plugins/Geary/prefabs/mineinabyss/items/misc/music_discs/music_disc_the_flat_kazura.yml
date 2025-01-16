@@ -1,0 +1,11 @@
+set.item:
+  item:
+    type: minecraft:paper
+    itemName: Music Disc
+    customModelData: 2101
+    rarity: RARE
+    jukeboxPlayable:
+      song: mineinabyss:music.layer4.the_flat_kazura
+      showInTooltip: true
+resourcepack:
+  textures: mineinabyss:item/other/music_discs/music_disc_green
