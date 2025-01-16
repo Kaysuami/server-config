@@ -1,12 +1,16 @@
+# Spawn conditions
+
 l5_docile:
   position: GROUND
   regions: [ layerfive ]
   spread: 5
   conditions:
     - blockBelow:
-        allow: [ "#dirt", "#moss_blocks", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite", "obsidian", "coal_block", "black_concrete"]
     - maxNearby:
         amount: 5
+
+# Mob spawns
 
 # stinger,mantoyer
 l5_stinger: { inherit: l5_docile, type: mm:stinger }

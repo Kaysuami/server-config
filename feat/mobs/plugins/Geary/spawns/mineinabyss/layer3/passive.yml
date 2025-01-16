@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l3_passive:
   position: GROUND
   regions: [ layerthree ]
@@ -6,9 +8,11 @@ l3_passive:
   ySpread: 1
   conditions:
     - blockBelow:
-        allow: [ "#stone", "white_concrete", "cobblestone", "diorite", "calcite" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "white_concrete", "calcite" ]
     - maxNearby:
         amount: 3
+
+# Mob spawns
 
 l3_kakatsumuri: { inherit: l3_passive, type: mm:kakatsumuri }
 l3_sakuranbo: { inherit: l3_passive, type: mm:sakuranbo }

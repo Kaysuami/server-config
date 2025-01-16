@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l3_hostile:
   position: GROUND
   regions: [ layerthree ]
@@ -6,7 +8,9 @@ l3_hostile:
     - maxNearby:
         amount: 2
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#dirt", "#terracotta", "#concrete", "#concrete_with_powder", "#moss_blocks" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+
+# Mob spawns
 
 l3_silkfang:
   inherit: l3_hostile

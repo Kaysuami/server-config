@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l4_docile:
   position: GROUND
   regions: [ layerfour ]
@@ -6,9 +8,11 @@ l4_docile:
   ySpread: 1
   conditions:
     - blockBelow:
-        allow: [ "#dirt", "#moss_blocks", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
     - maxNearby:
         amount: 5
+
+# Mob spawns
 
 l4_stinger:
   inherit: l4_docile

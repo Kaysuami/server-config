@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l4_hostile:
   position: GROUND
   regions: [ layerfour ]
@@ -6,8 +8,9 @@ l4_hostile:
     - maxNearby:
         amount: 3
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#dirt", "#terracotta", "#concrete", "#concrete_with_powder", "#moss_blocks" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
 
+# Mob spawns
 
 l4_kuongatari:
   inherit: l4_hostile
@@ -16,7 +19,7 @@ l4_kuongatari:
     - $inherit
     - $remove blockBelow
     - blockBelow:
-        allow: [ "#dirt", "#moss_blocks", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+        allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
 
 l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker }
 

@@ -1,8 +1,12 @@
+# Spawn conditions
+
 l3_flying:
   position: AIR
   regions: [ layerthree ]
   conditions:
     - gap: 10..600
+
+# Mob spawns
 
 # Common
 l3_dosetori: { inherit: l3_flying, type: mm:dosetori }

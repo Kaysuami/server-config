@@ -1,12 +1,16 @@
+# Spawn conditions
+
 l1_vineflowers:
   position: GROUND
   chance: 0.5
   regions: [ layerone ]
   conditions:
     - blockBelow:
-        allow: [ "#dirt", "moss_block" ]
+        allow: [ "#dirt", "moss_carpet" ]
     - maxNearby:
         amount: 2
+
+# Mob spawns
 
 #TODO re-enable when animation gets reworked
 #l1_vinebinder: { inherit: l1_vineflowers, type: mm:vinebinder }

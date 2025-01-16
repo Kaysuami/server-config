@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l1_passive:
   position: GROUND
   regions: [ layerone ]
@@ -6,9 +8,11 @@ l1_passive:
   ySpread: 1
   conditions:
     - blockBelow:
-        allow: [ "#dirt", "#moss_blocks" ]
+        allow: [ "#dirt", "moss_carpet" ]
     - maxNearby:
         amount: 4
+
+# Mob spawns
 
 l1_beniguma:
   inherit: l1_passive

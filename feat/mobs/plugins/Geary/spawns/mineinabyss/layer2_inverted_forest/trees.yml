@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l2s2_trees:
   position: WATER
   regions: [ l2s2 ]
@@ -11,6 +13,7 @@ l2s2_trees:
     - mythicConditions:
         - heightabove{h=110}
 
+# Mob spawns
 
 l2s2_inbyo: { inherit: l2s2_trees, type: mm:inbyo }
 l2s2_stinger: { inherit: l2s2_trees, type: mm:stinger }

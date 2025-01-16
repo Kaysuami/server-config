@@ -1,12 +1,16 @@
+# Spawn conditions
+
 l1_hostile:
   position: GROUND
   regions: [ layerone ]
   spread: 5
   conditions:
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#dirt", "#terracotta", "#concrete", "#concrete_with_powder", "#moss_blocks" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
     - maxNearby:
         amount: 3
+
+# Mob spawns
 
 l1_silkfang:
   inherit: l1_hostile
@@ -23,9 +27,7 @@ l1_mantoyer:
   type: mm:mantoyer
   amount: 2-3
 
-# Uncommon
-
-l1_woodcrier:
+l1_woodcrier: # uncommon spawn
   inherit: l1_hostile
   type: mm:woodcrier
   priority: 0.5

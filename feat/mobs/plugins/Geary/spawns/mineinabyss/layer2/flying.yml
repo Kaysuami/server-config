@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l2_flying:
   position: AIR
   regions: [ layertwo ]
@@ -5,6 +7,8 @@ l2_flying:
     - gap: 10..600
     - maxNearby:
         amount: 3
+
+# Mob spawns
 
 # Common
 l2_hammerbeak: { inherit: l2_flying, type: mm:hammerbeak }

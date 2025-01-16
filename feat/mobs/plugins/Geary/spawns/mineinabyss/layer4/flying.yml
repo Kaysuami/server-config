@@ -1,3 +1,5 @@
+# Spawn conditions
+
 namespaces: [ geary ]
 l4_flying:
   position: AIR
@@ -7,6 +9,7 @@ l4_flying:
     - maxNearby:
         amount: 3
 
+# Mob spawns
 
 # Common
 l4_onitsuchi: { inherit: l4_flying, type: mm:onitsuchi }

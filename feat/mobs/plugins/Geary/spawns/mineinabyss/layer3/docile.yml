@@ -1,12 +1,16 @@
+# Spawn conditions
+
 l3_docile:
   position: GROUND
   spread: 5
   regions: [ layerthree ]
   conditions:
     - blockBelow:
-        allow: [ "#dirt", "#moss_blocks", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite", "obsidian", "coal_block", "black_concrete" ]
     - maxNearby:
         amount: 5
+
+# Mob spawns
 
 l3_spittleshrub: { inherit: l3_docile, type: mm:spittleshrub }
 l3_buroguro: { inherit: l3_docile, type: mm:buroguro }

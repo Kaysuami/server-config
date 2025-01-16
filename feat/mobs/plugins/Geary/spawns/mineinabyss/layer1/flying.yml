@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l1_flying:
   position: AIR
   regions: [ layerone ]
@@ -5,6 +7,8 @@ l1_flying:
     - gap: 10..600
     - maxNearby:
         amount: 3
+
+# Mob spawns
 
 l1_hammerbeak: { inherit: l1_flying, type: mm:hammerbeak }
 l1_cyatoria: { inherit: l1_flying, type: mm:cyatoria }

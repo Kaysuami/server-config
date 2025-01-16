@@ -1,3 +1,5 @@
+# Spawn conditions
+
 l5_water:
   position: WATER
   regions: [ layerfive ]
@@ -8,6 +10,9 @@ l5_water:
         amount: 5
     - isSourceLiquid: { }
 
+# Mob spawns
+
+# Common
 l5_demonfish: { inherit: l5_water, type: mm:demonfish }
 l5_hagamizukin: { inherit: l5_water, type: mm:hagamizukin }
 

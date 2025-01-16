@@ -1,10 +1,14 @@
+# Spawn conditions
+
 l2_hostile:
   position: GROUND
   regions: [ layertwo ]
   spread: 5
   conditions:
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#dirt", "#terracotta", "#concrete", "#concrete_with_powder", "#moss_blocks" ]
+        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+
+# Mob spawns
 
 l2_ottobas:
   inherit: l2_hostile
