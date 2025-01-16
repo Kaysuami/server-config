@@ -6,7 +6,7 @@ l3_docile:
   regions: [ layerthree ]
   conditions:
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite", "obsidian", "coal_block", "black_concrete" ]
+        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite", "obsidian", "coal_block", "black_concrete" ]
     - maxNearby:
         amount: 5
 

@@ -8,7 +8,7 @@ l4_docile:
   ySpread: 1
   conditions:
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
     - maxNearby:
         amount: 5
 

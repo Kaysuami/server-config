@@ -8,7 +8,7 @@ l3_passive:
   ySpread: 1
   conditions:
     - blockBelow:
-        allow: [ "#base_stone_overworld", "#stone_crafting_materials", "white_concrete", "calcite" ]
+        allow: [ "#base_stone_overworld", "cobblestone", "white_concrete", "calcite" ]
     - maxNearby:
         amount: 3
 
