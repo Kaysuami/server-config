@@ -20,9 +20,8 @@ range:
   defaultNearbyRange: 128.0
 # How often should each spawn category, attempt spawns. The higher a value, the more time between spawn attempts.
 runTimes:
-  GROUND: 5t
-  WATER: 10t
-  # Air mobs are far more likely to spawn because so many air positions are valid, don't run as often
+  GROUND: 250ms
+  WATER: 500ms
   AIR: 20s
 # How many times to try and find a valid spawn position around a player before giving up.
 maxSpawnAttemptsPerPlayer: 10
