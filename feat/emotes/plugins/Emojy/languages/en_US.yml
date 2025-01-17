@@ -9,11 +9,17 @@ mineinabyss.tutorial.start.2: >
   to the <yellow><bold>Abyss<!bold><#FBFB98> -->
 
 mineinabyss.tutorial.climb.1: >
-  <#44CCCC>You can <aqua><bold>climb walls<!bold></aqua> on this server.
+  <#44CCCC>You can <aqua><bold>climb walls<!bold></aqua>:
 
-  Stand against the wall,
+   
+
+  - stand against the wall,
   
-  look at it, and hold right-click.
+  - look at it,
+  
+  - hold <aqua><italic>right-click<!italic></aqua>,
+
+  - press <aqua><italic>space<!italic></aqua> to go up.
 
 mineinabyss.tutorial.climb.2: >
   <#44CCCC>Who needs block pillars

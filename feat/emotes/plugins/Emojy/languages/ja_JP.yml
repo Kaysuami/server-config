@@ -7,11 +7,17 @@ mineinabyss.tutorial.start.2: >
   <#FBFB98>道は<yellow><bold>アビス<!bold><#FBFB98>へと続いています。 -->
 
 mineinabyss.tutorial.climb.1: >
-  <#44CCCC>このサーバーでは<aqua><bold>壁を登る<!bold></aqua>ことができる。
+  <#44CCCC><aqua><bold>壁を登る<!bold></aqua>ことができる。
   
-  壁に向かって立ち、
+   
   
-  壁を見て右クリックを押し続けます。
+  - 壁に向かって立ち、
+
+  - 壁を見て、
+
+  - <aqua>右クリック</aqua>したまま、
+
+  - <aqua>スペース</aqua>を押して上へ移動します。
 
 mineinabyss.tutorial.climb.2: >
   <#44CCCC>登るだけなら、ブロックの柱なんて

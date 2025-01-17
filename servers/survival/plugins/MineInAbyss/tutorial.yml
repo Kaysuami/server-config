@@ -72,16 +72,34 @@ tutorialEntities:
       w: 0.20791149
   - location:
       world: world
-      x: -132.5
+      x: -133
       y: 110.5
-      z: -606.5
+      z: -606
     text: <lang:mineinabyss.tutorial.climb.1></lang>
+    alignment: LEFT
   - location:
       world: world
       x: -139.5
       y: 116.0
       z: -605.5
     text: <lang:mineinabyss.tutorial.climb.2></lang>
+  - location:
+      world: world
+      x: -160.5
+      y: 105
+      z: -617.5
+    text: <lang:mineinabyss.tutorial.rules.1></lang>
+    alignment: LEFT
+    billboard: FIXED
+    scale:
+      x: 0.9999999
+      y: 1.0
+      z: 0.9999999
+    leftRotation:
+      x: 0.0
+      y: 0.6
+      z: 0.0
+      w: 0.8
   - location:
       world: world
       x: -160.5

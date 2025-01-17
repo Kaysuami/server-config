@@ -9,13 +9,17 @@ mineinabyss.tutorial.start.2: >
   к <yellow><bold>Бездне<!bold><#FBFB98> -->
 
 mineinabyss.tutorial.climb.1: >
-  <#44CCCC>На сервере можно
-  
-  <aqua><bold>лазать по стенам<!bold></aqua>.
+  <#44CCCC>Вы можете <aqua><bold>лазить по стенам<!bold></aqua>:
 
-  Для этого прижмитесь к стене,
+   
+
+  - Встаньте напротив стены,
+
+  - Смотрите на неё,
+
+  - Зажмите <aqua><italic>правую кнопку мыши<!italic></aqua>,
   
-  смотря на неё, и зажмите ПКМ.
+  - Нажмите <aqua><italic>пробел<!italic></aqua> чтобы лезть наверх.
 
 mineinabyss.tutorial.climb.2: >
   <#44CCCC>Зачем строить столбы,
