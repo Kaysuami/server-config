@@ -19,6 +19,7 @@ l5_passive_snow:
     - $remove blockBelow
     - blockBelow:
         allow: [ "#snow", "#ice" ]
+        deny: [ "packed_ice" ]
 
 # Mob spawns
 

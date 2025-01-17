@@ -17,6 +17,7 @@ l5_hostile_snow:
     - $remove blockBelow
     - blockBelow:
         allow: [ "#snow", "#ice", "diorite", "white_concrete_powder" ]
+        deny: [ "packed_ice" ]
 
 l5_hostile_sand:
   inherit: l5_hostile
