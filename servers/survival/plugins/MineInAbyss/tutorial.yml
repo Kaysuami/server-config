@@ -1,107 +1,6 @@
 tutorialEntities:
   - location:
       world: world
-      x: -114.5
-      y: 116.0
-      z: -611.5
-    text: <lang:mineinabyss.tutorial.start.1></lang>
-  - location:
-      world: world
-      x: -122.5
-      y: 110.5
-      z: -603.5
-    text: <lang:mineinabyss.tutorial.start.2></lang>
-  - location:
-      world: world
-      x: -132.5
-      y: 110.5
-      z: -606.5
-    text: <lang:mineinabyss.tutorial.climb.1></lang>
-  - location:
-      world: world
-      x: -139.5
-      y: 116.0
-      z: -605.5
-    text: <lang:mineinabyss.tutorial.climb.2></lang>
-  - location:
-      world: world
-      x: -136.5
-      y: 116.5
-      z: -608.0
-    text: <lang:mineinabyss.tutorial.climb.3></lang>
-  - location:
-      world: world
-      x: -142.5
-      y: 116.0
-      z: -612.5
-    text: <lang:mineinabyss.tutorial.water></lang>
-  - location:
-      world: world
-      x: -146.5
-      y: 116.0
-      z: -626.5
-    text: <lang:mineinabyss.tutorial.falling></lang>
-  - location:
-      world: world
-      x: -160.5
-      y: 105.5
-      z: -613.5
-    text: <lang:mineinabyss.tutorial.rules.2></lang>
-  - location:
-      world: world
-      x: -161.875
-      y: 118.875
-      z: -561.3125
-    text: <lang:mineinabyss.tutorial.bonfire></lang>
-    billboard: FIXED
-    scale:
-      x: 1.0
-      y: 1.0
-      z: 1.0
-  - location:
-      world: world
-      x: -160.5
-      y: 123.0
-      z: -556.0
-    text: <lang:mineinabyss.tutorial.outside.1></lang>
-  - location:
-      world: world
-      x: -162.0
-      y: 115.5
-      z: -543.0
-    text: <lang:mineinabyss.tutorial.outside.2></lang>
-  - location:
-      world: world
-      x: -152.5
-      y: 120.0
-      z: -547.5
-    text: <lang:mineinabyss.tutorial.outside.3></lang>
-  - location:
-      world: world
-      x: -164.5
-      y: 85.5
-      z: -502.5
-    text: <lang:mineinabyss.tutorial.links></lang>
-  - location:
-      world: world
-      x: -162.0
-      y: 98.5
-      z: -520.0
-    text: <lang:mineinabyss.tutorial.recipes></lang>
-  - location:
-      world: world
-      x: -170.5
-      y: 54.5
-      z: -484.5
-    text: <lang:mineinabyss.tutorial.emotes></lang>
-  - location:
-      world: world
-      x: -183.5
-      y: 52.5
-      z: -473.5
-    text: <lang:mineinabyss.tutorial.end></lang>
-  - location:
-      world: world
       x: -128.5
       y: 136.0
       z: -533.5
@@ -125,12 +24,140 @@ tutorialEntities:
       z: -540.5
     text: <lang:mineinabyss.tutorial.rules.1>
     alignment: LEFT
+    billboard: FIXED
+    scale:
+      x: 0.9999999
+      y: 1.0
+      z: 0.9999999
+    leftRotation:
+      x: 0.0
+      y: 0.43837118
+      z: 0.0
+      w: 0.8987941
   - location:
       world: world
       x: -16.0
       y: 141.0
       z: -522.5
     text: <lang:mineinabyss.tutorial.cosmetics></lang>
+  - location:
+      world: world
+      x: -183.5
+      y: 52.5
+      z: -473.5
+    text: <lang:mineinabyss.tutorial.end></lang>
+  - location:
+      world: world
+      x: -142.5
+      y: 116.0
+      z: -612.5
+    text: <lang:mineinabyss.tutorial.water></lang>
+  - location:
+      world: world
+      x: -114.5
+      y: 116.0
+      z: -611.5
+    text: <lang:mineinabyss.tutorial.start.1></lang>
+  - location:
+      world: world
+      x: -122.625
+      y: 110.0625
+      z: -602.0625
+    text: <lang:mineinabyss.tutorial.start.2></lang>
+    billboard: FIXED
+    leftRotation:
+      x: 0.0
+      y: 0.9781476
+      z: 0.0
+      w: 0.20791149
+  - location:
+      world: world
+      x: -132.5
+      y: 110.5
+      z: -606.5
+    text: <lang:mineinabyss.tutorial.climb.1></lang>
+  - location:
+      world: world
+      x: -139.5
+      y: 116.0
+      z: -605.5
+    text: <lang:mineinabyss.tutorial.climb.2></lang>
+  - location:
+      world: world
+      x: -160.5
+      y: 105.5
+      z: -613.5
+    text: <lang:mineinabyss.tutorial.rules.2></lang>
+  - location:
+      world: world
+      x: -162.0
+      y: 98.5
+      z: -520.0
+    text: <lang:mineinabyss.tutorial.recipes></lang>
+    billboard: FIXED
+    leftRotation:
+      x: 0.0
+      y: 0.819152
+      z: 0.0
+      w: -0.57357645
+  - location:
+      world: world
+      x: -170.5
+      y: 54.5
+      z: -484.5
+    text: <lang:mineinabyss.tutorial.emotes></lang>
+  - location:
+      world: world
+      x: -136.5
+      y: 116.5
+      z: -608.0
+    text: <lang:mineinabyss.tutorial.climb.3></lang>
+    billboard: FIXED
+    scale:
+      x: 1.0000001
+      y: 1.0
+      z: 1.0000001
+    leftRotation:
+      x: 0.0
+      y: -0.09584575
+      z: 0.0
+      w: 0.9953962
+  - location:
+      world: world
+      x: -146.5
+      y: 116.0
+      z: -626.5
+    text: <lang:mineinabyss.tutorial.falling></lang>
+  - location:
+      world: world
+      x: -164.5
+      y: 85.5
+      z: -502.5
+    text: <lang:mineinabyss.tutorial.links></lang>
+  - location:
+      world: world
+      x: -152.5
+      y: 120.0
+      z: -547.5
+    text: <lang:mineinabyss.tutorial.outside.3></lang>
+  - location:
+      world: world
+      x: -162.0
+      y: 115.5
+      z: -543.0
+    text: <lang:mineinabyss.tutorial.outside.2></lang>
+  - location:
+      world: world
+      x: -161.875
+      y: 118.875
+      z: -561.3125
+    text: <lang:mineinabyss.tutorial.bonfire></lang>
+    billboard: FIXED
+    leftRotation:
+      x: 0.0
+      y: 0.26723838
+      z: 0.0
+      w: 0.96363044
 start:
   region:
     start: -158,118,-565
