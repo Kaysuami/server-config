@@ -5,13 +5,14 @@ demonfish:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
+    - randomstroll
     - clear
     - movetowater
     - meleeattack
     - movetowardstarget
     - fleeplayers
     - randomlookaround
-   # - randomfly
+    - randomfly
   AITargetSelectors:
     - clear
     - attacker

@@ -1,16 +1,14 @@
 deerAmbient:
   Cooldown: 0.5
   Skills:
-    - sound{s=entity.cow.ambient;sc=master;p=<random.float.0.8to1.0>;v=<random.float.0.9to1.2>} @self
     - sound{s=entity.horse.breathe;sc=master;p=<random.float.1.1to1.3>;v=<random.float.0.7to1.0>} @self
     - sound{s=block.grass.hit;sc=master;p=<random.float.0.6to0.8>;v=0.6} @self
 
 deerHurt:
   Cooldown: 0.3
   Skills:
-    - sound{s=entity.iron_golem.hurt;sc=master;p=<random.float.0.8to0.9>;v=1.2} @self
-    - sound{s=entity.horse.hurt;sc=master;p=<random.float.1.0to1.2>;v=1.1} @self
-    - sound{s=entity.cow.hurt;sc=master;p=1.0;v=<random.float.1.1to1.3>} @self
+    - sound{s=entity.iron_golem.hurt;sc=master;p=<random.float.0.8to0.9>;v=0.4} @self
+    - sound{s=entity.horse.hurt;sc=master;p=<random.float.1.0to1.2>;v=1.4} @self
     - sound{s=block.grass.place;p=0.7;v=0.9;sc=master;sync=true} @self
     - sound{s=block.wood.place;p=0.8;v=0.7;sc=master;sync=true} @self
 

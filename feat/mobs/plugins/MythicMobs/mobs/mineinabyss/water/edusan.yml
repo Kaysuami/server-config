@@ -6,7 +6,7 @@ edusan:
   Damage: 0
   AIGoalSelectors:
     - clear
-    - movetowater
+    #- movetowater
     - meleeattack
     - movetowardstarget
    # - fleeplayers
