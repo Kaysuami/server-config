@@ -1,114 +1,145 @@
-mineinabyss.tutorial.start.1: '<bold><gradient:#ff7043:#ffca28:#ff7043>マインインアビス<!bold><yellow>へようこそ！
-
+mineinabyss.tutorial.start.1: >
+  <bold><gradient:#ff7043:#ffca28:#ff7043>マインインアビス<!bold><yellow>へようこそ！
+  
   <#FBFB98>チュートリアルに従ってください。
 
-  '
-mineinabyss.tutorial.start.2: '<#FBFB98>道は<yellow><bold>アビス<!bold><#FBFB98>へと続いています。
-  -->
+mineinabyss.tutorial.start.2: >
+  <#FBFB98>道は<yellow><bold>アビス<!bold><#FBFB98>へと続いています。 -->
 
-  '
-mineinabyss.tutorial.climb.1: '<#44CCCC>このサーバーでは<aqua><bold>壁を登る<!bold></aqua>ことができる。
-
+mineinabyss.tutorial.climb.1: >
+  <#44CCCC>このサーバーでは<aqua><bold>壁を登る<!bold></aqua>ことができる。
+  
   壁に向かって立ち、
-
+  
   壁を見て右クリックを押し続けます。
 
-  '
-mineinabyss.tutorial.climb.2: '<#44CCCC>登るだけなら、ブロックの柱なんて
-
+mineinabyss.tutorial.climb.2: >
+  <#44CCCC>登るだけなら、ブロックの柱なんて
+  
   必要ありません！ :siggy:
 
-  '
-mineinabyss.tutorial.climb.3: '<blue><bold>ヒント：<!bold><#3B3BB0> 左クリックすると
-
+mineinabyss.tutorial.climb.3: >
+  <blue><bold>ヒント：<!bold><#3B3BB0> 左クリックすると
+  
   壁からジャンプします。
 
-  '
-mineinabyss.tutorial.water: '<green><bold>流れる水<!bold>
-
+mineinabyss.tutorial.water: >
+  <green><bold>流れる水<!bold>
+  
   <#3BB23B>はダメージを与えます。
-
-  '
-mineinabyss.tutorial.falling: '<green><bold>水は落下ダメージを
-
+  
+mineinabyss.tutorial.falling: >
+  <green><bold>水は落下ダメージを
+  
   打ち消しません。<!bold>
-
+  
   <#3BB23B>落下ダメージを
-
+  
   避ける方法はありません。
 
-  '
-mineinabyss.tutorial.rules.1: "<yellow><bold><underlined>サーバールール：</underlined><!bold>\n\
-  行為：\n<#FBFB98>> <#FFCC66>ハッキング</#FFCC66>、<#FFCC66>荒らし</#FFCC66>、\n\_ <#FFCC66>盗難\
-  </#FFCC66>はしないでください。\n> バグを<#FFCC66>悪用</#FFCC66>せず、\n\_ ディスコードで報告してください。\n> チャット\
-  で<#FFCC66>スパム</#FFCC66>したり<#FFCC66>議論</#FFCC66>したりしないでください。\n> 他人を<#FFCC66>いじめ</#FFCC66>た\
-  り、<#FFCC66>嫌がらせ</#FFCC66>したりしないでください。\n\_\n<yellow>他の：\n<#FBFB98>> 1 層目、2 層目、3 層\
-  目に階段や\n\_ エレベーターを設置しないでください。\n> グローバルチャットでは英語で話してください。\n\_ 近接チャット (/local) とプライベ\
-  ートメッセージ (/msg) \nでは日本語で話すことができます。\n\_\n<yellow>完全なルール：\n<italic>www.mineinabyss.com/rules<!italic>\n"
-mineinabyss.tutorial.rules.2: '
+mineinabyss.tutorial.rules.1: >
+  <yellow><bold><underlined>サーバールール：</underlined><!bold>
+
+  行為：
+
+  <#FBFB98>> <#FFCC66>ハッキング</#FFCC66>、<#FFCC66>荒らし</#FFCC66>、
+  
+    <#FFCC66>盗難</#FFCC66>はしないでください。
+  
+  > バグを<#FFCC66>悪用</#FFCC66>せず、
+  
+    ディスコードで報告してください。
+  
+  > チャットで<#FFCC66>スパム</#FFCC66>したり<#FFCC66>議論</#FFCC66>したりしないでください。
+  
+  > 他人を<#FFCC66>いじめ</#FFCC66>たり、<#FFCC66>嫌がらせ</#FFCC66>したりしないでください。
+
+   
+
+  <yellow>他の：
+
+  <#FBFB98>> 1 層目、2 層目、3 層目に階段や
+  
+    エレベーターを設置しないでください。
+
+  > グローバルチャットでは英語で話してください。
+
+    近接チャット (/local) とプライベートメッセージ (/msg) 
+  
+  では日本語で話すことができます。
+
+   
+
+  <yellow>完全なルール：
+  
+  <italic>www.mineinabyss.com/rules<!italic>
+
+mineinabyss.tutorial.rules.2: >
 
   <#44CCCC><aqua><italic>ルールに同意して<!italic></aqua>ドアを通り抜け、<aqua><italic><bold>アビスへ行きます…<!bold><!italic></aqua>
 
-  '
-mineinabyss.tutorial.bonfire: '<#FBFB98><aqua><bold>ボンファイヤー<!bold></aqua>と呼ばれるリスポーンポイントを作成できます。
-
+mineinabyss.tutorial.bonfire: >
+  <#FBFB98><aqua><bold>ボンファイヤー<!bold></aqua>と呼ばれるリスポーンポイントを作成できます。
+  
   詳細については、<aqua>作業台のレシピブック</aqua>を参照してください。
 
-  '
-mineinabyss.tutorial.outside.1: '<#B2B2B2>もう一度チュートリアルをやりたければ、
-
+mineinabyss.tutorial.outside.1: >
+  <#B2B2B2>もう一度チュートリアルをやりたければ、
+  
   <#7D7D7D><bold>/tutorial<!bold></#7D7D7D>を実行します。
 
-  '
-mineinabyss.tutorial.outside.2: '<aqua>この道を<blue><bold>アビス<!bold></blue>の底へと下っていきます…
+mineinabyss.tutorial.outside.2: >
+  <aqua>この道を<blue><bold>アビス<!bold></blue>の底へと下っていきます…
 
-  '
-mineinabyss.tutorial.outside.3: 'この道をオースまで進む。
+mineinabyss.tutorial.outside.3: >
+  この道をオースまで進む。
 
   <#FBFB98>Follow this path up
-
+  
   to <gold><bold>Orth<!bold></gold>...
 
-  '
-mineinabyss.tutorial.links: '<white>質問がある場合は、
-
+mineinabyss.tutorial.links: >
+  <white>質問がある場合は、
+  
   <#FFCC66><bold>/tutorial<!bold></#FFCC66>と入力して、
 
    
 
   <#3B3BB0>ディスコードのコミュニティに参加するには、
-
+  
   <blue><bold>/discord<!bold></blue>と入力してください。
 
-  '
-mineinabyss.tutorial.emotes: '<green>スタンプは<dark_green><underlined>:スタンプの名前:</underlined></dark_green>と入力することで使用できます。:siggy:
-
+mineinabyss.tutorial.emotes: >
+  <green>スタンプは<dark_green><underlined>:スタンプの名前:</underlined></dark_green>と入力することで使用できます。:siggy:
+  
   すべてのスタンプは<dark_green><bold>/emojy list</bold></dark_green>で見つけることができます。
 
    
-
+  
   <gold>Patreon<yellow>と<gold>Ko-Fi<yellow>のサポーターは
-
+  
   <white>:gurawave:<yellow>のようなGIFを使用できます。
 
-  '
-mineinabyss.tutorial.recipes: '<#3BB23B>多くの<green><bold>カスタムアイテム<!bold></green>や<green><bold>カスタムレシピ<!bold></green>がある。
+mineinabyss.tutorial.recipes: >
+  <#3BB23B>多くの<green><bold>カスタムアイテム<!bold></green>や<green><bold>カスタムレシピ<!bold></green>がある。
 
   インベントリ、作業台、かまどにある<green><italic>レシピブック<!italic></green>内で
-
+  
   見つけることができます。
 
-  '
-mineinabyss.tutorial.end: <dark_aqua>今、独り立ちしています！
-
+mineinabyss.tutorial.end:
+  <dark_aqua>今、独り立ちしています！
+  
   自身の道を見つけるか、作りましょう…
-mineinabyss.tutorial.guildhq.1: '<#FBFB98><gold><bold>オース<!bold></gold>への道
 
-  '
-mineinabyss.tutorial.guildhq.2: '<aqua><blue><bold>アビス<!bold></blue>への道
+mineinabyss.tutorial.guildhq.1: >
+  <#FBFB98><gold><bold>オース<!bold></gold>への道
 
-  '
-mineinabyss.tutorial.guildhq.3: '<aqua><blue><bold>アビス<!bold></blue>への下る道
 
-  '
+mineinabyss.tutorial.guildhq.2: >
+  <aqua><blue><bold>アビス<!bold></blue>への道
+
+mineinabyss.tutorial.guildhq.3: >
+  <aqua><blue><bold>アビス<!bold></blue>への下る道
+
 mineinabyss.tutorial.cosmetics: <gold><bold>近い将来、化粧も登場します！

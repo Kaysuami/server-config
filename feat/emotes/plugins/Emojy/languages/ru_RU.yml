@@ -1,130 +1,177 @@
-mineinabyss.tutorial.start.1: '<yellow>Добро пожаловать на <bold><gradient:#ff7043:#ffca28:#ff7043>Mine
-  in Abyss<!bold><yellow>!
-
+mineinabyss.tutorial.start.1: >
+  <yellow>Добро пожаловать на <bold><gradient:#ff7043:#ffca28:#ff7043>Mine in Abyss<!bold><yellow>!
+  
   <#FBFB98>Пожалуйста, пройдите обучение.
 
-  '
-mineinabyss.tutorial.start.2: '<#FBFB98>Обучение приведет вас
-
+mineinabyss.tutorial.start.2: >
+  <#FBFB98>Обучение приведет вас
+  
   к <yellow><bold>Бездне<!bold><#FBFB98> -->
 
-  '
-mineinabyss.tutorial.climb.1: '<#44CCCC>На сервере можно
-
+mineinabyss.tutorial.climb.1: >
+  <#44CCCC>На сервере можно
+  
   <aqua><bold>лазать по стенам<!bold></aqua>.
 
   Для этого прижмитесь к стене,
-
+  
   смотря на неё, и зажмите ПКМ.
 
-  '
-mineinabyss.tutorial.climb.2: '<#44CCCC>Зачем строить столбы,
+mineinabyss.tutorial.climb.2: >
+  <#44CCCC>Зачем строить столбы,
 
   если можно просто взабраться по стене? :siggy:
 
-  '
-mineinabyss.tutorial.climb.3: '<blue><bold>Подсказка:<!bold><#3B3BB0>
-
+mineinabyss.tutorial.climb.3: >
+  <blue><bold>Подсказка:<!bold><#3B3BB0>
+  
   можно ускориться,
-
+  
   нажав ЛКМ.
 
-  '
-mineinabyss.tutorial.water: '<green><bold>Текущая вода<!bold>
-
+mineinabyss.tutorial.water: >
+  <green><bold>Текущая вода<!bold>
+  
   <#3BB23B>наносит урон.
 
-  '
-mineinabyss.tutorial.falling: '<green><bold>Вода не предотвращает
-
+mineinabyss.tutorial.falling: >
+  <green><bold>Вода не предотвращает
+  
   урон от падения.<!bold>
-
+  
   <#3BB23B>В прочем, не существует
-
+  
   способа его избежать.
 
-  '
-mineinabyss.tutorial.rules.1: "<yellow><bold><underlined>Правила сервера:</underlined><!bold>\n\
-  Правила поведения:\n<#FBFB98>> Запрещено <#FFCC66>читерить</#FFCC66>, <#FFCC66>г\
-  риферить</#FFCC66> и\n\_ <#FFCC66>воровать</#FFCC66>.\n> Запрещено <#FFCC66>злоу\
-  потребление</#FFCC66> багами.\n\_ Пожалуйста, докладывайте о них в\n\_ Discord.\n\
-  > Не <#FFCC66>спамьте</#FFCC66> и не <#FFCC66>ругайтесь</#FFCC66> в чате.  \n> З\
-  апрещено <#FFCC66>обижать</#FFCC66> и <#FFCC66>оскорблять</#FFCC66>\n\_ других и\
-  гроков.\n\_\n<yellow>Другое:\n<#FBFB98>> Запрещено строить лестницы и\n\_ лифты\
-  \ на 1, 2 и 3 слоях.\n> В общем чате сервера можно \n\_ общаться только на англи\
-  йском\n\_ языке.\n\_\n<yellow>С полными правилами Вы можете ознакомиться на\n<italic>www.mineinabyss.com/rules<!italic>\n"
-mineinabyss.tutorial.rules.2: '<#44CCCC>Пройдя через дверь,
+mineinabyss.tutorial.rules.1: >
+  <yellow><bold><underlined>Правила сервера:</underlined><!bold>
 
-  Вы <aqua><italic>согласитесь
+  Правила поведения:
 
-  с правилами<!italic></aqua>
+  <#FBFB98>> Запрещено <#FFCC66>читерить</#FFCC66>, <#FFCC66>гриферить</#FFCC66> и
+  
+    <#FFCC66>воровать</#FFCC66>.
 
-  и <aqua><italic><bold>сможете спуститься
+  > Запрещено <#FFCC66>злоупотребление</#FFCC66> багами.
+  
+    Пожалуйста, докладывайте о них в
+  
+    Discord.
 
-  в Бездну...<!bold><!italic></aqua>
+  > Не <#FFCC66>спамьте</#FFCC66> и не <#FFCC66>ругайтесь</#FFCC66> в чате.  
 
-  '
-mineinabyss.tutorial.bonfire: '<#FBFB98>Вы можете создать <aqua><bold>точку спавна,<!bold></aqua>
-
-  называющуюся bonfire.
-
-  Откройте <aqua>Книгу Рецептов
-
-  в верстаке</aqua> для дополнительной информации.
-
-  '
-mineinabyss.tutorial.outside.1: '<#B2B2B2>Напишите <#7D7D7D><bold>/tutorial<!bold></#7D7D7D>,
-  если хотите пройти обучение снова.
-
-  '
-mineinabyss.tutorial.outside.2: '<aqua>Этот путь приведёт Вас
-
-  в <blue><bold>Бездну<!bold></blue>...
-
-  '
-mineinabyss.tutorial.outside.3: '<#FBFB98>Этот путь приведёт Вас
-
-  к <gold><bold>Орту<!bold></gold>...
-
-  '
-mineinabyss.tutorial.links: '<white>Если у Вас есть вопросы,
-
-  напишите <#FFCC66><bold>/wiki<!bold></#FFCC66>.
+  > Запрещено <#FFCC66>обижать</#FFCC66> и <#FFCC66>оскорблять</#FFCC66>
+  
+    других игроков.
 
    
 
-  <#3B3BB0>Присоединяйтесь к нам в Discord:
+  <yellow>Другое:
 
+  <#FBFB98>> Запрещено строить лестницы и
+  
+    лифты на 1, 2 и 3 слоях.
+
+  > Запрещено обсуждать сюжет
+  
+    "Созданного в Бездне" дальше
+  
+    событий второго сезона.
+
+   
+
+  <yellow>С полными правилами Вы можете ознакомиться на
+  
+  <italic>www.mineinabyss.com/rules<!italic>
+
+mineinabyss.tutorial.rules.2: >
+  <#44CCCC>Пройдя через дверь,
+  
+  Вы <aqua><italic>согласитесь
+  
+  с правилами<!italic></aqua>
+
+  и <aqua><italic><bold>сможете спуститься
+  
+  в Бездну...<!bold><!italic></aqua>
+
+mineinabyss.tutorial.bonfire: >
+  <#FBFB98>Вы можете создать <aqua><bold>точку спавна,<!bold></aqua>
+  
+  называющуюся bonfire.
+  
+  Откройте <aqua>Книгу Рецептов
+  
+  в верстаке</aqua> для дополнительной информации.
+
+mineinabyss.tutorial.outside.1: >
+  <#B2B2B2>Напишите <#7D7D7D><bold>/tutorial<!bold></#7D7D7D>, если хотите пройти обучение снова.
+
+mineinabyss.tutorial.outside.2: >
+  <aqua>Этот путь приведёт Вас
+  
+  в <blue><bold>Бездну<!bold></blue>...
+
+mineinabyss.tutorial.outside.3: >
+  <#FBFB98>Этот путь приведёт Вас
+  
+  к <gold><bold>Орту<!bold></gold>...
+
+mineinabyss.tutorial.links: >
+  <white>Если у Вас есть вопросы,
+  
+  напишите <#FFCC66><bold>/wiki<!bold></#FFCC66>.
+
+   
+  
+  <#3B3BB0>Присоединяйтесь к нам в Discord:
+  
   <blue><bold>/discord<!bold></blue>.
 
-  '
-mineinabyss.tutorial.emotes: "<green>В чате можно использовать\nэмодзи: <dark_green><underlined>:emotename:</underlined>\
-  \ :siggy:\n<green>Все эмодзи можно найти\nв <dark_green><bold>/emojy list\n\_\n\
-  <gold>Поддерживающие на \nPatreon <yellow>и <gold>Ko-Fi\n<yellow>имеют доступ\n\
-  <yellow>к GIF: <white>:gurawave:\n"
-mineinabyss.tutorial.recipes: '<#3BB23B>У нас есть множество
+mineinabyss.tutorial.emotes: >
+  <green>В чате можно использовать
+  
+  эмодзи: <dark_green><underlined>:emotename:</underlined> :siggy:
 
+  <green>Все эмодзи можно найти
+  
+  в <dark_green><bold>/emojy list
+
+   
+
+  <gold>Поддерживающие на 
+  
+  Patreon <yellow>и <gold>Ko-Fi
+  
+  <yellow>имеют доступ
+
+  <yellow>к GIF: <white>:gurawave:
+
+mineinabyss.tutorial.recipes: >
+  <#3BB23B>У нас есть множество
+  
   <green><bold>уникальных предметов<!bold></green>
-
+  
   и <green><bold>рецептов<!bold></green>!
-
+  
   Чтобы их увидеть,
-
+  
   откройте инвентарь
-
+  
   и нажмите на <green><italic>Книгу Рецептов<!italic></green>.
 
-  '
-mineinabyss.tutorial.end: <dark_aqua>Теперь вы сами по себе!
-
+mineinabyss.tutorial.end:
+  <dark_aqua>Теперь вы сами по себе!
+  
   Найдите или проложите свой путь...
-mineinabyss.tutorial.guildhq.1: '<#FBFB98>Путь к <gold><bold>Орту<!bold></gold>
 
-  '
-mineinabyss.tutorial.guildhq.2: '<aqua>Путь к <blue><bold>Бездне<!bold></blue>
+mineinabyss.tutorial.guildhq.1: >
+  <#FBFB98>Путь к <gold><bold>Орту<!bold></gold>
 
-  '
-mineinabyss.tutorial.guildhq.3: '<aqua>Путь в <blue><bold>Бездну<!bold>
+mineinabyss.tutorial.guildhq.2: >
+  <aqua>Путь к <blue><bold>Бездне<!bold></blue>
 
-  '
+mineinabyss.tutorial.guildhq.3: >
+  <aqua>Путь в <blue><bold>Бездну<!bold>
+  
 mineinabyss.tutorial.cosmetics: <gold><bold>Аксессуары в разработке!
