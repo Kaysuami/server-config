@@ -5,7 +5,7 @@ set.item:
     customModelData: 126
     lore:
       - <aqua>Used by delvers to keep
-      - <aqua>track of their depth..
+      - <aqua>track of their depth.
       - <#3f536c><i>Toggle between HUD
       - <#3f536c><i>and item based with right-click.
 set.recipes:
@@ -13,12 +13,36 @@ set.recipes:
   recipes:
     - type: shaped
       items:
-        G: minecraft:glass
-        C: minecraft:compass
+        A:
+          type: minecraft:cobblestone
+        B:
+          type: minecraft:cobblestone_slab
+        L:
+          type: minecraft:lever
+        R:
+          type: minecraft:raw_iron
+        S:
+          prefab: mineinabyss:silkfang_silk
       configuration: |-
-        | G |
-        |GCG|
-        | G |
+        |BSB|
+        |LRL|
+        |ABA|
+    - type: shaped
+      items:
+        A:
+          type: minecraft:cobblestone
+        B:
+          type: minecraft:cobblestone_slab
+        L:
+          type: minecraft:lever
+        R:
+          type: minecraft:raw_iron
+        S:
+          prefab: mineinabyss:kuongatari_silk
+      configuration: |-
+        |BSB|
+        |LRL|
+        |ABA|
 mineinabyss:depthmeter: { }
 observe:
   itemLeftClick:
