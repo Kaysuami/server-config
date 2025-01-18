@@ -68,6 +68,9 @@ swarmhoarder:
     MovementSpeed: 0.3
     KnockbackResistance: 0.6
     Interactable: true
+    PreventSunburn: true
+    PreventOtherDrops: true
+    PreventJockeyMounts: true
   Drops:
     - exp 20-35
     - geary mineinabyss:swarmshocker_charged_powder 1-2 0.6
