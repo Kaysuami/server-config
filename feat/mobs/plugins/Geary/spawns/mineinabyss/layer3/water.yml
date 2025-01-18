@@ -9,6 +9,7 @@ l3_water:
     - maxNearby:
         amount: 7
     - isSourceLiquid: { }
+    - waterDepth: 2..600
 
 # Mob spawns
 

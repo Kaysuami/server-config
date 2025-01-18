@@ -9,6 +9,7 @@ l5_water:
     - maxNearby:
         amount: 5
     - isSourceLiquid: { }
+    - waterDepth: 2..600
 
 # Mob spawns
 
@@ -25,7 +26,6 @@ l5_uibuta:
     - $inherit
     - blockAbove:
         allow: [ AIR ]
-    - waterDepth: 2..600
 l5_makihige:
   inherit: l5_water
   type: mm:makihige
@@ -34,7 +34,6 @@ l5_makihige:
     - $inherit
     - blockAbove:
         allow: [ AIR ]
-    - waterDepth: 2..600
 
 # Rare
 l5_edusan:
@@ -44,6 +43,7 @@ l5_edusan:
   conditions:
     - $inherit
     - $remove maxNearby
+    - $remove waterDepth
     - maxNearby:
         amount: 1
     - waterDepth: 10..600
@@ -57,4 +57,3 @@ l5_hisomukuro:
     - $remove maxNearby
     - maxNearby:
         amount: 3
-    - waterDepth: 5..600

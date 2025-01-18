@@ -1,7 +1,7 @@
 # Spawn conditions
 
 l2s2_trees:
-  position: WATER
+  position: GROUND
   regions: [ l2s2 ]
   amount: 1-6
   spread: 5

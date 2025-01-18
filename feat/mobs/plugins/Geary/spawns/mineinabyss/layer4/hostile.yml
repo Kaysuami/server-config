@@ -20,6 +20,7 @@ l4_kuongatari:
     - $remove blockBelow
     - blockBelow:
         allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+        deny: [ "diorite" ]
 
 l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker }
 
@@ -27,6 +28,12 @@ l4_horncrier:
   inherit: l4_hostile
   priority: 0.6
   type: mm:horncrier
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+        deny: ["moss_block"] # prevents from spawning on goblets
 
 l4_orbpiercer:
   inherit: l4_hostile

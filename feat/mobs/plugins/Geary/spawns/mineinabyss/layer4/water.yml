@@ -9,6 +9,7 @@ l4_water:
     - maxNearby:
         amount: 5
     - isSourceLiquid: { }
+    - waterDepth: 2..600
 
 # Mob spawns
 
@@ -19,7 +20,7 @@ l4_spiralsquid: { inherit: l4_water, type: mm:spiralsquid }
 l4_ikenosuke: { inherit: l4_water, type: mm:ikenosuke }
 l4_hagamizukin:
   inherit: l4_water
-  priority: 0.75
+  priority: 0.5
   type: mm:hagamizukin
   conditions:
     - maxNearby:
@@ -38,7 +39,6 @@ l4_uibuta:
         amount: 2
     - blockAbove:
         allow: [ AIR ]
-    - waterDepth: 2..600
 l4_makihige:
   inherit: l4_water
   type: mm:makihige
@@ -50,4 +50,3 @@ l4_makihige:
         amount: 3
     - blockAbove:
         allow: [ AIR ]
-    - waterDepth: 2..600
