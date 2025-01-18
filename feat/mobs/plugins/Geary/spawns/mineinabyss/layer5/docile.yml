@@ -13,5 +13,11 @@ l5_docile:
 # Mob spawns
 
 # stinger,mantoyer
-l5_stinger: { inherit: l5_docile, type: mm:stinger }
+l5_stinger:
+  inherit: l5_docile
+  type: mm:stinger
+  conditions:
+    - $inherit
+    - blockBelow:
+        deny: ["diorite"]
 l5_titanjaw: { inherit: l5_docile, type: mm:titanjaw }
