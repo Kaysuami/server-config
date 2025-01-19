@@ -5,13 +5,14 @@ edusan:
   Health: 80
   Damage: 0
   AIGoalSelectors:
+    - randomstroll
     - clear
-    #- movetowater
+    - movetowater
     - meleeattack
     - movetowardstarget
-   # - fleeplayers
+    - fleeplayers
     - randomlookaround
-   # - randomfly
+    - randomfly
   AITargetSelectors:
     - clear
   Options:

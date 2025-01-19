@@ -5,8 +5,8 @@ hamashirama:
   Health: 30
   Damage: 0
   AIGoalSelectors:
-    - clear
     - randomstroll
+    - clear
     - lookatplayers
     - randomlookaround
     - movetowater

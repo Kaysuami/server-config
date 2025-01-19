@@ -5,8 +5,8 @@ kazura:
   Health: 5
   Damage: 0
   AIGoalSelectors:
-    - clear
     - randomstroll
+    - clear
     - lookatplayers
     - randomlookaround
   AITargetSelectors:

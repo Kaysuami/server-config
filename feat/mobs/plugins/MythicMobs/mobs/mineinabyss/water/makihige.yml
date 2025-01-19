@@ -5,8 +5,8 @@ makihige:
   Health: 60
   Damage: 0
   AIGoalSelectors:
-    - clear
     - randomstroll
+    - clear
     - lookatplayers
     - randomlookaround
     - float

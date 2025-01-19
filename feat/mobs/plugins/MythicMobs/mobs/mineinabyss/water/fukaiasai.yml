@@ -5,12 +5,14 @@ fukaiasai:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
+    - randomstroll
     - clear
+    - movetowater
+    - meleeattack
+    - movetowardstarget
     - fleeplayers
     - randomlookaround
     - randomfly
-
-    - movetowater
   AITargetSelectors:
     - clear
   Health: 10 # change this

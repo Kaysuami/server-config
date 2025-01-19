@@ -101,6 +101,7 @@ hammerbeakLarge:
 
   Skills:
     # Misc
+    - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=60} @self ~onspawn
     - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=12} @self ~onTimer:10
     - potion{t=LEVITATION;l=1;force=true;p=true;d=10} @self ~onTimer:20 ?stance{s=idleAir}
     - look{} @target ~onTimer:20
@@ -111,6 +112,7 @@ hammerbeakLarge:
     - stance{s=landed} @self ~onSpawnOrLoad
     - skill{s=hammerbeakTakeoff} @self ~onTimer:100 ?targetwithin{d=14}
     - skill{s=hammerbeakTakeoff} @self ~onSignal:danger
+    - skill{s=hammerbeakTakeoff} @self ~onSpawn
     - skill{s=hammerbeakTakeoff} @self ~onHurt ?onGround{}
     - skill{s=hammerbeakLand} @self ~onDropCombat
     - skill{s=hammerbeakLand} @self ~onTimer:100

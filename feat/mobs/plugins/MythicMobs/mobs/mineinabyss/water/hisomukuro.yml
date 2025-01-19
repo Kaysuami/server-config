@@ -4,13 +4,15 @@ hisomukuro:
   Display: "<#C8C8C8>Hisomukuro"
   Health: 80
   Damage: 8
-  #AIGoalSelectors:
-    #- clear
-    #- movetowater
-    #- meleeattack
-    #- movetowardstarget
-    #- randomlookaround
-    #- randomfly
+  AIGoalSelectors:
+    - randomstroll
+    - clear
+    - movetowater
+    - meleeattack
+    - movetowardstarget
+    - fleeplayers
+    - randomlookaround
+    - randomfly
   AITargetSelectors:
     - players
   Options:

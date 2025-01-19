@@ -5,10 +5,12 @@ ikenosuke:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
+    - randomstroll
     - clear
+    - movetowater
     - fleeplayers
     - randomlookaround
-    - movetowater
+    - randomfly
   AITargetSelectors:
     - clear
   Health: 12 # change this

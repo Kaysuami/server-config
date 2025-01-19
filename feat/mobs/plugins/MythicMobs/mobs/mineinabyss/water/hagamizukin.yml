@@ -5,9 +5,12 @@ hagamizukin:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
+    - randomstroll
     - clear
+    - movetowater
     - meleeattack
     - movetowardstarget
+    - fleeplayers
     - randomlookaround
     - randomfly
   AITargetSelectors:
