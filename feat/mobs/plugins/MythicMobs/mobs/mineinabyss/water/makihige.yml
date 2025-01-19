@@ -1,5 +1,5 @@
 makihige:
-  Type: PIG
+  Type: ZOMBIE
   SpawnCategory: water
   Display: "<#FF771C>Makihige"
   Health: 60
@@ -19,10 +19,11 @@ makihige:
     Silent: true
     Interactable: true
     DigOutOfGround: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     PreventOtherDrops: true
+    PreventSunburn: true
   Equipment:
-    - DIAMOND_BOOTS{enchants=DEPTH_STRIDER:20} FEET
+    - DIAMOND_BOOTS{enchants=DEPTH_STRIDER:3} FEET
   Model:
     Id: makihige
     ViewRadius: 64
