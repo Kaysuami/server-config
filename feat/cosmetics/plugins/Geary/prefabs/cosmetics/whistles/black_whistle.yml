@@ -4,3 +4,12 @@ set.item:
     type: POTION
     color: "#FFFFFF"
     customModelData: 204
+disableItemInteractions: {}
+observe:
+  itemRightClick:
+    - become: parent
+    - cooldown:
+        length: 3s
+        id: sound_black_whistle
+    - playSound:
+        sound: mineinabyss:whistle.black_whistle
