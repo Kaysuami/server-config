@@ -22,6 +22,6 @@ range:
 runTimes:
   GROUND: 250ms
   WATER: 500ms
-  AIR: 20s
+  AIR: 10s
 # How many times to try and find a valid spawn position around a player before giving up.
 maxSpawnAttemptsPerPlayer: 10
