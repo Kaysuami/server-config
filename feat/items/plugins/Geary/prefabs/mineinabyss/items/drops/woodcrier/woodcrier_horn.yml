@@ -1,6 +1,6 @@
 set.item:
   item:
-    type: minecraft:green_concrete
+    type: minecraft:brown_concrete
     itemName: <#9A1CAD>Woodcrier Horn
     customModelData: 1
     lore:
