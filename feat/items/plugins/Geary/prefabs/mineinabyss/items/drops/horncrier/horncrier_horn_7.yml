@@ -1,0 +1,19 @@
+set.item:
+  item:
+    type: minecraft:goat_horn
+    itemName: <#ade8bc>Horncrier Horn
+    customModelData: 0
+    lore:
+      - ":layer_4::layer_5:"
+      - <#d0d797>These colors are unlike anything
+      - <#d0d797>I've encountered before.
+resourcepack:
+  textures: mineinabyss:item/creature_drops/horncrier_horn
+observe:
+  itemRightClick:
+    - become: parent
+    - cooldown:
+        length: 7s
+        id: sound_goat_horn
+    - playSound:
+        sound: minecraft:item.goat_horn.sound.7
