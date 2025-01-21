@@ -5,6 +5,7 @@ l5_flying:
   regions: [ layerfive ]
   conditions:
     - gap: 10..600
+    - gapBelow: 16..600
 
 # Mob spawns
 

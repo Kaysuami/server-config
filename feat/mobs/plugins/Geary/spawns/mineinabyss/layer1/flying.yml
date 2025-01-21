@@ -7,6 +7,7 @@ l1_flying:
     - gap: 10..600
     - maxNearby:
         amount: 3
+    - gapBelow: 16..600
 
 # Mob spawns
 
@@ -17,7 +18,8 @@ l1_hammerbeakLarge:
   type: mm:hammerbeakLarge
   priority: 0.2
   conditions:
-    - gap: 10..600
+    - $inherit
+    - $remove maxNearby
     - maxNearby:
         amount: 1
 l1_splitjaw: { inherit: l1_flying, type: mm:splitjaw, priority: 0.05 }

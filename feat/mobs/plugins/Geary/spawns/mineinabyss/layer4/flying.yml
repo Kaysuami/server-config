@@ -8,6 +8,7 @@ l4_flying:
     - gap: 10..600
     - maxNearby:
         amount: 3
+    - gapBelow: 16..600
 
 # Mob spawns
 

@@ -5,6 +5,7 @@ l3_flying:
   regions: [ layerthree ]
   conditions:
     - gap: 10..600
+    - gapBelow: 16..600
 
 # Mob spawns
 
