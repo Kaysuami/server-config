@@ -1,11 +1,11 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: "<#FFF821>Raw Dosetori Meat"
+    itemName: "<#59ac7a>Raw Dosetori Meat"
     customModelData: 304
     lore:
       - ":layer_2::layer_3:"
-      - <#FFE817><i>Tastes like chicken.
+      - <#d6b12c><i>Tastes like chicken.
     food:
       saturation: 1.2
       nutrition: 2

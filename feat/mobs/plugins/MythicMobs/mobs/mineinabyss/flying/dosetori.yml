@@ -1,7 +1,7 @@
 dosetori:
   Type: ALLAY
   Prefabs: [ mineinabyss:custom_allay ]
-  Display: "<#FFF821>Dosetori"
+  Display: "<#59ac7a>Dosetori"
   Health: 30
   Damage: 7
   SpawnCategory: flying

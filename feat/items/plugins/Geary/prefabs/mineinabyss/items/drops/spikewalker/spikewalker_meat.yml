@@ -1,12 +1,11 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <#116AAD>Spikewalker Meat
+    itemName: <#755237>Spikewalker Meat
     customModelData: 400
     lore:
       - ":layer_5:"
-      - <#ED4C4C><i>The inedible hard meat of a
-      - <#ED4C4C><i><#116AAD>Spikewalker <#ED4C4C><#ED4C4C>.
-      - <#ED4C4C><i>It's rough and gamey...
+      - <#ccbd99><i>Inedible, hard, rough, 
+      - <#ccbd99><i>and gamey...
 resourcepack:
   textures: mineinabyss:item/food/creatures/spikewalker_meat

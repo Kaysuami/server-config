@@ -1,7 +1,7 @@
 buroguro:
   Type: BEE
   SpawnCategory: flying
-  Display: '<#ADD8E6>Buroguro'
+  Display: '<#a3f7a2>Buroguro'
   Damage: 6
   Health: 32
   Drops:

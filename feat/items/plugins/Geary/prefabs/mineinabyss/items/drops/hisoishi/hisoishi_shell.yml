@@ -1,11 +1,11 @@
 set.item:
   item:
     type: minecraft:amethyst_block
-    itemName: <#785F34>Hisoishi Shell
+    itemName: <#303e77>Hisoishi Shell
     customModelData: 1
     lore:
       - ":layer_2::layer_3:"
-      - <#A68348><i>The shell is hard as amethyst
-      - <#A68348><i>to keep out predators.
+      - <#649378><i>The shell is hard as amethyst
+      - <#649378><i>to keep out predators.
 resourcepack:
   textures: mineinabyss:item/creature_drops/hisoishi_shell

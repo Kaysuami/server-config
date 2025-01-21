@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:bone
-    itemName: <#5C7BCAD>Hisomukuro Rib
+    itemName: <#c7bcad>Hisomukuro Rib
     customModelData: 4
     lore:
       - ":layer_5:"

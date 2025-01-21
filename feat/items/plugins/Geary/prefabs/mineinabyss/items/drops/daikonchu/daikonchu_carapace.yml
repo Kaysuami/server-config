@@ -1,10 +1,10 @@
 set.item:
   item:
     type: minecraft:leather
-    itemName: "<#FFF821>Daikonchu Carapace"
+    itemName: "<#c26d23>Daikonchu Carapace"
     customModelData: 223
     lore:
       - ":layer_3:"
-      - <#FFE817>I could totally wear this.
+      - <#f1b259>I could totally wear this.
 resourcepack:
   textures: mineinabyss:item/creature_drops/daikonchu_carapace

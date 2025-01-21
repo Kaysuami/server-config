@@ -1,7 +1,7 @@
 daikonchu:
   Type: SPIDER
   SpawnCategory: hostile
-  Display: "<#FFF821>Daikonchu"
+  Display: "<#c26d23>Daikonchu"
   Health: 80
   Damage: 0
   Options:

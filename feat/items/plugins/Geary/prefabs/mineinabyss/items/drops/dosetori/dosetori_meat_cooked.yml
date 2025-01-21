@@ -1,11 +1,11 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: "<#FFF821>Cooked Dosetori Meat"
+    itemName: "<#59ac7a>Cooked Dosetori Meat"
     customModelData: 404
     lore:
       - ":layer_2::layer_3:"
-      - <#FFE817><i>Tastes like fried chicken.
+      - <#d6b12c><i>Tastes like fried chicken.
     food:
       saturation: 7.2
       nutrition: 6

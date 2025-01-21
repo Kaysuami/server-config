@@ -5,8 +5,8 @@ set.item:
     customModelData: 1
     lore:
       - ":layer_4:"
-      - <yellow>Drops from the fiercely territorial
-      - <yellow>Orb Piercer. Handle carefully!
-      - <yellow>Its venom is very lethal.
+      - <#D9D9D9>Drops from the fiercely territorial
+      - <#D9D9D9>Orb Piercer. Handle carefully!
+      - <#D9D9D9>Its venom is very lethal.
 resourcepack:
   textures: mineinabyss:item/creature_drops/orb_piercer_spike

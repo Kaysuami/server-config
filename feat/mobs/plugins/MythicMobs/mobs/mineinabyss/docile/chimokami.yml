@@ -1,7 +1,7 @@
 chimokami:
   Type: PIG
   SpawnCategory: passive
-  Display: "<#D63624>Chimokami"
+  Display: "<#eeffff>Chimokami"
   Health: 30
   Damage: 4
   AIGoalSelectors:

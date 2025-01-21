@@ -1,13 +1,11 @@
 set.item:
   item:
     type: minecraft:flint
-    itemName: "<#D63624>Chimokami Fang"
+    itemName: "<#eeffff>Chimokami Fang"
     customModelData: 2
     lore:
       - ":layer_2:"
-      - <#A82A1C>It is said that these beasts house a
-      - <#A82A1C>spiritual fire within. This has been
-      - <#A82A1C>proven to be a hoax, however, their
-      - <#A82A1C>teeth are excellent firestarters.
+      - <#7a243f><i>It is said that these beasts house a
+      - <#7a243f><i>spiritual fire within.
 resourcepack:
   textures: mineinabyss:item/creature_drops/chimokami_fang

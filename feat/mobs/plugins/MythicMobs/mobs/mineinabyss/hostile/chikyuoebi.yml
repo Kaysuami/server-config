@@ -1,7 +1,7 @@
 chikyuoebi:
   Type: ZOMBIE
   SpawnCategory: hostile
-  Display: "<#9A1CAD>Chikyuoebi"
+  Display: "<#649984>Chikyuoebi"
   Health: 85
   Damage: 9
   AIGoalSelectors:

@@ -1,7 +1,7 @@
 beniguma:
   Type: PIG
   SpawnCategory: passive
-  Display: "<red>Beniguma"
+  Display: "<#824243>Beniguma"
   Health: 16
   Damage: 3
   AIGoalSelectors:

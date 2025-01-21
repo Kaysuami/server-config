@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: "<#0357AB>Cooked Billabonk Leg"
+    itemName: "<#b754c2>Cooked Billabonk Leg"
     customModelData: 405
     lore:
       - ":layer_2:"

@@ -1,11 +1,11 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <#9A1CAD>Raw Chikyuoebi
+    itemName: <#649984>Raw Chikyuoebi
     customModelData: 323
     lore:
       - ":layer_5:"
-      - <#A759FF>Not that tasty raw...
+      - <#943e27><i>Not that tasty raw...
     food:
       saturation: 0.4
       nutrition: 2

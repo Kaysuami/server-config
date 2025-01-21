@@ -1,12 +1,13 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <#ade8bc>Horncrier Horn
-    customModelData: 0
+    itemName: <#c4fcf2>Horncrier Horn
+    customModelData: 2667
     lore:
       - ":layer_4::layer_5:"
-      - <#d0d797>These colors are unlike anything
-      - <#d0d797>I've encountered before.
+      - <#fbfc92><i>These colors are unlike anything
+      - <#fbfc92><i>I've encountered before.
+    maxStackSize: 1
 resourcepack:
   textures: mineinabyss:item/creature_drops/horncrier_horn
 observe:

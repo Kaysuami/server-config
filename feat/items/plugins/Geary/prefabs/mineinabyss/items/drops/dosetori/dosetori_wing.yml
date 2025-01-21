@@ -1,10 +1,10 @@
 set.item:
   item:
     type: minecraft:leather
-    itemName: "<#FFF821>Dosetori Wing"
+    itemName: "<#59ac7a>Dosetori Wing"
     customModelData: 2
     lore:
       - ":layer_2::layer_3:"
-      - <#FFE817>Its texture feels otherworldly.
+      - <#d6b12c><i>Its texture feels otherworldly.
 resourcepack:
   textures: mineinabyss:item/creature_drops/dosetori_wing

@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <#0357AB>Raw Billabonk Leg
+    itemName: <#b754c2>Raw Billabonk Leg
     customModelData: 305
     lore:
       - ":layer_2:"

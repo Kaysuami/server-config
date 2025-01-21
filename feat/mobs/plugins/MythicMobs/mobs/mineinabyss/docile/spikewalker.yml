@@ -5,7 +5,7 @@ spikewalker:
     ThreatTable: true
   Health: 40 # change this
   Damage: 4
-  Display: "<#116AAD>Spikewalker"
+  Display: "<#755237>Spikewalker"
   Options:
     PreventSunburn: true
     PreventOtherDrops: true

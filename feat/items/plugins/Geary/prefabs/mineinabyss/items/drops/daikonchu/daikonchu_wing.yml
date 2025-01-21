@@ -1,10 +1,10 @@
 set.item:
   item:
     type: minecraft:leather
-    itemName: "<#FFF821>Daikonchu Wing"
+    itemName: "<#c26d23>Daikonchu Wing"
     customModelData: 223
     lore:
       - ":layer_3:"
-      - <#FFE817>They're still buzzing...
+      - <#f1b259>They're still buzzing...
 resourcepack:
   textures: mineinabyss:item/creature_drops/daikonchu_wing

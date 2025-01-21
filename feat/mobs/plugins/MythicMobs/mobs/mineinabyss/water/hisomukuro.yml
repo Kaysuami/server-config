@@ -1,7 +1,7 @@
 hisomukuro:
   Type: SALMON
   SpawnCategory: water
-  Display: "<#C8C8C8>Hisomukuro"
+  Display: "<#c7bcad>Hisomukuro"
   Health: 80
   Damage: 8
   AIGoalSelectors:

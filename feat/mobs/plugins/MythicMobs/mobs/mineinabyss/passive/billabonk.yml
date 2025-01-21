@@ -1,7 +1,7 @@
 billabonk:
   Type: FROG
   SpawnCategory: passive
-  Display: "<#0357AB>Billabonk"
+  Display: "<#b754c2>Billabonk"
   Modules:
     ThreatTable: true
   AIGoalSelectors:

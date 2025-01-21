@@ -1,10 +1,11 @@
 set.item:
   item:
     type: minecraft:pufferfish
-    itemName: <#0357AB>Billabonk Sac
+    itemName: <#b754c2>Billabonk Sac
     customModelData: 1
     lore:
       - ":layer_2:"
-      - <yellow>Seems to be poisonous, I best not eat it...
+      - <#0357AB><i>It seems to be poisonous.
+      - <#0357AB><i>I best not eat it...
 resourcepack:
   textures: mineinabyss:item/creature_drops/billabonk_sac

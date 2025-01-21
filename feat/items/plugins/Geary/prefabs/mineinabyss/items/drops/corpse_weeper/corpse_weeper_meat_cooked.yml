@@ -5,7 +5,7 @@ set.item:
     customModelData: 412
     lore:
       - ":layer_2:"
-      - <red><i>This stench is awful but it tastes so good...
+      - <red><i>The stench is awful but it tastes so good...
     food:
       saturation: 12.8
       nutrition: 8

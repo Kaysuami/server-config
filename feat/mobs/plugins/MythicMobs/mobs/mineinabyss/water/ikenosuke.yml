@@ -1,7 +1,7 @@
 ikenosuke:
   Type: COD
   SpawnCategory: water
-  Display: "<#1B91B5>Ikenosuke"
+  Display: "<#9ff3f3>Ikenosuke"
   Modules:
     ThreatTable: true
   AIGoalSelectors:

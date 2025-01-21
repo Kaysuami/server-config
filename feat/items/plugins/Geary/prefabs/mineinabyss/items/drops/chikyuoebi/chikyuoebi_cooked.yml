@@ -1,11 +1,11 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <#9A1CAD>Cooked Chikyuoebi Claw
+    itemName: <#649984>Cooked Chikyuoebi Claw
     customModelData: 423
     lore:
       - ":layer_5:"
-      - <#A759FF>Tastes like lobster!
+      - <#943e27><i>Tastes like lobster!
     food:
       saturation: 9.6
       nutrition: 7
