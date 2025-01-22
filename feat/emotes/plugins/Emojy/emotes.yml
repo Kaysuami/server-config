@@ -1,12 +1,10 @@
 emotes:
-# Logos
   - id: logo
     font: minecraft:default
     texture: mineinabyss:ui/icons/logo/full_logo.png
     height: 30
     ascent: 30
     bitmapWidth: 3
-# Chat emotes
   - id: bonegun
   - id: pog
   - id: bonethink
@@ -128,7 +126,6 @@ emotes:
   - id: skull
   - id: sheesh
   - id: nou
-# Whistles
   - id: bell
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/bell.png
@@ -222,7 +219,12 @@ emotes:
   - id: rabbitw
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/rabbitw.png
-# Prefixes: server
+  - id: namaw
+    font: mineinabyss:whistles
+    texture: mineinabyss:whistles/namaw.png
+  - id: pockyw
+    font: mineinabyss:whistles
+    texture: mineinabyss:whistles/pockyw.png
   - id: adventure
     template: role_template
     texture: mineinabyss:ui/prefixes/server/adventure.png
@@ -235,7 +237,6 @@ emotes:
   - id: test
     template: role_template
     texture: mineinabyss:ui/prefixes/server/test.png
-# Prefixes: chat mode
   - id: afk
     template: role_template
     texture: mineinabyss:ui/prefixes/chat/afk.png
@@ -251,7 +252,6 @@ emotes:
   - id: party
     template: role_template
     texture: mineinabyss:ui/prefixes/chat/party.png
-# Prefixes: layer
   - id: layer_orth
     template: role_template
     texture: mineinabyss:ui/prefixes/layer/layer_orth.png
@@ -273,11 +273,9 @@ emotes:
   - id: layer_6
     template: role_template
     texture: mineinabyss:ui/prefixes/layer/layer_6.png
-# Prefix: patreon
   - id: patreonlogo
     template: role_template
     texture: mineinabyss:ui/prefixes/patreonlogo.png
-# Prefixes: staff role
   - id: admin
     template: role_template
     texture: mineinabyss:ui/prefixes/role/admin.png
@@ -329,7 +327,6 @@ emotes:
   - id: srdeveloper
     template: role_template
     texture: mineinabyss:ui/prefixes/role/srdev.png
-# Player profile: general
   - id: player_profile_armor_visible
     font: mineinabyss:playerprofile
     texture: mineinabyss:ui/player_profiles/player_profile_armor_visible.png
@@ -374,7 +371,6 @@ emotes:
   - id: seeker_camp
     template: playerprofile_background
     texture: mineinabyss:ui/player_profiles/seeker_camp.png
-# Player profile: staff roles
   - id: player_profile_rank_admin
     template: playerprofile
     texture: mineinabyss:ui/prefixes/role/admin.png
@@ -432,7 +428,6 @@ emotes:
   - id: player_profile_rank_seniordeveloper
     template: playerprofile
     texture: mineinabyss:ui/prefixes/role/srdev.png
-# Star compass arrow
   - id: arrow_s
     template: starcompass
     texture: mineinabyss:ui/compass/arrow_s.png
@@ -484,7 +479,6 @@ emotes:
   - id: arrow_null
     template: starcompass
     texture: mineinabyss:ui/compass/arrow_null.png
-# Menu: PvP menu
   - id: pvp_menu
     font: mineinabyss:pvp
     texture: mineinabyss:ui/pvp/pvp_menu.png
@@ -495,7 +489,6 @@ emotes:
     texture: mineinabyss:ui/pvp/pvp_menu_toggle.png
     height: 196
     ascent: 23
-# Menu: Guild menu
   - id: guild_main_menu
     template: guilds
     texture: mineinabyss:ui/guilds/menus/guild_main_menu.png
@@ -594,7 +587,6 @@ emotes:
   - id: guild_lookup_members3
     template: guilds
     texture: mineinabyss:ui/guilds/menus/guild_lookup_members3.png
-# Menu: Cosmetics menu
   - id: cosmetic_orth_coin
     font: mineinabyss:cosmetics
     texture: mineinabyss:ui/orthbanking/orthcoin.png
@@ -625,7 +617,6 @@ emotes:
     texture: cosmetics:ui/wardrobe_transition.png
     height: 256
     ascent: 50
-# Other
   - id: bank_orthcoin
     font: mineinabyss:orthbanking
     texture: mineinabyss:ui/orthbanking/orthcoin.png
