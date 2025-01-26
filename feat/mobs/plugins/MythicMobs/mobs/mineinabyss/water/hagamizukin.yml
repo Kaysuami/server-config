@@ -20,6 +20,12 @@ hagamizukin:
     MovementSpeed: 1.1
     Interactable: true
     PreventOtherDrops: true
+  Geary:
+    pathfinders:
+      - type: RandomSwimmingGoal
+        priority: 8
+        speed: 1.0
+        chance: 1
   Drops:
     - exp 15-20
     - DRIED_KELP 1-3 0.7
