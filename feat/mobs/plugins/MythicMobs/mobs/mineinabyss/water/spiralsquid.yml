@@ -4,13 +4,12 @@ spiralsquid:
   Display: "<#1B91B5>Spiralsquid"
   Health: 8
   Damage: 0
-  AIGoalSelectors:
-    - clear
-    - fleeplayers
-    - randomlookaround
-    - movetowater
-  AITargetSelectors:
-    - clear
+  # Don't override vanilla squid goals, other pathfinders don't work with them (swap to fish if ever necessary)
+#  AIGoalSelectors:
+#    - clear
+#    - fleeplayers
+#  AITargetSelectors:
+#    - clear
   Options:
     Collidable: true
     Silent: true

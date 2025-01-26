@@ -5,14 +5,10 @@ demonfish:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
-    - randomstroll
     - clear
-    - movetowater
     - meleeattack
     - movetowardstarget
     - fleeplayers
-    - randomlookaround
-    - randomfly
   AITargetSelectors:
     - clear
     - attacker
@@ -30,6 +26,12 @@ demonfish:
     - exp 5-15
     - geary mineinabyss:demonfish_raw 1-2 0.6
     - prismarine_shard 1-8 0.9
+  Geary:
+    pathfinders:
+      - type: RandomSwimmingGoal
+        priority: 8
+        speed: 1.0
+        chance: 1
   Model:
     Id: demonfish
     ViewRadius: 64

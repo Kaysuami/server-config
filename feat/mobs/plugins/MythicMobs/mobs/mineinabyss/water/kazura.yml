@@ -4,13 +4,11 @@ kazura:
   Display: "<#A9CCCA>Kazura"
   Health: 5
   Damage: 0
-  AIGoalSelectors:
-    - randomstroll
-    - clear
-    - lookatplayers
-    - randomlookaround
-  AITargetSelectors:
-    - clear
+  # Don't override vanilla squid goals, other pathfinders don't work with them (swap to fish if ever necessary)
+#  AIGoalSelectors:
+#    - clear
+#  AITargetSelectors:
+#    - clear
   Options:
     Collidable: true
     Silent: true

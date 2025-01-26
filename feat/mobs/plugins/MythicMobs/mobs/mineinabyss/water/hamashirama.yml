@@ -4,14 +4,11 @@ hamashirama:
   Display: "<#1B91B5>Hamashirama"
   Health: 30
   Damage: 0
-  AIGoalSelectors:
-    - randomstroll
-    - clear
-    - lookatplayers
-    - randomlookaround
-    - movetowater
-  AITargetSelectors:
-    - clear
+  # Don't override vanilla squid goals, other pathfinders don't work with them (swap to fish if ever necessary)
+#  AIGoalSelectors:
+#    - clear
+#  AITargetSelectors:
+#    - clear
   Options:
     Collidable: true
     Silent: true

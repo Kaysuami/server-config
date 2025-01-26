@@ -5,12 +5,8 @@ ikenosuke:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
-    - randomstroll
     - clear
-    - movetowater
     - fleeplayers
-    - randomlookaround
-    - randomfly
   AITargetSelectors:
     - clear
   Health: 12 # change this
@@ -22,6 +18,12 @@ ikenosuke:
     KnockbackResistance: 0.0
     Interactable: true
     PreventOtherDrops: true
+  Geary:
+    pathfinders:
+      - type: RandomSwimmingGoal
+        priority: 8
+        speed: 1.0
+        chance: 1
   Drops: # put stuff here
     - exp 5-15
     - geary mineinabyss:ikenosuke_raw 1-2 0.6

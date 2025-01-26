@@ -5,14 +5,10 @@ hisomukuro:
   Health: 80
   Damage: 8
   AIGoalSelectors:
-    - randomstroll
     - clear
-    - movetowater
     - meleeattack
     - movetowardstarget
     - fleeplayers
-    - randomlookaround
-    - randomfly
   AITargetSelectors:
     - players
   Options:
@@ -22,6 +18,12 @@ hisomukuro:
     Interactable: true
     MovementSpeed: 0.9
     PreventOtherDrops: true
+  Geary:
+    pathfinders:
+      - type: RandomSwimmingGoal
+        priority: 8
+        speed: 1.0
+        chance: 1
   Model:
     Id: hisomukuro
     ViewRadius: 64

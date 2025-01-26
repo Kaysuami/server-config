@@ -5,14 +5,10 @@ fukaiasai:
   Modules:
     ThreatTable: true
   AIGoalSelectors:
-    - randomstroll
     - clear
-    - movetowater
     - meleeattack
     - movetowardstarget
     - fleeplayers
-    - randomlookaround
-    - randomfly
   AITargetSelectors:
     - clear
   Health: 10 # change this
@@ -23,6 +19,12 @@ fukaiasai:
     MovementSpeed: 0.25
     KnockbackResistance: 0.0
     PreventOtherDrops: true
+  Geary:
+    pathfinders:
+      - type: RandomSwimmingGoal
+        priority: 8
+        speed: 1.0
+        chance: 1
   Model:
     Id: fukaiasai
 

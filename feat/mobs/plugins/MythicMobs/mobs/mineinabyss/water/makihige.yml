@@ -24,6 +24,12 @@ makihige:
     PreventSunburn: true
   Equipment:
     - DIAMOND_BOOTS{enchants=DEPTH_STRIDER:3} FEET
+  Geary:
+    pathfinders:
+      - type: RandomSwimmingGoal
+        priority: 8
+        speed: 1.0
+        chance: 1
   Model:
     Id: makihige
     ViewRadius: 64
