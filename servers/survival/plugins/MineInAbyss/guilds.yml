@@ -13,7 +13,7 @@ guildChannelTemplate:
     logDeletedMessages: true
   isDefaultChannel: false
   isStaffChannel: false
-  format: ':survival::space_-4::guildchat: <chatty_nickname>: '
+  format: ':survival::guildchat: <chatty_nickname>: '
   messageColor: gold
   channelRadius: 0
   channelAliases: []

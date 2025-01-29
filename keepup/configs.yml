@@ -46,7 +46,7 @@ survival:
   variables:
     chatty:
       enableHover: true
-      serverPrefix: ":survival::space_-4:"
+      serverPrefix: ":survival:"
   include:
     - minecraft
     - feat/items
@@ -59,7 +59,7 @@ build:
   variables:
     chatty:
       enableHover: true
-      serverPrefix: ":build::space_-4:"
+      serverPrefix: ":build:"
       localChatRadius: 0
   copyPaths: [ servers/build ]
   include:
@@ -74,7 +74,7 @@ staging:
   variables:
     chatty:
       enableHover: true
-      serverPrefix: ":survival::space_-4::test::space_-4:"
+      serverPrefix: ":survival::test:"
       localChatRadius: 0
   include:
     - survival
@@ -83,7 +83,7 @@ dev:
   copyPaths: [ servers/dev ]
   variables:
     chatty:
-      serverPrefix: ":test::space_-4:"
+      serverPrefix: ":test:"
       localChatRadius: 0
   include:
     - minecraft
@@ -105,7 +105,7 @@ archive:
   copyPaths: [ servers/archive ]
   variables:
     chatty:
-      serverPrefix: ":adventure::space_-4:"
+      serverPrefix: ":adventure:"
       localChatRadius: 0
   include:
     - minecraft
