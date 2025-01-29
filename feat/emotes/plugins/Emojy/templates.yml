@@ -1,7 +1,7 @@
 role_template:
   font: mineinabyss:roles
-  height: 7
-  ascent: 7
+  height: 8
+  ascent: 8
 starcompass:
   font: mineinabyss:hud
   height: 24
@@ -12,8 +12,8 @@ guilds:
   ascent: 16
 playerprofile:
   font: mineinabyss:playerprofile
-  height: 7
-  ascent: 7
+  height: 8
+  ascent: 8
 playerprofile_background:
   font: mineinabyss:playerprofile
   height: 72
