@@ -40,7 +40,15 @@ l5_hostile_sand:
 # Mob spawns
 
 # Default
-l5_chikyuoebi: { inherit: l5_hostile, type: mm:chikyuoebi }
+l5_chikyuoebi:
+  inherit: l5_hostile
+  type: mm:chikyuoebi
+  priority: 0.9
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 2
 l5_yomotsubi: { inherit: l5_hostile, type: mm:yomotsubi, priority: 0.5 }
 l5_swarmshocker: { inherit: l5_hostile, type: mm:swarmshocker }
 l5_kuongatari:
