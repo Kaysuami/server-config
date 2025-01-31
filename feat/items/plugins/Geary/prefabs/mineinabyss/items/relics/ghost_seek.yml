@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: <gold>Ghost Seek
     type: CARVED_PUMPKIN
-    customModelData: 8
+    customModelData: 108
 #ghost_seek:
 hat: {}
 disableItemInteractions: {}

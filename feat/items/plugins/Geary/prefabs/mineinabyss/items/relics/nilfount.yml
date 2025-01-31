@@ -4,7 +4,7 @@ set.item:
     lore:
       - <white>
     type: STICK
-    customModelData: 1
+    customModelData: 101
 disableItemInteractions: {}
 #events:
 #  leftClick:

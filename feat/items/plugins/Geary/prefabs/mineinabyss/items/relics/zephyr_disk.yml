@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:paper
     itemName: <dark_aqua>Zephyr Disk
-    customModelData: 5
+    customModelData: 105
 disableItemInteractions: { }
 # TODO reimplement using observe
 observe:

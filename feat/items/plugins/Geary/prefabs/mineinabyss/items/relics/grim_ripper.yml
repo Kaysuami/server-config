@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: <dark_gray>Grim Ripper
     type: minecraft:paper
-    customModelData: 6
+    customModelData: 106
 disableItemInteractions: {}
 #events:
 #  leftClick:

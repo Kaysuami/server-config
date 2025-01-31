@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:paper
     itemName: <dark_aqua>Flamethrower
-    customModelData: 9
+    customModelData: 109
     # TODO add lore
 #disableItemInteractions: { }
 observe:

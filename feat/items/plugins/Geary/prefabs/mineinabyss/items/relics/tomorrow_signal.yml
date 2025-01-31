@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:paper
     itemName: <dark_gray>Tomorrow Signal
-    customModelData: 12
+    customModelData: 112
 disableItemInteractions: { }
 observe:
   itemLeftClick:

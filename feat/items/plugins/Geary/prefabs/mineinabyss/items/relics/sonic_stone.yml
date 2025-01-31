@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:paper
-    customModelData: 3
+    customModelData: 103
 disableItemInteractions: {}
 #events:
 #  leftClick:
