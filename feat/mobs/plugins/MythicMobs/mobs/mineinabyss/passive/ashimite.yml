@@ -41,9 +41,9 @@ ashimite:
 
     #- bodyclamp{m=orbpiercer;c=15} @self ~onSpawnOrLoad
     - setspeed{type=walking;speed=2.0} @self ~onSpawnOrLoad
-    #- sound{s=mineinabyss:entity.stingerhead.hurt;v=1;sc=HOSTILE} @self ~onDamaged
-    #- sound{s=mineinabyss:entity.stingerhead.death;v=1;sc=HOSTILE} @self ~onDeath
-    #- sound{s=mineinabyss:entity.stingerhead.ambient;v=1;sc=HOSTILE} @self ~onTimer:400
+    - skill{s=deerAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
+    - skill{s=deerHurt} @self ~onHurt
+    - skill{s=deerDeath} @self ~onDeath
 baby_ashimite:
   Type: SHEEP
   Health: 12
