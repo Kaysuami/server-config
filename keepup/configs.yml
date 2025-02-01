@@ -36,6 +36,7 @@ minecraft:
       PACKY_ACCESS_TOKEN: "{{ lookup('env', 'PACKY_ACCESS_TOKEN', default='UNKNOWN') }}"
       SERVER_NAME: "{{ lookup('env', 'SERVER_NAME', errors='ignore') }}"
       PACKY_PUBLIC_ADDRESS: "{{ lookup('env', 'PACKY_PUBLIC_ADDRESS', errors='ignore') }}"
+      DISCORD_BOT_TOKEN: "{{ lookup('env', 'DISCORD_BOT_TOKEN', errors='ignore') }}"
     velocity_forward_secret: "{{ lookup('ansible.builtin.file', '/run/secrets/velocity_forwarding_secret', errors='ignore') | default(lookup('env', 'VELOCITY_FORWARDING_SECRET'), true) }}"
   include:
     - feat/chat
