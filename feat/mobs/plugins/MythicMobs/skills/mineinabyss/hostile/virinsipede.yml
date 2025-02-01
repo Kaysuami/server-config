@@ -17,10 +17,14 @@ virinburrow:
     - partvisibility{m=virinsipede;v=false;p=left_section_9_legs} @self
     - partvisibility{m=virinsipede;v=false;p=right_section_9_legs} @self
     - partvisibility{m=virinsipede;v=false;p=size_bone_s9} @self
+    - partvisibility{m=virinsipede;v=false;p=b_s8} @self
+    - partvisibility{m=virinsipede;v=false;p=b_s4} @self
+    - partvisibility{m=virinsipede;v=false;p=b_headbox} @self
+    - partvisibility{m=virinsipede;v=false;p=b_tailpinc} @self
     - partvisibility{m=virinsipede;v=false;p=tail} @self
     - partvisibility{m=virinsipede;v=false;p=right_tail_pincer} @self
     - partvisibility{m=virinsipede;v=false;p=left_tail_pincer} @self
-    - partvisibility{m=virinsipede;v=false;p=ob_hitbox_tail} @self
+    - partvisibility{m=virinsipede;v=false;p=b_hitbox_tail} @self
     - partvisibility{m=virinsipede;v=false;p=base} @self
     - partvisibility{m=virinsipede;v=false;p=section_7} @self
     - partvisibility{m=virinsipede;v=false;p=section_6} @self
@@ -50,7 +54,7 @@ virinburrow:
     - partvisibility{m=virinsipede;v=false;p=left_section_2_legs} @self
     - partvisibility{m=virinsipede;v=false;p=right_section_2_legs} @self
     - partvisibility{m=virinsipede;v=false;p=size_bone_s2} @self
-    - partvisibility{m=virinsipede;v=false;p=ob_hitbox_head} @self
+    - partvisibility{m=virinsipede;v=false;p=b_hitbox_head} @self
     - partvisibility{m=virinsipede;v=false;p=head} @self
     - partvisibility{m=virinsipede;v=false;p=left_head_leg_1} @self
     - partvisibility{m=virinsipede;v=false;p=left_head_leg_2} @self
@@ -79,10 +83,14 @@ virinburrow:
     - partvisibility{m=virinsipede;v=true;p=left_section_9_legs} @self
     - partvisibility{m=virinsipede;v=true;p=right_section_9_legs} @self
     - partvisibility{m=virinsipede;v=true;p=size_bone_s9} @self
+    - partvisibility{m=virinsipede;v=true;p=b_s8} @self
+    - partvisibility{m=virinsipede;v=true;p=b_s4} @self
+    - partvisibility{m=virinsipede;v=true;p=b_headbox} @self
+    - partvisibility{m=virinsipede;v=true;p=b_tailpinc} @self
     - partvisibility{m=virinsipede;v=true;p=tail} @self
     - partvisibility{m=virinsipede;v=true;p=right_tail_pincer} @self
     - partvisibility{m=virinsipede;v=true;p=left_tail_pincer} @self
-    - partvisibility{m=virinsipede;v=true;p=ob_hitbox_tail} @self
+    - partvisibility{m=virinsipede;v=true;p=b_hitbox_tail} @self
     - partvisibility{m=virinsipede;v=true;p=base} @self
     - partvisibility{m=virinsipede;v=true;p=section_7} @self
     - partvisibility{m=virinsipede;v=true;p=section_6} @self
@@ -112,7 +120,7 @@ virinburrow:
     - partvisibility{m=virinsipede;v=true;p=left_section_2_legs} @self
     - partvisibility{m=virinsipede;v=true;p=right_section_2_legs} @self
     - partvisibility{m=virinsipede;v=true;p=size_bone_s2} @self
-    - partvisibility{m=virinsipede;v=true;p=ob_hitbox_head} @self
+    - partvisibility{m=virinsipede;v=true;p=b_hitbox_head} @self
     - partvisibility{m=virinsipede;v=true;p=head} @self
     - partvisibility{m=virinsipede;v=true;p=left_head_leg_1} @self
     - partvisibility{m=virinsipede;v=true;p=left_head_leg_2} @self
