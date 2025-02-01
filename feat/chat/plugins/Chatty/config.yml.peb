@@ -88,7 +88,7 @@ channels:
       position: SUFFIX
       format: "{{ deleteMessageText }}"
       notifyStaff: true
-    format: "{{ chatty.serverPrefix }}%luckperms_prefix% {{ hoverableNickname }}<chatty_nickname>: "
+    format: "{{ chatty.serverPrefix }}%luckperms_prefix%:space_2:{{ hoverableNickname }}<chatty_nickname>: "
     messageColor: "#fafafa"
     channelAliases: [ "g" ]
 
@@ -102,7 +102,7 @@ channels:
       format: "{{ deleteMessageText }}"
       notifyStaff: true
       logDeletedMessages: true
-    format: "{{ chatty.serverPrefix }}:local: {{ hoverableNickname }}<#DFCC4E><chatty_nickname>: "
+    format: "{{ chatty.serverPrefix }}:local::space_2:{{ hoverableNickname }}<#DFCC4E><chatty_nickname>: "
     messageColor: "#FFECB3"
     channelRadius: "{{ chatty.localChatRadius | default(500) }}"
     channelAliases: [ "l" ]
@@ -115,7 +115,7 @@ channels:
     isDefaultChannel: false
     isStaffChannel: true
     discordsrv: false
-    format: "{{ chatty.serverPrefix }}:admin: {{ hoverableNickname }}<#E51E61><chatty_nickname>: "
+    format: "{{ chatty.serverPrefix }}:admin::space_2:{{ hoverableNickname }}<#E51E61><chatty_nickname>: "
     messageColor: "#F5A5C0"
     channelAliases: [ "a" ]
 
