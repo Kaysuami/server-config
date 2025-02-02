@@ -4,14 +4,14 @@ l3_flying:
   position: AIR
   regions: [ layerthree ]
   conditions:
-    - gap: 10..600
-    - gapBelow: 16..600
+    - gap: 8..600
+    - gapBelow: 12..600
 
 # Mob spawns
 
 # Common
-l3_dosetori: { inherit: l3_flying, type: mm:dosetori }
-l3_madokajack: { inherit: l3_flying, type: mm:madokajack }
+l3_dosetori: { inherit: l3_flying, type: mm:dosetori, priority: 0.2  }
+l3_madokajack: { inherit: l3_flying, type: mm:madokajack, priority: 0.2  }
 
 # Uncommon
 l3_splitjaw: { inherit: l3_flying, type: mm:splitjaw, priority: 0.2 }

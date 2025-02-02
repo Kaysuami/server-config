@@ -6,9 +6,11 @@ hagamizukin:
     ThreatTable: true
   AIGoalSelectors:
     - clear
+    - meleeattack
     - movetowardstarget
-    - fleeplayers
   AITargetSelectors:
+    - clear
+    - attacker
     - players
   Health: 50 # change this
   Damage: 7

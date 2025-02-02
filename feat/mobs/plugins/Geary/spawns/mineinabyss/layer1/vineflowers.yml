@@ -13,6 +13,6 @@ l1_vineflowers:
 # Mob spawns
 
 #TODO re-enable when animation gets reworked
-#l1_vinebinder: { inherit: l1_vineflowers, type: mm:vinebinder }
+l1_vinebinder: { inherit: l1_vineflowers, type: mm:vinebinder }
 l1_vinepoofer: { inherit: l1_vineflowers, type: mm:vinepoofer }
 l1_vineblaster: { inherit: l1_vineflowers, type: mm:vineblaster, priority: 0.25 }

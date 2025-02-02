@@ -43,7 +43,7 @@ l5_hostile_sand:
 l5_chikyuoebi:
   inherit: l5_hostile
   type: mm:chikyuoebi
-  priority: 0.9
+  priority: 0.5
   conditions:
     - $inherit
     - $remove maxNearby
@@ -54,11 +54,11 @@ l5_swarmshocker: { inherit: l5_hostile, type: mm:swarmshocker }
 l5_kuongatari:
   inherit: l5_hostile
   type: mm:kuongatari
-  amount: 1-2
-  spread: 7
+  amount: 1-3
+  spread: 3
 l5_swarmhoarder: # uncommon spawn
   inherit: l5_hostile
-  priority: 0.1 
+  priority: 0.2 
   type: mm:swarmhoarder
 l5_tachikatana: # rare spawn
   inherit: l5_hostile

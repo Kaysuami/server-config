@@ -38,15 +38,15 @@ l4_horncrier:
 l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
-  chance: 0.1
-  priority: 0.5
+  chance: 0.2
+  priority: 0.4
   conditions:
     - $inherit
     - $remove maxNearby
     - maxNearby:
         amount: 2
-    - mythicConditions:
-        - lightlevelfromblocks{l=<12}
+ #   - mythicConditions:
+  #      - lightlevelfromblocks{l=<12}
 
 
 l4_tachikatana:

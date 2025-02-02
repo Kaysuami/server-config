@@ -15,7 +15,7 @@ l1_hostile:
 l1_silkfang:
   inherit: l1_hostile
   type: mm:silkfang
-  chance: 0.2
+  chance: 0.5
   conditions:
     - $inherit
     - $remove maxNearby
@@ -25,6 +25,7 @@ l1_silkfang:
 l1_mantoyer:
   inherit: l1_hostile
   type: mm:mantoyer
+  chance: 0.2
   amount: 2-3
 
 l1_woodcrier: # uncommon spawn

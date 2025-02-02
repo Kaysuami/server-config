@@ -13,7 +13,7 @@ vinebinder:
     - clear
     - players
   Health: 20 # change this
-  Damage: 0 # keep this 0
+  Damage: 5 # keep this 0
   Options:
     PreventSunburn: true
     Collidable: false
@@ -81,7 +81,7 @@ vineblaster:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 
-    - skill:vineblasterattack @Self ~onTimer:60
+    - skill:vineblasterattack @Self ~onTimer:40
     # - skill{s=vineblastermortar} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
 
@@ -123,6 +123,6 @@ vinepoofer:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 
-    - skill:vinepooferattack @Self ~onTimer:60
+    - skill:vinepooferattack @Self ~onTimer:30
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack

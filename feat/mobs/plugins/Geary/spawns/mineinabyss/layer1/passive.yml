@@ -17,7 +17,7 @@ l1_passive:
 l1_beniguma:
   inherit: l1_passive
   type: mm:beniguma
-  priority: 0.4
+  priority: 0.7
 
 l1_fuwagi: { inherit: l1_passive, type: mm:fuwagi }
 l1_okibo:
@@ -25,7 +25,7 @@ l1_okibo:
   type: mm:okibo
   amount: 1-2
   chance: 0.1
-  priority: 0.2
+  priority: 0.3
   regions: [ orth, l1s0 ]
   conditions:
     - blockBelow:

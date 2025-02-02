@@ -4,10 +4,10 @@ l1_flying:
   position: AIR
   regions: [ layerone ]
   conditions:
-    - gap: 10..600
+    - gap: 7..600
     - maxNearby:
         amount: 3
-    - gapBelow: 16..600
+    - gapBelow: 10..600
 
 # Mob spawns
 

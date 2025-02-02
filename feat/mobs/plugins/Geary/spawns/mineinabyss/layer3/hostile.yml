@@ -7,8 +7,8 @@ l3_hostile:
   conditions:
     - maxNearby:
         amount: 2
-    - blockBelow:
-        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+ #   - blockBelow:
+#        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
 
 # Mob spawns
 

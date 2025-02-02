@@ -36,3 +36,13 @@ l2_woodcrier:
     - $inherit
     - maxNearby:
         amount: 5
+
+l2_hammerbeakLarge:
+  inherit: l2_hostile
+  type: mm:hammerbeakLarge
+  priority: 0.25
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 2

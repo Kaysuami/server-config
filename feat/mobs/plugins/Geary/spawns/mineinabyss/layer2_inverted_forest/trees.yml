@@ -9,9 +9,9 @@ l2s2_trees:
     - maxNearby:
         amount: 5
     - blockBelow:
-        allow: [ "#leaves" ]
-    - mythicConditions:
-        - heightabove{h=110}
+        allow: [ "#leaves", COBBLESTONE ]
+#    - mythicConditions:
+#        - heightabove{h=110}
 
 # Mob spawns
 

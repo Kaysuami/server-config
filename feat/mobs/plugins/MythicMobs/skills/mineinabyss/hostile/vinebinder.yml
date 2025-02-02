@@ -3,7 +3,7 @@ vbATTACK:
     - CancelEvent
     - skill{s=vbATTACKskill} @self
 vbATTACKskill:
-  Cooldown: 3
+  Cooldown: 4
   Skills:
     - state{s=attack;li=3;lo=2} @self
     - delay 10
@@ -18,7 +18,7 @@ vbATTACKskill:
 
 vinebinderATTACKDamage:
   Skills:
-    - damage{amount=5}
+    - damage{amount=5} @PIR{r=4}
 
 
 
@@ -47,7 +47,7 @@ vinebinderAmbient:
 
 
 vineblasterattack:
-  Cooldown: 6
+  Cooldown: 4
   Conditions:
     - incombat true
     - offgcd true
@@ -71,7 +71,7 @@ vineblaster_tick:
 
 vineblaster_impact:
   Skills:
-    - damage{a=3} @target
+    - damage{a=4} @target
     - potion{type=POISON;duration=50;level=2} @target
     - effect:particles{particle=falling_obsidian_tear;amount=2;hS=.25;vS=.5;y=.5;repeat=30;repeatInterval=2} @target
 
@@ -80,7 +80,7 @@ vinepooferattack:
   Conditions:
     - incombat true
     - offgcd true
-    - targetwithin{d=5} true
+    - targetwithin{d=6} true
   Skills:
     - gcd{ticks=200}
     - delay 20
@@ -105,6 +105,6 @@ vinepooferattack:
     - effect:sound{s=block.wool.place;p=2.0;v=2} @Self
     - effect:particles{particle=FALLING_SPORE_BLOSSOM;amount=300;hS=5;vS=5;y=1} @self
     - effect:particles{particle=FALLING_SPORE_BLOSSOM;amount=30;hS=1;vS=2} @self
-    - potion{type=POISON;duration=80;level=2} @PIR{r=6}
-    - potion{type=WITHER;duration=80;level=1} @PIR{r=6}
-    - potion{type=SLOWNESS;duration=100;level=1} @PIR{r=6}
+    - potion{type=POISON;duration=80;level=2} @PIR{r=7}
+    - potion{type=WITHER;duration=80;level=2} @PIR{r=7}
+    - potion{type=SLOWNESS;duration=100;level=1} @PIR{r=7}

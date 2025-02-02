@@ -14,7 +14,7 @@ demonfish:
     - attacker
     - players
   Health: 30 # change this
-  Damage: 5
+  Damage: 4
   Options:
     Silent: false
     FollowRange: 25
