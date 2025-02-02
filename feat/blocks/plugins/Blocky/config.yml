@@ -33,7 +33,7 @@ tripWires:
 furniture:
   hitboxOutlines:
     # Valid typed are ITEM, BLOCK, NONE
-    type: ITEM
+    type: NONE
     item:
       type: minecraft:structure_void
       customModelData: 1
