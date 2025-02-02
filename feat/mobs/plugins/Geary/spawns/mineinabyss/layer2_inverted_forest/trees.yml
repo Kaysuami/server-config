@@ -9,7 +9,7 @@ l2s2_trees:
     - maxNearby:
         amount: 5
     - blockBelow:
-        allow: [ "#leaves", COBBLESTONE ]
+        allow: [ "#leaves"]
 #    - mythicConditions:
 #        - heightabove{h=110}
 

@@ -29,7 +29,7 @@ l5_uibuta:
 l5_makihige:
   inherit: l5_water
   type: mm:makihige
-  priority: 0.5
+  priority: 0.4
   conditions:
     - $inherit
     - blockAbove:
@@ -39,7 +39,7 @@ l5_makihige:
 l5_edusan:
   inherit: l5_water
   type: mm:edusan
-  priority: 0.2
+  priority: 0.1
   conditions:
     - $inherit
     - $remove maxNearby
