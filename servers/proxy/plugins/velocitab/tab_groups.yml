@@ -25,7 +25,7 @@ groups:
       - survival
       - archive
     sorting_placeholders:
-      - '%server%'
+      - '%local_players_online%'
       - '%role_weight%'
       - '%statistic_minutes_played%'
       - '%username%'

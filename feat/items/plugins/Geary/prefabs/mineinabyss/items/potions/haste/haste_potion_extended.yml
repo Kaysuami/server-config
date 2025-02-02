@@ -8,16 +8,9 @@ set.item:
     itemFlags:
       - HIDE_ADDITIONAL_TOOLTIP
       - HIDE_ENCHANTS
-    food:
-      nutrition: 0
-      saturation: 0
-      usingConvertsTo:
-        type: GLASS_BOTTLE
-      effects:
-        - effect:
-            type: minecraft:haste
-            duration: 8m
-          probability: 1.0
+    customPotionEffects:
+      - type: minecraft:haste
+        duration: 8m
 set.potionMixes:
   potionmixes:
     - ingredient: minecraft:redstone
