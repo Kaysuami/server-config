@@ -12,7 +12,7 @@ playerCaps:
 # Options about the spawn range of mobs around each player
 range:
   maxDistance: 62
-  minDistance: 18
+  minDistance: 20
   maxVerticalDistance: 36
   # Radius around the player to count mob categories for spawn caps.
   playerCapRadius: 200
@@ -20,8 +20,8 @@ range:
   defaultNearbyRange: 100.0
 # How often should each spawn category, attempt spawns. The higher a value, the more time between spawn attempts.
 runTimes:
-  GROUND: 150ms
-  WATER: 350ms
-  AIR: 500ms
+  GROUND: 800ms
+  WATER: 1s
+  AIR: 3s
 # How many times to try and find a valid spawn position around a player before giving up.
 maxSpawnAttemptsPerPlayer: 12

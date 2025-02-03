@@ -14,4 +14,8 @@ l3_dosetori: { inherit: l3_flying, type: mm:dosetori, priority: 0.2  }
 l3_madokajack: { inherit: l3_flying, type: mm:madokajack, priority: 0.2  }
 
 # Uncommon
-l3_splitjaw: { inherit: l3_flying, type: mm:splitjaw, priority: 0.2 }
+l3_splitjaw:
+  inherit: l3_flying
+  type: mm:splitjaw
+  priority: 0.5
+  chance: 0.2

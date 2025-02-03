@@ -17,5 +17,6 @@ l4_onitsuchi: { inherit: l4_flying, type: mm:onitsuchi }
 l4_hammerbeakLarge:
   inherit: l4_flying
   type: mm:hammerbeakLarge
-  priority: 0.75
+  priority: 0.5
+  chance: 0.75
 # Uncommon
