@@ -2,8 +2,8 @@ mantoyer:
   Type: SPIDER
   SpawnCategory: swarm
   Display: "<red>Man-toyer"
-  Health: 16
-  Damage: 5
+  Health: 15
+  Damage: 4
   AIGoalSelectors:
     - clear
     - meleeattack

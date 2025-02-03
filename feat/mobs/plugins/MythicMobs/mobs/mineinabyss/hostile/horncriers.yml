@@ -111,14 +111,14 @@ horncrier:
     ThreatTable: true
   Drops:
     - exp 30-60
-    - geary mineinabyss:horncrier_horn_0 1 0.002
-    - geary mineinabyss:horncrier_horn_1 1 0.002
-    - geary mineinabyss:horncrier_horn_2 1 0.002
-    - geary mineinabyss:horncrier_horn_3 1 0.002
-    - geary mineinabyss:horncrier_horn_4 1 0.002
-    - geary mineinabyss:horncrier_horn_5 1 0.002
-    - geary mineinabyss:horncrier_horn_6 1 0.002
-    - geary mineinabyss:horncrier_horn_7 1 0.002
+    - geary mineinabyss:horncrier_horn_0 1 0.001
+    - geary mineinabyss:horncrier_horn_1 1 0.001
+    - geary mineinabyss:horncrier_horn_2 1 0.001
+    - geary mineinabyss:horncrier_horn_3 1 0.001
+    - geary mineinabyss:horncrier_horn_4 1 0.001
+    - geary mineinabyss:horncrier_horn_5 1 0.001
+    - geary mineinabyss:horncrier_horn_6 1 0.001
+    - geary mineinabyss:horncrier_horn_7 1 0.001
     - WHITE_WOOL 1-3 0.6
   Skills:
     # - CancelEvent{sync=true} ~onAttack

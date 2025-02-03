@@ -39,7 +39,7 @@ l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
   chance: 0.05
-  priority: 0.3
+  priority: 0.1
   conditions:
     - $inherit
     - $remove maxNearby
@@ -52,7 +52,7 @@ l4_orbpiercer:
 l4_tachikatana:
   inherit: l4_hostile
   type: mm:tachikatana
-  chance: 0.001
+  chance: 0.002
   priority: 0.1
   conditions:
     - $inherit

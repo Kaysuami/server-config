@@ -2,7 +2,7 @@ inbyo:
   Type: SPIDER
   SpawnCategory: swarm
   Display: "<#3D3D3D>Inbyo"
-  Health: 18
+  Health: 25
   Damage: 4
   AIGoalSelectors:
     - clear

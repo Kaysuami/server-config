@@ -4,7 +4,7 @@ l2s2_trees:
   position: GROUND
   regions: [ l2s2 ]
   amount: 1-6
-  spread: 5
+  spread: 3
   conditions:
     - maxNearby:
         amount: 5

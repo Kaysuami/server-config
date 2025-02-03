@@ -3,7 +3,7 @@ spittleshrub:
   SpawnCategory: hostile
   Display: '<#696112>Spittleshrub'
   Damage: 7
-  Health: 45
+  Health: 35
   Options:
     PreventSunburn: true
     PreventJockeyMounts: true

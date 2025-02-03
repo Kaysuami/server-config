@@ -5,7 +5,7 @@ Reflectdamage:
       onTick=[
       - particles{p=crit;amount=10;hS=0.4}
       ];
-      damageMods="ENTITY_ATTACK 0.1, PROJECTILE 0.1"} @self
+      damageMods="ENTITY_ATTACK 0.1"} @self
 damagereflect:
   Conditions:
     - hasaura{aura=damageResist} true

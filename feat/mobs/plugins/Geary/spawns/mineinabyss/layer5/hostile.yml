@@ -64,7 +64,7 @@ l5_tachikatana: # rare spawn
   inherit: l5_hostile
   type: mm:tachikatana
   chance: 0.04
-  priority: 0.5
+  priority: 0.04
   conditions:
     - $inherit
     - $remove maxNearby
@@ -78,4 +78,4 @@ l5_horncrier: { inherit: l5_hostile_snow, type: mm:horncrier }
 # Sand
 l5_spikewalker: { inherit: l5_hostile_sand, type: mm:spikewalker }
 l5_kagi_tachikiri: { inherit: l5_hostile_sand, type: mm:kagi_tachikiri }
-l5_virinsipede: { inherit: l5_hostile_sand, type: mm:virinsipede, priority: 0.04 }
+l5_virinsipede: { inherit: l5_hostile_sand, type: mm:virinsipede, priority: 0.1 }

@@ -14,7 +14,7 @@ yomotsubi:
     - clear
     - players
   Options:
-    KnockbackResistance: 1
+    KnockbackResistance: 0.6
     Collidable: false
     Silent: true
     FollowRange: 28
