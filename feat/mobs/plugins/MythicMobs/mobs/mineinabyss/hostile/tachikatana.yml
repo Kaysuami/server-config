@@ -29,7 +29,7 @@ tachikatana:
     - TORCH HAND
   Model:
     Id: tachikatana
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   DamageModifiers:

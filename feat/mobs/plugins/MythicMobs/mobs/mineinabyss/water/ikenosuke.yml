@@ -30,6 +30,7 @@ ikenosuke:
     - prismarine_crystals 1-8 0.9
   Model:
     Id: ikenosuke
+    ViewRadius: 48
 
   Skills:
     ####### Misc

@@ -25,7 +25,7 @@ madokajack:
   # MovementSpeed: 0.35
   Model:
     Id: madokajack
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 3

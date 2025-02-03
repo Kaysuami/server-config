@@ -16,6 +16,7 @@ hagamizukin:
   Damage: 7
   Model:
     Id: hagamizukin
+    ViewRadius: 48
   Options:
     Silent: false
     FollowRange: 25

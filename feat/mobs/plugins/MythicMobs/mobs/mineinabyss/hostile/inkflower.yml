@@ -28,7 +28,7 @@ inkflower:
     - TORCH HAND
   Model:
     Id: inkflower
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Skills:

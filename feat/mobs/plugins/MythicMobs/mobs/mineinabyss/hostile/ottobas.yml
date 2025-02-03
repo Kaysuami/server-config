@@ -25,7 +25,7 @@ ottobas:
     PreventOtherDrops: true
   Model:
     Id: ottobas
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
     Scale: 1.1
   Drops:

@@ -31,7 +31,7 @@ spikewalker:
     - geary mineinabyss:spikewalker_meat 1-2 0.6
   Model:
     Id: spikewalker
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Skills:

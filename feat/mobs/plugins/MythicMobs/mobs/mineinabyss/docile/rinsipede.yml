@@ -26,7 +26,7 @@ rinsipede:
     - attacker
   Model:
     Id: rinsipede
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 1.3

@@ -26,7 +26,7 @@ titanjaw:
     - attacker
   Model:
     Id: titanjaw
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 2.5
@@ -71,7 +71,7 @@ baby_titanjaw:
     - diamond_axe HAND
   Model:
     Id: titanjaw
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 1

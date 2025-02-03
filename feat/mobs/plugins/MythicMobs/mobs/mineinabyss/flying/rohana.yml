@@ -23,7 +23,7 @@ rohana:
     - DROWNING -1
   Model:
     Id: rohana
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:

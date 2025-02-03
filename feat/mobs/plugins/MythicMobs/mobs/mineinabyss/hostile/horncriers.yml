@@ -28,7 +28,7 @@ woodcrier:
     PreventJockeyMounts: true
   Model:
     Id: horncrier_easy
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   DamageModifiers:
@@ -102,7 +102,7 @@ horncrier:
     PreventOtherDrops: true
   Model:
     Id: horncrier_hard
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   DamageModifiers:

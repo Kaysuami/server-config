@@ -19,7 +19,7 @@ hashofu:
   # MovementSpeed: 0.4
   Model:
     Id: hashofu
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:

@@ -23,7 +23,7 @@ abyssal_snail:
     PreventOtherDrops: true
   Model:
     Id: abyssal_snail
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 25-40

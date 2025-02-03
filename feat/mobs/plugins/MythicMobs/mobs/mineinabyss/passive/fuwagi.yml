@@ -22,7 +22,7 @@ fuwagi:
     PreventOtherDrops: true
   Model:
     Id: fuwagi
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 3-7

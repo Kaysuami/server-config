@@ -25,7 +25,7 @@ vinebinder:
     KnockbackResistance: 1.0
   Model:
     Id: vinebinder
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 1
@@ -68,7 +68,7 @@ vineblaster:
     Collidable: false
   Model:
     Id: vineblaster
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 0.3
@@ -110,7 +110,7 @@ vinepoofer:
     Collidable: false
   Model:
     Id: vinepoofer
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 1

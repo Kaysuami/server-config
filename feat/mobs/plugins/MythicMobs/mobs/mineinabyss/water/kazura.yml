@@ -18,7 +18,7 @@ kazura:
     PreventOtherDrops: true
   Model:
     Id: kazura
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
     Scale: 2.0
   Drops:

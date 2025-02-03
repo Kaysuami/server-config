@@ -27,7 +27,7 @@ edusan:
         chance: 1
   Model:
     Id: edusan
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 35-50

@@ -34,7 +34,7 @@ demonfish:
         chance: 1
   Model:
     Id: demonfish
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Skills:
     ####### Misc

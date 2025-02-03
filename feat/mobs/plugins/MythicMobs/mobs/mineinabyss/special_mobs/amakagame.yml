@@ -22,7 +22,7 @@ amakagame:
     PreventOtherDrops: true
   Model:
     Id: amakagame
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 20-25

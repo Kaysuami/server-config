@@ -27,7 +27,7 @@ uibuta:
     - IRON_BOOTS{enchants=DEPTH_STRIDER:3}
   Model:
     Id: uibuta
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 2

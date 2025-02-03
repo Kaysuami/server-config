@@ -30,7 +30,7 @@ ashimite:
     - LIGHT_BLUE_WOOL 1-2 0.6
   Model:
     Id: ashimite
-    ViewRadius: 64
+    ViewRadius: 48
     #Drive: true
     DamageTint: true
   DamageModifiers:
@@ -75,7 +75,7 @@ baby_ashimite:
     - LIGHT_BLUE_WOOL 1 0.3
   Model:
     Id: ashimite
-    ViewRadius: 64
+    ViewRadius: 48
     #Drive: true
     DamageTint: true
     Scale: 0.5

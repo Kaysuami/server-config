@@ -24,7 +24,7 @@ corpse_weeper:
     Silent: true
   Model:
     Id: corpse_weeper
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 1.3

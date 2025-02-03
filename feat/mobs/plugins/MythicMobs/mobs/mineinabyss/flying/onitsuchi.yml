@@ -25,7 +25,7 @@ onitsuchi:
   # MovementSpeed: 0.4
   Model:
     Id: onitsuchi
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:

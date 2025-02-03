@@ -11,6 +11,7 @@ kessho:
     PreventJockeyMounts: true
   Model:
     Id: amethyst_golem
+    ViewRadius: 48
   Skills:
     - skill:AmethystGolemAttack{sync=true} @Self ~onAttack
     - skill:AmethystGolemAttackSlam @Self ~onTimer:100 0.5

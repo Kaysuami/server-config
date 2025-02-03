@@ -30,7 +30,7 @@ hisoishi:
     - diamond_axe HAND
   Model:
     Id: hisoishi
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:
@@ -86,7 +86,7 @@ baby_hisoishi:
     - diamond_axe HAND
   Model:
     Id: hisoishi
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 0.4

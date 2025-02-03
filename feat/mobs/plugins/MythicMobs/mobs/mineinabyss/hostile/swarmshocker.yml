@@ -30,7 +30,7 @@ swarmshocker:
     - geary mineinabyss:swarmshocker_charged_powder 1 0.3
   Model:
     Id: swarmshocker
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Skills:
     ####### Misc
@@ -78,7 +78,7 @@ swarmhoarder:
     - SOUL_SAND 1 1
   Model:
     Id: swarmshockermid
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Skills:
     ####### Misc

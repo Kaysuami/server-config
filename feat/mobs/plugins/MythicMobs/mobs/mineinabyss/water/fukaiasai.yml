@@ -27,6 +27,7 @@ fukaiasai:
         chance: 1
   Model:
     Id: fukaiasai
+    ViewRadius: 48
 
   Skills:
     ####### Misc

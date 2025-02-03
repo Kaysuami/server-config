@@ -22,7 +22,7 @@ kakatsumuri:
     MovementSpeed: 0.18
   Model:
     Id: kakatsumuri
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 3-8

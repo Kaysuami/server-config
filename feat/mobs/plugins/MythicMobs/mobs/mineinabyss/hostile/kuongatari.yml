@@ -23,7 +23,7 @@ kuongatari:
     PreventOtherDrops: true
   Model:
     Id: kuongatari
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 1.2
@@ -70,7 +70,7 @@ kuongatari_summon:
     - geary mineinabyss:kuongatari_silk 1-2 0.2
   Model:
     Id: kuongatari
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 0.7

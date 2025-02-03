@@ -28,7 +28,7 @@ stinger:
     KnockbackResistance: 0.0
   Model:
     Id: stinger
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:
@@ -82,7 +82,7 @@ stinger2:
     KnockbackResistance: 0.0
   Model:
     Id: stinger
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:

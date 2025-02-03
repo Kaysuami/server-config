@@ -25,7 +25,7 @@ himushi:
     PreventJockeyMounts: true
   Model:
     Id: magma_snail
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
   Drops:
     - SOUL_SAND 1-2 0.6

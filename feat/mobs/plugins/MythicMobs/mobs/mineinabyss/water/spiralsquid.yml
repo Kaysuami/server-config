@@ -19,7 +19,7 @@ spiralsquid:
     PreventOtherDrops: true
   Model:
     Id: spiralsquid
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 5-10

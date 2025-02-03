@@ -14,7 +14,7 @@ mia_baby_corpse_weeper:
   Equipment: [ ]
   Model:
     Id: corpse_weeper
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 0.3
@@ -61,7 +61,7 @@ mia_corpse_weeper:
   Equipment: [ ]
   Model:
     Id: corpse_weeper
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Skills:

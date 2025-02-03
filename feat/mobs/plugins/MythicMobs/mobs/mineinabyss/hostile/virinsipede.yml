@@ -30,7 +30,7 @@ virinsipede:
     - PROJECTILE 0.5
   Model:
     Id: virinsipede
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 15-25

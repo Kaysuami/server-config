@@ -25,7 +25,7 @@ octoliar:
     DigOutOfGround: true
   Model:
     Id: octoliar
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
     Scale: 2

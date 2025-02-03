@@ -23,7 +23,7 @@ sakuranbo:
     PreventOtherDrops: true
   Model:
     Id: sakuranbo
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 10-20

@@ -17,7 +17,7 @@ daikonchu:
     - players1
   Model:
     Id: daikonchu
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:

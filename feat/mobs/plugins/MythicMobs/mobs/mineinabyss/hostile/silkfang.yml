@@ -26,7 +26,7 @@ silkfang:
     - FALLING 0
   Model:
     Id: silkfang
-    ViewRadius: 64
+    ViewRadius: 48
     Drive: false
     DamageTint: true
   Drops:

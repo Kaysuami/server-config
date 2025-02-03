@@ -32,7 +32,7 @@ makihige:
         chance: 1
   Model:
     Id: makihige
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
   Drops:
     - exp 15-30

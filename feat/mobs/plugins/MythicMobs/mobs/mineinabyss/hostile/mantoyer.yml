@@ -24,7 +24,7 @@ mantoyer:
     PreventOtherDrops: true
   Model:
     Id: mantoyer
-    ViewRadius: 64
+    ViewRadius: 48
     DamageTint: true
     Scale: 1.4
   Drops:
