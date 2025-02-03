@@ -25,13 +25,24 @@ l1_silkfang:
 l1_mantoyer:
   inherit: l1_hostile
   type: mm:mantoyer
-  chance: 0.2
-  amount: 2-3
+  chance: 0.5
+  amount: 1-2
 
 l1_woodcrier: # uncommon spawn
   inherit: l1_hostile
   type: mm:woodcrier
   priority: 0.3
-  chance: 0.1
+  chance: 0.2
   conditions:
     - $inherit
+
+l1_hammerbeakLarge:
+  inherit: l1_flying
+  type: mm:hammerbeakLarge
+  priority: 0.05
+  chance: 0.05
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 1

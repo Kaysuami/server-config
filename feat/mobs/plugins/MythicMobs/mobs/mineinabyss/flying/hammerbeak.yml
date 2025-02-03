@@ -81,8 +81,8 @@ hammerbeakLarge:
     - players
    # - nearestConditionalTarget{conditions=[- mythicmobtype{t=ikenosuke,demonfish,stinger} true]}
   Faction: hammerbeaks
-  Health: 50
-  Damage: 7
+  Health: 40
+  Damage: 6
   Options:
     Silent: true
     PreventOtherDrops: true
@@ -97,11 +97,10 @@ hammerbeakLarge:
     - geary mineinabyss:hammerbeak_egg 1-2 0.5
   Model:
     Id: hammerbeakremodel
-    Scale: 1.5
+    Scale: 1.3
 
   Skills:
     # Misc
-    - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=60} @self ~onspawn
     - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=12} @self ~onTimer:10
     - potion{t=LEVITATION;l=1;force=true;p=true;d=10} @self ~onTimer:20 ?stance{s=idleAir}
     - look{} @target ~onTimer:20
@@ -112,7 +111,6 @@ hammerbeakLarge:
     - stance{s=landed} @self ~onSpawnOrLoad
     - skill{s=hammerbeakTakeoff} @self ~onTimer:100 ?targetwithin{d=14}
     - skill{s=hammerbeakTakeoff} @self ~onSignal:danger
-    - skill{s=hammerbeakTakeoff} @self ~onSpawn
     - skill{s=hammerbeakTakeoff} @self ~onHurt ?onGround{}
     - skill{s=hammerbeakLand} @self ~onDropCombat
     - skill{s=hammerbeakLand} @self ~onTimer:100

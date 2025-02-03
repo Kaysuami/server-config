@@ -37,6 +37,8 @@ l2_woodcrier:
     - maxNearby:
         amount: 5
 
+
+
 l2_hammerbeakLarge:
   inherit: l2_hostile
   type: mm:hammerbeakLarge

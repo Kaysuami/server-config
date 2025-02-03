@@ -3,8 +3,8 @@ defaultCap: 10
 # The maximum number of mobs around each palyer per spawn category.
 playerCaps:
   flying: 5
-  passive: 10
-  water: 9
+  passive: 9
+  water: 8
   hostile: 5
   swarm: 7
   uncommon: 3
@@ -22,6 +22,6 @@ range:
 runTimes:
   GROUND: 500ms
   WATER: 500ms
-  AIR: 10s
+  AIR: 7s
 # How many times to try and find a valid spawn position around a player before giving up.
 maxSpawnAttemptsPerPlayer: 12

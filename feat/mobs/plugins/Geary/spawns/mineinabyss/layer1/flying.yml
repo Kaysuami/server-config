@@ -13,16 +13,7 @@ l1_flying:
 
 l1_hammerbeak: { inherit: l1_flying, type: mm:hammerbeak }
 l1_cyatoria: { inherit: l1_flying, type: mm:cyatoria }
-l1_hammerbeakLarge:
-  inherit: l1_flying
-  type: mm:hammerbeakLarge
-  priority: 0.5
-  chance: 0.1
-  conditions:
-    - $inherit
-    - $remove maxNearby
-    - maxNearby:
-        amount: 1
+
 l1_splitjaw:
   inherit: l1_flying
   type: mm:splitjaw
