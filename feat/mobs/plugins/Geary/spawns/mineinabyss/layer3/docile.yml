@@ -2,7 +2,7 @@
 
 l3_docile:
   position: GROUND
-  spread: 7
+  spread: 14
   regions: [ layerthree ]
   conditions:
     - blockBelow:
