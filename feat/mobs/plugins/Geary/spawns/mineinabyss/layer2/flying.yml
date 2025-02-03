@@ -19,5 +19,14 @@ l2_dosetori: { inherit: l2_flying, type: mm:dosetori, priority: 0.7 }
 # Uncommon
 l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.5 }
 
+l1_hammerbeakLarge:
+  inherit: l1_flying
+  type: mm:hammerbeakLarge
+  priority: 0.2
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 1
 # Rare
 l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.1 }

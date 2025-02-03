@@ -50,3 +50,17 @@ l4_makihige:
         amount: 3
     - blockAbove:
         allow: [ AIR ]
+
+l4_orbpiercer:
+  inherit: l4_water
+  type: mm:orbpiercer
+  chance: 0.1
+  priority: 0.2
+  amount: 1
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 2
+ #   - mythicConditions:
+  #      - lightlevelfromblocks{l=<12}

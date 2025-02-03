@@ -2,7 +2,7 @@ orbpiercer:
   Type: ZOMBIE
   SpawnCategory: miniboss
   Display: "<#C74040>Orb Piercer"
-  Health: 170
+  Health: 180
   Damage: 8
   AIGoalSelectors:
     - clear
@@ -30,8 +30,8 @@ orbpiercer:
     - TORCH HAND
   Drops:
     - exp 100-250
-    - geary mineinabyss:orb_piercer_face_fragments 1 0.7
-    - geary mineinabyss:orb_piercer_spike 1-6 1
+    - geary mineinabyss:orb_piercer_face_fragments 1 1
+    - geary mineinabyss:orb_piercer_spike 2-8 1
   Model:
     Id: orbpiercer
     ViewRadius: 64

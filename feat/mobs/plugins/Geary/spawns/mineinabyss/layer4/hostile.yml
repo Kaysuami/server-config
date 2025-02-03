@@ -7,8 +7,8 @@ l4_hostile:
   conditions:
     - maxNearby:
         amount: 3
-    - blockBelow:
-        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
+ #   - blockBelow:
+#        allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
 
 # Mob spawns
 
@@ -39,7 +39,7 @@ l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
   chance: 0.2
-  priority: 0.4
+  priority: 0.3
   conditions:
     - $inherit
     - $remove maxNearby
@@ -53,7 +53,7 @@ l4_tachikatana:
   inherit: l4_hostile
   type: mm:tachikatana
   chance: 0.01
-  priority: 0.5
+  priority: 0.1
   conditions:
     - $inherit
     - $remove maxNearby

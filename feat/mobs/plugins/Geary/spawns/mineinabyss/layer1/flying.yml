@@ -16,7 +16,7 @@ l1_cyatoria: { inherit: l1_flying, type: mm:cyatoria }
 l1_hammerbeakLarge:
   inherit: l1_flying
   type: mm:hammerbeakLarge
-  priority: 0.2
+  priority: 0.1
   conditions:
     - $inherit
     - $remove maxNearby

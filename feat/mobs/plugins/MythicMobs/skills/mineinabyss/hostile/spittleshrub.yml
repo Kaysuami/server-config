@@ -41,7 +41,7 @@ SpittleshrubMeleeDamage:
     - effect:sound{s=entity.player.attack.strong;v=1;p=0.8} @self
     - effect:particles{p=crit;a=55;hS=0.4;vS=0.4;y=1.5}
     - effect:particles{p=reddust;size=5;color=#32CE32;a=5;hS=0.2;vS=0.2;y=1.5}
-    - basedamage{m=1.2}
+    - damage{a=5}
     - potion{type=POISON;d=60;level=2;ow=true}
     - throw{v=4;vy=2}
 
@@ -61,7 +61,7 @@ SpittleshrubSpit:
     - incombat
     - stance attacking
   TargetConditions:
-    - distance <16
+    - distance <10
   Skills:
     - state{s=shoot;li=3;lo=2;speed=1} @self
     - gcd{ticks=30} @self
@@ -81,6 +81,7 @@ SpittleshrubSpit:
       - effect:sound{s=entity.bee.sting;p=1.5;v=1}
       - potion{type=SLOW;d=60;p=1}
       - potion{type=POISON;d=60;level=1;ow=true}
+      - damage{a=2}
       ];
       onEnd=[
       - effect:particles{p=wax_off;a=40;hS=0.2;vS=0.2}
@@ -99,7 +100,7 @@ SpittleshrubScanAICheck:
   Conditions:
     - incombat
     - offgcd
-    - playersInRadius{amount=>0;r=8} castInstead SpittleshrubScan_AIBurrow
+    - playersInRadius{amount=>0;r=6} castInstead SpittleshrubScan_AIBurrow
     - stance attacking false
   Skills:
     - skill:SpittleshrubScan_AIAggro @self
