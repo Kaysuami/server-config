@@ -22,11 +22,11 @@ l4_kuongatari:
         allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
         deny: [ "diorite" ]
 
-l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker }
+l4_swarmshocker: { inherit: l4_hostile, type: mm:swarmshocker, priority: 0.6 }
 
 l4_horncrier:
   inherit: l4_hostile
-  priority: 0.6
+  priority: 0.5
   type: mm:horncrier
   conditions:
     - $inherit
@@ -38,7 +38,7 @@ l4_horncrier:
 l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
-  chance: 0.2
+  chance: 0.05
   priority: 0.3
   conditions:
     - $inherit
@@ -52,7 +52,7 @@ l4_orbpiercer:
 l4_tachikatana:
   inherit: l4_hostile
   type: mm:tachikatana
-  chance: 0.01
+  chance: 0.001
   priority: 0.1
   conditions:
     - $inherit

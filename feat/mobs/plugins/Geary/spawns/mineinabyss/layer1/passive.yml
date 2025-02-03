@@ -17,7 +17,7 @@ l1_passive:
 l1_beniguma:
   inherit: l1_passive
   type: mm:beniguma
-  priority: 0.7
+  priority: 0.5
 
 l1_fuwagi: { inherit: l1_passive, type: mm:fuwagi }
 l1_okibo:

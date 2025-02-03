@@ -3,7 +3,7 @@
 l2_vineflowers:
   position: GROUND
   regions: [ layertwo ]
-  chance: 0.8
+  chance: 0.7
   conditions:
     - blockBelow:
         allow: [ "#dirt", "moss_carpet", "#leaves" ]

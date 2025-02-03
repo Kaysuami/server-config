@@ -18,5 +18,5 @@ l4_hammerbeakLarge:
   inherit: l4_flying
   type: mm:hammerbeakLarge
   priority: 0.5
-  chance: 0.75
+  chance: 0.6
 # Uncommon

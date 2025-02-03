@@ -3,24 +3,24 @@ defaultCap: 10
 # The maximum number of mobs around each palyer per spawn category.
 playerCaps:
   flying: 5
-  passive: 12
-  water: 10
-  hostile: 6
+  passive: 10
+  water: 9
+  hostile: 5
   swarm: 7
-  uncommon: 4
+  uncommon: 3
   miniboss: 2
 # Options about the spawn range of mobs around each player
 range:
-  maxDistance: 62
+  maxDistance: 58
   minDistance: 20
-  maxVerticalDistance: 36
+  maxVerticalDistance: 30
   # Radius around the player to count mob categories for spawn caps.
   playerCapRadius: 200
   # Radius to count nearby mobs for the maxNearby condition.
-  defaultNearbyRange: 100.0
+  defaultNearbyRange: 120.0
 # How often should each spawn category, attempt spawns. The higher a value, the more time between spawn attempts.
 runTimes:
-  GROUND: 400ms
+  GROUND: 450ms
   WATER: 500ms
   AIR: 10s
 # How many times to try and find a valid spawn position around a player before giving up.

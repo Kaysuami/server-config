@@ -12,12 +12,12 @@ l2_flying:
 # Mob spawns
 
 # Common
-l2_hammerbeak: { inherit: l2_flying, type: mm:hammerbeak, priority: 0.7 }
-l2_cyatoria: { inherit: l2_flying, type: mm:cyatoria, priority: 0.7 }
-l2_dosetori: { inherit: l2_flying, type: mm:dosetori, priority: 0.7 }
+l2_hammerbeak: { inherit: l2_flying, type: mm:hammerbeak, priority: 0.5 }
+l2_cyatoria: { inherit: l2_flying, type: mm:cyatoria, priority: 0.5 }
+l2_dosetori: { inherit: l2_flying, type: mm:dosetori, priority: 0.5 }
 
 # Uncommon
-l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.5 }
+l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.3 }
 
 l1_hammerbeakLarge:
   inherit: l1_flying
@@ -30,4 +30,4 @@ l1_hammerbeakLarge:
     - maxNearby:
         amount: 1
 # Rare
-l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.1 }
+l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.01 }
