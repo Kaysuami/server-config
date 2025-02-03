@@ -34,8 +34,8 @@ HS_impact:
     #- explosion{yield=2} @target
     - command{c="remove boats 5";asOp=true} @target
     - command{c="remove boats 5";asOp=true} @target
-    - command{c="remove boats 5";asOp=true;asTarget=true} @target
-    - command{c="remove boats 5";asOp=true;asCaster=true} @target
+   # - command{c="remove boats 5";asOp=true;asTarget=true} @target
+    #- command{c="remove boats 5";asOp=true;asCaster=true} @target
 
     - potion{type=BLINDNESS;duration=100;level=1;p=false;force=true} @target
     - potion{type=SLOWNESS;duration=100;level=1;p=false;force=true} @target
