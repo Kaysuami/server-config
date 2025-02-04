@@ -21,6 +21,7 @@ emojyList:
     - mineinabyss:cosmetics
     - mineinabyss:orth_map
     - mineinabyss:playerprofile
+    - mineinabyss:roles
     - minecraft:default
 supportedLanguages:
   - en_US
