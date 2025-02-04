@@ -3,7 +3,7 @@
 l3_hostile:
   position: GROUND
   regions: [ layerthree ]
-  spread: 14
+  spread: 20
   conditions:
     - maxNearby:
         amount: 2
