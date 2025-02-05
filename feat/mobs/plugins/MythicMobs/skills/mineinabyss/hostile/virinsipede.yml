@@ -74,7 +74,7 @@ virinburrow:
     - sound{s=minecraft:entity.iron_golem.repair;p=0.3} @PIR{r=30}
     - delay 5
     - sound{s=minecraft:entity.iron_golem.repair;p=0.5} @PIR{r=30}
-    - delay 20
+    - delay 50
     - delay 1
     - state{s=dig_out} @self
 
