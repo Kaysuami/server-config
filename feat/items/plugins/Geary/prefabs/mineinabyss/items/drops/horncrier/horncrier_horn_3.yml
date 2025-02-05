@@ -7,6 +7,7 @@ set.item:
       - ":layer_4::layer_5:"
       - <#fbfc92><i>These colors are unlike anything
       - <#fbfc92><i>I've encountered before.
+      - <#fbfc92><i>Feel
     maxStackSize: 1
 resourcepack:
   textures: mineinabyss:item/creature_drops/horncrier_horn
