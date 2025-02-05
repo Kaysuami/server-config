@@ -26,7 +26,7 @@ Model-Generator:
   Create-Shader: false
   Create-MC-META: false
   Item-Models:
-  - TIPPED_ARROW
+    - LEATHER_HORSE_ARMOR
   Item-Model: LEATHER_HORSE_ARMOR
 Network-Optimization:
   Bundle-Everything: true
