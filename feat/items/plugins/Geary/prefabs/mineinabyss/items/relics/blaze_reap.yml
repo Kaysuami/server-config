@@ -17,11 +17,8 @@ observe:
         player:
           sneaking: true
     - cooldown:
-        id: blaze_reap
-        length: 2s
+        id: BlazeReap
+        length: 120s
         display: <#617B94>Blaze Reap
-    - explode:
-        breakBlocks: false
-        power: 2
-      with:
-        location: "{{ entity.getTargetBlock { maxDistance: 10 } }}"
+    - mythicSkills:
+        - "BlazeReap"
