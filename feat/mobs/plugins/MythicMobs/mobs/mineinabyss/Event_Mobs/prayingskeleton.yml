@@ -1,0 +1,36 @@
+prayingskeleton1:
+  Type: ZOMBIE
+  SpawnCategory: hostile
+  Display: "<green>pRAYING sKELETON"
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+    - clear
+  AITargetSelectors:
+    - clear
+  Health: 1 # change this
+  Damage: 0 # keep this 0
+  Options:
+    PreventSunburn: true
+    Silent: true
+    PreventOtherDrops: true
+    FollowRange: 15
+    MovementSpeed: 0   # replaced with skills
+    KnockbackResistance: 1.0
+    Collidable: false
+  Model:
+    Id: vinepoofer
+    ViewRadius: 48
+    Drive: false
+    DamageTint: true
+    Scale: 1
+  Drops:
+    - exp 10-15
+    - geary mineinabyss:plant_matter 1-2 0.6
+
+  Skills:
+    ####### Misc
+    - skill{s=displayHealth} ~onDamaged
+    - skill:MIAPetExpNearby{exp=1} ~onDeath
+    # - skill{s=vinebinderwave} @target ~onTimer:20
+    - cancelevent{sync=true} @Self ~onAttack

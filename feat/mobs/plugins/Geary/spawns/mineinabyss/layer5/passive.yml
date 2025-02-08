@@ -25,3 +25,11 @@ l5_passive_snow:
 
 l5_abyssal_snail: { inherit: l5_passive, type: mm:abyssal_snail }
 l5_ashimite: { inherit: l5_passive_snow, type: mm:ashimite }
+l5_hashofu:
+  inherit: l5_passive
+  type: mm:hashofu
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 3
