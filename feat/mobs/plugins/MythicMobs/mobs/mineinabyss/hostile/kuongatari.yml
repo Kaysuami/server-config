@@ -10,6 +10,9 @@ kuongatari:
     - float
     - randomstroll
     - randomlookaround
+  AITargetSelectors:
+    - clear
+    - players
   Options:
     PreventSunburn: true
     KnockbackResistance: 0.2
