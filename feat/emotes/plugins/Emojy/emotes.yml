@@ -5,6 +5,7 @@ emotes:
     height: 30
     ascent: 30
     bitmapWidth: 3
+  - id: caught
   - id: bonegun
   - id: pog
   - id: bonethink

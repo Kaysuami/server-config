@@ -1,4 +1,9 @@
 gifs:
+  - id: aboba
+    framePath: emotes:gifs/aboba
+    ascent: 9
+    height: 11
+    offset: -24
   - id: amogusdumpy
     framePath: emotes:gifs/amogusdumpy
     ascent: 9
