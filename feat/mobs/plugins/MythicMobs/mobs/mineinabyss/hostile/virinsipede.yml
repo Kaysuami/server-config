@@ -34,8 +34,8 @@ virinsipede:
     DamageTint: true
   Drops:
     - exp 15-25
-    - geary mineinabyss:virinsipede_segments 4-10 1
-    - geary mineinabyss:virinsipede_antlers 1-2 0.3
+    - geary mineinabyss:virinsipede_segments 4-10 0.8
+    - geary mineinabyss:virinsipede_antlers 1-2 0.3 nolooting
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath

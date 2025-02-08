@@ -24,16 +24,16 @@ l5_uibuta:
   priority: 0.5
   conditions: # Ensure we're at water surface
     - $inherit
-    - blockAbove:
-        allow: [ AIR ]
+   # - blockAbove:
+   #     allow: [ AIR ]
 l5_makihige:
   inherit: l5_water
   type: mm:makihige
   priority: 0.4
   conditions:
     - $inherit
-    - blockAbove:
-        allow: [ AIR ]
+  #  - blockAbove:
+ #      allow: [ AIR ]
 
 # Rare
 l5_edusan:

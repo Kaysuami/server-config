@@ -37,8 +37,8 @@ l4_uibuta:
     - $remove maxNearby
     - maxNearby:
         amount: 2
-    - blockAbove:
-        allow: [ AIR ]
+   # - blockAbove:
+  #      allow: [ AIR ]
 l4_makihige:
   inherit: l4_water
   type: mm:makihige
@@ -48,5 +48,5 @@ l4_makihige:
     - $remove maxNearby
     - maxNearby:
         amount: 3
-    - blockAbove:
-        allow: [ AIR ]
+   # - blockAbove:
+    #    allow: [ AIR ]
