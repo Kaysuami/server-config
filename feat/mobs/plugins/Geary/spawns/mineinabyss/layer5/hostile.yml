@@ -58,7 +58,7 @@ l5_kuongatari:
   spread: 3
 l5_swarmhoarder: # uncommon spawn
   inherit: l5_hostile
-  priority: 0.2 
+  priority: 0.6 
   type: mm:swarmhoarder
 l5_tachikatana: # rare spawn
   inherit: l5_hostile

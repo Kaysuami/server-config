@@ -12,7 +12,6 @@ l3_docile:
 
 # Mob spawns
 
-l3_spittleshrub: { inherit: l3_docile, type: mm:spittleshrub, priority: 0.5  }
 l3_buroguro: { inherit: l3_docile, type: mm:buroguro, priority: 0.5  }
 l3_squidfly: { inherit: l3_docile, type: mm:squidfly, priority: 0.5  }
 l3_rockwalker: { inherit: l3_docile, type: mm:rockwalker }

@@ -25,7 +25,7 @@ l1_silkfang:
 l1_mantoyer:
   inherit: l1_hostile
   type: mm:mantoyer
-  chance: 0.5
+  chance: 0.7
   amount: 1-2
 
 l1_woodcrier: # uncommon spawn

@@ -1,7 +1,7 @@
 prayingskeleton1:
   Type: ZOMBIE
-  SpawnCategory: hostile
-  Display: "<green>pRAYING sKELETON"
+  SpawnCategory: special
+  Display: "<green>Praying Skeleton"
   Modules:
     ThreatTable: true
   AIGoalSelectors:
@@ -19,7 +19,7 @@ prayingskeleton1:
     KnockbackResistance: 1.0
     Collidable: false
   Model:
-    Id: vinepoofer
+    Id: praying_skeleton_1
     ViewRadius: 48
     Drive: false
     DamageTint: true

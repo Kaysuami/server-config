@@ -24,3 +24,18 @@ l4_stinger:
     - $remove maxNearby
     - maxNearby:
         amount: 2
+    - blockBelow:
+        allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
+
+l4_spittleshrub:
+  inherit: l4_docile
+  type: mm:spittleshrub
+  amount: 1
+  regions: [ layerfour ]
+  conditions:
+    - $inherit
+    - $remove maxNearby
+    - maxNearby:
+        amount: 2
+    - blockBelow:
+        allow: [ "#dirt", "moss_carpet", "green_terracotta", "green_concrete", "green_concrete_powder", "lime_terracotta", "lime_concrete", "lime_concrete_powder" ]
