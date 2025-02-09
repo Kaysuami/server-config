@@ -19,7 +19,7 @@ l3_hostile:
 #    - $inherit
 #    - gap: 4..600
 #    - maxNearby:
-        amount: 4
+     #   amount: 4
 
 
 l3_yomotsubi: { inherit: l3_hostile, type: mm:yomotsubi, priority: 0.3 }
