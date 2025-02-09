@@ -1,0 +1,357 @@
+
+
+ozenspawn:
+  Skills:
+  - command{c="mm m kill ozen";asTarget=true;asOp=true}
+  - delay 30
+  - summon{type=ozen;amount=1;radius=1} @Location{c=292,135,-118,0,0}
+debug:
+  Skills:
+  - effect:particles{particle=flame;amount=50;hS=.25;vS=.25} 
+ 
+ 
+#### GENERAL ####
+
+ozen_bossbar_damage:
+  Skills:  
+  - barSet{name="ozen";display="<caster.name>";value="<caster.hp>/<caster.mhp>";color=WHITE;style=SEGMENTED_6} @self
+  - delay 2
+  - barSet{name="ozen";display="<caster.name>";value="<caster.hp>/<caster.mhp>";color=PURPLE;style=SEGMENTED_6} @self
+  - delay 2
+  - barSet{name="ozen";display="<caster.name>";value="<caster.hp>/<caster.mhp>";color=WHITE;style=SEGMENTED_6} @self
+  - delay 2
+  - barSet{name="ozen";display="<caster.name>";value="<caster.hp>/<caster.mhp>";color=PURPLE;style=SEGMENTED_6} @self
+  
+
+ozen_bloodeffect:
+  Conditions:
+  - damagecause{cause=ENTITY_ATTACK} true
+  Skills:
+  - effect:particles{particle=block;m=nether_wart_block;amount=20;hS=.1;vS=.1} @forward{f=1.25;y=1.6}
+  - effect:blockmask{m=REDSTONE_WIRE;d=40} @origin
+
+ozen_concussion:
+  Skills:
+  - delay 1
+  - mounttarget @pir{r=1}
+  - delay 60
+  - remove @self
+  
+
+
+#### STUN ####
+  
+
+ozen_stun_25:
+  Conditions:
+  - offgcd true
+  - score{o=stun25;v=1} false
+  Skills:
+  - lockhead{lp=true;ly=true} @self
+  - gcd{ticks=120}
+  - modifytargetscore{objective=stun25;action=set;value=1} @self
+  - setAI{ai=false} @self
+  - state{s=stun} @self
+  - delay 20
+  - setstance{stance=stun} @self
+  - delay 70
+  - setstance{stance=default} @self
+  - delay 30
+  - setAI{ai=true} @self
+  - lockhead{lp=false;ly=false} @self
+  
+ozen_stun_50:
+  Conditions:
+  - offgcd true
+  - score{o=stun50;v=1} false
+  Skills:
+  - lockhead{lp=true;ly=true} @self
+  - gcd{ticks=120}
+  - modifytargetscore{objective=stun50;action=set;value=1} @self
+  - setAI{ai=false} @self
+  - state{s=stun} @self
+  - delay 20
+  - setstance{stance=stun} @self
+  - delay 70
+  - setstance{stance=default} @self
+  - delay 30
+  - setAI{ai=true} @self
+  - lockhead{lp=false;ly=false} @self
+  
+  
+ozen_stun_hit:
+  Conditions:
+  - stance{s=stun} true
+  Skills:
+  - state{s=stun_hit} @self
+  - effect:particles{particle=crit;amount=25;hS=.25;vS=.25;speed=1.25} @self
+
+#### COMBAT ####
+
+## MELEE 1 ##
+
+ozen_melee_1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=ozen_melee_1} @self
+  
+ozen_melee_1:
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=30}
+  - state{s=melee_1} @self
+  - setspeed{type=walking;speed=0} @self
+  - lunge{v=.25} @target
+  - skill{s=ozen_clothing_foley}
+  - delay 5
+  - skill{s=ozen_bottle_foley}
+  - totem{ch=1;md=2;oH=ozen_melee_1_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
+  - delay 5
+  - skill{s=ozen_melee_1_2} @self .5
+  - delay 20
+  - setspeed{type=walking;speed=1} @self
+  
+ozen_melee_1_2:
+  Conditions:
+  #- offgcd true
+  Skills:
+  - gcd{ticks=30}
+  - state{s=punch1} @self
+  - setspeed{type=walking;speed=0} @self
+  - lunge{v=1} @target
+  - skill{s=ozen_clothing_foley}
+  - delay 5
+  - skill{s=ozen_bottle_foley}
+  - totem{ch=1;md=2;oH=ozen_melee_1_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
+  - delay 25
+  - setspeed{type=walking;speed=1} @self
+  
+ozen_melee_1_damage:
+  TargetConditions:
+  - blocking{} false
+  Skills:
+  - skill{s=ozen_impact}
+  - damage{a=30}
+  
+ozen_melee_1_2_damage:
+  TargetConditions:
+  - blocking{} false
+  Skills:
+  - skill{s=ozen_impact}
+  - throw{v=2;vy=3}
+  - damage{a=40}
+  
+## MELEE 2 ##
+
+ozen_melee_2_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=ozen_melee_2} @self
+  
+ozen_melee_2:
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=30}
+  - state{s=melee_2} @self
+  - setspeed{type=walking;speed=.5} @self
+  - lunge{v=.25} @target
+  - skill{s=ozen_clothing_foley}
+  - delay 3
+  - skill{s=ozen_bottle_foley}
+  - totem{ch=1;md=2;oH=ozen_melee_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
+  - delay 7
+  - skill{s=ozen_melee_2_2} @self .5
+  - delay 10
+  - setspeed{type=walking;speed=1} @self
+  
+ozen_melee_2_2:
+  Conditions:
+  #- offgcd true
+  Skills:
+  - gcd{ticks=30}
+  - state{s=punch2} @self
+  - setspeed{type=walking;speed=.5} @self
+  - lunge{v=1} @target
+  - delay 15
+  - skill{s=ozen_clothing_foley}
+  - skill{s=ozen_bottle_foley}
+  - totem{ch=1;md=2;oH=ozen_melee_2_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
+  - delay 15
+  - setspeed{type=walking;speed=1} @self
+  
+ozen_melee_2_damage:
+  TargetConditions:
+  - blocking{} false
+  Skills:
+  - skill{s=ozen_impact}
+  - damage{a=30}
+  
+ozen_melee_2_2_damage:
+  TargetConditions:
+  - blocking{} false
+  Skills:
+  - skill{s=ozen_impact}
+  - throw{v=2;vy=3}
+  - damage{a=40}
+  
+## GRAB ##
+
+ozen_grab_sync:
+  Conditions:
+  - targetwithin{d=4}
+  Skills:
+  - CancelEvent
+  - skill{s=ozen_grab} @self
+
+ozen_grab:
+  Cooldown: 10
+  Conditions:
+  - offgcd true
+  Skills:
+  - lockhead{lp=true;ly=true} @self
+  - setspeed{type=walking;speed=0} @self
+  - gcd{ticks=10}
+  - state{s=grab}
+  - skill{s=ozen_clothing_foley}
+  - delay 10
+  - skill{s=ozen_bottle_foley}
+  - skill{s=ozen_grab_success} @self
+  
+ozen_grab_success:
+  Conditions:
+  - targetwithin{d=4} orElseCast ozen_grab_fail
+  Skills:
+  - gcd{ticks=70}
+  - mountmodel{driver=false;mode=force;pbone=seat;dmg=true} @target
+  - delay 15
+  - skill{s=ozen_grab_damage} @ModelPassengers
+  - delay 10
+  - skill{s=ozen_grab_damage} @ModelPassengers
+  - delay 15
+  - dismountall{p=seat} @self
+  - summon{t=ozen_concussion} @target
+  - delay 30
+  - setspeed{type=walking;speed=1} @self
+  - lockhead{lp=false;ly=false} @self
+  
+  
+ozen_grab_fail:
+  Skills:
+  - gcd{ticks=20}
+  - state{s=grab_miss} @self
+  - state{s=grab;r=true}
+  - delay 20
+  - setspeed{type=walking;speed=1} @self
+  - lockhead{lp=false;ly=false} @self
+  
+ozen_grab_damage:
+  Skills:  
+  - sound{s=littleroom_ozen:littleroom.ozen.abomination_impact2;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=block;m=redstone_block;amount=5;hS=0;vS=0;y=1}
+  - potion{type=CONFUSION;duration=120;level=1;p=false;i=false}
+  - potion{type=SLOW;duration=70;level=4;p=false;i=false}
+  #- potion{type=BLINDNESS;duration=60;level=4;p=false;i=false}
+  - effect:bloodyScreen{d=25}
+  - damage{a=20;pi=true}
+  
+hurtgenozen:
+  Cooldown: 0
+  Conditions:
+  - damagecause{c=PROJECTILE} true
+  Skills:
+  - skill{s=hurtgenozenCLEAR;sync=true} @Trigger 0.15
+  - onShoot{auraName=ozen_arrowWarning;onShoot=signalcheckWarning_ozen;interval=3;duration=200;charges=5;cooldown=5} @trigger 0.5
+  - skill{s=checkprojectileoutrun_ozen;sync=true} @Target
+  - variableadd{var=caster.projrec;amount=1} @self
+  - variableadd{var=caster.projrec;amount=1} @self 0.5
+  - variableadd{var=caster.runstacks;amount=1} @self
+  - variableadd{var=caster.runstacks;amount=2} @self ?distance{d=>6}
+  - variableadd{var=caster.runstacks;amount=3} @self ?distance{d=>10} 0.8
+  - velocity{m=set;x=0;y=0;z=0;repeat=2;Repeatinterval=1} @self
+  - variableadd{var=caster.combor;amount=2} @self
+  - stun{d=1;f=false;stopai=false} @Self
+hurtgenozenCLEAR:
+  Conditions:
+  - hasaura{n=changedThreat} false
+  Skills:
+  - Aura{auraName=changedThreat;duration=300} @self
+  - clearThreat{} @self
+  - threat{amount=100} @Trigger
+hurtgenozen2:
+  Cooldown: 0
+  Conditions:
+  - damagecause{c=PROJECTILE} false
+  TriggerConditions:
+  - distance{d=>5} true
+  Skills:
+  - skill{s=hurtgenozenCLEAR;sync=true} @Trigger 0.25
+  - skill{s=checkprojectileoutrun_ozen;sync=true} @Target
+  - variableadd{var=caster.projrec;amount=1} @self
+  - variableadd{var=caster.projrec;amount=1} @self 0.5
+  - variableadd{var=caster.runstacks;amount=2} @self
+  - variableadd{var=caster.runstacks;amount=2} @self ?distance{d=>10}
+  - variableadd{var=caster.runstacks;amount=3} @self ?distance{d=>10} 0.8
+  - velocity{m=set;x=0;y=0;z=0;repeat=2;Repeatinterval=1} @self
+  - variableadd{var=caster.combor;amount=2} @self
+  - stun{d=1;f=false;stopai=false} @Self
+signalcheckWarning_ozen:
+  Skills:
+  - sudoskill{s=[
+    - signal{s=ARROWARNING} @LivingInCone{a=35;r=56;rot=0.0;limit=3;sort=NEAREST}
+    - projectile{onHit=[  - signal{s=ARROWARNING} @EntitiesNearOrigin{r=5}];mr=14;v=80;i=1;hR=1.6;hp=true;hnp=true;vR=3;sB=false;sE=false;hs=true;d=150;syo=0;hfs=0.1} @Forward{f=25;y=0.0}];sync=true;cat=true} @trigger
+ozen_sidesteppcheck:
+  Conditions:
+  - hasaura{n=backstepB} false
+  Skills:
+  - randomskill{s=[  - skill{s=ozen_side_jump_right;sync=true} @Forward{f=1;sideOffset=3.5;y=-2}],[  - skill{s=ozen_side_jump_left;sync=true} @Forward{f=1;sideOffset=-3.5;y=-2}]} 0.5
+ozen_side_jump_right:
+  Cooldown: 2
+  Conditions:
+  - hasaura{n=sidestep} false
+  - stance{s=normal} true
+  TargetConditions:
+  - inblock{b=AIR} castinstead ozen_side_jump_left
+  Skills:
+    - setstance{stance=casting} @self
+    - setvariable{var=caster.casting;value="1";t=integer} @Self
+    - Aura{auraName=sidestep;interval=10;duration=60} @self 0.5
+    - state{state=side_jump_right;li=0;lo=6;n=false;speed=1;delay=1} @self
+    - delay 1
+    - lunge{v=0.85;vy=0.05;repeat=3;repeatInterval=1} @forward{f=-1;sideOffset=60} 1
+    - delay 13
+    - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
+    - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2} @self
+    - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
+    - setstance{stance=normal} @self ?stance{s=casting}
+ozen_side_jump_left:
+  Cooldown: 2
+  Conditions:
+  - hasaura{n=sidestep} false
+  - stance{s=normal} true
+  TargetConditions:
+  - inblock{b=AIR} castinstead ozen_side_jump_right
+  Skills:
+    - setstance{stance=casting} @self
+    - setvariable{var=caster.casting;value="1";t=integer} @Self
+    - Aura{auraName=sidestep;interval=10;duration=60} @self 0.5
+    - state{state=side_jump_right;li=0;lo=6;n=false;speed=1;delay=1} @self
+    - delay 1
+    - spin{d=5;v=10;delay=2} @self
+    - lunge{v=0.85;vy=0.05;repeat=3;repeatInterval=1} @forward{f=-1;sideOffset=-60} 1
+    - delay 13
+    - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
+    - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
+    - setstance{stance=normal} @self ?stance{s=casting}
+    - setvariable{var=caster.casting;value="0";t=integer} @Self ?variableEquals{var=caster.casting;value="1"}
+
+checkprojectileoutrun_ozen:
+  Conditions:
+  - variableInRange{var=caster.projrec;value=>4} castinstead checkprojectileoutrun_ozen2
+  Skills:
+  - randomskill{s=outrun_ozenLeft,outrun_ozenRight,outrun_ozenZigZagRight,outrun_ozenZigZagLeft} @Target 0.45
+
+checkprojectileoutrun_ozen2:
+  Skills:
+  - randomskill{s=outrun_ozenLeft,outrun_ozenRight,outrun_ozenZigZagRight,outrun_ozenZigZagLeft,outrun_ozenZigZagRight,outrun_ozenZigZagLeft} @Target 0.7
