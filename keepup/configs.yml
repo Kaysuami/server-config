@@ -98,7 +98,8 @@ dev:
     - feat/bosses
     - feat/hud
 
-dev-basic:
+dev-alpha:
+  copyPaths: [ servers/dev-alpha ]
   include:
     - dev
 
