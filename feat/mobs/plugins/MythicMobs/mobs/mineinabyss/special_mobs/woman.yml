@@ -32,14 +32,76 @@ ozen:
   - skill{s=SaveBossLocation} @self ~onSpawn
   - skill{s=bossping} ~onSignal:location
   - SudoSkill{s=ozen_bloodeffect;cat=true} @trigger ~onDamaged
-  - randomskill{skills=ozen_melee_1_sync,ozen_melee_2_sync;sync=true} @self ~onAttack
+  - randomskill{skills=ozen_melee_1_sync;sync=true} @self ~onAttack
   - throw{v=5;yv=-1} @pir{r=1} ~onTimer:1
   - skill{s=ozen_death} @self ~onDeath
-  #- skill{s=ozen_stun_50} @self ~onDamaged <50%
-  #- skill{s=ozen_stun_25} @self ~onDamaged <25%
-  #- skill{s=ozen_stun_hit} @self ~onDamaged
   - barCreate{name="ozen";display="<caster.name> <caster.hp> <&fs> <caster.mhp>";value=1.0;color=PURPLE;style=SEGMENTED_6} @self ~onSpawn
   - skill{s=ozen_bossbar_damage} @self ~onDamaged
   - model{mid=capelessozen;d=false;i=true;step=1;ride=true} @self ~onSpawn
   - model{mid=capelessozen;d=false;i=true;step=1;ride=true} @self ~onLoad  
   - remove{delay=30000} @self ~onSpawn
+greenportalozen:
+  MobType: creeper
+  Display: '&bGreen Portal'
+  Health: 60
+  Damage: 0
+  BossBar:
+    Enabled: true
+    Title: 'Portal Time Remaining <caster.hp>'
+    Range: 32
+    Color: Red
+    Style: SOLID
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  DamageModifiers:
+  - ENTITY_ATTACK 0
+  - PROJECTILE 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - LAVA 0
+  - FALL 0
+  - SUFFOCATION 0
+  Skills:
+  - skill{s=SaveBossLocation} @self ~onSpawn
+  - skill{s=bossping} ~onSignal:location
+  - skill{s=ozentp} @trigger ~onInteract
+  - skill{s=ozenspawn} @self ~onspawn
+  - message{m="&eA ozen Portal&e &ehas spawned at <caster.var.SpawnLoc>"} ~onSpawn @PlayersOnServer
+  - damage{amount=1} @self ~onTimer:20
+  - skill{s=AntiKB} @Self ~onDamaged
+  - model{mid=greenportal;n=false;d=false} @self ~onSpawn
+  #- summon{type=ozen;amount=1;radius=1} @Location{c=292,135,-118,0,0} ~onSpawn
+  - remove{delay=1200} @self ~onSpawn
+  - skill{s=hurtgenozen;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIARROW
+  - skill{s=hurtgenozen2;sync=true} @self ~onDamaged 1 #Hurtmechanic ANTIMMSkills
+  - setvariable{var=caster.rollumterr;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.projrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  - setvariable{var=caster.running;value="0";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.runstacks;value="0";t=integer} @Self ~onSpawn
+  - skill{s=ozen_sidesteppcheck;sync=true} @self ~onSignal:ARROWARNING
+  - setvariable{var=caster.hitrec;value="0";t=integer} @Self ~OnSpawn #Hurtmechanic ANTIARROW
+  Options:
+    PreventRandomEquipment: true
+    AlwaysShowName: true
+    PreventSunburn: true
+    PreventTransformation: true
+    PreventJockeyMounts: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.2
+    Despawn: false
+    Persistent: true 
+  
+
+ozen_concussion:
+  Type: ARMOR_STAND
+  Skills:
+  - skill{s=ozen_concussion} @pir{r=1} ~onSpawn
+  - model{mid=concussion;d=false;i=true} @self ~onSpawn
+  - model{mid=concussion;d=false;i=true} @self ~onLoad  
+  - bodyclamp{m=concussion;c=0} @self ~onSpawn  
+  - bodyclamp{m=concussion;c=0} @self ~onLoad  
+  

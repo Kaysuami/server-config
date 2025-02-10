@@ -31,7 +31,7 @@ hammerbeak:
     Drive: false
     DamageTint: true
   DamageModifiers:
-    - FALL 0
+    - FALL 0.01
   Drops:
     - exp 25-45
     - geary mineinabyss:hammerbeak_wing_raw 1-2
@@ -92,7 +92,7 @@ hammerbeakLarge:
     MovementSpeed: 0.0
     KnockbackResistance: 1.0
   DamageModifiers:
-    - FALL 0
+    - FALL 0.01
     - PROJECTILE 0.5
   Drops:
     - exp 25-45

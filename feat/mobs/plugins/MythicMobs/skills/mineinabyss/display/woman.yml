@@ -39,46 +39,6 @@ ozen_concussion:
   
 
 
-#### STUN ####
-  
-
-ozen_stun_25:
-  Conditions:
-  - offgcd true
-  - score{o=stun25;v=1} false
-  Skills:
-  - lockhead{lp=true;ly=true} @self
-  - gcd{ticks=120}
-  - modifytargetscore{objective=stun25;action=set;value=1} @self
-  - setAI{ai=false} @self
-  - state{s=stun} @self
-  - delay 20
-  - setstance{stance=stun} @self
-  - delay 70
-  - setstance{stance=default} @self
-  - delay 30
-  - setAI{ai=true} @self
-  - lockhead{lp=false;ly=false} @self
-  
-ozen_stun_50:
-  Conditions:
-  - offgcd true
-  - score{o=stun50;v=1} false
-  Skills:
-  - lockhead{lp=true;ly=true} @self
-  - gcd{ticks=120}
-  - modifytargetscore{objective=stun50;action=set;value=1} @self
-  - setAI{ai=false} @self
-  - state{s=stun} @self
-  - delay 20
-  - setstance{stance=stun} @self
-  - delay 70
-  - setstance{stance=default} @self
-  - delay 30
-  - setAI{ai=true} @self
-  - lockhead{lp=false;ly=false} @self
-  
-  
 ozen_stun_hit:
   Conditions:
   - stance{s=stun} true
@@ -98,14 +58,15 @@ ozen_melee_1_sync:
 ozen_melee_1:
   Conditions:
   - offgcd true
+  Cooldown: 3
   Skills:
-  - gcd{ticks=30}
-  - state{s=melee_1} @self
+  - gcd{ticks=60}
+  - state{s=punch1} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=.25} @target
-  - skill{s=ozen_clothing_foley}
+  #- skill{s=ozen_clothing_foley}
   - delay 5
-  - skill{s=ozen_bottle_foley}
+ # - skill{s=ozen_bottle_foley}
   - totem{ch=1;md=2;oH=ozen_melee_1_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 5
   - skill{s=ozen_melee_1_2} @self .5
@@ -117,12 +78,11 @@ ozen_melee_1_2:
   #- offgcd true
   Skills:
   - gcd{ticks=30}
-  - state{s=punch1} @self
+  - state{s=punch2} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=1} @target
   - skill{s=ozen_clothing_foley}
   - delay 5
-  - skill{s=ozen_bottle_foley}
   - totem{ch=1;md=2;oH=ozen_melee_1_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 25
   - setspeed{type=walking;speed=1} @self
@@ -132,7 +92,7 @@ ozen_melee_1_damage:
   - blocking{} false
   Skills:
   - skill{s=ozen_impact}
-  - damage{a=30}
+  - damage{a=5}
   
 ozen_melee_1_2_damage:
   TargetConditions:
@@ -140,7 +100,7 @@ ozen_melee_1_2_damage:
   Skills:
   - skill{s=ozen_impact}
   - throw{v=2;vy=3}
-  - damage{a=40}
+  - damage{a=8}
   
 ## MELEE 2 ##
 
@@ -154,7 +114,7 @@ ozen_melee_2:
   - offgcd true
   Skills:
   - gcd{ticks=30}
-  - state{s=melee_2} @self
+  - state{s=punch2} @self
   - setspeed{type=walking;speed=.5} @self
   - lunge{v=.25} @target
   - skill{s=ozen_clothing_foley}
@@ -186,7 +146,7 @@ ozen_melee_2_damage:
   - blocking{} false
   Skills:
   - skill{s=ozen_impact}
-  - damage{a=30}
+  - damage{a=5}
   
 ozen_melee_2_2_damage:
   TargetConditions:
@@ -194,7 +154,7 @@ ozen_melee_2_2_damage:
   Skills:
   - skill{s=ozen_impact}
   - throw{v=2;vy=3}
-  - damage{a=40}
+  - damage{a=10}
   
 ## GRAB ##
 
@@ -214,9 +174,8 @@ ozen_grab:
   - setspeed{type=walking;speed=0} @self
   - gcd{ticks=10}
   - state{s=grab}
-  - skill{s=ozen_clothing_foley}
-  - delay 10
-  - skill{s=ozen_bottle_foley}
+  #- skill{s=ozen_clothing_foley}
+  - delay 10 
   - skill{s=ozen_grab_success} @self
   
 ozen_grab_success:
@@ -230,8 +189,7 @@ ozen_grab_success:
   - delay 10
   - skill{s=ozen_grab_damage} @ModelPassengers
   - delay 15
-  - dismountall{p=seat} @self
-  - summon{t=ozen_concussion} @target
+  - dismountall{p=seat} @self 
   - delay 30
   - setspeed{type=walking;speed=1} @self
   - lockhead{lp=false;ly=false} @self
@@ -248,13 +206,12 @@ ozen_grab_fail:
   
 ozen_grab_damage:
   Skills:  
-  - sound{s=littleroom_ozen:littleroom.ozen.abomination_impact2;v=1;sc=HOSTILE} @self
   - effect:particles{particle=block;m=redstone_block;amount=5;hS=0;vS=0;y=1}
   - potion{type=CONFUSION;duration=120;level=1;p=false;i=false}
   - potion{type=SLOW;duration=70;level=4;p=false;i=false}
   #- potion{type=BLINDNESS;duration=60;level=4;p=false;i=false}
   - effect:bloodyScreen{d=25}
-  - damage{a=20;pi=true}
+  - damage{a=8;pi=true}
   
 hurtgenozen:
   Cooldown: 0
