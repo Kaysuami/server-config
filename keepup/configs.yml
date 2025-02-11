@@ -6,7 +6,16 @@ global:
         - config.yml
         - resourcepack.zip
 feat/mobs:
-  copyPaths: [ feat/mobs, feat/disable_mythic_examples ]
+  copyPaths:
+    - source: plugins/Geary/prefabs/mineinabyss/mobs
+      dest: plugins/Geary/prefabs/mineinabyss/mobs
+    - source: plugins/Geary/spawns
+      dest: plugins/Geary/spawns
+    - source: plugins/Geary/spawning.yml
+      dest: plugins/Geary/
+    - source: plugins/MythicMobs
+      dest: plugins/MythicMobs
+    - feat/disable_mythic_examples
   files:
     plugins/MythicMobs:
       deleteUntracked: true
@@ -15,7 +24,9 @@ feat/mobs:
         - data/
         - stats.yml
 feat/emotes:
-  copyPaths: [ feat/emotes ]
+  copyPaths:
+    - source: plugins/Emojy
+      dest: plugins/Emojy
   files:
     plugins/Emojy:
       deleteUntracked: true
@@ -23,10 +34,46 @@ feat/emotes:
         - gifs/ # Image sequences get generated in here
         - fonts/
         - pack.zip
+feat/blocks:
+  copyPaths:
+    - source: plugins/Blocky
+      dest: plugins/Blocky
+    - source: plugins/Geary/prefabs/mineinabyss/blocks
+      dest: plugins/Geary/prefabs/mineinabyss/blocks
+
+feat/chat:
+  copyPaths:
+    - source: plugins/Chatty
+      dest: plugins/Chatty
+
+feat/cosmetics:
+  copyPaths:
+    - source: mc-resourcepack/cosmetics
+      dest: plugins/Geary/template_pack
+    - source: plugins/Geary/prefabs/cosmetics
+      dest: plugins/Geary/prefabs/cosmetics
 
 feat/bosses:
   copyPaths: [ "{{ privateSettingsDest }}/feat/bosses" ]
 
+feat/loot_chests:
+  copyPaths:
+    - source: plugins/Geary/prefabs/mia-loot
+      dest: plugins/Geary/prefabs/mia-loot
+
+feat/items:
+  copyPaths:
+    - source: plugins/Geary/prefabs/mineinabyss/items
+      dest: plugins/Geary/prefabs/mineinabyss/items
+    - source: plugins/Geary/prefabs/minecraft/recipes
+      dest: plugins/Geary/prefabs/minecraft/recipes
+    - source: mc-resourcepack/items
+      dest: plugins/Geary/template_pack
+
+feat/hud:
+  copyPaths:
+      - source: plugins/BetterHud
+        dest: plugins/BetterHud
 # Servers
 minecraft:
   copyPaths: [ .servers/minecraft ]
