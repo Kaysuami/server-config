@@ -21,7 +21,7 @@ l5_hagamizukin: { inherit: l5_water, type: mm:hagamizukin }
 l5_uibuta:
   inherit: l5_water
   type: mm:uibuta
-  priority: 0.1
+  priority: 0.2
   conditions: # Ensure we're at water surface
     - $inherit
     - blockAbove:
@@ -54,6 +54,5 @@ l5_hisomukuro:
   priority: 0.2
   conditions:
     - $inherit
-    - $remove maxNearby
     - maxNearby:
         amount: 3

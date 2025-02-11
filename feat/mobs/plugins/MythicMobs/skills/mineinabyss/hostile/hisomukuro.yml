@@ -32,10 +32,10 @@ HS_impact:
   Skills:
     - effect:particles{p=hugeexplode;a=1;vs=0.2;hs=0.2;s=0;y=1} @target
     #- explosion{yield=2} @target
-    - command{c="remove boats 5";asOp=true} @target
-    - command{c="remove boats 5";asOp=true} @target
+    #- command{c="remove boats 5";asOp=true} @target
+    #- command{c="remove boats 5";asOp=true} @target
    # - command{c="remove boats 5";asOp=true;asTarget=true} @target
-    #- command{c="remove boats 5";asOp=true;asCaster=true} @target
+    - command{c="remove boats 5";asOp=true;asCaster=true} @target
 
     - potion{type=BLINDNESS;duration=100;level=1;p=false;force=true} @target
     - potion{type=SLOWNESS;duration=100;level=1;p=false;force=true} @target
