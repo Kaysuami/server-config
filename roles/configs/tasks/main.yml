@@ -3,11 +3,6 @@
     path: "{{ home }}/keepupDir/"
     state: directory
 
-- name: Render template for Keepup configs
-  template:
-    src: "keepup/configs.yml"
-    dest: '{{ home }}/keepupDir/keepup-configs.yml'
-
 - name: Check if SSH key exists
   stat:
     path: "/run/secrets/server_config_ssh_key"

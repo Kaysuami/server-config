@@ -10,7 +10,7 @@
     - "variables.yml"
   pre_tasks:
     - include_vars:
-        file: "keepup/configs.yml"
+        file: ".servers/configs.yml"
         name: "servers"
 
   roles:
