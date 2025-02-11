@@ -29,7 +29,7 @@ feat/bosses:
 
 # Servers
 minecraft:
-  copyPaths: [ servers/minecraft ]
+  copyPaths: [ .servers/minecraft ]
   variables:
     env:
       PRIVATE_PLUGINS_TOKEN: "{{ lookup('env', 'PRIVATE_PLUGINS_TOKEN') }}"
@@ -43,7 +43,7 @@ minecraft:
     - feat/emotes
 
 survival:
-  copyPaths: [ servers/survival ]
+  copyPaths: [ .servers/survival ]
   variables:
     chatty:
       enableHover: true
@@ -62,7 +62,7 @@ build:
       enableHover: true
       serverPrefix: ":build:"
       localChatRadius: 0
-  copyPaths: [ servers/build ]
+  copyPaths: [ .servers/build ]
   include:
     - minecraft
     - feat/blocks
@@ -81,7 +81,7 @@ staging:
     - survival
 
 dev:
-  copyPaths: [ servers/dev ]
+  copyPaths: [ .servers/dev ]
   variables:
     chatty:
       serverPrefix: ":test:"
@@ -99,12 +99,12 @@ dev:
     - feat/hud
 
 dev-alpha:
-  copyPaths: [ servers/dev-alpha ]
+  copyPaths: [ .servers/dev-alpha ]
   include:
     - dev
 
 archive:
-  copyPaths: [ servers/archive ]
+  copyPaths: [ .servers/archive ]
   variables:
     chatty:
       serverPrefix: ":adventure:"
@@ -114,7 +114,7 @@ archive:
 
 # Proxy
 velocity:
-  copyPaths: [ servers/proxy ]
+  copyPaths: [ .servers/proxy ]
   variables:
     velocityForwardingSecret: "{{ lookup('ansible.builtin.file', '/run/secrets/velocity_forwarding_secret', errors='ignore') | default(lookup('env', 'VELOCITY_FORWARDING_SECRET'), true) }}"
     spicord:
