@@ -2,8 +2,8 @@ spittleshrub:
   Type: HUSK
   SpawnCategory: hostile
   Display: '<#696112>Spittleshrub'
-  Damage: 7
-  Health: 35
+  Damage: 6
+  Health: 20
   Options:
     PreventSunburn: true
     PreventJockeyMounts: true

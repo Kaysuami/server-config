@@ -24,6 +24,9 @@ makihige:
     PreventSunburn: true
   Equipment:
     - DIAMOND_BOOTS{enchants=DEPTH_STRIDER:3} FEET
+  DamageModifiers:
+    - FALL 0.01
+    - DROWNING 0.01
   Geary:
     pathfinders:
       - type: RandomSwimmingGoal

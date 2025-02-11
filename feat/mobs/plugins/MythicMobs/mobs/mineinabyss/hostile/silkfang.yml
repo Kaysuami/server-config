@@ -17,7 +17,6 @@ silkfang:
   AITargetSelectors:
     - 0 clear
     - 1 players
-    - 2 attacker
   DamageModifiers:
     - ENTITY_ATTACK 1
     - PROJECTILE 0.7

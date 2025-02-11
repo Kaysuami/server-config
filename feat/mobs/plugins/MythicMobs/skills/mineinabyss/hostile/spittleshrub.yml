@@ -61,7 +61,7 @@ SpittleshrubSpit:
     - incombat
     - stance attacking
   TargetConditions:
-    - distance <10
+    - distance <8
   Skills:
     - state{s=shoot;li=3;lo=2;speed=1} @self
     - gcd{ticks=30} @self
@@ -141,6 +141,7 @@ SpittleshrubBurrow:
     - stance attacking
     - burning false
   Skills:
+    - delay 30
     - state{s=burrow}
     - gcd{ticks=30}
     - setai{state=false}
@@ -164,7 +165,7 @@ SpittleshrubInteract:
     - holding FLINT_AND_STEEL
   Skills:
     - sound{s=item.flintandsteel.use}
-    - ignite{ticks=200} @self
+    - ignite{ticks=300} @self
     - skill:SpittleshrubScan_AIAggro @self
     - skill:SpittleshrubBurned
 
