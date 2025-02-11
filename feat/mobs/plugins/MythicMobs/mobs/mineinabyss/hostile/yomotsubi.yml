@@ -52,7 +52,7 @@ yomotsubi:
 shiratsubi:
   Type: SPIDER
   SpawnCategory: uncommon
-  Health: 50
+  Health: 45
   Damage: 6
   Display: "<#9C0F2C>Shiratsubi"
   AIGoalSelectors:
