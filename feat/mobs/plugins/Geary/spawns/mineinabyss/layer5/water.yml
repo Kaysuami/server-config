@@ -21,11 +21,11 @@ l5_hagamizukin: { inherit: l5_water, type: mm:hagamizukin }
 l5_uibuta:
   inherit: l5_water
   type: mm:uibuta
-  priority: 0.5
+  priority: 0.1
   conditions: # Ensure we're at water surface
     - $inherit
-   # - blockAbove:
-   #     allow: [ AIR ]
+    - blockAbove:
+        allow: [ AIR ]
 l5_makihige:
   inherit: l5_water
   type: mm:makihige

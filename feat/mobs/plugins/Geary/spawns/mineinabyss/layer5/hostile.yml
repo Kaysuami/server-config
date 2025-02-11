@@ -49,7 +49,7 @@ l5_chikyuoebi:
     - $remove maxNearby
     - maxNearby:
         amount: 2
-l5_yomotsubi: { inherit: l5_hostile, type: mm:yomotsubi, priority: 0.5 }
+l5_shiratsubi: { inherit: l5_hostile, type: mm:shiratsubi, priority: 0.5 }
 l5_swarmshocker: { inherit: l5_hostile, type: mm:swarmshocker }
 l5_kuongatari:
   inherit: l5_hostile

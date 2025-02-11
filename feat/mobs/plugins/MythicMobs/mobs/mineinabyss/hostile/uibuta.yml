@@ -31,6 +31,9 @@ uibuta:
     Drive: false
     DamageTint: true
     Scale: 2
+  DamageModifiers:
+    - FALL 0.01
+    - DROWNING 0.01
   Drops:
     - exp 65-95
     - geary mineinabyss:uibuta_meat_raw 2-5
