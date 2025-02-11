@@ -27,5 +27,5 @@
     accept_hostkey: yes
     force: true
     depth: 1
-    version: "{{ lookup('env', 'ANSIBLE_PULL_BRANCH', default='develop') }}"
+    version: "{{ lookup('env', 'PRIVATE_CONFIGS_PULL_BRANCH') | default(lookup('env', 'ANSIBLE_PULL_BRANCH')) | default('develop') }}"
   when: p.stat.exists

@@ -150,6 +150,11 @@ dev-alpha:
   include:
     - dev
 
+# Used for local development, where as few plugins as possible are auto downloaded
+dev-basic:
+  include:
+    - dev
+
 archive:
   copyPaths: [ .servers/archive ]
   variables:
