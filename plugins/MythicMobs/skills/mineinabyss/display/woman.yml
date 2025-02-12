@@ -197,6 +197,35 @@ ozen_grab_damage:
   - effect:bloodyScreen{d=25}
   - damage{a=8;pi=true}
   
+ozen_slap:
+  Conditions:
+  - offgcd
+  Cooldown: 8
+  Skills:
+  - gcd{ticks=200} @self
+  - setAI{ai=false} @self
+  - state{s=backhand;li=0;lo=0} @self
+  - delay 7
+  - totem{ch=1;md=2;oH=ozen_backhand_damage;repeat=3;repeatInterval=2;hS=31;vS=3} @forward{f=1}
+
+  - setAI{ai=true} @self
+
+
+
+ozen_backhand_damage:
+  Skills:  
+  - effect:particles{particle=block;m=redstone_block;amount=5;hS=0;vS=0;y=1}
+  - potion{type=CONFUSION;duration=120;level=1;p=false;i=false}
+  - potion{type=SLOW;duration=70;level=4;p=false;i=false}
+  - throw{velocity=20;velocityY=9}
+  #- potion{type=BLINDNESS;duration=60;level=4;p=false;i=false}
+  - effect:bloodyScreen{d=25}
+  - damage{a=12;pi=true}
+
+
+
+
+
 hurtgenozen:
   Cooldown: 0
   Conditions:
@@ -296,3 +325,4 @@ checkprojectileoutrun_ozen:
 checkprojectileoutrun_ozen2:
   Skills:
   - randomskill{s=outrun_ozenLeft,outrun_ozenRight,outrun_ozenZigZagRight,outrun_ozenZigZagLeft,outrun_ozenZigZagRight,outrun_ozenZigZagLeft} @Target 0.7
+
