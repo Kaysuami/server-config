@@ -49,7 +49,7 @@ feat/chat:
 
 feat/cosmetics:
   copyPaths:
-    - source: mc-resourcepack/cosmetics
+    - source: mc-resourcepacks/cosmetics
       dest: plugins/Geary/template_pack
     - source: plugins/Geary/prefabs/cosmetics
       dest: plugins/Geary/prefabs/cosmetics
@@ -68,7 +68,7 @@ feat/items:
       dest: plugins/Geary/prefabs/mineinabyss/items
     - source: plugins/Geary/prefabs/minecraft/recipes
       dest: plugins/Geary/prefabs/minecraft/recipes
-    - source: mc-resourcepack/items
+    - source: mc-resourcepacks/items
       dest: plugins/Geary/template_pack
 
 feat/hud:
