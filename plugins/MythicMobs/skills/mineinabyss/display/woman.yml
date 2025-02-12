@@ -114,32 +114,16 @@ ozen_melee_2:
   - offgcd true
   Skills:
   - gcd{ticks=30}
-  - state{s=punch2} @self
+  - state{s=punch3} @self
   - setspeed{type=walking;speed=.5} @self
   - lunge{v=.25} @target
-  - skill{s=ozen_clothing_foley}
-  - delay 3
-  - skill{s=ozen_bottle_foley}
+  - delay 10
   - totem{ch=1;md=2;oH=ozen_melee_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 7
-  - skill{s=ozen_melee_2_2} @self .5
-  - delay 10
+  - totem{ch=1;md=2;oH=ozen_melee_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
+  - delay 7
   - setspeed{type=walking;speed=1} @self
   
-ozen_melee_2_2:
-  Conditions:
-  #- offgcd true
-  Skills:
-  - gcd{ticks=30}
-  - state{s=punch2} @self
-  - setspeed{type=walking;speed=.5} @self
-  - lunge{v=1} @target
-  - delay 15
-  - skill{s=ozen_clothing_foley}
-  - skill{s=ozen_bottle_foley}
-  - totem{ch=1;md=2;oH=ozen_melee_2_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
-  - delay 15
-  - setspeed{type=walking;speed=1} @self
   
 ozen_melee_2_damage:
   TargetConditions:
