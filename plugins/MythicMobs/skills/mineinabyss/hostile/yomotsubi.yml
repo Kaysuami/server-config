@@ -44,7 +44,7 @@ yomotsubi_impact:
 
 
 yomoAmbient:
-  Cooldown: 0.4
+  Cooldown: 4
   Skills:
     - sound{s=entity.iron_golem.step;sc=master;p=<random.float.1.2to1.4>;v=<random.float.0.3to0.5>} @self
     - sound{s=block.anvil.place;sc=master;p=<random.float.0.9to1.1>;v=0.6} @self
@@ -52,7 +52,7 @@ yomoAmbient:
     - sound{s=block.metal.hit;sc=master;p=<random.float.1.0to1.2>;v=0.6} @self
 
 yomoHurt:
-  Cooldown: 0.3
+  Cooldown: 2
   Skills:
     - sound{s=block.anvil.hit;sc=master;p=<random.float.1.0to1.2>;v=<random.float.0.6to0.6>} @self
     - sound{s=entity.zombie.attack_iron_door;sc=master;p=1.0;v=0.6} @self

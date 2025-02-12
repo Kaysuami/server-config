@@ -2,8 +2,8 @@ kuongatari:
   Type: CAVE_SPIDER
   SpawnCategory: hostile
   Display: "<#1FB53D>Kuongatari"
-  Health: 50
-  Damage: 8
+  Health: 25
+  Damage: 7
   AIGoalSelectors:
     - clear
     - meleeattack
@@ -36,20 +36,20 @@ kuongatari:
     - FIRE_TICK 3
   Drops:
     - exp 15-25
-    - geary mineinabyss:kuongatari_juice 1 0.6
-    - geary mineinabyss:kuongatari_silk 1-2 0.6
-    - geary mineinabyss:kuongatari_abdomen_raw 1-2 0.7
+    - geary mineinabyss:kuongatari_juice 1 0.3
+    - geary mineinabyss:kuongatari_silk 1 0.3
+    - geary mineinabyss:kuongatari_abdomen_raw 1-2 0.35
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - state{mid=kuongatari;s=attack} @self ~onAttack
-    - skill{s=Kuon_Summon} @target ~onDamaged <40% 0.2
+    - skill{s=Kuon_Summon} @target ~onDamaged 0.1
     - shieldbreak{duration=100} @target ~onattack 0.35
     - dismount ~onTimer:20
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 kuongatari_summon:
   Type: SPIDER
-  Display: "<#1FB53D>Baby Kuongatari"
-  Health: 16
+  Display: "<#1FB53D>Kuongatari Backup"
+  Health: 25
   Damage: 6
   AITargetSelectors:
     - clear
@@ -70,7 +70,8 @@ kuongatari_summon:
   Drops:
     - exp 5-15
     - geary mineinabyss:kuongatari_juice 1 0.04
-    - geary mineinabyss:kuongatari_silk 1-2 0.2
+    - geary mineinabyss:kuongatari_silk 1 0.1
+    - geary mineinabyss:kuongatari_abdomen_raw 1 0.3
   Model:
     Id: kuongatari
     ViewRadius: 48
@@ -84,4 +85,5 @@ kuongatari_summon:
   Skills:
     - dismount ~onTimer:20
     - shieldbreak{duration=100} @target ~onattack 0.35
+    - skill{s=Kuon_Summon} @target ~onDamaged 0.01
     #- skill:MIAPetExpNearby{exp=1} ~onDeath

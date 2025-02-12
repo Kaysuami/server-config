@@ -103,7 +103,6 @@ hammerbeakLarge:
   Model:
     Id: hammerbeakremodel
     Scale: 1.2
-
   Skills:
     # Misc
     - potion{t=SLOW_FALLING;l=250;force=true;p=true;d=12} @self ~onTimer:10
