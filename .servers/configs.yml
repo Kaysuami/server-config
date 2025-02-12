@@ -15,7 +15,8 @@ feat/mobs:
       dest: plugins/Geary/
     - source: plugins/MythicMobs
       dest: plugins/MythicMobs
-    - feat/disable_mythic_examples
+    - source: .servers/disable_mythic_examples
+      dest: plugins/MythicMobs
   files:
     plugins/MythicMobs:
       deleteUntracked: true
@@ -72,8 +73,21 @@ feat/items:
 
 feat/hud:
   copyPaths:
-      - source: plugins/BetterHud
-        dest: plugins/BetterHud
+      - source: plugins/MythicHUD
+        dest: plugins/MythicHUD
+
+feat/pets:
+  copyPaths:
+    - source: plugins/MythicMobs/packs/pets
+      dest: plugins/MythicMobs/packs/pets
+    - source: plugins/MCPets
+      dest: plugins/MCPets
+
+feat/delvers:
+  copyPaths:
+    - source: plugins/MythicMobs/packs/delvers
+      dest: plugins/MythicMobs/packs/delvers
+
 # Servers
 minecraft:
   copyPaths: [ .servers/minecraft ]
