@@ -1,8 +1,12 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: Benner Cookie
+    itemName: <#EBEBEB><b>Benner Cookie
     customModelData: 132
+    lore:
+      - <#DB8888>Has a strong feeling 
+      - <#DB8888>Of peace and love,
+      - <#DB8888><i>Quite a unique taste!
     food:
       saturation: 12.8
       nutrition: 8
