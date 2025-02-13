@@ -30,8 +30,8 @@ himushi:
   Drops:
     - SOUL_SAND 1-2 0.6
     - MAGMA_BLOCK 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
-    - geary mineinabyss:benner_cookie 1 0.01 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
 
   Skills:
     - skill{s=displayHealth} ~onDamaged

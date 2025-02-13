@@ -71,7 +71,7 @@ splitjaw:
     - DIAMOND 1 0.1
     - GOLD_INGOT 1 0.15
     - EMERALD 1 0.1
-    - geary mineinabyss:valentines_chocolates 1-2 0.25 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.40 nolooting
     - geary mineinabyss:benner_cookie 1 0.02 nolooting
 
   Skills:

@@ -31,8 +31,8 @@ neritantan:
     - melon_seeds 1-2 0.3
     - pumpkin_seeds 1-2 0.3
     - sweet_berries 1-2 0.3
-    - geary mineinabyss:valentines_chocolates 1-2 0.025 nolooting
-    - geary mineinabyss:benner_cookie 1 0.0025 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
 
   Skills:
     - effect:sound{s=mineinabyss:neritantan;v=4;p=0.2} @self ~onAmbient

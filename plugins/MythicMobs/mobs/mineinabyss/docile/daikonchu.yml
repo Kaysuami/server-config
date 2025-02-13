@@ -24,8 +24,8 @@ daikonchu:
     - exp 15-25
     - geary mineinabyss:daikonchu_carapace 1 0.4
     - geary mineinabyss:daikonchu_wing 1-2 0.3
-    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
-    - geary mineinabyss:benner_cookie 1 0.01 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
     
   Skills:
     - cancelevent{sync=true} @Self ~onAttack

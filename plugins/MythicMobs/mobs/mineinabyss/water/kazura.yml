@@ -24,8 +24,8 @@ kazura:
   Drops:
     - exp 10-15
     - geary mineinabyss:kazura_squid_ink_sac 1-2 0.8
-    - geary mineinabyss:valentines_chocolates 1-2 0.025 nolooting
-    - geary mineinabyss:benner_cookie 1 0.0025 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
 
   Skills:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
