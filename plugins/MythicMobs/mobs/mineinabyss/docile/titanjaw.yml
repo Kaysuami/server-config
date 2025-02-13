@@ -34,6 +34,8 @@ titanjaw:
     - exp 20-25
     - geary mineinabyss:titanjaw_pearl 1 0.2
     - geary mineinabyss:titanjaw_scale 1-2 0.6
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged

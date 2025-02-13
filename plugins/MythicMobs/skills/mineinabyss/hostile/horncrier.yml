@@ -36,8 +36,8 @@ hc_dashhit:
     - state{s=charge_hit;li=0;lo=0} @self
     - setstance{stance=dashhit} @self
     # - shieldbreak{duration=200} @target
-    - damage{a=7}
-    - throw{v=10;vy=6}
+    - damage{a=8}
+    - throw{v=10;vy=7}
     - potion{type=DARKNESS;duration=60;level=1} 0.5
     - delay 100
 

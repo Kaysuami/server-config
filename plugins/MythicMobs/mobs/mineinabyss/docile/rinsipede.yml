@@ -33,6 +33,9 @@ rinsipede:
   Drops:
     - exp 15-25
     - geary mineinabyss:rinsipede_segments 1-2 0.8
+    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
+    
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged

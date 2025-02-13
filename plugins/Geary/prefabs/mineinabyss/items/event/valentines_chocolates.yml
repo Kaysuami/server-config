@@ -1,8 +1,12 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: Cooked Cut Meat
+    itemName: <#E83A3A><b>Valentine Chocolate
     customModelData: 131
+    lore:
+      - <#DB8888>Life is full of joy,
+      - <#DB8888>In the Abyss, there lies hope
+      - <#DB8888>Love prevails!
     food:
       saturation: 12.8
       nutrition: 8

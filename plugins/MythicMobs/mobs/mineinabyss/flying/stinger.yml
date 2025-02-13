@@ -35,6 +35,8 @@ stinger:
     - exp 5-15
     - geary mineinabyss:stinger_wing 1 0.5
     - geary mineinabyss:stinger_horn 1 0.2
+    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
 
   Skills:
     ####### Misc

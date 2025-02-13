@@ -32,9 +32,11 @@ ozen:
   - skill{s=SaveBossLocation} @self ~onSpawn
   - skill{s=bossping} ~onSignal:location
   - SudoSkill{s=ozen_bloodeffect;cat=true} @trigger ~onDamaged
-  - randomskill{skills=ozen_melee_1_sync;sync=true} @self ~onAttack
+  - randomskill{skills=ozen_melee_1_sync;ozen_grab_sync;ozen_melee_2_sync;sync=true} @self ~onAttack
   - throw{v=5;yv=-1} @pir{r=1} ~onTimer:1
   - skill{s=ozen_death} @self ~onDeath
+  - skill{s=ozen_slap} @self ~ontimer:40 <75%
+  - skill{s=ozen_grab_sync} @self ~oninteract
   - barCreate{name="ozen";display="<caster.name> <caster.hp> <&fs> <caster.mhp>";value=1.0;color=PURPLE;style=SEGMENTED_6} @self ~onSpawn
   - skill{s=ozen_bossbar_damage} @self ~onDamaged
   - model{mid=capelessozen;d=false;i=true;step=1;ride=true} @self ~onSpawn

@@ -33,7 +33,8 @@ dosetori:
     - geary mineinabyss:dosetori_meat_raw 1-2
     - geary mineinabyss:dosetori_wing 1-3 0.7
     - geary mineinabyss:dosetori_bone 1-3 0.8
-
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
   Skills:
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_3} @self ~onAttack

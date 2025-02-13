@@ -114,32 +114,16 @@ ozen_melee_2:
   - offgcd true
   Skills:
   - gcd{ticks=30}
-  - state{s=punch2} @self
+  - state{s=punch3} @self
   - setspeed{type=walking;speed=.5} @self
   - lunge{v=.25} @target
-  - skill{s=ozen_clothing_foley}
-  - delay 3
-  - skill{s=ozen_bottle_foley}
+  - delay 10
   - totem{ch=1;md=2;oH=ozen_melee_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 7
-  - skill{s=ozen_melee_2_2} @self .5
-  - delay 10
+  - totem{ch=1;md=2;oH=ozen_melee_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
+  - delay 7
   - setspeed{type=walking;speed=1} @self
   
-ozen_melee_2_2:
-  Conditions:
-  #- offgcd true
-  Skills:
-  - gcd{ticks=30}
-  - state{s=punch2} @self
-  - setspeed{type=walking;speed=.5} @self
-  - lunge{v=1} @target
-  - delay 15
-  - skill{s=ozen_clothing_foley}
-  - skill{s=ozen_bottle_foley}
-  - totem{ch=1;md=2;oH=ozen_melee_2_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
-  - delay 15
-  - setspeed{type=walking;speed=1} @self
   
 ozen_melee_2_damage:
   TargetConditions:
@@ -166,7 +150,7 @@ ozen_grab_sync:
   - skill{s=ozen_grab} @self
 
 ozen_grab:
-  Cooldown: 10
+  Cooldown: 3
   Conditions:
   - offgcd true
   Skills:
@@ -213,6 +197,35 @@ ozen_grab_damage:
   - effect:bloodyScreen{d=25}
   - damage{a=8;pi=true}
   
+ozen_slap:
+  Conditions:
+  - offgcd
+  Cooldown: 8
+  Skills:
+  - gcd{ticks=200} @self
+  - setAI{ai=false} @self
+  - state{s=backhand;li=0;lo=0} @self
+  - delay 7
+  - totem{ch=1;md=2;oH=ozen_backhand_damage;repeat=3;repeatInterval=2;hS=31;vS=3} @forward{f=1}
+
+  - setAI{ai=true} @self
+
+
+
+ozen_backhand_damage:
+  Skills:  
+  - effect:particles{particle=block;m=redstone_block;amount=5;hS=0;vS=0;y=1}
+  - potion{type=CONFUSION;duration=120;level=1;p=false;i=false}
+  - potion{type=SLOW;duration=70;level=4;p=false;i=false}
+  - throw{velocity=20;velocityY=9}
+  #- potion{type=BLINDNESS;duration=60;level=4;p=false;i=false}
+  - effect:bloodyScreen{d=25}
+  - damage{a=12;pi=true}
+
+
+
+
+
 hurtgenozen:
   Cooldown: 0
   Conditions:
@@ -312,3 +325,4 @@ checkprojectileoutrun_ozen:
 checkprojectileoutrun_ozen2:
   Skills:
   - randomskill{s=outrun_ozenLeft,outrun_ozenRight,outrun_ozenZigZagRight,outrun_ozenZigZagLeft,outrun_ozenZigZagRight,outrun_ozenZigZagLeft} @Target 0.7
+
