@@ -32,6 +32,9 @@ orbpiercer:
     - exp 100-250
     - geary mineinabyss:orb_piercer_face_fragments 1 1 nolooting
     - geary mineinabyss:orb_piercer_spike 2-6 1
+    - geary mineinabyss:valentines_chocolates 1-2 0.25 nolooting
+    - geary mineinabyss:benner_cookie 1 0.02 nolooting
+
   Model:
     Id: orbpiercer
     ViewRadius: 64

@@ -32,6 +32,8 @@ cyatoria:
     - exp 25-45
     - geary mineinabyss:cyatoria_drumstick_raw 1-2
     - geary mineinabyss:cyatoria_feather 1-4 0.7
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
 
   Skills:
     # - CancelEvent{sync=true} ~onAttack

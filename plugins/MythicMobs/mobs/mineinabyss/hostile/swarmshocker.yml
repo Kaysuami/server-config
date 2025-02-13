@@ -28,6 +28,9 @@ swarmshocker:
   Drops:
     - exp 5-15
     - geary mineinabyss:swarmshocker_charged_powder 1 0.3
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
+
   Model:
     Id: swarmshocker
     ViewRadius: 48
@@ -76,6 +79,9 @@ swarmhoarder:
     - geary mineinabyss:swarmshocker_charged_powder 1-2 0.6
     - geary mineinabyss:swarmshocker_jelly 1-2 0.6
     - SOUL_SAND 1 1
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
+
   Model:
     Id: swarmshockermid
     ViewRadius: 48

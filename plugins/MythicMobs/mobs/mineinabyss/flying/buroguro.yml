@@ -8,6 +8,8 @@ buroguro:
     - exp 50-90
     - geary mineinabyss:buroguro_lantern 1 0.3
     - geary mineinabyss:buroguro_stinger 1-2 0.6
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
   Faction: buroguro
   Options:
     Silent: true

@@ -31,6 +31,9 @@ rockwalker:
   Drops:
     - exp 10-15
     - geary mineinabyss:rockwalker_mandible 1-4 0.8
+    - geary mineinabyss:valentines_chocolates 1-2 0.025 nolooting
+    - geary mineinabyss:benner_cookie 1 0.0025 nolooting
+    
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
