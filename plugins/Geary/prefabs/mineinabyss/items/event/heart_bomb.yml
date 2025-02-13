@@ -19,4 +19,4 @@ observe:
       when:
         - chance: 1
 resourcepack:
-  texture: mineinabyss:item/event/love_potion
+  textures: mineinabyss:item/event/love_potion
