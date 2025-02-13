@@ -8,7 +8,7 @@ set.item:
       - <#DB8888>In the Abyss, there lies hope
       - <#DB8888>Love prevails!
     food:
-      saturation: 12.8
-      nutrition: 8
+      saturation: 10
+      nutrition: 6
 resourcepack:
   model: mineinabyss:item/event/valentines_chocolates
