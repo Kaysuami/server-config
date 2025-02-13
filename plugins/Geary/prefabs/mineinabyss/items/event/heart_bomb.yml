@@ -18,3 +18,5 @@ observe:
         type: mineinabyss:heart_bomb
       when:
         - chance: 1
+resourcepack:
+  texture: mineinabyss:item/event/love_potion
