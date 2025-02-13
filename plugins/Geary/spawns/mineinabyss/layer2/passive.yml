@@ -3,7 +3,7 @@
 l2_passive:
   position: GROUND
   regions: [ layertwo ]
-  amount: 1-3
+  amount: 1-2
   spread: 7
   ySpread: 1
   conditions:
