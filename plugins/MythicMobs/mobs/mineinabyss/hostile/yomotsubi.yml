@@ -36,6 +36,9 @@ yomotsubi:
     - exp 25-35
     - geary mineinabyss:yomotsubi_wing 1-2 0.6
     - geary mineinabyss:yomotsubi_abdomen_raw 1-2 0.6
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
+
   Skills:
     # - CancelEvent{sync=true} ~onAttack
     # - skill{s=Damage_8} @self ~onAttack

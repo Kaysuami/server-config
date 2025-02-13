@@ -30,6 +30,8 @@ rohana:
     - exp 12-18
     - geary mineinabyss:rohana_powder 2 0.8
     - geary mineinabyss:rohana_tail 2 0.4
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
 
   Skills:
     - bodyclamp{m=rohana;c=15} @self ~onSpawnOrLoad

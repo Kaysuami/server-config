@@ -28,6 +28,8 @@ sakuranbo:
   Drops:
     - exp 10-20
     - geary mineinabyss:sakuranbo_dust 1-3 0.9
+    - geary mineinabyss:valentines_chocolates 1-2 0.025 nolooting
+    - geary mineinabyss:benner_cookie 1 0.0025 nolooting
 
   Skills:
     - skill{s=displayHealth} ~onDamaged

@@ -25,7 +25,10 @@ demonfish:
   Drops:
     - exp 5-15
     - geary mineinabyss:demonfish_raw 1-2 0.6
-    - prismarine_shard 1-8 0.9
+    - prismarine_shard 1-8 0.9 
+    - geary mineinabyss:valentines_chocolates 1-2 0.025 nolooting
+    - geary mineinabyss:benner_cookie 1 0.0025 nolooting
+
   Geary:
     pathfinders:
       - type: RandomSwimmingGoal

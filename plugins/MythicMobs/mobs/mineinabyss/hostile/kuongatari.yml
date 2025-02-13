@@ -39,6 +39,9 @@ kuongatari:
     - geary mineinabyss:kuongatari_juice 1 0.3
     - geary mineinabyss:kuongatari_silk 1 0.3
     - geary mineinabyss:kuongatari_abdomen_raw 1-2 0.35
+    - geary mineinabyss:valentines_chocolates 1-2 0.1 nolooting
+    - geary mineinabyss:benner_cookie 1 0.01 nolooting
+
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - state{mid=kuongatari;s=attack} @self ~onAttack
