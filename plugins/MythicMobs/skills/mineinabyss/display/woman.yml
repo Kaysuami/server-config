@@ -150,7 +150,7 @@ ozen_grab_sync:
   - skill{s=ozen_grab} @self
 
 ozen_grab:
-  Cooldown: 10
+  Cooldown: 3
   Conditions:
   - offgcd true
   Skills:
