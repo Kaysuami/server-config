@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <dark_aqua>HeartBomb
+    itemName: <#FFC0CB><b>Love Potion
     customModelData: 133
     # TODO add lore
 #disableItemInteractions: { }

@@ -12,5 +12,5 @@ heart_tick:
 
 heart_impact:
   Skills:
-    - effect:particles{particle=heart;amount=2;hS=.25;vS=.5;y=.5;repeat=240;repeatInterval=10}
-    - heal{a=2}
+    - effect:particles{particle=heart;amount=1;hS=.25;vS=.5;y=.5;repeat=240;repeatInterval=10}
+    - heal{a=8}
