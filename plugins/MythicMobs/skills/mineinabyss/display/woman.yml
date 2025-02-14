@@ -58,7 +58,7 @@ ozen_melee_1_sync:
 ozen_melee_1:
   Conditions:
   - offgcd true
-  Cooldown: 3
+  Cooldown: 2
   Skills:
   - gcd{ticks=60}
   - state{s=punch1} @self
@@ -79,7 +79,6 @@ ozen_melee_1_2:
   - state{s=punch2} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=1} @target
-  
   - delay 5
   - totem{ch=1;md=2;oH=ozen_melee_1_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 25
@@ -108,6 +107,7 @@ ozen_melee_2_sync:
   - skill{s=ozen_melee_2} @self
   
 ozen_melee_2:
+  Cooldown: 2
   Conditions:
   - offgcd true
   Skills:
@@ -211,6 +211,7 @@ ozen_slap:
 
 
 ozen_backhand_damage:
+  Cooldown: 3
   Skills:  
   - effect:particles{particle=block;m=redstone_block;amount=5;hS=0;vS=0;y=1}
   - potion{type=CONFUSION;duration=120;level=1;p=false;i=false}
