@@ -4,7 +4,7 @@ ozenspawn:
   Skills:
   - command{c="mm m kill ozen";asTarget=true;asOp=true}
   - delay 30
-  - summon{type=ozen;amount=1;radius=1} @Location{c=292,135,-118,0,0}
+  #- summon{type=ozen;amount=1;radius=1} @Location{c=292,135,-118,0,0}
 debug:
   Skills:
   - effect:particles{particle=flame;amount=50;hS=.25;vS=.25} 
@@ -64,9 +64,7 @@ ozen_melee_1:
   - state{s=punch1} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=.25} @target
-  #- skill{s=ozen_clothing_foley}
   - delay 5
- # - skill{s=ozen_bottle_foley}
   - totem{ch=1;md=2;oH=ozen_melee_1_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 5
   - skill{s=ozen_melee_1_2} @self .5
@@ -75,13 +73,13 @@ ozen_melee_1:
   
 ozen_melee_1_2:
   Conditions:
-  #- offgcd true
+  - offgcd true
   Skills:
   - gcd{ticks=30}
   - state{s=punch2} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=1} @target
-  - skill{s=ozen_clothing_foley}
+  
   - delay 5
   - totem{ch=1;md=2;oH=ozen_melee_1_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 25
@@ -89,14 +87,14 @@ ozen_melee_1_2:
   
 ozen_melee_1_damage:
   TargetConditions:
-  - blocking{} false
+ # - blocking{} false
   Skills:
   - skill{s=ozen_impact}
-  - damage{a=5}
+  - damage{a=4}
   
 ozen_melee_1_2_damage:
   TargetConditions:
-  - blocking{} false
+ # - blocking{} false
   Skills:
   - skill{s=ozen_impact}
   - throw{v=2;vy=3}
@@ -127,18 +125,18 @@ ozen_melee_2:
   
 ozen_melee_2_damage:
   TargetConditions:
-  - blocking{} false
+  #- blocking{} false
   Skills:
   - skill{s=ozen_impact}
-  - damage{a=5}
+  - damage{a=4}
   
 ozen_melee_2_2_damage:
   TargetConditions:
-  - blocking{} false
+  #- blocking{} false
   Skills:
   - skill{s=ozen_impact}
   - throw{v=2;vy=3}
-  - damage{a=10}
+  - damage{a=4}
   
 ## GRAB ##
 
@@ -158,7 +156,7 @@ ozen_grab:
   - setspeed{type=walking;speed=0} @self
   - gcd{ticks=10}
   - state{s=grab}
-  #- skill{s=ozen_clothing_foley}
+  #
   - delay 10 
   - skill{s=ozen_grab_success} @self
   
@@ -222,55 +220,56 @@ ozen_backhand_damage:
   - effect:bloodyScreen{d=25}
   - damage{a=12;pi=true}
 
-
-
-
-
-hurtgenozen:
-  Cooldown: 0
+ozen_dash:
+  Cooldown: 25
   Conditions:
-  - damagecause{c=PROJECTILE} true
+  - offgcd true
+  - targetinlineofsight
+  - incombat true
+  #- stance{s=spikeless;str=true} false
   Skills:
-  - skill{s=hurtgenozenCLEAR;sync=true} @Trigger 0.15
-  - onShoot{auraName=ozen_arrowWarning;onShoot=signalcheckWarning_ozen;interval=3;duration=200;charges=5;cooldown=5} @trigger 0.5
-  - skill{s=checkprojectileoutrun_ozen;sync=true} @Target
-  - variableadd{var=caster.projrec;amount=1} @self
-  - variableadd{var=caster.projrec;amount=1} @self 0.5
-  - variableadd{var=caster.runstacks;amount=1} @self
-  - variableadd{var=caster.runstacks;amount=2} @self ?distance{d=>6}
-  - variableadd{var=caster.runstacks;amount=3} @self ?distance{d=>10} 0.8
-  - velocity{m=set;x=0;y=0;z=0;repeat=2;Repeatinterval=1} @self
-  - variableadd{var=caster.combor;amount=2} @self
-  - stun{d=1;f=false;stopai=false} @Self
-hurtgenozenCLEAR:
+  - gcd{ticks=220}
+  - effect:particlering{particle=BLOCKCRACK;material=DIRT;radius=1;points=10;amount=30;hS=1;vS=1} @Self
+    # - setai{ai=false}
+  - stun{d=45;f=true} @self
+
+
+  - delay 20
+  - state{s=sprintstart;li=0;lo=0} @self
+  - look{headOnly=false;immediately=false;repeat=100;repeatinterval=1} @target
+  - delay 30
+  - setspeed{speed=1.5;type=walking} @self
+  - state{s=sprintstart;r=true} @self
+  - state{s=sprint;li=0;lo=0} @self
+    #- look{headOnly=false;immediately=false;repeat=100;repeatinterval=1} @target
+  - totem{md=2;c=1;oH=ozen_dashhit;hnp=false;hp=true;hR=1;vR=2;i=1;repeat=100;repeatinterval=1} @forward{f=1}
+  - delay 110
+  - state{s=sprint;remove=true} @self
+  - setspeed{speed=1;type=walking} @self
+  - delay 50
+
+    #- setai{ai=true}
+ozen_dashhit:
+  Cooldown: 1.5
   Conditions:
-  - hasaura{n=changedThreat} false
+  - targetwithin 3
   Skills:
-  - Aura{auraName=changedThreat;duration=300} @self
-  - clearThreat{} @self
-  - threat{amount=100} @Trigger
-hurtgenozen2:
-  Cooldown: 0
-  Conditions:
-  - damagecause{c=PROJECTILE} false
-  TriggerConditions:
-  - distance{d=>5} true
-  Skills:
-  - skill{s=hurtgenozenCLEAR;sync=true} @Trigger 0.25
-  - skill{s=checkprojectileoutrun_ozen;sync=true} @Target
-  - variableadd{var=caster.projrec;amount=1} @self
-  - variableadd{var=caster.projrec;amount=1} @self 0.5
-  - variableadd{var=caster.runstacks;amount=2} @self
-  - variableadd{var=caster.runstacks;amount=2} @self ?distance{d=>10}
-  - variableadd{var=caster.runstacks;amount=3} @self ?distance{d=>10} 0.8
-  - velocity{m=set;x=0;y=0;z=0;repeat=2;Repeatinterval=1} @self
-  - variableadd{var=caster.combor;amount=2} @self
-  - stun{d=1;f=false;stopai=false} @Self
-signalcheckWarning_ozen:
-  Skills:
-  - sudoskill{s=[
-    - signal{s=ARROWARNING} @LivingInCone{a=35;r=56;rot=0.0;limit=3;sort=NEAREST}
-    - projectile{onHit=[  - signal{s=ARROWARNING} @EntitiesNearOrigin{r=5}];mr=14;v=80;i=1;hR=1.6;hp=true;hnp=true;vR=3;sB=false;sE=false;hs=true;d=150;syo=0;hfs=0.1} @Forward{f=25;y=0.0}];sync=true;cat=true} @trigger
+  - state{s=sprintendattack;li=0;lo=0} @self
+  - stun{d=45;f=true} @self
+  - stun{d=45;f=true} 
+    # - shieldbreak{duration=200} @target
+  - delay 15
+  - damage{a=4;pi=true}
+  - delay 4
+  - damage{a=4;pi=true}
+  - delay 5
+  - damage{a=7;pi=true} 
+  - throw{v=10;vy=7}
+  - setstance{stance=sprintendattack} @self
+  - delay 100
+
+
+
 ozen_sidesteppcheck:
   Conditions:
   - hasaura{n=backstepB} false
@@ -284,17 +283,17 @@ ozen_side_jump_right:
   TargetConditions:
   - inblock{b=AIR} castinstead ozen_side_jump_left
   Skills:
-    - setstance{stance=casting} @self
-    - setvariable{var=caster.casting;value="1";t=integer} @Self
-    - Aura{auraName=sidestep;interval=10;duration=60} @self 0.5
-    - state{state=side_jump_right;li=0;lo=6;n=false;speed=1;delay=1} @self
-    - delay 1
-    - lunge{v=0.85;vy=0.05;repeat=3;repeatInterval=1} @forward{f=-1;sideOffset=60} 1
-    - delay 13
-    - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
-    - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2} @self
-    - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
-    - setstance{stance=normal} @self ?stance{s=casting}
+  - setstance{stance=casting} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - Aura{auraName=sidestep;interval=10;duration=60} @self 0.5
+  - state{state=side_jump_right;li=0;lo=6;n=false;speed=1;delay=1} @self
+  - delay 1
+  - lunge{v=0.85;vy=0.05;repeat=3;repeatInterval=1} @forward{f=-1;sideOffset=60} 1
+  - delay 13
+  - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
+  - effect:sound{s=emaginationfallenreaper:custom.spell.land;v=2} @self
+  - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
+  - setstance{stance=normal} @self ?stance{s=casting}
 ozen_side_jump_left:
   Cooldown: 2
   Conditions:
@@ -303,26 +302,14 @@ ozen_side_jump_left:
   TargetConditions:
   - inblock{b=AIR} castinstead ozen_side_jump_right
   Skills:
-    - setstance{stance=casting} @self
-    - setvariable{var=caster.casting;value="1";t=integer} @Self
-    - Aura{auraName=sidestep;interval=10;duration=60} @self 0.5
-    - state{state=side_jump_right;li=0;lo=6;n=false;speed=1;delay=1} @self
-    - delay 1
-    - spin{d=5;v=10;delay=2} @self
-    - lunge{v=0.85;vy=0.05;repeat=3;repeatInterval=1} @forward{f=-1;sideOffset=-60} 1
-    - delay 13
-    - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
-    - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
-    - setstance{stance=normal} @self ?stance{s=casting}
-    - setvariable{var=caster.casting;value="0";t=integer} @Self ?variableEquals{var=caster.casting;value="1"}
-
-checkprojectileoutrun_ozen:
-  Conditions:
-  - variableInRange{var=caster.projrec;value=>4} castinstead checkprojectileoutrun_ozen2
-  Skills:
-  - randomskill{s=outrun_ozenLeft,outrun_ozenRight,outrun_ozenZigZagRight,outrun_ozenZigZagLeft} @Target 0.45
-
-checkprojectileoutrun_ozen2:
-  Skills:
-  - randomskill{s=outrun_ozenLeft,outrun_ozenRight,outrun_ozenZigZagRight,outrun_ozenZigZagLeft,outrun_ozenZigZagRight,outrun_ozenZigZagLeft} @Target 0.7
-
+  - setstance{stance=casting} @self
+  - setvariable{var=caster.casting;value="1";t=integer} @Self
+  - Aura{auraName=sidestep;interval=10;duration=60} @self 0.5
+  - state{state=side_jump_right;li=0;lo=6;n=false;speed=1;delay=1} @self
+  - delay 1
+  - spin{d=5;v=10;delay=2} @self
+  - lunge{v=0.85;vy=0.05;repeat=3;repeatInterval=1} @forward{f=-1;sideOffset=-60} 1
+  - delay 13
+  - potion{type=SLOW;duration=12;lvl=5;p=false} @Self
+  - look{headOnly=false;immediately=true;repeat=5;repeatInterval=1} @Target
+  - setstance{stance=normal} @self ?stance{s=casting}
