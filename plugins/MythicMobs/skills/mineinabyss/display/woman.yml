@@ -88,14 +88,14 @@ ozen_melee_1_damage:
   TargetConditions:
  # - blocking{} false
   Skills:
-  - skill{s=ozen_impact}
+
   - damage{a=4}
   
 ozen_melee_1_2_damage:
   TargetConditions:
  # - blocking{} false
   Skills:
-  - skill{s=ozen_impact}
+
   - throw{v=2;vy=3}
   - damage{a=8}
   
@@ -127,14 +127,14 @@ ozen_melee_2_damage:
   TargetConditions:
   #- blocking{} false
   Skills:
-  - skill{s=ozen_impact}
+
   - damage{a=4}
   
 ozen_melee_2_2_damage:
   TargetConditions:
   #- blocking{} false
   Skills:
-  - skill{s=ozen_impact}
+
   - throw{v=2;vy=3}
   - damage{a=4}
   
