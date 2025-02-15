@@ -23,3 +23,13 @@ closescout2:
   Skills:
     - delay 20
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+
+
+
+closescout2:
+  Conditions:
+    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=50}
+  Cooldown: 1
+  Skills:
+    - delay 20
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self

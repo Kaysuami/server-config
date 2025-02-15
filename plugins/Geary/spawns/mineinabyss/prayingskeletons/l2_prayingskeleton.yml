@@ -9,6 +9,6 @@ l2_prayingskeleton:
     - maxNearby:
         amount: 50
         radius: 999999
-        types: [ "mm:prayingskeleton1,prayingskeleton2,prayingskeleton3" ]
+        types: [ "mm:prayingskeleton1" ]
   spread: 200 # The horizontal spread for them
   ySpread: 10 # And the vertical spread

@@ -19,6 +19,7 @@ prayingskeleton1:
     KnockbackResistance: 1.0
     Collidable: false
     Despawn: false
+    Persistent: true
   Model:
     Id: praying_skeleton_1
     ViewRadius: 48
@@ -37,4 +38,4 @@ prayingskeleton1:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - teleport{spreadh=250;spreadv=0} @self ~onspawn
+ #   - teleport{spreadh=1;spreadv=0} @self ~onspawn
