@@ -18,6 +18,7 @@ prayingskeleton1:
     MovementSpeed: 0   # replaced with skills
     KnockbackResistance: 1.0
     Collidable: false
+    Despawn: false
   Model:
     Id: praying_skeleton_1
     ViewRadius: 48

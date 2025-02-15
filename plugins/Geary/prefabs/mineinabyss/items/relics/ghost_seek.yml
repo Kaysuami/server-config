@@ -11,12 +11,12 @@ passive:
     every: 1s
     run:
       - become: parent
-      - ensure:
-        player:
-          sneaking: true
-      - cooldown:
-        id: relicscout
-        length: 3s
-        display: <#617B94>Relic Scout
-      - mythicSkills:
-          - "relicscout"
+  - ensure:
+      player:
+        sneaking: true
+  - cooldown:
+      id: relicscout
+      length: 3s
+      display: <#617B94>Relic Scout
+  - mythicSkills:
+      - "relicscout"
