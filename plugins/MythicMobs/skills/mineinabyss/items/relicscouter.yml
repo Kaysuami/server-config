@@ -1,0 +1,24 @@
+relicscout:
+  Conditions:
+    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=100}
+  Cooldown: 1
+  Skills:
+    - skill{s=closescout} @self
+    - skill{s=closescout2} @self
+    - delay 30
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+closescout:
+  Conditions:
+    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=500}
+  Cooldown: 1
+  Skills:
+    - delay 20
+    - sound{s=block.note_block.chime;sc=master;p=1.5;v=1} @self
+
+closescout2:
+  Conditions:
+    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=1000}
+  Cooldown: 1
+  Skills:
+    - delay 10
+    - sound{s=block.note_block.chime;sc=master;p=1;v=1} @self
