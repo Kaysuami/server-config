@@ -58,15 +58,14 @@ ozen_melee_1_sync:
 ozen_melee_1:
   Conditions:
   - offgcd true
-  Cooldown: 2
   Skills:
-  - gcd{ticks=60}
+  - gcd{ticks=30}
   - state{s=punch1} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=.25} @target
   - delay 5
   - totem{ch=1;md=2;oH=ozen_melee_1_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
-  - delay 5
+  - delay 7
   - skill{s=ozen_melee_1_2} @self .5
   - delay 20
   - setspeed{type=walking;speed=1} @self
@@ -96,8 +95,8 @@ ozen_melee_1_2_damage:
  # - blocking{} false
   Skills:
 
-  - throw{v=2;vy=3}
-  - damage{a=8}
+  - throw{v=1;vy=1}
+  - damage{a=4}
   
 ## MELEE 2 ##
 
@@ -107,7 +106,6 @@ ozen_melee_2_sync:
   - skill{s=ozen_melee_2} @self
   
 ozen_melee_2:
-  Cooldown: 2
   Conditions:
   - offgcd true
   Skills:
@@ -135,7 +133,7 @@ ozen_melee_2_2_damage:
   #- blocking{} false
   Skills:
 
-  - throw{v=2;vy=3}
+  - throw{v=2;vy=2}
   - damage{a=4}
   
 ## GRAB ##
@@ -198,7 +196,7 @@ ozen_grab_damage:
 ozen_slap:
   Conditions:
   - offgcd
-  Cooldown: 8
+  Cooldown: 4
   Skills:
   - gcd{ticks=200} @self
   - setAI{ai=false} @self
@@ -215,14 +213,14 @@ ozen_backhand_damage:
   Skills:  
   - effect:particles{particle=block;m=redstone_block;amount=5;hS=0;vS=0;y=1}
   - potion{type=CONFUSION;duration=120;level=1;p=false;i=false}
-  - potion{type=SLOW;duration=70;level=4;p=false;i=false}
-  - throw{velocity=20;velocityY=9}
+  - potion{type=SLOW;duration=20;level=4;p=false;i=false}
+  - throw{velocity=30;velocityY=9}
   #- potion{type=BLINDNESS;duration=60;level=4;p=false;i=false}
   - effect:bloodyScreen{d=25}
   - damage{a=12;pi=true}
 
 ozen_dash:
-  Cooldown: 25
+  Cooldown: 10
   Conditions:
   - offgcd true
   - targetinlineofsight

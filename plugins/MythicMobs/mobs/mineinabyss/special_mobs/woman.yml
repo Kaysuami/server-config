@@ -31,6 +31,7 @@ ozen:
   Skills:
   - skill{s=SaveBossLocation} @self ~onSpawn
   - skill{s=bossping} ~onSignal:location
+  - skill{s=Changetarget} ~onTimer:10 <99%
   - SudoSkill{s=ozen_bloodeffect;cat=true} @trigger ~onDamaged
   - randomskill{skills=ozen_melee_1_sync,ozen_melee_2_sync;sync=true} @self ~onAttack
  
@@ -42,3 +43,4 @@ ozen:
   - model{mid=capelessozen;d=false;i=true;step=1;ride=true} @self ~onSpawn
   - model{mid=capelessozen;d=false;i=true;step=1;ride=true} @self ~onLoad  
   - remove{delay=30000} @self ~onSpawn
+  - skill{s=ozen_dash} @target ~onTimer:20
