@@ -1,0 +1,14 @@
+l2_prayingskeleton:
+  position: GROUND
+  priority: 1
+  regions:
+    - l2s0
+    - l2s1
+    - l2s2
+  conditions:
+    - maxNearby:
+        amount: 50
+        radius: 999999
+        types: [ "mm:prayingskeleton1,prayingskeleton2,prayingskeleton3" ]
+  spread: 200 # The horizontal spread for them
+  ySpread: 10 # And the vertical spread

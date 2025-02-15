@@ -1,6 +1,6 @@
 prayingskeleton1:
   Type: ZOMBIE
-  SpawnCategory: special
+  SpawnCategory: skeleton
   Display: "<green>Praying Skeleton"
   Modules:
     ThreatTable: true
@@ -8,7 +8,7 @@ prayingskeleton1:
     - clear
   AITargetSelectors:
     - clear
-  Health: 1 # change this
+  Health: 2 # change this
   Damage: 0 # keep this 0
   Options:
     PreventSunburn: true
@@ -25,6 +25,8 @@ prayingskeleton1:
     Drive: false
     DamageTint: true
     Scale: 1
+  DamageModifiers:
+    - FALL 0.01
   Drops:
     - exp 10-15
     - geary mineinabyss:plant_matter 1-2 0.6
@@ -35,3 +37,4 @@ prayingskeleton1:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - teleport{spreadh=250;spreadv=0} @self ~onspawn
