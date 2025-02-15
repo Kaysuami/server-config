@@ -63,15 +63,16 @@ splitjaw:
     Drive: false
     DamageTint: true
   DamageModifiers:
-    - PROJECTILE 0.5
+    - PROJECTILE 0.3
   Drops:
     - exp 70-115
-    - geary mineinabyss:benner_cookie 1 0.04 nolooting
+
+    - geary mineinabyss:valentines_chocolates 1-2 0.25 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.02 nolooting
     - geary mineinabyss:splitjaw_scales 1-3 0.7
-    - geary mineinabyss:splitjaw_gunk 2 0.7
+    - geary mineinabyss:splitjaw_gunk 1-2 0.7
     - DIAMOND 1 0.1
     - GOLD_INGOT 1 0.15
-    - geary mineinabyss:valentines_chocolates 1-2 0.40 nolooting
 
   Skills:
     # - CancelEvent{sync=true} ~onAttack

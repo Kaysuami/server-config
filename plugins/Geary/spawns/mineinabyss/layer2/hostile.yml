@@ -3,7 +3,7 @@
 l2_hostile:
   position: GROUND
   regions: [ layertwo ]
-  spread: 5
+  spread: 15
   conditions:
     - blockBelow:
         allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
@@ -16,22 +16,24 @@ l2_ottobas:
   priority: 0.25
   conditions:
     - $inherit
-    - gap: 4..600
+    - gap: 2..600
     - maxNearby:
         amount: 2
 
 l2_silkfang:
   inherit: l2_hostile
   type: mm:silkfang
+  priority: 0.8
   conditions:
     - $inherit
     - gap: 4..600
     - maxNearby:
-        amount: 5
+        amount: 2
 
 l2_woodcrier:
   inherit: l2_hostile
   type: mm:woodcrier
+  priority: 0.8
   conditions:
     - $inherit
     - maxNearby:

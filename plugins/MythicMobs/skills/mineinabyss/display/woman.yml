@@ -78,6 +78,7 @@ ozen_melee_1_2:
   - state{s=punch2} @self
   - setspeed{type=walking;speed=0} @self
   - lunge{v=1} @target
+
   - delay 5
   - totem{ch=1;md=2;oH=ozen_melee_1_2_damage;repeat=3;repeatInterval=2;hS=1;vS=1} @forward{f=1}
   - delay 25
@@ -134,6 +135,7 @@ ozen_melee_2_2_damage:
   Skills:
 
   - throw{v=2;vy=2}
+
   - damage{a=4}
   
 ## GRAB ##
@@ -220,7 +222,9 @@ ozen_backhand_damage:
   - damage{a=12;pi=true}
 
 ozen_dash:
+
   Cooldown: 10
+
   Conditions:
   - offgcd true
   - targetinlineofsight
