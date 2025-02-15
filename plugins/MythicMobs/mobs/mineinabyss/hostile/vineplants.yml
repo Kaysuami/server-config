@@ -33,8 +33,8 @@ vinebinder:
   Drops:
     - exp 10-15
     - geary mineinabyss:plant_matter 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
 
   Skills:
     ####### Misc
@@ -77,13 +77,13 @@ vineblaster:
   Drops:
     - exp 10-15
     - geary mineinabyss:plant_matter 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-
+    - skill{s=Changetarget} ~onTimer:160 <99%
     - skill:vineblasterattack @Self ~onTimer:40
     # - skill{s=vineblastermortar} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
@@ -120,8 +120,8 @@ vinepoofer:
   Drops:
     - exp 10-15
     - geary mineinabyss:plant_matter 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
+    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
+    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
