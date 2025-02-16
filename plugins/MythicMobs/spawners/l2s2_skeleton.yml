@@ -25,5 +25,5 @@ l2s2_skeleton:
   ShowFlames: false
   Breakable: false
   Conditions:
-  - regionl2s0 true 
+  - region l2s0 true 
   ActiveMobs: 0
