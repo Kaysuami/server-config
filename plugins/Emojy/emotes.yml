@@ -225,6 +225,9 @@ emotes:
   - id: pockyw
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/pockyw.png
+  - id: froyw
+    font: mineinabyss:whistles
+    texture: mineinabyss:whistles/froyw.png
   - id: adventure
     template: role_template
     texture: mineinabyss:ui/prefixes/server/adventure.png
