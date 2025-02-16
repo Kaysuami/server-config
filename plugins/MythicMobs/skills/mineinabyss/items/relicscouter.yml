@@ -21,15 +21,42 @@ closescout2:
     - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=50}
   Cooldown: 1
   Skills:
-    - delay 20
+    - delay 15
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
 
 
-
-closescout2:
+enhancedrelicscout:
   Conditions:
-    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=50}
+    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=500}
   Cooldown: 1
   Skills:
-    - delay 20
-    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - skill{s=closescout} @self
+    - skill{s=closescout2} @self
+    - skill{s=triggerskele} @self
+    - delay 5
+    - sound{s=block.note_block.chime;sc=master;p=1;v=1} @self
+
+saveskelelocation:
+  Skills:
+  - setvariable{var=SpawnLocX;type=FLOAT;value="<caster.l.x>"} @self
+  - setvariable{var=SpawnLocY;type=FLOAT;value="<caster.l.y>"} @self
+  - setvariable{var=SpawnLocZ;type=FLOAT;value="<caster.l.z>"} @self
+
+triggerskele:
+  Skills:
+  - signal{s=location} @LivingInWorld
+
+skeleping:
+  Skills:
+  - setvariable{var=PlayerX;type=FLOAT;value="<trigger.l.x>"} @Trigger
+  - setvariable{var=PlayerY;type=FLOAT;value="<trigger.l.y>"} @Trigger
+  - setvariable{var=PlayerZ;type=FLOAT;value="<trigger.l.z>"} @Trigger
+  - setvariable{var=DistX;type=FLOAT;value="<math.abs(<caster.var.SpawnLocX> - <caster.var.PlayerX>)>"} @self
+  - setvariable{var=DistY;type=FLOAT;value="<math.abs(<caster.var.SpawnLocY> - <caster.var.PlayerY>)>"} @self
+  - setvariable{var=DistZ;type=FLOAT;value="<math.abs(<caster.var.SpawnLocZ> - <caster.var.PlayerZ>)>"} @self
+  - setvariable{var=Distance;type=FLOAT;value="<math.sqrt(<caster.var.DistX>^2 + <caster.var.DistY>^2 + <caster.var.DistZ>^2)>"} @self
+  - message{m="&eA &B<caster.name>&e is &b<caster.var.Distance>&e blocks away!"} @Trigger
+
+godping:
+  Skills:
+  - message{m="&eA &B<caster.name>&e &eis at <caster.var.SpawnLoc>"} @Trigger

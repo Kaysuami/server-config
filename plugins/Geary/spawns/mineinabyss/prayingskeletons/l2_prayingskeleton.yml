@@ -9,6 +9,6 @@ l2_prayingskeleton:
   conditions:
     - maxNearby:
         amount: 1
-        radius: 1000
+        radius: 500
   spread: 100 # The horizontal spread for them
   ySpread: 10 # And the vertical spread

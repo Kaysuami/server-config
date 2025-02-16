@@ -8,7 +8,7 @@ prayingskeleton1:
     - clear
   AITargetSelectors:
     - clear
-  Health: 2 # change this
+  Health: 5 # change this
   Damage: 0 # keep this 0
   Options:
     PreventSunburn: true
@@ -24,18 +24,21 @@ prayingskeleton1:
     Id: praying_skeleton_1
     ViewRadius: 48
     Drive: false
-    DamageTint: true
+    DamageTint: false
     Scale: 1
   DamageModifiers:
-    - FALL 0.01
+    - FALL 0.001
+    - DROWNING 0.001
   Drops:
     - exp 10-15
     - geary mineinabyss:plant_matter 1-2 0.6
 
   Skills:
     ####### Misc
+    - skill{s=saveskelelocation} @self ~onSpawn
+    - skill{s=skeleping} ~onSignal:location
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - teleport{spreadh=5;spreadv=10} @RandomLocationsNearOrigin{radius=1000;minradius=200;spacing=4;onSurface=true} ~onspawn
+    - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=400;minradius=100;spacing=1;onSurface=true} ~onspawn
