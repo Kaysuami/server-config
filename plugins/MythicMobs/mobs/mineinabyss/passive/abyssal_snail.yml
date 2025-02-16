@@ -15,7 +15,7 @@ abyssal_snail:
     - clear
   Options:
     KnockbackResistance: 0.15
-    Collidable: true
+    Collidable: true 
     Silent: true
     FollowRange: 20
     Interactable: true
@@ -28,7 +28,7 @@ abyssal_snail:
   Drops:
     - exp 25-40
     - geary mineinabyss:abyssal_snail_shell 1 0.7
-    - geary mineinabyss:abyssal_snail_gunk 1-2
+    - geary mineinabyss:abyssal_snail_gunk 1-2 0.7
     - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
     - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
 

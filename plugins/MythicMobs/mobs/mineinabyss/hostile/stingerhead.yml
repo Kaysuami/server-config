@@ -39,7 +39,7 @@ stingerhead:
     - exp 100-250
     - geary mineinabyss:stingerhead_scale 1-2 1
     - geary mineinabyss:stingerhead_flesh 1-2 1
-    - geary mineinabyss:stingerhead_eye 1-2 0.4
+    - geary mineinabyss:stingerhead_eye 1-2 0.4 nolooting
     - geary mineinabyss:valentines_chocolates 1-2 0.40 nolooting
     - geary mineinabyss:benner_cookie 1 0.03 nolooting
 
