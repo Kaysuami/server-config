@@ -51,7 +51,7 @@ skeleping:
   - setvariable{var=PlayerX;type=FLOAT;value="<trigger.l.x>"} @Trigger
   - setvariable{var=PlayerY;type=FLOAT;value="<trigger.l.y>"} @Trigger
   - setvariable{var=PlayerZ;type=FLOAT;value="<trigger.l.z>"} @Trigger
-  - setvariable{var=DistX;type=FLOAT;value="<math.sub(<caster.var.SpawnLocX>, <caster.var.PlayerX>)>"} @self
+  - setvariable{var=DistX;type=FLOAT;value="<caster.var.SpawnLocX - caster.var.PlayerX>"} @self
   - setvariable{var=DistY;type=FLOAT;value="<math.sub(<caster.var.SpawnLocY>, <caster.var.PlayerY>)>"} @self
   - setvariable{var=DistZ;type=FLOAT;value="<math.sub(<caster.var.SpawnLocZ>, <caster.var.PlayerZ>)>"} @self
   - setvariable{var=DistX2;type=FLOAT;value="<math.mul(<caster.var.DistX>, <caster.var.DistX>)>"} @self
