@@ -34,9 +34,9 @@ closescout3:
     - delay 20
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
 
-closescout3:
+closescout4:
   Conditions:
-    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=50}
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
   Cooldown: 1
   Skills:
     - delay 25
@@ -60,7 +60,7 @@ enhancedrelicscout:
   Skills:
     - skill{s=closescout} @self
     - skill{s=closescout2} @self
-    - skill{s=triggerskele} @self
+    - skill{s=triggerskele} @trigger
     - delay 5
     - sound{s=block.note_block.chime;sc=master;p=1;v=1} @self
 

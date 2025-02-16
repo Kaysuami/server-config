@@ -9,10 +9,10 @@ l3_prayingskeleton:
     - l3s3
   conditions:
     - maxNearby:
-        amount: 1
+        amount: 2
         radius: 500
     - mythicConditions:
-        - mobsInRadius{types=l3prayingskeleton;amount=0to3;radius=1000} true
+        - mobsInRadius{types=l3prayingskeleton;amount=0to5;radius=1000} true
   spread: 100 # The horizontal spread for them
   ySpread: 10 # And the vertical spread
 

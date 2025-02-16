@@ -22,7 +22,7 @@ l5prayingskeleton:
     Persistent: true
   Model:
     Id: praying_skeleton_1
-    ViewRadius: 48
+    ViewRadius: 100
     Drive: false
     DamageTint: false
     Scale: 1
