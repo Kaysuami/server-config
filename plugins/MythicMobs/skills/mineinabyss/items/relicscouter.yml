@@ -1,6 +1,6 @@
 relicscout:
   Conditions:
-    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=500}
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=500}
   Cooldown: 1
   Skills:
     - skill{s=closescout} @self
@@ -10,7 +10,7 @@ relicscout:
 
 closescout:
   Conditions:
-    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=250}
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=250}
   Cooldown: 1
   Skills:
     - delay 10
@@ -18,7 +18,7 @@ closescout:
 
 closescout2:
   Conditions:
-    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=50}
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=50}
   Cooldown: 1
   Skills:
     - delay 15
@@ -27,7 +27,7 @@ closescout2:
 
 enhancedrelicscout:
   Conditions:
-    - mobsInRadius{types=prayingskeleton1,prayingskeleton2,prayingskeleton3;amount=1to99;radius=500}
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=500}
   Cooldown: 1
   Skills:
     - skill{s=closescout} @self
@@ -44,17 +44,20 @@ saveskelelocation:
 
 triggerskele:
   Skills:
-  - signal{s=location} @LivingInWorld
+  - signal{s=location} @MobsInRadius{r=1000;types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton}
 
 skeleping:
   Skills:
   - setvariable{var=PlayerX;type=FLOAT;value="<trigger.l.x>"} @Trigger
   - setvariable{var=PlayerY;type=FLOAT;value="<trigger.l.y>"} @Trigger
   - setvariable{var=PlayerZ;type=FLOAT;value="<trigger.l.z>"} @Trigger
-  - setvariable{var=DistX;type=FLOAT;value="<math.abs(<caster.var.SpawnLocX> - <caster.var.PlayerX>)>"} @self
-  - setvariable{var=DistY;type=FLOAT;value="<math.abs(<caster.var.SpawnLocY> - <caster.var.PlayerY>)>"} @self
-  - setvariable{var=DistZ;type=FLOAT;value="<math.abs(<caster.var.SpawnLocZ> - <caster.var.PlayerZ>)>"} @self
-  - setvariable{var=Distance;type=FLOAT;value="<math.sqrt(<caster.var.DistX>^2 + <caster.var.DistY>^2 + <caster.var.DistZ>^2)>"} @self
+  - setvariable{var=DistX;type=FLOAT;value="<math.sub(<caster.var.SpawnLocX>, <caster.var.PlayerX>)>"} @self
+  - setvariable{var=DistY;type=FLOAT;value="<math.sub(<caster.var.SpawnLocY>, <caster.var.PlayerY>)>"} @self
+  - setvariable{var=DistZ;type=FLOAT;value="<math.sub(<caster.var.SpawnLocZ>, <caster.var.PlayerZ>)>"} @self
+  - setvariable{var=DistX2;type=FLOAT;value="<math.mul(<caster.var.DistX>, <caster.var.DistX>)>"} @self
+  - setvariable{var=DistY2;type=FLOAT;value="<math.mul(<caster.var.DistY>, <caster.var.DistY>)>"} @self
+  - setvariable{var=DistZ2;type=FLOAT;value="<math.mul(<caster.var.DistZ>, <caster.var.DistZ>)>"} @self
+  - setvariable{var=Distance;type=FLOAT;value="<math.sqrt(<math.add(<math.add(<caster.var.DistX2>, <caster.var.DistY2>)>, <caster.var.DistZ2>)>)>"} @self
   - message{m="&eA &B<caster.name>&e is &b<caster.var.Distance>&e blocks away!"} @Trigger
 
 godping:
