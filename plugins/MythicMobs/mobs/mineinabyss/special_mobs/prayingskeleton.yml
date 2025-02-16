@@ -38,4 +38,4 @@ prayingskeleton1:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
- #   - teleport{spreadh=1;spreadv=0} @self ~onspawn
+    - teleport{spreadh=5;spreadv=10} @self ~onspawn
