@@ -37,6 +37,7 @@ l2prayingskeleton:
     ####### Misc
     - skill{s=saveskelelocation} @self ~onSpawn
     - skill{s=skeleping} ~onSignal:location
+    - skill{s=godping} ~onSignal:location
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20

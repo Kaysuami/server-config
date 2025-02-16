@@ -14,7 +14,7 @@ observe:
           sneaking: true
     - cooldown:
         id: relicscout
-        length: 2s
+        length: 5s
         display: <#617B94>Relic Scout
     - mythicSkills:
         - "relicscout"
