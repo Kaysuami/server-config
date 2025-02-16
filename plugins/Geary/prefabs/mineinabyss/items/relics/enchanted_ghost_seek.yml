@@ -1,15 +1,14 @@
 set.item:
   item:
-    itemName: <gold>Ghost Seek
+    itemName: <gold>Enhanced Ghost Seek
     type: CARVED_PUMPKIN
     customModelData: 108
 #ghost_seek:
 hat: {}
 disableItemInteractions: {}
 enchantments:
-  - enchant: minecraft:mending 
+  - enchant: minecraft:sharpness 1 
     level: 1
-itemFlags: [ HIDE_ENCHANTS ] 
 observe:
   itemRightClick:
     - become: parent
