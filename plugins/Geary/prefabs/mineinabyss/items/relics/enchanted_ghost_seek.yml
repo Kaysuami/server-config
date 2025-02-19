@@ -3,7 +3,11 @@ set.item:
     itemName: <gold>Enhanced Ghost Seek
     type: CARVED_PUMPKIN
     customModelData: 108
-#ghost_seek:
+    lore:
+      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
+      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
+      - <#D2D489>guiding its wielder toward hidden relics.
+
 hat: {}
 disableItemInteractions: {}
 enchantments:
@@ -21,4 +25,6 @@ observe:
         display: <#617B94>Relic Scout
     - mythicSkills:
         - "enchancedrelicscout"
+resourcepack:
+  model: mineinabyss:item/relics/ghost_seek_on
 
