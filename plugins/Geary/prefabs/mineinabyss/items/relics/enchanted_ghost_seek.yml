@@ -1,6 +1,6 @@
 set.item:
   item:
-    itemName: <gold>Enhanced Ghost Seek
+    itemName: <gold>Refined Ghost Seek
     type: CARVED_PUMPKIN
     customModelData: 108
     lore:
@@ -10,9 +10,6 @@ set.item:
 
 hat: {}
 disableItemInteractions: {}
-enchantments:
-  - enchant: minecraft:sharpness 1 
-    level: 1
 observe:
   itemRightClick:
     - become: parent
@@ -21,10 +18,10 @@ observe:
           sneaking: true
     - cooldown:
         id: relicscout
-        length: 2s
+        length: 7s
         display: <#617B94>Relic Scout
     - mythicSkills:
-        - "enchancedrelicscout"
+        - "relicscout"
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_on
 

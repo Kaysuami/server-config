@@ -24,3 +24,5 @@ observe:
           duration: 60s
           amplifier: 1
           hasParticles: false
+resourcepack:
+  model: mineinabyss:item/relics/ngv_alt
