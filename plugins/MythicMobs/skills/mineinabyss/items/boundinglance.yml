@@ -1,0 +1,16 @@
+boundinglance:
+  Cooldown: 1
+  Conditions:
+    - offgcd
+  #- stance{s=spikeless;str=true} false
+  Skills:
+    - potion{t=SLOW;l=7;d=60;p=false} @Self
+    - sound{s=entity.witch.celebrate;p=1.9;v=1} @Self
+    - delay 3
+    - effect:particleorbital{particle=reddust;color=#7CFC00;amount=3;r=1;p=30;i=1;t=40;repeat=4;repeatInterval=7;vs=1} @Self
+    - sound{s=entity.evoker.prepare_summon;p=0.8;v=0.5} @Self
+    - delay 65
+    - effect:particlesphere{p=reddust;y=0.5;r=4;a=60;color=#00d63a} @SelfLocation
+    - potion{type=STRENGTH;duration=40;level=1;repeat=20;repeatInterval=10} @EIR{r=5}
+    - potion{type=HASTE;duration=40;level=1;repeat=20;repeatInterval=10} @EIR{r=5}
+    - potion{type=REGENERATION;duration=40;level=1;repeat=20;repeatInterval=10} @EIR{r=5}    

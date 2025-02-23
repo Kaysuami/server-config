@@ -47,7 +47,7 @@ vinebinderAmbient:
 
 
 vineblasterattack:
-  Cooldown: 4
+  Cooldown: 3
   Conditions:
     - incombat true
     - offgcd true
@@ -60,7 +60,7 @@ vineblasterattack:
     - potion{type=SLOW;duration=35;level=2;p=false;force=true} @Self
     - delay 20
 
-    - projectile{onTick=vineblaster_tick;onHit=vineblaster_impact;v=10;i=1;hR=1;vR=1;hnp=false;tyo=1;syo=0.5;vn=1} @target
+    - projectile{onTick=vineblaster_tick;onHit=vineblaster_impact;v=10;i=1;hR=1;vR=1;hnp=true;hp=false;tyo=1;syo=0.5;vn=1} @target
     - delay 20
     - state{s=pew;r=true} @self
 

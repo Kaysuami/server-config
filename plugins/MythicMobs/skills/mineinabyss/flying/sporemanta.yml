@@ -30,9 +30,7 @@ sporemantaDamager:
 sporemantaAura:
   Cooldown: 10
   Conditions:
-  - incombat true
   - offgcd true
-  - targetwithin{d=20} true
   Skills:
   - gcd{ticks=80}
   - effect:particlesphere{particle=portal;a=30;r=2;repeat=20;repeatinterval=5} @self
