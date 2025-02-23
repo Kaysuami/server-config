@@ -27,10 +27,11 @@ sporemantaDamager:
   - effect:particles{particle=spore_blossom;a=12;hs=0.3;vs=0.3} @self ?targetwithin{d=1.5}
 
 
-sporemantaAura:
+sporemantaaura:
   Cooldown: 10
   Conditions:
   - offgcd true
+  - incombat true
   Skills:
   - gcd{ticks=80}
   - effect:particlesphere{particle=portal;a=30;r=2;repeat=20;repeatinterval=5} @self

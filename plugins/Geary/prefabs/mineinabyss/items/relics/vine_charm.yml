@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:paper
-    customModelData: 136
+    customModelData: 138
     itemName: <#617B94><b>Vine Charm
     lore:
       - <#C6CC8A>Contains <white>Everlasting Gunpowder<#C6CC8A>,
@@ -9,16 +9,19 @@ set.item:
       - <#C6CC8A>on whatever it is struck on.
       - <#948E61><i>Used to create powerful explosions.
 disableItemInteractions: { }
-
+hat: {}
 observe:
   itemRightClick:
     - become: parent
     - ensure:
-        player:
-          sneaking: true
+        mythicConditions:
+          - EnchantingLevel{l=>1} true
+      onFail:
+        - sendActionBar:
+            text: <red>Out of Experience
     - cooldown:
-        id: BlazeReap
+        id: vinecharm
         length: 5s
-        display: <#617B94>Blaze Reap
+        display: <#617B94>Vine Charm
     - mythicSkills:
-        - "BlazeReap"
+        - "vinecharm"

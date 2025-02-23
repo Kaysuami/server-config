@@ -141,9 +141,8 @@ allyvineblaster:
   AIGoalSelectors:
     - clear
     #- randomlookaround
-    - lookatplayers
+    - LookAtTarget
   AITargetSelectors:
-    - clear
     - monsters
   Health: 5 # change this
   Damage: 0 # keep this 0

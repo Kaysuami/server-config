@@ -9,7 +9,6 @@ set.item:
       - <#D2D489>guiding its wielder toward hidden relics.
 
 #ghost_seek:
-hat: {}
 disableItemInteractions: {}
 observe:
   itemRightClick:
@@ -42,7 +41,7 @@ passive:
       - applyPotionEffects:
           - type: minecraft:speed
             duration: 3s
-            amplifier: 1``
+            amplifier: 1
             hasParticles: false
 
 

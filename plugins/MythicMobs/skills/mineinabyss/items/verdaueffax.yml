@@ -1,0 +1,10 @@
+verdaueffax:
+  Conditions:
+  Cooldown: 10
+  Skills:
+  - Aura{auraName=effaxfeed;onTick=RetributingLightDamage;interval=2;duration=100} @self
+effaxfeed:
+  Conditions:
+  Skills:
+  - feed{amount=-2} @self
+  - heal{amount=2} @self

@@ -1,0 +1,27 @@
+set.item:
+  item:
+    itemName: <gold>Wind Sttaff
+    type: PAPER
+    customModelData: 140
+    lore:
+      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
+      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
+      - <#D2D489>guiding its wielder toward hidden relics.
+
+#ghost_seek:
+disableItemInteractions: {}
+passive:
+
+  - match: [ inInventory ]
+    every: 4s
+    run:
+      - become: parent
+      - cooldown:
+          id: windstaff
+          length: 10s
+          display: <dark_aqua>
+      - mythicSkills:
+          - "windstaff"
+resourcepack:
+  model: mineinabyss:item/relics/verdau_effax
+

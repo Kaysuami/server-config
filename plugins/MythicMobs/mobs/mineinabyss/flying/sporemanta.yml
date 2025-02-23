@@ -15,7 +15,6 @@ sporemanta:
     Silent: true
     PreventOtherDrops: true
     FollowRange: 25
-    MovementSpeed: 0.0   # replaced with skills
     KnockbackResistance: 0.0
     PreventSunburn: true
     PreventOtherDrops: true
@@ -34,15 +33,10 @@ sporemanta:
 
   Skills:
     ####### Misc
-    - look{} @target ~onTimer:20
-    - defaultstate{t=walk;s=walk;sp=1.0} @self ~onSpawnOrLoad
     - potion{t=LEVITATION;l=4;force=true;p=true;d=5} @self ~onTimer:1 ?onground{}
-    - potion{t=SLOW_FALLING;l=0;force=true;p=true;d=22} @self ~onTimer:20
-    - CancelEvent{sync=true} @self ~onAttack # this is replaced with the swoop skill
-    ####### Stances/AI
-    - skill{s=sporemantaAttack} @self ~onTimer:65 0.88
+    - state{mid=sporemanta;s=attack} @self ~onAttack
+    - skill{s=sporemantaaura} @self ~onTimer:10
     ########### FX
-    - sound{s=entity.bee.pollinate;sc=master;p=<random.float.1.5to1.6>;v=0.25} @self ~onTimer:1
     - skill{s=sporemantaHurt} @self ~onHurt
     - skill{s=sporemantaDeath} @self ~onDeath
     - skill{s=sporemantaAmbient} @self ~onDeath

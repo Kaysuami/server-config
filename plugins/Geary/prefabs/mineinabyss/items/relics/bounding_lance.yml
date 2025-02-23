@@ -9,14 +9,11 @@ set.item:
       - <#D2D489>guiding its wielder toward hidden relics.
 
 #ghost_seek:
-hat: {}
+
 disableItemInteractions: {}
 observe:
   itemRightClick:
     - become: parent
-    - ensure:
-        player:
-          sneaking: true
     - cooldown:
         id: boundinglance
         length: 30s
