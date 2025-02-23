@@ -1,0 +1,43 @@
+set.item:
+  item:
+    itemName: <gold>Trident
+    type: TRIDENT
+    customModelData: 0
+    lore:
+      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
+      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
+      - <#D2D489>guiding its wielder toward hidden relics.
+
+#ghost_seek:
+disableItemInteractions: {}
+observe:
+  itemRightClick:
+    - become: parent
+    - ensure:
+        mythicConditions:
+          - hasaurastacks{n=trident;s=3} true
+      onFail:
+        - sendActionBar:
+            text: <red>Out of Charge
+    - cooldown:
+        id: trident
+        length: 3s
+        display: <#617B94>Trident
+    - become: parent
+    - mythicSkills:
+        - "trident_charge"
+passive:
+  - match: [ inHand ]
+    every: 1s
+    run:
+      - become: parent
+      - ensure:
+        player:
+          sneaking: true
+  - mythicSkills:
+        - "throwtrident"
+
+
+resourcepack:
+  model: mineinabyss:item/relics/ghost_seek_off
+

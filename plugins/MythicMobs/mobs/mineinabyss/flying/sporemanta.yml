@@ -1,14 +1,20 @@
 sporemanta:
-  Type: PHANTOM
+  Type: ALLAY
   SpawnCategory: swarm
   Display: '<#6C19BF>Spore Manta'  # change this
+  Prefabs: [ mineinabyss:custom_allay ]
   Modules:
     ThreatTable: true
+  AIGoalSelectors:
+    - clear
+    - meleeattack
+    - float
+    - randomFly
+    - randomlookaround
   AITargetSelectors:
     - clear
-    #  - OtherFaction
+    - attacker
     - players
-   # - nearestConditionalTarget{conditions=[- mythicmobtype{t=hammerbeak,hammerbeakLarge} true]}
   Health: 30 # change this
   Damage: 0 # keep this 0
   Options:

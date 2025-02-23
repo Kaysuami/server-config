@@ -112,6 +112,7 @@ octoliarWeb: # web attack
   Cooldown: 5
   Conditions:
     - stance{s=attacking} false
+    - incombat true
   Skills:
     - stance{s=attacking} @self
     - setspeed{speed=0;type=walking}
