@@ -5,13 +5,13 @@
 	},
 	
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1}, "model": "item/varas/proyectiles/vacio1" },
-		{ "predicate": { "custom_model_data": 2}, "model": "item/varas/proyectiles/vacio2" },
-		{ "predicate": { "custom_model_data": 3}, "model": "item/varas/proyectiles/vacio3" },
-		{ "predicate": { "custom_model_data": 4}, "model": "item/varas/proyectiles/vacio4" },
-		{ "predicate": { "custom_model_data": 5}, "model": "item/varas/proyectiles/vacio5" },
-		{ "predicate": { "custom_model_data": 6}, "model": "item/varas/proyectiles/vacio6" },
-		{ "predicate": { "custom_model_data": 7}, "model": "item/varas/proyectiles/vacio7" }
+		{ "predicate": { "custom_model_data": 1}, "model": "mineinabyss:item/projectiles/vacio1" },
+		{ "predicate": { "custom_model_data": 2}, "model": "mineinabyss:item/projectiles/vacio2" },
+		{ "predicate": { "custom_model_data": 3}, "model": "mineinabyss:item/projectiles/vacio3" },
+		{ "predicate": { "custom_model_data": 4}, "model": "mineinabyss:item/projectiles/vacio4" },
+		{ "predicate": { "custom_model_data": 5}, "model": "mineinabyss:item/projectiles/vacio5" },
+		{ "predicate": { "custom_model_data": 6}, "model": "mineinabyss:item/projectiles/vacio6" },
+		{ "predicate": { "custom_model_data": 7}, "model": "mineinabyss:item/projectiles/vacio7" }
 
 	]
 }

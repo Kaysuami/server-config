@@ -138,12 +138,13 @@ allyvineblaster:
   Modules:
     ThreatTable: true
   Display: "<green>Vineblaster"
+  Faction: Ally
   AIGoalSelectors:
     - clear
     #- randomlookaround
     - LookAtTarget
   AITargetSelectors:
-    - monsters
+    - NearestOtherFactionMonsters
   Health: 5 # change this
   Damage: 0 # keep this 0
   Options:

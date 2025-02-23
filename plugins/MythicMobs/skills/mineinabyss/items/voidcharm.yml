@@ -8,7 +8,7 @@ blackhole:
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=0.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=0.6} @origin
   - effect:particles{particle=smoke;amount=25;hS=0.3;vS=0.2;speed=0.05;y=1.5} @origin
-  - projectile{bulletType=MYTHICITEM;material=va5;bulletSpin=150;onTick=vait2;onHit=vahit2;mr=170;v=8;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=vaend2;sE=false;hp=true} @Forward{f=8;y=0.0}}
+  - projectile{bulletType=MYTHICITEM;material=va5;bulletSpin=150;onTick=vait2;onHit=vahit2;mr=170;v=8;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=vaend2;sE=false;hp=true} @Forward{f=8;y=0.0}
   - effect:particles{particle=smoke;amount=45;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
   - delay 100
 
@@ -16,15 +16,15 @@ shadowball:
   Cooldown:
   Conditions:
   Skills:
-  - command{repeat=15;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
+  - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.6} @origin
   - effect:particles{particle=smoke;amount=25;hS=0.3;vS=0.2;speed=0.05;y=1.5} @origin
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @Forward{f=8;y=0.0}}
-  - delay 20
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @Forward{f=8;y=0.0}}
-  - delay 20
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @Forward{f=8;y=0.0}}
+  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @Forward{f=8;y=0.0}
+  - delay 7
+  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @Forward{f=8;y=0.0}
+  - delay 7
+  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @Forward{f=8;y=0.0}
   - effect:particles{particle=smoke;amount=15;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
 
 shadowballtick:
@@ -46,8 +46,8 @@ shadowballhit:
 shadowballend:
   Skills:
   - effect:particles{p=smoke;color=#fff400;y=0;amount=25;speed=0.05;hS=1.8;vS=0.3} @Origin
-  - effect:sound{s=block.beacon.deactivate;volume=2.0;pitch=0.2} @origin
-  - effect:sound{s=block.conduit.deactivate;volume=2.5;pitch=1.9} @origin
+  - effect:sound{s=block.beacon.deactivate;volume=0.6;pitch=0.2} @origin
+  - effect:sound{s=block.conduit.deactivate;volume=0.8;pitch=1.9} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=60;radius=1;size=1} @origin
   - sound{s=entity.dragon_fireball.explode;volume=0.5;pitch=1.6} @origin
   - damage{a=20;ignorearmor=false} @EntitiesNearOrigin{r=2.2}
@@ -79,11 +79,11 @@ vaend2:
   - effect:particles{particle=block_crack;m=anvil;amount=24;speed=0.05;hS=1.5;vS=0.3;y=0} @Origin
   - effect:particles{p=smoke;color=#fff400;y=0;amount=50;speed=0.05;hS=1.8;vS=0.3} @Origin
   - effect:particles{p=explosion_large;color=#fff400;y=0;amount=2;speed=0.2;hS=0.8;vS=0.8} @Origin
-  - effect:sound{s=block.beacon.deactivate;volume=2.0;pitch=0.2} @origin
-  - effect:sound{s=block.beacon.deactivate;volume=2.0;pitch=0.1} @origin
-  - effect:sound{s=block.beacon.deactivate;volume=2.0;pitch=0.5} @origin
-  - effect:sound{s=block.conduit.deactivate;volume=2.5;pitch=1.9} @origin
-  - effect:sound{s=block.conduit.deactivate;volume=2.5;pitch=0.3} @origin
+  - effect:sound{s=block.beacon.deactivate;volume=0.6;pitch=0.2} @origin
+  - effect:sound{s=block.beacon.deactivate;volume=0.6;pitch=0.1} @origin
+  - effect:sound{s=block.beacon.deactivate;volume=0.6;pitch=0.5} @origin
+  - effect:sound{s=block.conduit.deactivate;volume=0.8;pitch=1.9} @origin
+  - effect:sound{s=block.conduit.deactivate;volume=0.8;pitch=0.3} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=2;size=3} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=3;size=18;repeat=28;repeatinterval=2;delay=6} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=2.6;delay=2;size=3} @origin

@@ -1,6 +1,6 @@
 set.item:
   item:
-    itemName: <gold>Wind Sttaff
+    itemName: <gold>Wind Staff
     type: PAPER
     customModelData: 140
     lore:
@@ -10,17 +10,20 @@ set.item:
 
 #ghost_seek:
 disableItemInteractions: {}
-passive:
-
-  - match: [ inInventory ]
-    every: 4s
-    run:
-      - become: parent
-      - cooldown:
+observe:
+  itemRightClick:
+    - become: parent
+    - ensure:
+        mythicConditions:
+          - EnchantingLevel{l=>1} true
+      onFail:
+        - sendActionBar:
+            text: <red>Out of Experience
+    - cooldown:
           id: windstaff
           length: 10s
           display: <dark_aqua>
-      - mythicSkills:
+    - mythicSkills:
           - "windstaff"
 resourcepack:
   model: mineinabyss:item/relics/verdau_effax
