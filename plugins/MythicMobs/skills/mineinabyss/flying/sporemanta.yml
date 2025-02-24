@@ -28,20 +28,21 @@ sporemantaDamager:
 
 
 sporemantaaura:
-  Cooldown: 10
+  Cooldown: 7
   Conditions:
   - offgcd true
   - incombat true
   Skills:
-  - gcd{ticks=80}
-  - effect:particlesphere{particle=portal;a=30;r=2;repeat=20;repeatinterval=5} @self
+  - gcd{ticks=60}
+  - effect:particlesphere{particle=portal;a=30;r=3;repeat=20;repeatinterval=5} @self
   - effect:particles{particle=falling_obsidian_tear;a=10;hs=0.6;vs=0.3;y=0.2;repeat=5;repeatinterval=20} @self
   - effect:particles{particle=dragon_breath;a=5;hs=1.0;vs=0.6;y=0.2;repeat=5;repeatinterval=20} @self
   - effect:particles{particle=FALLING_SPORE_BLOSSOM;a=5;hs=0.3;vs=0.3;repeat=5;repeatinterval=20}  @self
 
   - effect:particles{particle=falling_obsidian_tear;amount=2;hS=.25;vS=.5;y=.5;repeat=30;repeatInterval=2} @PIR{r=2}
-  - potion{type=POISON;duration=40;level=2;repeat=5;repeatinterval=20} @PIR{r=2}
-  - potion{type=BLINDNESS;duration=40;level=2;repeat=5;repeatinterval=20} @PIR{r=2}
+  - potion{type=POISON;duration=60;level=2;repeat=5;repeatinterval=20} @PIR{r=2}
+  - potion{type=WITHER;duration=60;level=2;repeat=5;repeatinterval=20} @PIR{r=2}
+  - potion{type=BLINDNESS;duration=70;level=1;repeat=5;repeatinterval=20} @PIR{r=2}
 
 sporemantaAmbient:
   Cooldown: 8

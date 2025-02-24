@@ -170,4 +170,4 @@ allyvineblaster:
     - skill:allyvineblasterattack @Self ~onTimer:1
     # - skill{s=vineblastermortar} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{d=100} @self
+    - remove{d=200} @self ~onspawn

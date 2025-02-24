@@ -16,7 +16,7 @@ sporemanta:
     - attacker
     - players
   Health: 30 # change this
-  Damage: 0 # keep this 0
+  Damage: 5 # keep this 0
   Options:
     Silent: true
     PreventOtherDrops: true

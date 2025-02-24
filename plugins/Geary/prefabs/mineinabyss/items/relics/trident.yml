@@ -25,17 +25,17 @@ observe:
         display: <#617B94>Trident
     - become: parent
     - mythicSkills:
-        - "trident_charge"
+        - "throw_trident"
 passive:
-  - match: [ inHand ]
-    every: 1s
+  - match: [ inInventory ]
+    every: 2s
     run:
       - become: parent
       - ensure:
         player:
           sneaking: true
   - mythicSkills:
-        - "throwtrident"
+        - "trident_charge"
 
 
 resourcepack:
