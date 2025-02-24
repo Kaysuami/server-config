@@ -34,8 +34,8 @@ passive:
       - ensure:
         player:
           sneaking: true
-  - mythicSkills:
-        - "trident_charge"
+      - mythicSkills:
+          - "trident_charge"
 
 
 resourcepack:
