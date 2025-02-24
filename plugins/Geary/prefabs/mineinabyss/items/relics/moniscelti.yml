@@ -1,8 +1,8 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <dark_aqua>Void Charm
-    customModelData: 139
+    itemName: <dark_aqua>Moniscelti
+    customModelData: 120
     # TODO add lore
 #disableItemInteractions: { }
 observe:
@@ -10,15 +10,13 @@ observe:
     - become: parent
     - ensure:
         mythicConditions:
-          - EnchantingLevel{l=>1} true
+          - health{h=>10}
       onFail:
         - sendActionBar:
-            text: <red>Out of Experience
+            text: <red>Not Enough Health
     - cooldown:
-        id: shadowball
+        id: moniscelti
         length: 10s
-        display: <dark_aqua>Void Charm
+        display: <dark_aqua>Moniscelti
     - mythicSkills:
-        - "shadowball"
-resourcepack:
-  model: mineinabyss:item/projectiles/1
+        - "moniscelti"

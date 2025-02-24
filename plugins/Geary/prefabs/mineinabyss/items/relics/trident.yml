@@ -19,11 +19,6 @@ observe:
       onFail:
         - sendActionBar:
             text: <red>Out of Charge
-    - cooldown:
-        id: trident
-        length: 3s
-        display: <#617B94>Trident
-    - become: parent
     - mythicSkills:
         - "throw_trident"
 passive:
