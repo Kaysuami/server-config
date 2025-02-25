@@ -52,8 +52,7 @@ shroombear:
     - exp 3-7
     - geary mineinabyss:shroombear_meat_raw 1-2 0.6
     - geary mineinabyss:parasitic_watershrooms 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
+
 
   Skills:
     ####### Misc

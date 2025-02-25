@@ -32,8 +32,6 @@ hisomukuro:
     - exp 20-30
     - BONE 0-5 1 1
     - geary mineinabyss:hisomukuro_rib 2-6 0.7
-    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
 
   Skills:
     - skill:MIAPetExpNearby{exp=1} ~onDeath

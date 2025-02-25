@@ -25,8 +25,7 @@ spiralsquid:
     - exp 5-10
     - ink_sac 1-2
     - geary mineinabyss:spiralsquid_raw 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.05 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.005 nolooting
+
 
   Skills:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
