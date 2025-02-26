@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "mineinabyss:items/relics/slash/cyan_swing_4",
-		"particle": "mineinabyss:items/relics/slash/cyan_swing_4"
+		"0": "mineinabyss:item/projectiles/cs3",
+		"particle": "mineinabyss:item/projectiles/cs3"
 	},
 	"elements": [
 		{
