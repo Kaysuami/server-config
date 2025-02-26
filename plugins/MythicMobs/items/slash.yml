@@ -1,27 +1,27 @@
 
 cyan_swing_1:
-  Id: paper
+  Id: clay_ball
   Display: "&6"
   Model: 124
   Hide:
   - ATTRIBUTES
 
 cyan_swing_2:
-  Id: paper
+  Id: clay_ball
   Display: "&6"
   Model: 125
   Hide:
   - ATTRIBUTES
 
 cyan_swing_3:
-  Id: paper
+  Id: clay_ball
   Display: "&6"
   Model: 126
   Hide:
   - ATTRIBUTES
 
 cyan_swing_4:
-  Id: paper
+  Id: clay_ball
   Display: "&6"
   Model: 127
   Hide:
