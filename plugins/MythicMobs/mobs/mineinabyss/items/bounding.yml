@@ -10,6 +10,6 @@ bounding:
     PreventBlockInfection: true
   Skills:
   - remove{delay=200} @self ~onSpawn
-  - potion{t=STRENGTH;d=200;l=1} @PIR{r=5} ~onSpawn
-  - potion{t=HASTE;d=200;l=1} @PIR{r=5} ~onSpawn
-  - potion{t=REGENERATION;d=200;l=1} @PIR{r=5} ~onSpawn
+  - potion{t=STRENGTH;d=50;l=1} @PIR{r=5} ~ontimer:10
+  - potion{t=HASTE;d=40;l=1} @PIR{r=5} ~ontimer:10
+  - potion{t=REGENERATION;d=50;l=1} @PIR{r=5} ~ontimer:10
