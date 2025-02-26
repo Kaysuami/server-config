@@ -9,17 +9,6 @@ pmeteorcometh:
   - projectile{bulletType=MOB;mob=meteor;onTick=pmeteorctick;oE=pmeteorcimpact;v=10;i=1;hR=1;vR=1;syo=16;sB=true;sso=1;mr=90;d=200} @origin
   - delay 200
   - remove @self
-pmeteortarget:
-  Type: ARMOR_STAND
-  Display: Capra
-  Options:
-    NoAI: true
-    Silent: true
-    Despawn: false
-    HasGravity: false
-  Skills:
-  - model{mid=magiccircle;n=false;d=false} @self ~onSpawn
-  - skill{s=pmeteorcometh} @self ~onSpawn
 
 
 pmeteorctick:
