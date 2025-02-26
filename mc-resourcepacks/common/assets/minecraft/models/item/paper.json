@@ -32,6 +32,10 @@
     { "predicate": {"custom_model_data": 121}, "model": "mineinabyss:item/relics/saw_arm"},
     { "predicate": {"custom_model_data": 122}, "model": "mineinabyss:item/relics/3_branched_sword"},
     { "predicate": {"custom_model_data": 123}, "model": "mineinabyss:item/relics/cyanswings"},
+    { "predicate": {"custom_model_data": 124}, "model": "mineinabyss:item/relics/slash/cyan_swing_1"},
+    { "predicate": {"custom_model_data": 125}, "model": "mineinabyss:item/relics/slash/cyan_swing_2"},
+    { "predicate": {"custom_model_data": 126}, "model": "mineinabyss:item/relics/slash/cyan_swing_3"},
+    { "predicate": {"custom_model_data": 127}, "model": "mineinabyss:item/relics/slash/cyan_swing_4"},
 
     { "predicate": {"custom_model_data": 200}, "model": "mineinabyss:npc/okibo"},
 

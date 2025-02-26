@@ -25,7 +25,11 @@ CyanSwings_1:
     Invisible: true
     Invincible: true
   Skills:
-  - equip{item=CyanSwings:4} ~onSpawn
+  - effect:particles{particle=splash;amount=20;hS=1.2;vS=0.1;speed=0} @self ~onSpawn
+  - equip{item=cyan_swing_1:4} ~onSpawn
+  - equip{item=cyan_swing_2:4;delay=1} ~onSpawn
+  - equip{item=cyan_swing_3:4;delay=2} ~onSpawn
+  - equip{item=cyan_swing_4:4;delay=3} ~onSpawn
   - remove{delay=6} @self ~onSpawn
 CyanSwings_2:
   Type: ARMOR_STAND
@@ -38,7 +42,11 @@ CyanSwings_2:
     Invisible: true
     Invincible: true
   Skills:
-  - equip{item=CyanSwings:4} ~onSpawn
+  - effect:particles{particle=splash;amount=20;hS=1.2;vS=0.1;speed=0} @self ~onSpawn
+  - equip{item=cyan_swing_1:4} ~onSpawn
+  - equip{item=cyan_swing_2:4;delay=1} ~onSpawn
+  - equip{item=cyan_swing_3:4;delay=2} ~onSpawn
+  - equip{item=cyan_swing_4:4;delay=3} ~onSpawn
   - remove{delay=6} @self ~onSpawn
 CyanSwings_3:
   Type: ARMOR_STAND
@@ -51,7 +59,11 @@ CyanSwings_3:
     Invisible: true
     Invincible: true
   Skills:
-  - equip{item=CyanSwings:4} ~onSpawn
+  - effect:particles{particle=splash;amount=20;hS=1.2;vS=0.1;speed=0} @self ~onSpawn
+  - equip{item=cyan_swing_1:4} ~onSpawn
+  - equip{item=cyan_swing_2:4;delay=1} ~onSpawn
+  - equip{item=cyan_swing_3:4;delay=2} ~onSpawn
+  - equip{item=cyan_swing_4:4;delay=3} ~onSpawn
   - remove{delay=6} @self ~onSpawn
 CyanSwings_4:
   Type: ARMOR_STAND
@@ -64,7 +76,11 @@ CyanSwings_4:
     Invisible: true
     Invincible: true
   Skills:
-  - equip{item=CyanSwings:4} ~onSpawn
+  - effect:particles{particle=splash;amount=20;hS=1.2;vS=0.1;speed=0} @self ~onSpawn
+  - equip{item=cyan_swing_1:4} ~onSpawn
+  - equip{item=cyan_swing_2:4;delay=1} ~onSpawn
+  - equip{item=cyan_swing_3:4;delay=2} ~onSpawn
+  - equip{item=cyan_swing_4:4;delay=3} ~onSpawn
   - remove{delay=6} @self ~onSpawn
 
 Blood_Slash:
