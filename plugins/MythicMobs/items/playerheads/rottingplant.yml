@@ -5,5 +5,5 @@ rottingplant:
   Display: <#FFB9F3>Rotting Plant</#FFB9F3>
   Lore:
     - ':layer_3:'
-    - '<gray><i>Found on delvers long lost to the abyss.</gray>'
-    - '<gray><i>Plant of unknown origin.</gray>'
+    - '<#DB9200>Found on delvers that have returned to the abyss.</#DB9200>'
+    - '<#DB9200>Plant of unknown origin.</#DB9200>'
