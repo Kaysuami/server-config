@@ -1,14 +1,15 @@
 bounding:
-  Type: ARMOR_STAND
+  Type: SILVERFISH
   AITargetSelectors:
-  - players
+  - clear
   Options:
     NoAI: true
     Silent: true
     Invincible: true
+    Invisible: true
     PreventBlockInfection: true
   Skills:
-  - remove{delay=200} @self ~onSpawnOrLoad
-  - potion{t=STRENGTH;d=30;l=1} @PlayersNearOrigin{r=5}
-  - potion{t=HASTE;d=30;l=1} @PlayersNearOrigin{r=5}
-  - potion{t=REGENERATION;d=30;l=1} @PlayersNearOrigin{r=5}
+  - remove{delay=200} @self ~onSpawn
+  - potion{t=STRENGTH;d=200;l=1} @PIR{r=5}
+  - potion{t=HASTE;d=200;l=1} @PIR{r=5}
+  - potion{t=REGENERATION;d=200;l=1} @PIR{r=5}

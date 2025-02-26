@@ -1,0 +1,29 @@
+Cyan_Slash:
+  Cooldown: 0
+  Skills:
+  - randomskill{skills=Cyan_Slash_1,Cyan_Slash_2,Cyan_Slash_3,Cyan_Slash_4}
+  
+Cyan_Slash_1:
+  Skills:
+  - effect:sound{s=abyssion_sounds:samus.abyssion_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Aqua_Slash_DAMAGE;hnp=true;hp=true;hR=1;vR=1;i=1} @forward{f=1}
+  - summon{type=CyanSwings_1;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=3;y=0.3}
+
+Cyan_Slash_2:
+  Skills:
+  - effect:sound{s=abyssion_sounds:samus.abyssion_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Aqua_Slash_DAMAGE;hnp=true;hp=true;hR=1;vR=1;i=1} @forward{f=1}
+  - summon{type=CyanSwings_2;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=3;y=0.3}
+
+Cyan_Slash_3:
+  Skills:
+  - effect:sound{s=abyssion_sounds:samus.abyssion_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Aqua_Slash_DAMAGE;hnp=true;hp=true;hR=1;vR=1;i=1} @forward{f=1}
+  - summon{type=CyanSwings_3;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=3;y=0.3}
+
+Cyan_Slash_4:
+  Skills:
+  - effect:sound{s=abyssion_sounds:samus.abyssion_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Aqua_Slash_DAMAGE;hnp=true;hp=true;hR=1;vR=1;i=1} @forward{f=1}
+  - summon{type=CyanSwings_4;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=3;y=0.3}
+

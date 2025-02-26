@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: <gold>Trident
     type: TRIDENT
-    customModelData: 0
+    customModelData: 1
     lore:
       - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
       - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,

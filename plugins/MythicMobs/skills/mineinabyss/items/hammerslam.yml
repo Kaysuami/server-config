@@ -1,0 +1,24 @@
+hammer_smash:
+  Conditions:
+  Cooldown: 3
+  Skills:
+  - effect:particles{particle=crit;a=80;hs=0.5;vs=0.5;speed=1} @origin
+  - effect:sound{s=entity.iron_golem.death;v=2;p=2} @PIR{r=20}
+  - delay 20
+  - leap{velocity=150} @forward{f=1;y=3}
+  - delay 10
+  - onDamaged{auraName=landresist;d=40;damageMods="FALL 0"} @self
+  #- leap{velocity=200} @forward{f=2;y=-5}
+  - delay 20
+  - skill{s=hammer_smash_damage} @self
+hammer_smash_damage:
+  TargetConditions:
+  - owner{} false
+  Skills:
+  - damage{a=65} @EIR{r=5}
+  - throw{velocity=0;velocityY=6} @EIR{r=5}
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=1;points=15;amount=60;hS=1;vS=0.5} @self
+  - delay 2
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=2;points=15;amount=70;hS=1;vS=0.5} @self 
+  - delay 2
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=3;points=15;amount=80;hS=1;vS=0.5} @self 
