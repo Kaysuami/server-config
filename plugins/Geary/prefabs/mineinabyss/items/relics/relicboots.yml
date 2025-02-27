@@ -1,8 +1,8 @@
 set.item:
   item:
-    itemName: <gold>Trident
-    type: TRIDENT
-    customModelData: 1
+    itemName: <gold>boot
+    type: PAPER
+    customModelData: 140
     lore:
       - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
       - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
@@ -15,12 +15,12 @@ observe:
     - become: parent
     - ensure:
         mythicConditions:
-          - hasaurastacks{n=trident;s=3} true
+          - hasaurastacks{n=boot;s=3} true
       onFail:
         - sendActionBar:
             text: <red>Out of Charge
     - mythicSkills:
-        - "throw_trident"
+        - "boot_fly"
 passive:
   - match: [ inInventory ]
     every: 2s
@@ -30,7 +30,7 @@ passive:
         mythicConditions:
           - crouching true
       - mythicSkills:
-          - "trident_charge"
+          - "bootcharge"
 
 
 

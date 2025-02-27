@@ -1,0 +1,24 @@
+set.item:
+  item:
+    type: minecraft:paper
+    itemName: <dark_aqua>Black Charm
+    customModelData: 139
+    # TODO add lore
+#disableItemInteractions: { }
+observe:
+  itemRightClick:
+    - become: parent
+    - ensure:
+        mythicConditions:
+          - EnchantingLevel{l=>1} true
+      onFail:
+        - sendActionBar:
+            text: <red>Out of Experience
+    - cooldown:
+        id: blackhole
+        length: 180s
+        display: <dark_aqua>Void Charm
+    - mythicSkills:
+        - "blackhole"
+resourcepack:
+  model: mineinabyss:item/projectiles/1

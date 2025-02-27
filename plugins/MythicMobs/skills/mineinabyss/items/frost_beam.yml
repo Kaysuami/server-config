@@ -30,3 +30,8 @@ Frost_Beam_EXPLODE:
   - effect:particles{particle=block_crack;m=ICE;amount=15;hS=0.7;vS=0.7;y=0.6;speed=0;forwardOffset=0;sideOffset=0} @origin
   - effect:particles{particle=explosion_huge;amount=1;hS=0;vS=0;y=0.3;speed=0;forwardOffset=0;sideOffset=0} @origin
   - skill{s=SLOW_FX_100} @EntitiesNearOrigin{r=3}
+
+Frost_Bolt_HIT_FX:
+  Skills:
+  - effect:particles{particle=block_crack;m=ICE;amount=10;hS=0.2;vS=0.2;speed=0;forwardOffset=0;sideOffset=0}
+  

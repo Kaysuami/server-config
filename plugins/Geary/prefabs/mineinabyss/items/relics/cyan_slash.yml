@@ -10,7 +10,7 @@ set.item:
 #ghost_seek:
 disableItemInteractions: {}
 observe:
-  itemRightClick:
+  itemLeftClick:
     - become: parent
     - ensure:
         mythicConditions:

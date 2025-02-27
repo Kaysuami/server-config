@@ -2,6 +2,8 @@ verdaueffax:
   Conditions:
   Cooldown: 10
   Skills:
+  - command{repeat=50;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> 2";op=true}
+
   - skill{s=effaxfeed;repeat=5;repeatInterval=25} @self
 effaxfeed:
   Conditions:

@@ -18,6 +18,9 @@ boundinglance:
 bounding:
   Skills:
     - effect:particlesphere{p=reddust;c=#ffffff;y=0.2;r=5;a=100} @origin
-    - potion{t=STRENGTH;d=200;l=1} @PIR{r=5}
-    - potion{t=HASTE;d=200;l=1} @PIR{r=5}
-    - potion{t=REGENERATION;d=200;l=1} @PIR{r=5}
+
+
+boundingbuff:
+    - potion{t=STRENGTH;d=40;l=1;repeat=40;repeati=5} @PIR{r=5}
+    - potion{t=HASTE;d=40;l=1;repeat=40;repeati=5} @PIR{r=5}
+    - potion{t=REGENERATION;d=40;l=1;repeat=40;repeati=5} @PIR{r=5}

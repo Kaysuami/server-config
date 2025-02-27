@@ -3,7 +3,7 @@ Bubble:
   Type: ARMOR_STAND
   Pose:
       Head: 0,0,0
-  ItemHead: ubble
+  ItemHead: bubble
   Options:
     Marker: true
     Small: false

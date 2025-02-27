@@ -3,7 +3,7 @@ blackhole:
   Cooldown:
   Conditions:
   Skills:
-  - command{repeat=15;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -10";op=true}
+  - command{repeat=30;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -10";op=true}
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=1.6} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=0.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=0.6} @origin
@@ -97,8 +97,8 @@ vaend2:
   - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=10;delay=18;size=1.2} @origin
   - effect:particles{p=explosion_large;color=#fff400;y=0;amount=2;speed=0.2;hS=0.8;vS=0.8} @Origin
   - sound{s=entity.dragon_fireball.explode;volume=0.5;pitch=0.6} @origin
-  - damage{a=4;ignorearmor=false} @EntitiesNearOrigin{r=2.2}
-  - damage{a=4;preventknockback=true;ignorearmor=true} @EntitiesNearOrigin{r=2.2}
+  - damage{a=1;ignorearmor=false} @EntitiesNearOrigin{r=2.2}
+  - damage{a=1;preventknockback=true;ignorearmor=true} @EntitiesNearOrigin{r=2.2}
   - sound{s=entity.player.attack.crit;volume=2;pitch=0.6;cooldown=1} @origin
   - totem{charges=1;onStart=ueco}
   - summon{type=vac2;amount=1;radius=0} @origin
@@ -165,6 +165,6 @@ bamdr:
   Skills:
   - damage{a=30;ignorearmor=false;reducedamagebydistance=0.09;damagecause=ENTITY_EXPLOSION} @EntitiesNearOrigin{r=15}
   - delay 1
-  - damage{a=20;ignorearmor=true;reducedamagebydistance=0.1;damagecause=ENTITY_EXPLOSION} @EntitiesNearOrigin{r=4.5}
+  - damage{a=10;ignorearmor=true;reducedamagebydistance=0.1;damagecause=ENTITY_EXPLOSION} @EntitiesNearOrigin{r=4.5}
   - throw{velocity=35;velocityY=2} @EntitiesNearOrigin{r=10}
   - throw{velocity=56;velocityY=2} @EntitiesNearOrigin{r=8}

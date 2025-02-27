@@ -38,6 +38,6 @@ allyvineblasterattack:
 
 avineblaster_impact:
   Skills:
-    - damage{a=4} @target
-    - potion{type=POISON;duration=50;level=2} @target
+    - damage{a=4}
+    - potion{type=POISON;duration=50;level=2}
     - effect:particles{particle=falling_obsidian_tear;amount=2;hS=.25;vS=.5;y=.5;repeat=30;repeatInterval=2} @target
