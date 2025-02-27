@@ -1,0 +1,20 @@
+inherit: [mineinabyss:ground_furniture]
+set.item:
+  item:
+    type: minecraft:paper
+    itemName: <#33404d>Praying Skeleton Figurine
+    customModelData: 4000
+blocky:sound:
+  placeSound: block.bone_block.place
+  breakSound: block.bone_block.break
+  stepSound: block.bone_block.step
+  hitSound: block.bone_block.hit
+  fallSound: block.bone_block.fall
+blocky:furniture:
+  rotationType: VERY_STRICT
+  collisionHitbox:
+    - x: 0
+    - x: 0
+blocky:drops:
+  drops:
+    - item: mineinabyss:prayingskeleton_figurine
