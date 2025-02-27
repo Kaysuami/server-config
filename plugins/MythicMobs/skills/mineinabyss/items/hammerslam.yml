@@ -3,7 +3,7 @@ hammer_smash:
   Cooldown: 3
   Skills:
   - effect:particles{particle=crit;a=80;hs=0.5;vs=0.5;speed=1} @origin
-  - effect:sound{s=entity.iron_golem.death;v=2;p=2} @PIR{r=20}
+  - effect:sound{s=entity.iron_golem.death;v=1;p=0.5} @PIR{r=20}
   - delay 20
   - leap{velocity=150} @forward{f=1;y=3}
   - delay 10
@@ -15,10 +15,12 @@ hammer_smash_damage:
   TargetConditions:
   - owner{} false
   Skills:
-  - damage{a=65} @EIR{r=5}
+  - damage{a=25} @EIR{r=5}
   - throw{velocity=0;velocityY=6} @EIR{r=5}
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=1;points=15;amount=60;hS=1;vS=0.5} @self
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=1;points=5;amount=40;hS=1;vS=0.5} @self
   - delay 2
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=2;points=15;amount=70;hS=1;vS=0.5} @self 
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=2;points=10;amount=50;hS=1;vS=0.5} @self 
   - delay 2
-  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=3;points=15;amount=80;hS=1;vS=0.5} @self 
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=3;points=15;amount=70;hS=1;vS=0.5} @self 
+  - delay 2
+  - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=5;points=20;amount=90;hS=1;vS=0.5} @self 

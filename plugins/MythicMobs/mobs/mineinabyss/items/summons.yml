@@ -7,7 +7,6 @@ allyvineblaster:
     #- randomlookaround
     - LookAtTarget
   AITargetSelectors:
-    - OwnerTarget
     - monsters
   Health: 5 # change this
   Damage: 0 # keep this 0

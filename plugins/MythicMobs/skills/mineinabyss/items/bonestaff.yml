@@ -3,7 +3,7 @@ bone_ball:
   Conditions:
   Skills:
 
-    - projectile{onTick=HSA_tick;onHit=HS_impact;v=18;i=1;hR=1.5;vR=2;hnp=true;tyo=0.5;syo=1.5} @targetlocation
+    - projectile{onTick=HSA_tick;onHit=HS_impact;v=18;i=1;hR=1;vR=1;hnp=true;tyo=0.5;syo=1.5} @targetlocation
 
 HS_impact:
   Skills:

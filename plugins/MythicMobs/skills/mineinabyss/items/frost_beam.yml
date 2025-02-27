@@ -1,5 +1,6 @@
 Frost_Beam:
   Skills:
+  - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -5";op=true}
   #- effect:sound{s=glacia_sounds:samus.ice_beam_energy;volume=1;pitch=1} @self
   - orbital{bulletType=MOB;mob=Frost_Beam;r=0;points=1;i=1;duration=2000;oy=1.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
   - delay 20

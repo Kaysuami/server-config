@@ -1,0 +1,24 @@
+set.item:
+  item:
+    type: minecraft:paper
+    customModelData: 102
+    itemName: <#617B94><b>Relic Bow
+    lore:
+      - <#C6CC8A>Contains <white>Everlasting Gunpowder<#C6CC8A>,
+      - <#C6CC8A>which causes ongoing explosions
+      - <#C6CC8A>on whatever it is struck on.
+      - <#948E61><i>Used to create powerful explosions.
+
+
+observe:
+  itemRightClick:
+    - become: parent
+    - ensure:
+        player:
+          sneaking: true
+    - cooldown:
+        id: Backstep
+        length: 5s
+        display: <#617B94>Backstep
+    - mythicSkills:
+        - "Backstep"

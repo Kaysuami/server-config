@@ -25,7 +25,7 @@ throwtrident:
   Skills:
   - auraremove{aura=trident;stacks=3} @self
   - sound{s=item.trident.throw;sc=hostile;p=1;v=0.6} @self
-  - projectile{bulletType=ARROW;arrowType=TRIDENT;onHit=trident_impact;v=10;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1;g=0.2} @targetlocation
+  - projectile{bulletType=ARROW;arrowType=TRIDENT;onHit=trident_impact;v=20;i=1;hR=1;vR=1;hnp=true;hp=true;syo=2;g=0.1} @targetlocation
 
 
 trident_impact:

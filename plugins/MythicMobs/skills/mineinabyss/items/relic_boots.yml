@@ -25,4 +25,4 @@ boot_fly:
   Skills:
   - auraremove{aura=boot;stacks=3} @self
   - sound{s=item.boot.throw;sc=hostile;p=1;v=0.6} @self
-  - velocity{m=set;x=0;y=5;z=0} @self 
+  - velocity{m=set;x=0;y=1;z=0} @self 

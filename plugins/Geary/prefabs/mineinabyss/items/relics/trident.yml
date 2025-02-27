@@ -22,13 +22,10 @@ observe:
     - mythicSkills:
         - "throw_trident"
 passive:
-  - match: [ inInventory ]
+  - match: [ inInventory ] #change to be in hand
     every: 2s
     run:
       - become: parent
-      - ensure:
-        mythicConditions:
-          - crouching true
       - mythicSkills:
           - "trident_charge"
 

@@ -6,7 +6,7 @@
 windstaff:
   Cooldown: 1
   Skills:
-    - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -1";op=true}
+    - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
 
     - potion{type=SLOW;duration=35;level=2;p=false;force=true} @Self
     - delay 20
@@ -27,6 +27,6 @@ wind_impact:
   Skills:
     - effect:particles{p=hugeexplode;a=1;vs=0.2;hs=0.2;s=0;y=1}
     - throw{velocity=10;velocityY=5} @EntitiesNearOrigin{r=2}
-    - damage{a=12} @EntitiesNearOrigin{r=2}
+    - damage{a=20} @EntitiesNearOrigin{r=2}
 
     - shieldbreak{duration=150}

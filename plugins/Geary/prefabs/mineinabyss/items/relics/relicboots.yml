@@ -26,9 +26,6 @@ passive:
     every: 2s
     run:
       - become: parent
-      - ensure:
-        mythicConditions:
-          - crouching true
       - mythicSkills:
           - "bootcharge"
 

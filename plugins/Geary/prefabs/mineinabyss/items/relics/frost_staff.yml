@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <dark_aqua>Black Charm
+    itemName: <dark_aqua>Frost Staff
     customModelData: 139
     # TODO add lore
 #disableItemInteractions: { }
@@ -15,10 +15,10 @@ observe:
         - sendActionBar:
             text: <red>Out of Experience
     - cooldown:
-        id: blackhole
-        length: 360s
-        display: <dark_aqua>Void Charm
+        id: Frost_Beam
+        length: 10s
+        display: <dark_aqua>Frost Staff
     - mythicSkills:
-        - "blackhole"
+        - "Frost_Beam"
 resourcepack:
   model: mineinabyss:item/projectiles/1
