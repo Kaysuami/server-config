@@ -126,6 +126,7 @@ emotes:
   - id: skull
   - id: sheesh
   - id: nou
+  - id: troll
   - id: bell
     font: mineinabyss:whistles
     texture: mineinabyss:whistles/bell.png
