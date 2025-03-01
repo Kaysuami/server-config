@@ -4,7 +4,7 @@ damagethrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=damage_impact;v=30;g=0.8;i=1;hR=1;vR=1;hnp=true;tyo=1;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=damage_impact;v=30;g=0.8;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5} @targetlocation
 
 aoethrow:
   Cooldown: 0
@@ -12,7 +12,7 @@ aoethrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=aoe_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;tyo=1;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=aoe_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5} @targetlocation
 
 spreadthrow:
   Cooldown: 0
@@ -20,11 +20,11 @@ spreadthrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=spread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;tyo=1;syo=1.5} @targetlocation
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;a=.3;tyo=1;syo=1.5} @targetlocation
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;a=.3;tyo=1;syo=1.5} @targetlocation
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;a=.3;tyo=1;syo=1.5} @targetlocation
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;a=.3;tyo=1;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=spread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;a=.3;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;a=.3;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;a=.3;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=fakespread_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;a=.3;syo=1.5} @targetlocation
 
 
 lurethrow:
@@ -33,7 +33,7 @@ lurethrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=pull_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;tyo=1;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=pull_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5} @targetlocation
 
 sunthrow:
   Cooldown: 0
@@ -41,13 +41,13 @@ sunthrow:
     - offgcd true
   Skills:
     - gcd{ticks=50}
-    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=sun_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;a=.6;tyo=1;syo=1.5} @targetlocation
+    - projectile{bulletType=ITEM;material=redstone;onTick=sphere_tick;onHit=sun_impact;v=20;g=0.6;i=1;hR=1;vR=1;hnp=true;hp=true;syo=1.5} @targetlocation
 
 
 
 sphere_tick:
   Skills:
-    - effect:particles{particle=Firework;amount=5;hS=.1;vS=.1;speed=1.25}
+    - effect:particles{particle=Firework;amount=2;hS=.1;vS=.1;speed=0}
 
 sun_impact:
   Skills:

@@ -13,7 +13,7 @@ HS_impact:
     - potion{type=BLINDNESS;duration=100;level=1;p=false;force=true} @EntitiesNearOrigin{r=2}
     - potion{type=SLOWNESS;duration=100;level=1;p=false;force=true} @EntitiesNearOrigin{r=2}
     - damage{a=8} @EntitiesNearOrigin{r=2}
-    - damage{a=10;ia=true} @EntitiesNearOrigin{r=2}
+    - damage{a=5;ia=true} @EntitiesNearOrigin{r=2}
 
     - shieldbreak{duration=150} 
 
