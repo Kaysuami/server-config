@@ -3,7 +3,7 @@ set.item:
   item:
     type: minecraft:paper
     itemName: <#33404d>Praying Skeleton Figurine
-    customModelData: 4000
+    customModelData: 104
 blocky:sound:
   placeSound: block.bone_block.place
   breakSound: block.bone_block.break
