@@ -149,11 +149,10 @@ uecoab:
 
 uecoab2:
   Cooldown: 0
+  Skills:
   - pull{velocity=1.2;to=true} @EntitiesNearOrigin{r=7}
   - pull{velocity=1;to=true} @EntitiesNearOrigin{r=5}
   - pull{velocity=3.3EntitiesNearOrigin{r=8};to=true} @EntitiesNearOrigin{r=3}
-  #- potion{type=WEAKNESS;duration=10;lvl=0;p=false;force=true} @EntitiesNearOrigin{r=5}
-  #- potion{type=CONFUSION;duration=30;lvl=0;p=false} @EntitiesNearOrigin{r=5}
   - potion{type=BLINDNESS;duration=30;lvl=1;p=false} @EntitiesNearOrigin{r=5}
   - potion{type=SLOW_FALLING;duration=2;lvl=1;p=false;force=true} @EntitiesNearOrigin{r=5}
 
