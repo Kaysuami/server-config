@@ -1,0 +1,23 @@
+set.item:
+  item:
+    type: minecraft:paper
+    itemName: <gold>Damage Sphere
+    customModelData: 101
+    lore:
+      - <yellow>A fleshy bottle filled with a thick, black, oily substance.
+      - <yellow>Drinking it gives the user a jolt of energy, at a price...
+observe:
+  itemRightClick:
+    - become: parent
+    - cooldown:
+        id: heartbomb
+        length: 5s
+        display: <dark_aqua>damage sphere
+    - mythicSkills:
+        - "damagethrow"
+    - consumeItem:
+        type: mineinabyss:damagesphere
+      when:
+        - chance: 1
+resourcepack:
+  textures: mineinabyss:item/relics/spheres/L1_sunsphere

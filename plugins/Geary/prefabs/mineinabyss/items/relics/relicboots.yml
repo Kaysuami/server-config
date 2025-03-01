@@ -26,6 +26,9 @@ passive:
     every: 2s
     run:
       - become: parent
+      - ensure:
+          player:
+            sneaking: true
       - mythicSkills:
           - "bootcharge"
 

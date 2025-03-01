@@ -2,6 +2,7 @@ healing_staff:
   Cooldown:
   Conditions:
   Skills:
+  - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -5";op=true}
   - potion{t=SLOW;l=7;d=80;p=false} @Self
   - sound{s=entity.witch.celebrate;p=1.9;v=1} @Self
   - delay 3

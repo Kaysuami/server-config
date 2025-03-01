@@ -1,6 +1,6 @@
 set.item:
   item:
-    type: minecraft:paper
+    type: minecraft:bow
     customModelData: 102
     itemName: <#617B94><b>Relic Bow
     lore:
@@ -11,7 +11,7 @@ set.item:
 
 
 observe:
-  itemRightClick:
+  itemLeftClick:
     - become: parent
     - ensure:
         player:

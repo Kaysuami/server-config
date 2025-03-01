@@ -22,7 +22,7 @@ observe:
     - cooldown:
           id: windstaff
           length: 10s
-          display: <dark_aqua>
+          display: <dark_aqua>Wind Staff
     - mythicSkills:
           - "windstaff"
 resourcepack:
