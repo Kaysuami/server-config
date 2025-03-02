@@ -3,7 +3,7 @@ shieldbash:
   - sound{s=entity.shield.block;p=0.9;v=0.8} @Self
   - sound{s=entity.player.attack.knockback;p=1.1;v=0.7} @Self
   - sound{s=entity.zombie.attack_iron_door;p=1.2;v=0.6} @Self
-  - leap{velocity=250} @forward{f=5;y=0.2}
+  - velocity{m=add;r=true;x=0;y=0;z=1} @self ~onDamaged
 
   - damage{a=5;repeat=5;repeatinterval=4} @EIR{r=3}
   - potion{type=SLOW;duration=80;level=2;hasParticles=false;repeat=5;repeatinterval=4} @EIR{r=3}

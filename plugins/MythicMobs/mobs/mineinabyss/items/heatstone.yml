@@ -10,5 +10,5 @@ heat_stone:
     Invisible: true
     Invincible: true
   Skills:
-  - skill{s=lavaspin} @self ~onSpawn
-  - remove{delay=100} @self ~onSpawn
+  - skill{s=lavaspin;cooldown=1;delay=70} @self ~onSpawn
+  - remove{delay=150} @self ~onSpawn

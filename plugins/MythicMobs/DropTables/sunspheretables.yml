@@ -30,3 +30,9 @@ SpreadDrops:
   MaxItems: 2
   Drops:
   - geary mineinabyss:spreadsphere 1 0.6
+
+LavaDrops:
+  MinItems: 1
+  MaxItems: 2
+  Drops:
+  - geary mineinabyss:spreadsphere 1 0.6
