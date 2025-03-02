@@ -16,7 +16,7 @@ observe:
             text: <red>Out of Experience
     - cooldown:
         id: healing_staff
-        length: 10s
+        length: 20s
         display: <dark_aqua>Healing Staff
     - mythicSkills:
         - "healing_staff"

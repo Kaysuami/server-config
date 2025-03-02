@@ -1,8 +1,8 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <gold>Sun Sphere
-    customModelData: 154
+    itemName: <gold>Spread Sphere
+    customModelData: 151
     lore:
       - <yellow>A fleshy bottle filled with a thick, black, oily substance.
       - <yellow>Drinking it gives the user a jolt of energy, at a price...
@@ -10,15 +10,15 @@ observe:
   itemRightClick:
     - become: parent
     - cooldown:
-        id: sunsphere
+        id: spreadsphere
         length: 5s
-        display: <dark_aqua>sun sphere
+        display: <dark_aqua>spread sphere
     - mythicSkills:
-        - "sunthrow"
+        - "spreadthrow"
     - consumeItem:
-        type: mineinabyss:sunsphere
+        type: mineinabyss:spreadsphere
       when:
         - chance: 1
 resourcepack:
-  textures: mineinabyss:item/relics/spheres/L5_sunsphere
+  textures: mineinabyss:item/relics/spheres/l2_sunsphere
 

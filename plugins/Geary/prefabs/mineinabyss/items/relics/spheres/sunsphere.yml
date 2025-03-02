@@ -1,8 +1,8 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <gold>Black Flask
-    customModelData: 153
+    itemName: <gold>Sun Sphere
+    customModelData: 154
     lore:
       - <yellow>A fleshy bottle filled with a thick, black, oily substance.
       - <yellow>Drinking it gives the user a jolt of energy, at a price...
@@ -10,15 +10,15 @@ observe:
   itemRightClick:
     - become: parent
     - cooldown:
-        id: heartbomb
+        id: sunsphere
         length: 5s
-        display: <dark_aqua>Aoe Sphere
+        display: <dark_aqua>sun sphere
     - mythicSkills:
-        - "aoethrow"
+        - "sunthrow"
     - consumeItem:
-        type: mineinabyss:aoesphere
+        type: mineinabyss:sunsphere
       when:
         - chance: 1
 resourcepack:
-  textures: mineinabyss:item/relics/spheres/L4_sunsphere
+  textures: mineinabyss:item/relics/spheres/l5_sunsphere
 
