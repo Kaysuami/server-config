@@ -1,12 +1,11 @@
 set.item:
   item:
-    itemName: <gold>Animal Totem
+    itemName: <gold>Prayers of Fuwagi
     type: PAPER
     customModelData: 137
     lore:
-      - :layer_1::layer_2:
-      - <#D2D489>A mysterious device granting blessings.</#D2D489>
-      - <lightgray>right click to activate
+      - ':layer_1: Grade IV Relic'
+      - '<#D2D489>A curious totem granting adrenaline to flee a predator.</#D2D489>'
 
 #ghost_seek:
 disableItemInteractions: {}
