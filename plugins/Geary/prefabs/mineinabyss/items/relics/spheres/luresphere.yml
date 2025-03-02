@@ -1,6 +1,6 @@
 set.item:
   item:
-    type: minecraft:potion
+    type: minecraft:paper
     itemName: <gold>Lure Sphere
     customModelData: 152
     lore:

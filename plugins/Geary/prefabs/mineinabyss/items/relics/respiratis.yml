@@ -25,9 +25,6 @@ observe:
           duration: 40s
           amplifier: 2
           hasParticles: false
-
-
-
 resourcepack:
   model: mineinabyss:item/relics/ghost_seek_off
 

@@ -51,14 +51,11 @@ sphere_tick:
 
 sun_impact:
   Skills:
-    - particleorbital{r=0.5;points=16;t=50;i=2;particle=Electric_Spark;oy=1.3}
-    - blackscreen{d=5} 
-    - potion{t=SLOWNESS;d=100;l=2}
+
    # - dropitem{i=SunDrops}
 aoe_impact:
   Skills:
-    - effect:particles{particle=Electric_Spark;amount=50;hS=3;vS=3;y=.5}
-    - damage{a=15} @EntitiesNearOrigin{r=2}
+
   #  - dropitem{i=AoeDrops}
 
 spread_impact:
@@ -80,8 +77,6 @@ damage_impact:
 
 lure_impact:
   Skills:
-    - effect:particles{particle=Wax_Off;amount=100;hS=5;vS=5;y=.5}
-    - pull{velocity=5} @EntitiesNearOrigin{r=10}
    # - dropitem{i=LureDrops}
 
 d_end:
@@ -90,12 +85,19 @@ d_end:
 a_end:
   Skills:
     - dropitem{i=AoeDrops}
+    - effect:particles{particle=Electric_Spark;amount=50;hS=3;vS=3;y=.5}
+    - damage{a=15} @EntitiesNearOrigin{r=2}
 s_end:
   Skills:
     - dropitem{i=SpreadDrops}
 l_end:
   Skills:
+    - effect:particles{particle=Wax_Off;amount=100;hS=5;vS=5;y=.5}
+    - pull{velocity=5} @EntitiesNearOrigin{r=10}
     - dropitem{i=LureDrops}
 sun_end:
   Skills:
     - dropitem{i=SunDrops}
+    - particleorbital{r=0.5;points=16;t=50;i=2;particle=Electric_Spark;oy=1.3}
+    - blackscreen{d=50} @EntitiesNearOrigin{r=3}
+    - potion{t=SLOWNESS;d=100;l=2} @EntitiesNearOrigin{r=3}

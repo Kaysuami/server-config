@@ -16,7 +16,7 @@ vinecharm:
 
 
 allyvineblasterattack:
-  Cooldown: 3
+  Cooldown: 1
   Conditions:
     - incombat true
     - offgcd true

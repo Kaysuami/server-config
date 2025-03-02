@@ -1,6 +1,6 @@
 set.item:
   item:
-    type: minecraft:potion
+    type: minecraft:paper
     itemName: <gold>Spread Sphere
     customModelData: 151
     lore:
