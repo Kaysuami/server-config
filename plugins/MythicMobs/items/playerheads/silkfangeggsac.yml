@@ -5,5 +5,5 @@ silkfangeggsac:
   Display: <#f15d47>Silkfang Egg Sac</#f15d47>
   Lore:
     - ':layer_1:'
-    - '<gray><i>Found on praying skeletons.</gray>'
-    - '<gray><i>Left behind by a silkfang using the skeleton as their nesting ground.</gray>'
+    - '<#DB9200>Found on praying skeletons.</#DB9200>'
+    - '<#DB9200>Left behind by a silkfang using the skeleton as their nesting ground.<#DB9200>'

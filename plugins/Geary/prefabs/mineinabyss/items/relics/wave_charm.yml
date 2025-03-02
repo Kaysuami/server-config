@@ -22,7 +22,7 @@ observe:
     - cooldown:
           id: tidalwave
           length: 15s
-          display: <dark_aqua>
+          display: <dark_aqua>Wave Charm
     - mythicSkills:
           - "Tidal_Wave"
 resourcepack:

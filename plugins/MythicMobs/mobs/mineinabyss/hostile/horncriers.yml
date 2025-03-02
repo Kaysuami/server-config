@@ -14,7 +14,7 @@ woodcrier:
     - clear
     - players
   Options:
-    KnockbackResistance: 0.2
+    KnockbackResistance: 0.1
     Collidable: true
     DigOutOfGround: true
     FollowRange: 32
@@ -22,7 +22,7 @@ woodcrier:
     LockPitch: true
     Silent: true
     Interactable: true
-    MovementSpeed: 0.35
+    MovementSpeed: 0.3
     PreventSunburn: true
     PreventOtherDrops: true
     PreventJockeyMounts: true
@@ -39,8 +39,7 @@ woodcrier:
     - exp 10-30
     - geary mineinabyss:woodcrier_horn 1-2 0.6
     - BROWN_WOOL 1-3 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
+
 
   Skills:
     # - CancelEvent{sync=true} ~onAttack

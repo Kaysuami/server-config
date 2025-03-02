@@ -33,8 +33,7 @@ edusan:
     - exp 35-50
     - geary mineinabyss:edusan_scale 1-18 1
     - geary mineinabyss:edusan_whisker 1 0.2
-    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
+
 
   Skills:
     - skill:MIAPetExpNearby{exp=1} ~onDeath

@@ -5,5 +5,5 @@ oldorthbell:
   Display: <#f15d47>Old Orth Bell</#f15d47>
   Lore:
     - ':layer_1:'
-    - '<gray><i>Found on praying skeletons. An old Orthian rumor claims </gray>'
-    - '<gray><i>that foreign delvers place them down as a means for communication.</gray>'
+    - '<#DB9200>Found on praying skeletons. An old Orthian rumor claims </#DB9200>'
+    - '<#DB9200>that foreign delvers place them down as a means for communication.</#DB9200>'

@@ -21,7 +21,7 @@ passive:
       - cooldown:
           id: Verdau Effax
           length: 45s
-          display: <dark_aqua>
+          display: <dark_aqua>Absorb
       - mythicSkills:
           - "verdaueffax"
 resourcepack:

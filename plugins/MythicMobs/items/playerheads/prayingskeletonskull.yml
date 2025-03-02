@@ -5,5 +5,5 @@ prayingskeletonskull:
   Display: <#828282>Praying Skeleton Skull</#828282>
   Lore:
     - ':layer_1::layer_2:'
-    - '<gray><i>The skull of mysterious skeletons.</gray>'
-    - '<gray><i>Delvers have yet to find out why their hands are stuck in prayer.</gray>'
+    - '<#DB9200>The skull of mysterious skeletons.</#DB9200y>'
+    - '<#DB9200>Delvers have yet to find out why they are in praying state.</#DB9200>'

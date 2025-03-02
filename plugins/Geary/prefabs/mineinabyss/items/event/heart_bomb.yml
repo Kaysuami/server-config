@@ -17,6 +17,6 @@ observe:
     - consumeItem:
         type: mineinabyss:heart_bomb
       when:
-        - chance: 1
+        - chance: 0.2
 resourcepack:
   textures: mineinabyss:item/event/love_potion

@@ -34,8 +34,7 @@ hagamizukin:
     - DRIED_KELP 1-3 0.7
     - geary mineinabyss:hagamizukin_tooth 1-2 0.6
     - geary mineinabyss:hagamizukin_raw 1-2 0.6
-    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
+
 
   Skills:
     - skill{s=displayHealth} ~onDamaged

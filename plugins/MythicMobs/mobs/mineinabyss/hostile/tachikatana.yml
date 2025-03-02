@@ -42,8 +42,7 @@ tachikatana:
     - geary mineinabyss:tachikatana_leg 1-2 0.8
     - geary mineinabyss:tachikatana_claw 1-2 0.8 nolooting
     - geary mineinabyss:tachikatana_scale 1-16 0.8 nolooting
-    - geary mineinabyss:valentines_chocolates 1-2 0.40 nolooting
-    - geary mineinabyss:benner_cookie 1 0.04 nolooting
+
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath

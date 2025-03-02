@@ -5,5 +5,5 @@ verticalcore:
   Display: <#FFB302>Vertical Core</#FFB302>
   Lore:
     - ':layer_1::layer_2:'
-    - '<gray><i>Found on praying skeletons.</gray>'
-    - '<gray><i>A relic of unknown origins shrouded by the disappearance of civilizations.</gray>'
+    - '<#DB9200>Found on praying skeletons.</#DB9200>'
+    - '<#DB9200>A relic of unknown origins shrouded by the disappearance of civilizations.</#DB9200>'

@@ -28,8 +28,7 @@ ikenosuke:
     - exp 5-15
     - geary mineinabyss:ikenosuke_raw 1-2 0.6
     - prismarine_crystals 1-8 0.9
-    - geary mineinabyss:valentines_chocolates 1-2 0.2 nolooting
-    - geary mineinabyss:benner_cookie 1-2 0.01 nolooting
+
 
   Model:
     Id: ikenosuke

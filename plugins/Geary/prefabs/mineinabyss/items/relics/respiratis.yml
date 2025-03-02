@@ -1,0 +1,33 @@
+set.item:
+  item:
+    itemName: <gold>respiratis
+    type: PAPER
+    customModelData: 137
+    lore:
+      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
+      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
+      - <#D2D489>guiding its wielder toward hidden relics.
+
+#ghost_seek:
+disableItemInteractions: {}
+observe:
+  itemRightClick:
+    - become: parent
+    - ensure:
+        player:
+          sneaking: true
+    - cooldown:
+        id: respiratis
+        length: 60s
+        display: <#617B94>Respiratis
+    - applyPotionEffects:
+        - type: minecraft:CONDUIT_POWER
+          duration: 40s
+          amplifier: 2
+          hasParticles: false
+
+
+
+resourcepack:
+  model: mineinabyss:item/relics/ghost_seek_off
+
