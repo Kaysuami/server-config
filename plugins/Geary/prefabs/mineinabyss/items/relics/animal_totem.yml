@@ -4,9 +4,9 @@ set.item:
     type: PAPER
     customModelData: 137
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
+      - :layer_1::layer_2:
+      - <#D2D489>A mysterious device granting blessings.</#D2D489>
+      - <lightgray>right click to activate
 
 #ghost_seek:
 disableItemInteractions: {}
