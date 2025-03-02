@@ -11,10 +11,13 @@ bootstack:
   - effect:particles{particle=splash;amount=20;hS=0.5;vS=1;speed=0;y=0.5}
 
 bootready:
+  Cooldown: 6
   Conditions:
+  - offgcd
   - hasaurastacks{n=boot;s=3} true
-  Skills:
 
+  Skills:
+  - gcd{ticks=100}
   - sound{s=item.trident.riptide_3;sc=master;p=1;v=1} @self
 
 

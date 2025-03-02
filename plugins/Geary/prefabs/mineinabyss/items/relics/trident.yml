@@ -11,7 +11,7 @@ set.item:
 #ghost_seek:
 disableItemInteractions: {}
 observe:
-  itemRightClick:
+  itemLeftClick:
     - become: parent
     - ensure:
         mythicConditions:
@@ -26,6 +26,9 @@ passive:
     every: 2s
     run:
       - become: parent
+      - ensure:
+          player:
+            sneaking: true
       - mythicSkills:
           - "trident_charge"
 
