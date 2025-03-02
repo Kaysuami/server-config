@@ -20,7 +20,7 @@ observe:
         - sendActionBar:
             text: <red>Out of Charge
     - mythicSkills:
-        - "throw_trident"
+        - "throwtrident"
 passive:
   - match: [ inInventory ] #change to be in hand
     every: 2s
