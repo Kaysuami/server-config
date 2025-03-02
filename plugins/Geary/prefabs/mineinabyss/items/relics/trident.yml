@@ -23,7 +23,7 @@ observe:
         - "throwtrident"
 passive:
   - match: [ inInventory ] #change to be in hand
-    every: 2s
+    every: 1.5s
     run:
       - become: parent
       - ensure:

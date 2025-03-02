@@ -92,6 +92,7 @@ allyvineblaster:
   Modules:
     ThreatTable: true
   Display: "<green>Vineblaster"
+  Faction: ally
   AIGoalSelectors:
     - clear
     #- randomlookaround

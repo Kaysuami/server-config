@@ -19,11 +19,11 @@ shadowball:
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=1;pitch=1.6} @origin
   - effect:particles{particle=smoke;amount=25;hS=0.3;vS=0.2;speed=0.05;y=1.5} @origin
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @targetlocation
+  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true;a=0.9} @targetlocation
   - delay 7
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @targetlocation
+  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true;a=0.9} @targetlocation
   - delay 7
-  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true} @targetlocation
+  - projectile{bulletType=MYTHICITEM;material=va1;bulletSpin=150;onTick=shadowballtick;onHit=shadowballhit;mr=170;v=15;i=1;hR=1;hp=true;hnp=true;vR=1;sE=true;hs=false;d=37;syo=1.2;g=0;tyo=1.2;onEnd=shadowballend;sE=true;hp=true;a=0.9} @targetlocation
   - effect:particles{particle=smoke;amount=15;hS=0.3;vS=0.2;speed=0.05;y=1.5;size=3;forwardOffset=0.2} @origin
 
 shadowballtick:
@@ -88,10 +88,10 @@ vaend2:
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=2.6;delay=2;size=3} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=3.2;delay=4;size=3} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=3.8;delay=6;size=2.7} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=4.8;delay=8;size=2.5} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=5.8;delay=10;size=2.2} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=6.9;delay=12;size=2} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=8;delay=14;size=2} @origin
+ # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=4.8;delay=8;size=2.5} @origin
+ # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=5.8;delay=10;size=2.2} @origin
+  #- effect:particlesphere{p=reddust;color=#000000;amount=100;radius=6.9;delay=12;size=2} @origin
+  #- effect:particlesphere{p=reddust;color=#000000;amount=100;radius=8;delay=14;size=2} @origin
  # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=9;delay=16;size=1.7} @origin
  # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=10;delay=18;size=1.2} @origin
   - effect:particles{p=explosion_large;color=#fff400;y=0;amount=2;speed=0.2;hS=0.8;vS=0.8} @Origin
@@ -109,9 +109,9 @@ vaend2:
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=2;size=3;speed=1} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=3;delay=1;size=3;speed=1} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=4;delay=2;size=3;speed=1} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=5.2;delay=3;size=2.7;speed=1} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=6.4;delay=4;size=2.5;speed=1} @origin
-  - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=7.8;delay=5;size=2.2;speed=1} @origin
+ # - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=5.2;delay=3;size=2.7;speed=1} @origin
+ # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=6.4;delay=4;size=2.5;speed=1} @origin
+ # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=7.8;delay=5;size=2.2;speed=1} @origin
   #- effect:particlesphere{p=reddust;color=#000000;amount=100;radius=9.2;delay=6;size=2;speed=1} @origin
  # - effect:particlesphere{p=reddust;color=#000000;amount=100;radius=10.6;delay=7;size=2;speed=1} @origin
   #- effect:particlesphere{p=reddust;color=#000000;amount=100;radius=12;delay=8;size=1.7;speed=1} @origin
@@ -121,11 +121,11 @@ vaend2:
   - effect:particlering{p=cloud;color=#000000;amount=8;points=40;radius=2;size=3;speed=3;yOffset=1.2} @origin
   - effect:particlering{p=cloud;color=#000000;amount=8;points=46;radius=3;delay=1;size=3;speed=3;yOffset=0.6} @origin
   - effect:particlering{p=cloud;color=#000000;amount=7;points=52;radius=4;delay=2;size=3;speed=3;yOffset=0.6} @origin
-  - effect:particlering{p=cloud;color=#000000;amount=7;points=59;radius=5.2;delay=3;size=2.7;speed=3;yOffset=0.6} @origin
-  - effect:particlering{p=cloud;color=#000000;amount=6;points=68;radius=6.4;delay=4;size=2.5;speed=3;yOffset=0.6} @origin
-  - effect:particlering{p=cloud;color=#000000;amount=6;points=80;radius=7.8;delay=5;size=2.2;speed=3;yOffset=0.6} @origin
-  - effect:particlering{p=cloud;color=#000000;amount=5;points=92;radius=9.2;delay=6;size=2;speed=3;yOffset=0.6} @origin
-  - effect:particlering{p=cloud;color=#000000;amount=5;points=106;radius=10.6;delay=7;size=2;speed=3;yOffset=0.6} @origin
+  #- effect:particlering{p=cloud;color=#000000;amount=7;points=59;radius=5.2;delay=3;size=2.7;speed=3;yOffset=0.6} @origin
+ # - effect:particlering{p=cloud;color=#000000;amount=6;points=68;radius=6.4;delay=4;size=2.5;speed=3;yOffset=0.6} @origin
+  #- effect:particlering{p=cloud;color=#000000;amount=6;points=80;radius=7.8;delay=5;size=2.2;speed=3;yOffset=0.6} @origin
+ # - effect:particlering{p=cloud;color=#000000;amount=5;points=92;radius=9.2;delay=6;size=2;speed=3;yOffset=0.6} @origin
+ # - effect:particlering{p=cloud;color=#000000;amount=5;points=106;radius=10.6;delay=7;size=2;speed=3;yOffset=0.6} @origin
   #- effect:particlering{p=cloud;color=#000000;amount=4;points=120;radius=12;delay=8;size=1.7;speed=3;yOffset=0.6} @origin
   #- effect:particlering{p=cloud;color=#000000;amount=4;points=48;radius=14;delay=9;size=1.2;speed=3;yOffset=0.6} @origin
   - sound{s=entity.generic.explode;volume=1;pitch=0.6} @origin
@@ -151,8 +151,8 @@ uecoab2:
   Cooldown: 0
   Skills:
   - pull{velocity=1.2;to=true} @EntitiesNearOrigin{r=7}
-  - pull{velocity=1;to=true} @EntitiesNearOrigin{r=5}
-  - pull{velocity=3.3EntitiesNearOrigin{r=8};to=true} @EntitiesNearOrigin{r=3}
+  - pull{velocity=2;to=true} @EntitiesNearOrigin{r=5}
+  - pull{velocity=5.3EntitiesNearOrigin{r=8};to=true} @EntitiesNearOrigin{r=3}
   - potion{type=BLINDNESS;duration=30;lvl=1;p=false} @EntitiesNearOrigin{r=5}
   - potion{type=SLOW_FALLING;duration=2;lvl=1;p=false;force=true} @EntitiesNearOrigin{r=5}
 

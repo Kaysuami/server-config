@@ -1,17 +1,18 @@
 set.item:
   item:
-    type: minecraft:paper
+    type: minecraft:potion
     itemName: <gold>Damage Sphere
     customModelData: 150
     lore:
       - <yellow>A fleshy bottle filled with a thick, black, oily substance.
       - <yellow>Drinking it gives the user a jolt of energy, at a price...
+disableItemInteractions: {}
 observe:
   itemRightClick:
     - become: parent
     - cooldown:
-        id: heartbomb
-        length: 5s
+        id: damagesphere
+        length: 3s
         display: <dark_aqua>damage sphere
     - mythicSkills:
         - "damagethrow"

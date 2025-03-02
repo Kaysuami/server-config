@@ -1,11 +1,12 @@
 set.item:
   item:
-    type: minecraft:paper
+    type: minecraft:potion
     itemName: <gold>Spread Sphere
     customModelData: 151
     lore:
       - <yellow>A fleshy bottle filled with a thick, black, oily substance.
       - <yellow>Drinking it gives the user a jolt of energy, at a price...
+disableItemInteractions: {}
 observe:
   itemRightClick:
     - become: parent

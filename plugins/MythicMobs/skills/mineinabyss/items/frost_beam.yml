@@ -35,4 +35,12 @@ Frost_Beam_EXPLODE:
 Frost_Bolt_HIT_FX:
   Skills:
   - effect:particles{particle=block_crack;m=ICE;amount=10;hS=0.2;vS=0.2;speed=0;forwardOffset=0;sideOffset=0}
+
+SLOW_FX_60:
+  Skills:
+  - effect:particles{particle=block_crack;m=ICE;amount=15;hS=0.35;vS=0.15;y=0.1;speed=0;forwardOffset=0;sideOffset=0;repeat=11;repeatinterval=5}
+  
+SLOW_FX_100:
+  Skills:
+  - effect:particles{particle=block_crack;m=ICE;amount=15;hS=0.35;vS=0.15;y=0.1;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeatinterval=5}
   
