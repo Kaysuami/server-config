@@ -23,7 +23,7 @@ observe:
     - cooldown:
           id: Bone Ball
           length: 10s
-          display: <dark_aqua>Bone Ball
+          display: <dark_aqua>Wisp of Soul
     - mythicSkills:
           - "bone_ball"
 resourcepack:
