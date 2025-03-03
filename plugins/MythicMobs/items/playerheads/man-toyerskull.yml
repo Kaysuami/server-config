@@ -5,5 +5,5 @@ man-toyerskull:
   Display: <#4682B4>Man-toyer Skull</#4682B4>
   Lore:
     - ':layer_2:'
-    - '<#DB9200>Found on praying skeletons.</#DB9200>'
-    - '<#DB9200>Rumored to be used as a good luck charm in the abyss.</#DB9200>'
+    - '<#DB9200><i>Found on praying skeletons.</#DB9200>'
+    - '<#DB9200><i>Rumored to be used as a good luck charm in the abyss.</#DB9200>'
