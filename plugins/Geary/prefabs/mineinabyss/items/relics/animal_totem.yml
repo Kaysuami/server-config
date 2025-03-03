@@ -4,7 +4,7 @@ set.item:
     type: PAPER
     customModelData: 137
     lore:
-      - ':layer_1: Grade IV Relic'
+      - ':layer_1: Grade III Relic'
       - '<#D2D489><i>A mysterious totem granting adrenaline to flee predators.</#D2D489>'
       - '<#D2D489><i>Calls upon the desire to survive when used.</#D2D489>'
 #ghost_seek:
