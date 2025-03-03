@@ -1,12 +1,13 @@
 set.item:
   item:
-    itemName: <gold>Trident
+    itemName: <gold><b>Mermaid Tear
     type: TRIDENT
     customModelData: 1
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
+      - ':layer_4: Grade I Relic'
+      - '<#D2D489>A spear shape object carved out of a core</#D2D489>'
+      - '<#D2D489>from one Goblet of Giants and an unknown artifact. </#D2D489>'
+      - '<#D2D489>It is rumored to return to the wearers hand after being thrown.</#D2D489>'
 
 #ghost_seek:
 disableItemInteractions: {}
