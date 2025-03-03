@@ -1,13 +1,13 @@
 set.item:
   item:
-    itemName: <gold>boot
+    itemName: <gold>Leap onto Heavens
     type: PAPER
     customModelData: 140
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
-
+      - ':layer_3: Grade II Relic'
+      - '<#D2D489><i>Boots made out of abyssal threads with a relic sown into them.</#D2D489>'
+      - '<#D2D489><i>When activated they grant the wearer a short escape from</#D2D489>'
+      - '<#D2D489><i>gravity allowing delvers to ascend quicker.</#D2D489>'
 #ghost_seek:
 disableItemInteractions: {}
 observe:
