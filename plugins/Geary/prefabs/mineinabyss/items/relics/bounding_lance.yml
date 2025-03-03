@@ -1,12 +1,13 @@
 set.item:
   item:
-    itemName: <gold>Bounding Lance
+    itemName: <gold><b>Bounding Lance
     type: DIAMOND_SWORD
     customModelData: 4
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
+      - ':layer_2: Grade I Relic'
+      - '<#D2D489>Lance of unknown origin known to</#D2D489>'
+      - '<#D2D489>channel the energy of the force field</#D2D489>'
+      - '<#D2D489>creating blessings while avoiding curses.</#D2D489>'
 
 #ghost_seek:
 
