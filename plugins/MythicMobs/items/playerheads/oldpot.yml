@@ -5,4 +5,4 @@ oldpot:
   Display: <#818380>Old Pot</#818380>
   Lore:
     - ':layer_1::layer_2::layer_3::layer_4::layer_5:'
-    - '<#DB9200>Equipment found on delvers that returned to the abyss.</#DB9200>'
+    - '<#DB9200><i>Equipment found on delvers that returned to the abyss.</#DB9200>'

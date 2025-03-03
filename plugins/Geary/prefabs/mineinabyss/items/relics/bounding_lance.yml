@@ -1,13 +1,15 @@
 set.item:
   item:
-    itemName: <#8C0303>Blessance
+
+    itemName: <#617B94><b>Proboscis
     type: DIAMOND_SWORD
     customModelData: 4
     lore:
-      - <gold>A mysterious relic that look like fork.
-      - <gold>Upon further inspection, it look like a key
-      - <gold>Could this leads to a much greater treasure?
-      - <#E8D85D><i>Gives strength and speed upon using it
+      - ':layer_2: Grade I Relic'
+      - '<#D2D489>Needle shaped object known to</#D2D489>'
+      - '<#D2D489>syphon the force field itself</#D2D489>'
+      - '<#D2D489>using its nutrients to simulate blessings.</#D2D489>'
+
 
 #ghost_seek:
 
@@ -18,7 +20,7 @@ observe:
     - cooldown:
         id: boundinglance
         length: 30s
-        display: <#617B94>Blessance
+        display: <#617B94><b>Proboscis
     - mythicSkills:
         - "boundinglance"
 resourcepack:

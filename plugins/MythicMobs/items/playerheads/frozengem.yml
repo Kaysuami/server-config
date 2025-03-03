@@ -5,5 +5,5 @@ frozengem:
   Display: <#2E393B>Frozen Gem</#2E393B>
   Lore:
     - ':layer_5:'
-    - '<#DB9200>Found on delvers that have returned to the abyss.</#DB9200>'
-    - '<#DB9200>Rumored to hold value in the past civilisation.</#DB9200>'
+    - '<#DB9200><i>Found on delvers that have returned to the abyss.</#DB9200>'
+    - '<#DB9200><i>Rumored to hold value in the past civilisation.</#DB9200>'

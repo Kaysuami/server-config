@@ -5,5 +5,5 @@ pink-shiningfruit:
   Display: <#FFB9F3>Pink-shining Fruit</#FFB9F3>
   Lore:
     - ':layer_3:'
-    - '<#DB9200>Found on delvers that have returned to the abyss.</#DB9200>'
-    - '<#DB9200>Known to be the fruit of the rare Pink-Shining Grass.</#DB9200>'
+    - '<#DB9200><i>Found on delvers that have returned to the abyss.</#DB9200>'
+    - '<#DB9200><i>Known to be the fruit of the rare Pink-Shining Grass.</#DB9200>'

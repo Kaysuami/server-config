@@ -5,5 +5,5 @@ frozenrelic:
   Display: <#2E393B>Frozen Relic</#2E393B>
   Lore:
     - ':layer_5:'
-    - '<#DB9200>Found on delvers that have returned to the abyss.</#DB9200>'
-    - '<#DB9200>Discovered a while ago by a delver who disappeared on his ascent.</#DB9200>'
+    - '<#DB9200><i>Found on delvers that have returned to the abyss.</#DB9200>'
+    - '<#DB9200><i>Discovered a while ago by a delver who disappeared on his ascent.</#DB9200>'

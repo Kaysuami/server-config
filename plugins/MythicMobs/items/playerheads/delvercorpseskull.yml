@@ -5,5 +5,5 @@ delvercorpseskull:
   Display: <#828282>Delver Corpse Skull</#828282>
   Lore:
     - ':layer_3::layer_4::layer_5:'
-    - '<#DB9200>Remains of those who followed</#DB9200>'
-    - '<#DB9200>the call of the abyss and never returned.</#DB9200>'
+    - '<#DB9200><i>Remains of those who followed</#DB9200>'
+    - '<#DB9200><i>the call of the abyss and never returned.</#DB9200>'
