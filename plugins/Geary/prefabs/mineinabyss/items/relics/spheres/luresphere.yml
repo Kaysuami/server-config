@@ -1,19 +1,21 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <gold>Lure Sphere
+    itemName: <#28D42B>Lure Sphere
     customModelData: 152
     lore:
-      - <yellow>A fleshy bottle filled with a thick, black, oily substance.
-      - <yellow>Drinking it gives the user a jolt of energy, at a price...
-disableItemInteractions: {}
+      - <gold>It is a egg-shaped relic with
+      - <gold>weird green patterns on its surface.
+      - <gold>Has a smooth texture that feels
+      - <gold>like breaking if enough pressure.
+      - <#B07E3E><i>Capable of pulling creatures towards you
 observe:
   itemRightClick:
     - become: parent
     - cooldown:
         id: luresphere
         length: 5s
-        display: <dark_aqua>Lure Sphere
+        display: <#28D42B>Lure Sphere
     - mythicSkills:
         - "lurethrow"
     - consumeItem:
