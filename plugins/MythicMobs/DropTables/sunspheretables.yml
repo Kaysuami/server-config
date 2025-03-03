@@ -12,27 +12,27 @@ AoeDrops:
   MinItems: 1
   MaxItems: 2
   Drops:
-  - geary mineinabyss:aoesphere 1 0.6
+  - geary mineinabyss:aoesphere 1 0.95
 SunDrops:
   MinItems: 1
   MaxItems: 2
   Drops:
-  - geary mineinabyss:sunsphere 1 0.6
+  - geary mineinabyss:sunsphere 1 0.95
 
 LureDrops:
   MinItems: 1
   MaxItems: 2
   Drops:
-  - geary mineinabyss:luresphere 1 0.6
+  - geary mineinabyss:luresphere 1 0.95
 
 SpreadDrops:
   MinItems: 1
   MaxItems: 2
   Drops:
-  - geary mineinabyss:spreadsphere 1 0.6
+  - geary mineinabyss:spreadsphere 1 0.95
 
 LavaDrops:
   MinItems: 1
   MaxItems: 2
   Drops:
-  - geary mineinabyss:spreadsphere 1 0.6
+  - geary mineinabyss:heatstone 1 0.9

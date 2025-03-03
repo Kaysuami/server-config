@@ -15,7 +15,7 @@ bootstack:
 bootready:
   Cooldown: 6
   Conditions:
-  - offgcd
+  - offgcd true
   - hasaurastacks{n=boot;s=3} true
 
   Skills:

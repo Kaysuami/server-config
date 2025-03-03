@@ -4,8 +4,9 @@ pmeteortarget:
   Options:
     NoAI: true
     Silent: true
-    Despawn: false
-    HasGravity: false
+    Small: false
+    Invisible: true
+    Invincible: true
   Skills:
   - model{mid=magiccircle;n=false;d=false} @self ~onSpawn
   - skill{s=pmeteorcometh} @self ~onSpawn
