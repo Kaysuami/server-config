@@ -5,8 +5,7 @@ set.item:
     customModelData: 137
     lore:
       - ':layer_1: Grade IV Relic'
-      - '<#D2D489>A curious totem granting adrenaline to flee a predator.</#D2D489>'
-
+      - '<#D2D489><i>A mysterious totem granting adrenaline to flee predators.</#D2D489>'
 #ghost_seek:
 disableItemInteractions: {}
 observe:
