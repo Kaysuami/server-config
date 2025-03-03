@@ -1,12 +1,13 @@
 set.item:
   item:
-    itemName: <gold>Bounding Lance
+    itemName: <#8C0303>Blessance
     type: DIAMOND_SWORD
     customModelData: 4
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
+      - <gold>A mysterious relic that look like fork.
+      - <gold>Upon further inspection, it look like a key
+      - <gold>Could this leads to a much greater treasure?
+      - <#E8D85D><i>Gives strength and speed upon using it
 
 #ghost_seek:
 
@@ -17,7 +18,7 @@ observe:
     - cooldown:
         id: boundinglance
         length: 30s
-        display: <#617B94>Bounding Lance
+        display: <#617B94>Blessance
     - mythicSkills:
         - "boundinglance"
 resourcepack:

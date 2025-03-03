@@ -1,9 +1,13 @@
 set.item:
   item:
     type: minecraft:paper
-    itemName: <dark_aqua>Black Charm
+    itemName: <#302D2D>Skotos
     customModelData: 139
-    # TODO add lore
+    lore:
+     - <#570F01>This relic is extremely dangerous,
+     - <#570F01>if used wrongly it could wiped out
+     - <#570F01>life in the abyss.
+     - <#3B1F1A><i>Summons a blackhole
 #disableItemInteractions: { }
 observe:
   itemRightClick:
@@ -17,7 +21,7 @@ observe:
     - cooldown:
         id: blackhole
         length: 360s
-        display: <dark_aqua>Void Charm
+        display: <#302D2D>Skotos
     - mythicSkills:
         - "blackhole"
 resourcepack:
