@@ -4,10 +4,9 @@ set.item:
     type: PAPER
     customModelData: 140
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
-
+      - ':layer_5: Grade III Relic'
+      - '<#D2D489>A staff made out of the remains of delvers</#D2D489>'
+      - '<#D2D489>who have succumbed to the curse of the abyss.</#D2D489>'
 #ghost_seek:
 disableItemInteractions: {}
 observe:
