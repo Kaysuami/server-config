@@ -6,8 +6,8 @@ set.item:
     lore:
       - <gold>It is a egg-shaped relic with
       - <gold>weird green patterns on its surface.
-      - <gold>Has a smooth texture that feels
-      - <gold>like breaking if enough pressure.
+      - <gold>It has a smooth texture and has a cracking
+      - <gold>noise like eggs if pressure is applied to it.
       - <#B07E3E><i>Capable of pulling creatures towards you
 observe:
   itemRightClick:

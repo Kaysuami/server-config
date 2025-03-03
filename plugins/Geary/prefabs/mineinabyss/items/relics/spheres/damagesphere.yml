@@ -6,14 +6,14 @@ set.item:
     lore:
       - <gold>It is a egg-shaped relic with
       - <gold>white and grey patterns on its surface.
-      - <gold>Has a smooth texture that feels
-      - <gold>like breaking if enough pressure.
+      - <gold>It has a smooth texture and has a cracking
+      - <gold>noise like eggs if pressure is applied to it.
       - <#B07E3E><i>Damages creatures on contact if thrown.
 observe:
   itemRightClick:
     - become: parent
     - cooldown:
-        id: heartbomb
+        id: damagesphere
         length: 5s
         display: <#BFBFBF>Damage Sphere
     - mythicSkills:

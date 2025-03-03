@@ -6,8 +6,8 @@ set.item:
     lore:
       - <gold>It is a egg-shaped relic with
       - <gold>grey patterns on its surface.
-      - <gold>Has a rigrid texture that feels
-      - <gold>like breaking if enough pressure.
+      - <gold>It has a rigrid texture and has a cracking
+      - <gold>noise like eggs if pressure is applied to it.
       - <#B07E3E><i>Shoots multiple projectiles
       - <#B07E3E><i>after being thrown.
 observe:
