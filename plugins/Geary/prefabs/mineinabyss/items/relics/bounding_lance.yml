@@ -1,6 +1,6 @@
 set.item:
   item:
-    itemName: <gold><b>Proboscis
+    itemName: <#617B94><b>Proboscis
     type: DIAMOND_SWORD
     customModelData: 4
     lore:
@@ -18,7 +18,7 @@ observe:
     - cooldown:
         id: boundinglance
         length: 30s
-        display: <#617B94>Bounding Lance
+        display: <#617B94><b>Proboscis
     - mythicSkills:
         - "boundinglance"
 resourcepack:
