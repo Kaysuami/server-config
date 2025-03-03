@@ -5,8 +5,10 @@ set.item:
     customModelData: 140
     lore:
       - ':layer_5: Grade III Relic'
-      - '<#D2D489>A staff made out of the remains of delvers</#D2D489>'
-      - '<#D2D489>who have succumbed to the curse of the abyss.</#D2D489>'
+      - '<#D2D489><i>A staff made out of the remains of delvers</#D2D489>'
+      - '<#D2D489><i>who have succumbed to the curse of the abyss.</#D2D489>'
+      - '<#D2D489><i>Powered by the longing of stuck souls</#D2D489>'
+      - '<#D2D489><i>warping the force field itself.</#D2D489>'
 #ghost_seek:
 disableItemInteractions: {}
 observe:
