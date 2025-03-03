@@ -4,7 +4,7 @@ set.item:
     type: PAPER
     customModelData: 118
     lore:
-      - ':layer_3: Grade IV Relic'
+      - ':layer_3: Grade III Relic'
       - '<#D2D489><i>A relic which was formed by the tenacity of hostile creatures.</#D2D489>'
       - '<#D2D489><i>It encompasses the will to be in control granting the</#D2D489>'
       - '<#D2D489><i>wearer an increased chance of hitting vital spots.</#D2D489>'
