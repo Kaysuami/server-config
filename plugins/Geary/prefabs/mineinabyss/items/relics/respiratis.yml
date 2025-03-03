@@ -1,12 +1,13 @@
 set.item:
   item:
-    itemName: <gold>respiratis
+    itemName: <gold>Respiratas
     type: PAPER
     customModelData: 137
     lore:
-      - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
-      - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
-      - <#D2D489>guiding its wielder toward hidden relics.
+      - ':layer_4: Grade IV Relic'
+      - '<#D2D489><i>Known to be created by a group of delving alchemists</#D2D489>'
+      - '<#D2D489><i>who searched for simpler ways to traverse to abyss.</#D2D489>'
+      - '<#D2D489><i>On use it grants the wearer the ability to stay under water.</#D2D489>'
 
 #ghost_seek:
 disableItemInteractions: {}
