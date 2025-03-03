@@ -31,14 +31,14 @@ l4prayingskeleton:
     - DROWNING 0.001
   DropOptions:
     DropMethod: FANCY
-    ShowDeathHologram: true
+    ShowDeathHologram: false
     ClientSideDrops: true
-    Lootsplosion: true
+    Lootsplosion: false
     HologramItemNames: true
     ItemGlowByDefault: true
     ItemBeamByDefault: true
     ItemVFXByDefault: false
-    RequiredDamagePercent: 25
+
     HologramTimeout: 6000
   Drops:
     - exp 10-15
@@ -58,7 +58,7 @@ l4prayingskeleton:
 
 
 
-luckybackup4:
+backupskele4:
   Type: ZOMBIE
   SpawnCategory: skeleton
   Display: "<green>Praying Skeleton"
@@ -91,14 +91,14 @@ luckybackup4:
     - DROWNING 0.001
   DropOptions:
     DropMethod: FANCY
-    ShowDeathHologram: true
+    ShowDeathHologram: false
     ClientSideDrops: true
-    Lootsplosion: true
+    Lootsplosion: false
     HologramItemNames: true
     ItemGlowByDefault: true
     ItemBeamByDefault: true
     ItemVFXByDefault: false
-    RequiredDamagePercent: 25
+
     HologramTimeout: 6000
   Drops:
     - exp 10-15

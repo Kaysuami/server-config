@@ -1,12 +1,12 @@
 
 cast_meteor:
   Conditions:
-  - offgcd
+  - offgcd true
   Skills:
-  - summon{type=pmeteortarget} @TargetLocation
+  - summon{type=pmeteortarget} @self
 pmeteorcometh:
   Skills:
-  - projectile{bulletType=MOB;mob=meteor;onTick=pmeteorctick;oE=pmeteorcimpact;v=10;i=1;hR=1;vR=1;syo=16;sB=true;sso=1;mr=90;d=200} @origin
+  - projectile{bulletType=MOB;mob=meteor;onTick=pmeteorctick;oE=pmeteorcimpact;v=10;i=1;hR=1;vR=1;syo=16;sB=true;sso=2;mr=90;d=200} @origin
   - delay 200
   - remove @self
 

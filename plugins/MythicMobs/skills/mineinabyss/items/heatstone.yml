@@ -19,7 +19,7 @@ heat_impact:
 lavaspin:
   Cooldown: 5
   Conditions:
-  - offgcd
+  - offgcd true
   Skills:
   - gcd{ticks=80} 
   - setai{ai=false} 

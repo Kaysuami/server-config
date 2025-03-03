@@ -31,14 +31,14 @@ l3prayingskeleton:
     - DROWNING 0.001
   DropOptions:
     DropMethod: FANCY
-    ShowDeathHologram: true
+    ShowDeathHologram: false
     ClientSideDrops: true
-    Lootsplosion: true
+    Lootsplosion: false
     HologramItemNames: true
     ItemGlowByDefault: true
     ItemBeamByDefault: true
     ItemVFXByDefault: false
-    RequiredDamagePercent: 25
+
     HologramTimeout: 6000
   Drops:
     - exp 10-15
@@ -56,7 +56,7 @@ l3prayingskeleton:
     - cancelevent{sync=true} @Self ~onAttack
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=200;minradius=500;spacing=1;onSurface=true} ~onspawn
 
-luckybackup3:
+backupskele3:
   Type: ZOMBIE
   SpawnCategory: skeleton
   Display: "<green>Praying Skeleton"
@@ -89,14 +89,14 @@ luckybackup3:
     - DROWNING 0.001
   DropOptions:
     DropMethod: FANCY
-    ShowDeathHologram: true
+    ShowDeathHologram: false
     ClientSideDrops: true
-    Lootsplosion: true
+    Lootsplosion: false
     HologramItemNames: true
     ItemGlowByDefault: true
     ItemBeamByDefault: true
     ItemVFXByDefault: false
-    RequiredDamagePercent: 25
+
     HologramTimeout: 6000
   Drops:
     - exp 10-15

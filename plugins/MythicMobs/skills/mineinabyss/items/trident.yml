@@ -14,7 +14,7 @@ tridentstack:
 tridentready:
   Cooldown: 6
   Conditions:
-  - offgcd
+  - offgcd true
   - hasaurastacks{n=trident;s=3} true
   Skills:
   - gcd{ticks=100}

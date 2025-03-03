@@ -30,17 +30,17 @@ vac2:
    - potion{type=LEVITATION;duration=99999;level=1;p=false} @Self ~onSpawn
    - remove{delay=74} @Self ~onSpawn
    - shieldbreak{duration=150}@EntitiesInRadius{r=7} ~onspawn
-   - damage{a=100;ignorearmor=false;cooldown=1;delay=70} @EntitiesInRadius{r=7;conditions=[
-                              - targetwithin{d=1} true 
+   - damage{a=100;ignorearmor=false;cooldown=1;delay=70} @EntitiesInRadius{r=2;conditions=[
+                              - mobsInRadius{amount=1to99;radius=2}
                               ]} ~onSpawn
    - damage{a=50;ignorearmor=false;cooldown=1;delay=70} @EntitiesInRadius{r=7;conditions=[
-                              - targetnotwithin{d=1} true
+                              - mobsInRadius{amount=1to99;radius=2} false
                               ]} ~onSpawn
-   - damage{a=50;ignorearmor=false;cooldown=1;delay=70} @PlayersNearOrigin{r=7;conditions=[
-                              - targetwithin{d=1} true
+   - damage{a=50;ignorearmor=false;cooldown=1;delay=70} @PlayersNearOrigin{r=2;conditions=[
+                              - playerwithin{d=3} false
                               ]} ~onSpawn
    - damage{a=25;ignorearmor=false;cooldown=1;delay=70} @PlayersNearOrigin{r=7;conditions=[
-                              - targetnotwithin{d=1} true
+                              - playerwithin{d=2} false
                               ]} ~onSpawn
   Options:
     ApplyInvisibility: true
