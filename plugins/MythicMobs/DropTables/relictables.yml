@@ -2,18 +2,85 @@
 # http://www.mythicmobs.net
 #  
 
-SkeletonKingDrops:
+L1RelicDrops:
   MinItems: 1
-  MaxItems: 2
+  MaxItems: 1
+  Conditions:
+  - playersinradius{a=>0;r=32}
   Drops:
- # - SkeletonKingItemDrops 1
- # - experience 100
- # - heroesexp 200
-SkeletonKingItemDrops:
+  - geary mineinabyss:bounding_lance{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.002 
+  - geary mineinabyss:vine_charm{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.01
+  - geary mineinabyss:verdaueffax{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.025
+  - geary mineinabyss:animal_totem{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.025
+  - geary mineinabyss:damagesphere 1 0.2
+
+
+
+L2RelicDrops:
   MinItems: 1
-  MaxItems: 2
+  MaxItems: 1
+  Conditions:
+  - playersinradius{a=>0;r=32}
   Drops:
- # - KingsCrown 1 0.01
- # - SkeletonKingSword 0.1
- # - GOLD_NUGGET 32-64 1
-  #- DIAMOND 1-12 0.8
+  - geary mineinabyss:relic_bow{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.002 
+  - geary mineinabyss:bounding_lance{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.005 
+  - geary mineinabyss:vine_charm{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.01
+  - geary mineinabyss:verdaueffax{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.02
+  - geary mineinabyss:animal_totem{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.02
+  - geary mineinabyss:spreadsphere 1 0.2
+
+
+L3RelicDrops:
+  MinItems: 1
+  MaxItems: 1
+  Conditions:
+  - playersinradius{a=>0;r=32}
+  Drops:
+  - geary mineinabyss:giant_relic_hammer{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.002 
+  - geary mineinabyss:giant_relic_sword{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.002
+  - geary mineinabyss:wind_staff{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.01
+  - geary mineinabyss:relicboots{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.01
+  - geary mineinabyss:critcharm{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.025
+  - geary mineinabyss:luresphere 1 0.2
+
+
+L4RelicDrops:
+  MinItems: 1
+  MaxItems: 1
+  Conditions:
+  - playersinradius{a=>0;r=32}
+  Drops:
+  - geary mineinabyss:blaze_reap{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.001 
+  - geary mineinabyss:trident{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.005
+  - geary mineinabyss:healing_staff{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.025
+  - geary mineinabyss:respiratis{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.05
+  - geary mineinabyss:aoesphere 1 0.2
+
+
+L5RelicDrops:
+  MinItems: 1
+  MaxItems: 1
+  Conditions:
+  - playersinradius{a=>0;r=32}
+  Drops:
+  - geary mineinabyss:blackhole_staff{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.002
+  - geary mineinabyss:frost_staff{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.002
+  - geary mineinabyss:void_charm{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.01
+  - geary mineinabyss:verdaueffax{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.01
+  - geary mineinabyss:moniscelti{itemglow=true;itemglowcolor=RED;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.025
+  - geary mineinabyss:sunsphere 1 0.2
+
+GOLDENRELIC:
+  MinItems: 1
+  MaxItems: 1
+  Conditions:
+  - playersinradius{a=>0;r=32}
+  Drops:
+  - geary mineinabyss:blackhole_staff{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.25
+  - geary mineinabyss:frost_staff{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.25
+  - geary mineinabyss:trident{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.25
+  - geary mineinabyss:blaze_reap{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.25
+  - geary mineinabyss:giant_relic_hammer{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.25 
+  - geary mineinabyss:giant_relic_sword{itemglow=true;itemglowcolor=AQUA;hn=true;lootsplosion=true;vfxmaterial=POTION;vfxdata=21;vfxc=#55ff55} 1 0.25
+
+

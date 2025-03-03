@@ -1,0 +1,7 @@
+L1HeadDrops:
+  MinItems: 1
+  MaxItems: 3
+  Drops:
+  - silkfangeggsac 1 0.03
+  - oldorthbell 1 0.05
+  - prayingskeletonskull 1 0.08

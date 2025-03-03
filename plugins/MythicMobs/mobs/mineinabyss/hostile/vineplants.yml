@@ -100,6 +100,8 @@ allyvineblaster:
   AITargetSelectors:
     - clear
     - monsters
+    - OwnerTarget
+    - OwnerAttacker
   Health: 5 # change this
   Damage: 0 # keep this 0
   Options:
@@ -121,10 +123,10 @@ allyvineblaster:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
-    - skill:allyvineblasterattack @Self ~onTimer:40
+    - skill:allyvineblasterattack @Self ~onTimer:10
     # - skill{s=vineblastermortar} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=200} @self ~onSpawn
+    - remove{delay=240} @self ~onSpawn
 
 vinepoofer:
   Type: ZOMBIE

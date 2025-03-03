@@ -35,4 +35,4 @@ LavaDrops:
   MinItems: 1
   MaxItems: 2
   Drops:
-  - geary mineinabyss:spreadsphere 1 0.95
+  - geary mineinabyss:heatstone 1 0.9

@@ -129,7 +129,7 @@ vaend2:
   - effect:particlering{p=cloud;color=#000000;amount=7;points=52;radius=4;delay=2;size=3;speed=3;yOffset=0.6} @origin
   - effect:particlering{p=cloud;color=#000000;amount=7;points=59;radius=5.2;delay=3;size=2.7;speed=3;yOffset=0.6} @origin
   - effect:particlering{p=cloud;color=#000000;amount=6;points=68;radius=6.4;delay=4;size=2.5;speed=3;yOffset=0.6} @origin
-  - effect:particlering{p=cloud;color=#000000;amount=6;points=80;radius=7.8;delay=5;size=2.2;speed=3;yOffset=0.6} @origin
+  #- effect:particlering{p=cloud;color=#000000;amount=6;points=80;radius=7.8;delay=5;size=2.2;speed=3;yOffset=0.6} @origin
  # - effect:particlering{p=cloud;color=#000000;amount=5;points=92;radius=9.2;delay=6;size=2;speed=3;yOffset=0.6} @origin
  # - effect:particlering{p=cloud;color=#000000;amount=5;points=106;radius=10.6;delay=7;size=2;speed=3;yOffset=0.6} @origin
   #- effect:particlering{p=cloud;color=#000000;amount=4;points=120;radius=12;delay=8;size=1.7;speed=3;yOffset=0.6} @origin
