@@ -18,7 +18,7 @@ observe:
     - cooldown:
         id: animal_totem
         length: 60s
-        display: <#617B94>Animal Totem
+        display: <#617B94>Preys Desire
     - applyPotionEffects:
         - type: minecraft:speed
           duration: 2s
