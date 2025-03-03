@@ -1,13 +1,13 @@
 set.item:
   item:
-    itemName: <gold><b>Bounding Lance
+    itemName: <gold><b>Proboscis
     type: DIAMOND_SWORD
     customModelData: 4
     lore:
       - ':layer_2: Grade I Relic'
-      - '<#D2D489>Lance of unknown origin known to</#D2D489>'
-      - '<#D2D489>channel the energy of the force field</#D2D489>'
-      - '<#D2D489>creating blessings while avoiding curses.</#D2D489>'
+      - '<#D2D489>Needle shaped object known to</#D2D489>'
+      - '<#D2D489>syphon the force field itself</#D2D489>'
+      - '<#D2D489>using its nutrients to simulate blessings.</#D2D489>'
 
 #ghost_seek:
 
