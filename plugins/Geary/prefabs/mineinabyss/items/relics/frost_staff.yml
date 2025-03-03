@@ -21,7 +21,7 @@ observe:
     - cooldown:
         id: Frost_Beam
         length: 10s
-        display: <dark_aqua>Frost Staff
+        display: <dark_aqua>Verglas Whisper
     - mythicSkills:
         - "Frost_Beam"
 resourcepack:
