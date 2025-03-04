@@ -6,9 +6,9 @@ set.item:
     lore:
       - ":layer_4: Grade I Relic"
       - <#3C8C82>A spear shape object carved out of a core
-      - <#3C8C82>from Goblet of Giants and from a unknown artifact
+      - <#3C8C82>from Goblet of Giants and from a unknown artifact.
       - <#265c55><i>It is believed to able to channel it
-      - <#265c55><i>hidden abilities when throwing it
+      - <#265c55><i>hidden abilities when throwing it.
 
 #ghost_seek:
 disableItemInteractions: {}

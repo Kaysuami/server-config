@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:netherite_sword
     customModelData: 4
-    itemName: <#FFC0CB><b>Phaos Kopis
+    itemName: <#15ABC2><b>Phaos Kopis
     lore:
       - ':layer_3: Grade I Relic'
       - <#249C9C>A giant sword-shaped relic that
