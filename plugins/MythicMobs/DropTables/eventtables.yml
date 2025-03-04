@@ -12,7 +12,7 @@ PraySkelIntroDrops:
   - bone{name="<gold>Mysterious Bone";lore="<#DB9200>:layer_1::layer2:";enchants=DURABILITY:1} 1 0.08 
 
 
-EventOreDrops:
+PraySkelEventOreDrops:
   MaxItems: 2
   Conditions:
   - playersinradius{a=>0;r=32}
