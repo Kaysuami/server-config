@@ -4,10 +4,11 @@ set.item:
     itemName: <#302D2D><b>Skotos
     customModelData: 139
     lore:
-      - ':layer_5: Grade I Relic'
-      - '<#D2D489>An artifact of ancient times with the ability to</#D2D489>'
-      - '<#D2D489>void all energy connected to the force field.</#D2D489>'
-      - '<#D2D489>On use it eliminates life in a straight line.</#D2D489>'
+     - ":layer_5: Grade I Relic"
+     - <#570F01>An artifact of ancient times
+     - <#570F01>with the ability to increase gravity
+     - <#570F01>and suck out life in an area.
+     - <#3B1F1A><i>Shoot out a blackhole when using it.
 #disableItemInteractions: { }
 observe:
   itemRightClick:

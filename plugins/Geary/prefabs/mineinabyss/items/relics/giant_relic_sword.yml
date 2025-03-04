@@ -2,12 +2,12 @@ set.item:
   item:
     type: minecraft:netherite_sword
     customModelData: 4
-    itemName: <#FFC0CB><b>Lunula Kaien
+    itemName: <#FFC0CB><b>Phaos Kopis
     lore:
       - ':layer_3: Grade I Relic'
-      - '<#D2D489>A weapon that can tear into the fabric of the force field.</#D2D489>'
-      - '<#D2D489>It is known to create crescent shaped slashes</#D2D489>'
-      - '<#D2D489>damaging all organic matter that it comes into contact with.</#D2D489>'
+      - <#249C9C>A giant sword-shaped relic that
+      - <#249C9C>is known to create crescent shaped slashes.
+      - <#195959><i>Destroying organic matter with every slash.
 observe:
   itemLeftClick:
     - become: parent
@@ -20,7 +20,7 @@ observe:
     - cooldown:
           id: cyanslash
           length: 1s
-          display: <dark_aqua>
+          display: <dark_aqua>Phaos
     - mythicSkills:
           - "Cyan_Slash"
 resourcepack:

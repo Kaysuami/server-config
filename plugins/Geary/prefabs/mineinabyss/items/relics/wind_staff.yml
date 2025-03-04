@@ -4,10 +4,11 @@ set.item:
     type: PAPER
     customModelData: 140
     lore:
-      - ':layer_3: Grade II Relic'
-      - '<#D2D489><i>A staff formed out of a relic imbedded into Yomotsubi wings.</#D2D489>'
-      - '<#D2D489><i>The relic powers the thin materials vibration creating gusts of wind.</#D2D489>'
-      - '<#D2D489><i>On use it shoots a projectile which knocks back entities.</#D2D489>'
+      - ":layer_3: Grade II Relic"
+      - <gold>A staff formed out of a relic imbedded into Yomotsubi wings.
+      - <gold>Imbued by the power of the relic to create gusts of wind.
+      - <#D2D489><i>Shoots out projectile of wind at opponents
+
 #ghost_seek:
 disableItemInteractions: {}
 observe:

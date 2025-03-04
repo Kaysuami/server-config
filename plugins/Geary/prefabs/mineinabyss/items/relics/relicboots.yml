@@ -1,13 +1,16 @@
 set.item:
   item:
-    itemName: <gold>Leap onto Heavens
+    itemName: <#0F5191>Alma boots
     type: PAPER
     customModelData: 140
     lore:
-      - ':layer_3: Grade II Relic'
-      - '<#D2D489><i>Boots made out of abyssal threads with a relic sown into them.</#D2D489>'
-      - '<#D2D489><i>When activated they grant the wearer a short escape from</#D2D489>'
-      - '<#D2D489><i>gravity allowing delvers to ascend quicker.</#D2D489>'
+      - ":layer_3: Grade II Relic"
+      - <gold>Boots crafted from abysal threads of Daikonchu
+      - <gold>with a relic sown onto it.
+      - <#D2D489><i>When using it, it allows the wearer to have
+      - <#D2D489><i>short burst of air when ascending. 
+      - <#D2D489><i>Giving delvers a much easier time to ascend.
+
 #ghost_seek:
 disableItemInteractions: {}
 observe:
