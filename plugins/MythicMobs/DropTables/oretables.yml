@@ -1,4 +1,4 @@
-L1OreDrops:
+L1PraySkelOreDrops:
 
   MaxItems: 3
   Conditions:
@@ -11,7 +11,7 @@ L1OreDrops:
   # - charcoal sand ore 1 0.05 #will be added later on
 
 
-L2OreDrops:
+L2PraySkelOreDrops:
 
   MaxItems: 3
   Conditions:
@@ -24,7 +24,7 @@ L2OreDrops:
   # - charcoal sand ore 1 0.05 #will be added later on
 
 
-L3OreDrops:
+L3PraySkelOreDrops:
 
   MaxItems: 3
   Conditions:
@@ -38,7 +38,7 @@ L3OreDrops:
   # - charcoal sand ore 1 0.05 #will be added later on
 
 
-L4OreDrops:
+L4PraySkelOreDrops:
 
   MaxItems: 3
   Conditions:
@@ -51,7 +51,7 @@ L4OreDrops:
   # - charcoal sand ore 1 0.05 #will be added later on
 
 
-L5OreDrops:
+L5PraySkelOreDrops:
 
   MaxItems: 3
   Conditions:
