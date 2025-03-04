@@ -1,18 +1,18 @@
-L1HeadDrops:
+L1PraySkelHeadDrops:
   MaxItems: 1
   Drops:
   - silkfangeggsac 1 0.02
   - oldorthbell 1 0.04
   - prayingskeletonskull 1 0.06
 
-L2HeadDrops:
+L2PraySkelHeadDrops:
   MaxItems: 1
   Drops:
   - man-toyerskull 1 0.02
   - unknowndevice 1 0.02
   - prayingskeletonskull 1 0.06
 
-  L3HeadDrops:
+L3PraySkelHeadDrops:
   MaxItems: 1
   Drops:
   - pink-shiningfruit 1 0.02
@@ -20,7 +20,7 @@ L2HeadDrops:
   - unknowndevice 1 0.02
   - delvercorpseskull 1 0.06
 
-  L4HeadDrops:
+L4PraySkelHeadDrops:
   MaxItems: 1
   Drops:
   - crackedgianthammerbeakegg 1 0.02
@@ -28,7 +28,7 @@ L2HeadDrops:
   - unknowndevice 1 0.02
   - delvercorpseskull 1 0.06
 
-  L5HeadDrops:
+L5PraySkelHeadDrops:
   MaxItems: 1
   Drops:
   - frozengem 1 0.02
