@@ -1,3 +1,10 @@
+GenericPraySkelHeadDrops:
+  MaxItems: 1
+  Drops:
+  - wornoutlantern 1 0.03
+  - oldpot 1 0.03
+  - cauldronofbones 1 0.03
+
 L1PraySkelHeadDrops:
   MaxItems: 1
   Drops:
