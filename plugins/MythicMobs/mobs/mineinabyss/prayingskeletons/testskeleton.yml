@@ -100,7 +100,7 @@ testbackup:
   Drops:
     - exp 10-15
     - GOLDENRELIC
-    - L1HeadDrops
+    - L2PraySkelHeadDrops
   Skills:
     ####### Misc
     - skill{s=testbackup;cooldown=1;delay=20} @self ~onSpawn 0.2

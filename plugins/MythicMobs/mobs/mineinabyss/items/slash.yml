@@ -94,5 +94,5 @@ Blood_Slash:
     Invisible: true
     Invincible: true
   Skills:
-  - equip{item=projslash:4} ~onSpawn
+  - equip{item= ~onSpawnprojslash:4}
   - effect:particles{p=reddust;color=#FF0000;amount=15;hS=1.2;vS=0.1;speed=0} @self ~onSpawn
