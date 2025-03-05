@@ -29,17 +29,7 @@ l3prayingskeleton:
   DamageModifiers:
     - FALL 0.001
     - DROWNING 0.001
-  DropOptions:
-    DropMethod: FANCY
-    ShowDeathHologram: false
-    ClientSideDrops: true
-    Lootsplosion: false
-    HologramItemNames: true
-    ItemGlowByDefault: true
-    ItemBeamByDefault: true
-    ItemVFXByDefault: false
 
-    HologramTimeout: 6000
   Drops:
     - exp 10-15
     - L3RelicDrops
@@ -87,17 +77,7 @@ backupskele3:
   DamageModifiers:
     - FALL 0.001
     - DROWNING 0.001
-  DropOptions:
-    DropMethod: FANCY
-    ShowDeathHologram: false
-    ClientSideDrops: true
-    Lootsplosion: false
-    HologramItemNames: true
-    ItemGlowByDefault: true
-    ItemBeamByDefault: true
-    ItemVFXByDefault: false
 
-    HologramTimeout: 6000
   Drops:
     - exp 10-15
     - L3RelicDrops
