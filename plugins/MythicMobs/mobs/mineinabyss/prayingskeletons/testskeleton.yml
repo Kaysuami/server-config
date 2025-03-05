@@ -2,8 +2,6 @@ testskeleton:
   Type: ZOMBIE
   SpawnCategory: skeleton
   Display: "<green>Praying Skeleton"
-  Modules:
-    ThreatTable: true
   AIGoalSelectors:
     - clear
   AITargetSelectors:
@@ -42,8 +40,8 @@ testskeleton:
     HologramTimeout: 200
   Drops:
     - exp 10-15
-    - GOLDENRELIC
-    - L1HeadDrops
+    - GOLDENRELIC 1
+    - L1PraySkelHeadDrops 1
   Skills:
     ####### Misc
     - skill{s=testbackup;cooldown=1;delay=20} @self ~onSpawn
@@ -90,7 +88,7 @@ testbackup:
     DropMethod: FANCY
     ShowDeathHologram: false
     ClientSideDrops: true
-    Lootsplosion: false
+    Lootsplosion: true
     HologramItemNames: true
     ItemGlowByDefault: true
     ItemBeamByDefault: true
@@ -99,8 +97,8 @@ testbackup:
     HologramTimeout: 200
   Drops:
     - exp 10-15
-    - GOLDENRELIC
-    - L2PraySkelHeadDrops
+    - GOLDENRELIC 1 1
+    - L1PraySkelHeadDrops 1 1
   Skills:
     ####### Misc
     - skill{s=testbackup;cooldown=1;delay=20} @self ~onSpawn 0.2
