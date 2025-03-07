@@ -59,8 +59,11 @@ shroombear:
     - CancelEvent{sync=true} @self ~onAttack
     - CancelEvent{sync=true} @self ~onInteract
     - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
-    - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:100 0.66 <55%
+    - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:40 0.8 <55%
     #    - skill{s=shroombearHarvest} @self ~oninteract
+    - skill{s=shroombearAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
+    - skill{s=shroombearHurt} @self ~onHurt
+    - skill{s=shroombearDeath} @self ~onDeath
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
 
@@ -95,12 +98,13 @@ baby_shroombear:
   Skills:
     ####### Misc
     - CancelEvent{sync=true} @self ~onAttack
-    - CancelEvent{sync=true} @self ~onInteract
-    - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
+    - CancelEvent{sync=true} @self ~onInterac
     - skill{s=shroombearAmbient;delay=<random.0to10>} @self ~onTimer:95 0.33
     - skill{s=shroombearHurt} @self ~onHurt
     - skill{s=shroombearDeath} @self ~onDeath
-    - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:100 0.66 <55%
+    - skill{s=shroombearHeal;delay=<random.0to20>} @self ~onTimer:40 0.66 <80%
     #- skill:MIAPetExpNearby{exp=1} ~onDeath
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
+
+    - defaultstate{t=walk;s=walk;sp=2.4} @self ~onSpawnOrLoad
