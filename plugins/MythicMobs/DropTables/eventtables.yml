@@ -1,4 +1,4 @@
-PraySkelIntroDrops:
+PSIntroDrops:
   MaxItems: 2
   Conditions:
   - playerwithin 32
@@ -12,16 +12,7 @@ PraySkelIntroDrops:
   - bone{name="<gold>Mysterious Bone";lore="<#DB9200>:layer_1::layer2:";enchants=DURABILITY:1} 1 0.08 
 
 
-PraySkelEventOreDrops:
-  MaxItems: 2
-  Conditions:
-  - playerwithin 32
-  Drops:
-  - diamond 2-3 0.2
-  - gold_ingot 3-4 0.3
-
-
-PraySkelIntroPlayerHeadDrops:
+PSIntroPlayerHeadDrops:
   MaxItems: 2
   Conditions:
   - playerwithin 32
