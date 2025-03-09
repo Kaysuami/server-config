@@ -32,7 +32,14 @@ l2prayingskeleton:
 
   Drops:
     - exp 10-15
+    - PSIntroDrops #to be removed after the event
+    - PSIntroHeadDrops #to be removed after the event
     - L2RelicDrops
+    - L2PSHeadDrops
+    - L2PSOreDrops
+    - PSHeadDrops
+    - MiscPSDrops
+    - PSSherdDrops
 
   Skills:
     ####### Misc
