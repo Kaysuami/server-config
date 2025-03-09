@@ -1,11 +1,12 @@
 set.item:
   item:
-    type: minecraft:salmon
+    type: minecraft:apple
     itemName: <#00FFFF>Tachikatana Leg
-    customModelData: 2
+    customModelData: 665
     lore:
       - ":layer_4::layer_5:"
       - <#1B5BAD><i>Tastes like crab!
+      - <#1B5BAD><i>Too tough to cook!   
     food:
       saturation: 5
       nutrition: 5
