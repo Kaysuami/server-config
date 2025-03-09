@@ -32,8 +32,8 @@ l1prayingskeleton:
 
   Drops:
     - exp 10-15
-    - PSIntroDrops
-    - PSIntroHeadDrops
+    - PSIntroDrops #to be removed after the event
+    - PSIntroHeadDrops #to be removed after the event
     - L1RelicDrops
     - L1PSHeadDrops
     - L1PSOreDrops
