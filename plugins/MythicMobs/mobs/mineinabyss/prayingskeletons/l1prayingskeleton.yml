@@ -32,9 +32,14 @@ l1prayingskeleton:
 
   Drops:
     - exp 10-15
+    - PSIntroDrops
+    - PSIntroHeadDrops
     - L1RelicDrops
-    - L1PraySkelHeadDrops
-    - GenericPraySkelHeadDrops
+    - L1PSHeadDrops
+    - L1PSOreDrops
+    - PSHeadDrops
+    - MiscPSDrops
+    - PSSherdDrops
   Skills:
     ####### Misc
     - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.05
