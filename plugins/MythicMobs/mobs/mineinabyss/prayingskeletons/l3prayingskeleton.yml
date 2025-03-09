@@ -33,6 +33,11 @@ l3prayingskeleton:
   Drops:
     - exp 10-15
     - L3RelicDrops
+    - L3PSHeadDrops
+    - L3PSOreDrops
+    - PSHeadDrops
+    - MiscPSDrops
+    - PSSherdDrops
 
   Skills:
     ####### Misc
