@@ -1,4 +1,4 @@
-MiscPraySkelDrops:
+MiscPSDrops:
 
   MaxItems: 1
   Conditions:
@@ -12,7 +12,7 @@ MiscPraySkelDrops:
   # - relic shards
 
 
-GenericPraySkelSherdDrops: 
+PSSherdDrops: 
   
   MaxItems: 1
   Conditions:
