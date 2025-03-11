@@ -17,9 +17,9 @@ PSIntroHeadDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:wornoutlantern 1 0.02
-  - geary mineinabyss:unknowndevice 1 0.02
-  - geary mineinabyss:oldpot 1 0.02
-  - geary mineinabyss:cauldronofbones 1 0.02
-  - geary mineinabyss:brokenskull 1 0.05
-  - geary mineinabyss:verticalcore 0.05
+  - wornoutlantern 1 0.02
+  - unknowndevice 1 0.02
+  - oldpot 1 0.02
+  - cauldronofbones 1 0.02
+  - brokenskull 1 0.05
+  - verticalcore 0.05
