@@ -17,7 +17,7 @@ observe:
     - cooldown:
         id: hammer_smash
         length: 5s
-        display: <#617B94>Seismic_Smash
+        display: <#617B94>Seismic Smash
     - mythicSkills:
         - "hammer_smash"
 
