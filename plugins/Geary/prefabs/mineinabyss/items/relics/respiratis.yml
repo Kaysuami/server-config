@@ -19,11 +19,8 @@ observe:
         length: 60s
         display: <#1F88ED>Respiratis
     - applyPotionEffects:
-        - type: minecraft:CONDUIT_POWER
+        - type: minecraft:conduit_power
           duration: 40s
           amplifier: 1
           hasParticles: false
-
-resourcepack:
-  textures: mineinabyss:item/relics/respiratis2
 

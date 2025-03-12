@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: <#E7EBE9>Undying Wisp
     type: PAPER
-    customModelData: 140
+    customModelData: 143
     lore:
       - ":layer_5: Grade III Relic"
       - <gold>A staff made out of the remains of delvers
@@ -28,4 +28,5 @@ observe:
           - "bone_ball"
 resourcepack:
   textures: mineinabyss:item/relics/bone_staff
+  parentModel: item/handheld
 

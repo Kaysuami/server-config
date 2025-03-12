@@ -28,4 +28,4 @@ observe:
           - "windstaff"
 resourcepack:
   textures: mineinabyss:item/relics/wind_staff
-
+  parentModel: item/handheld
