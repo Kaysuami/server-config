@@ -25,4 +25,4 @@ observe:
     - mythicSkills:
         - "healing_staff"
 resourcepack:
-  textures: mineinabyss:item/relics/staff/healing_staff
+  textures: mineinabyss:item/relics/healing_staff

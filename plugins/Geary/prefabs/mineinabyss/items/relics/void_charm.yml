@@ -25,4 +25,4 @@ observe:
     - mythicSkills:
         - "shadowball"
 resourcepack:
-  textures: mineinabyss:item/relics/staff/blackhole_staff
+  textures: mineinabyss:item/relics/blackhole_staff

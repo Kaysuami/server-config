@@ -27,5 +27,5 @@ observe:
     - mythicSkills:
           - "bone_ball"
 resourcepack:
-  textures: mineinabyss:item/relics/staff/bone_staff
+  textures: mineinabyss:item/relics/bone_staff
 
