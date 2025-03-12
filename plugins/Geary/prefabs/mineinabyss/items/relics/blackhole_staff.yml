@@ -7,7 +7,7 @@ set.item:
      - ":layer_5: Grade I Relic"
      - <#570F01>A powerful artifact of Orthian tales rumored
      - <#570F01>to have led to civilisations collapse.
-     - <#570F01><i>On use it is able to influence the 
+     - <#3B1F1A><i>On use it is able to influence the 
      - <#3B1F1A><i>gravitational pull within the force field.
 #disableItemInteractions: { }
 observe:
