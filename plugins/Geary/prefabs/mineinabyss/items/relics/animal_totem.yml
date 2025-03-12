@@ -1,6 +1,6 @@
 set.item:
   item:
-    itemName: <#808504><b>Fright Instinct
+    itemName: <#88D481>Fright Instinct
     type: PAPER
     customModelData: 137
     lore:
@@ -19,7 +19,7 @@ observe:
     - cooldown:
         id: animal_totem
         length: 60s
-        display: <#808504>Fright Instinct
+        display: <#88D481>Fright Instinct
     - applyPotionEffects:
         - type: minecraft:speed
           duration: 2s
