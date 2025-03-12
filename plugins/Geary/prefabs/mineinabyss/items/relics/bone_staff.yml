@@ -1,14 +1,14 @@
 set.item:
   item:
-    itemName: <#CF6A1D>Undying Wisp
+    itemName: <#E7EBE9>Undying Wisp
     type: PAPER
     customModelData: 140
     lore:
       - ":layer_5: Grade III Relic"
       - <gold>A staff made out of the remains of delvers
       - <gold>who have succumbed to the curse of the abyss.
-      - <gold><i>Powered by the longing of stuck souls
-      - <gold><i>crystallizing them when used.
+      - <#D2D489><i>Powered by the longing of stuck souls
+      - <#D2D489><i>crystallizing them when used.
 #ghost_seek:
 disableItemInteractions: {}
 observe:
@@ -23,7 +23,7 @@ observe:
     - cooldown:
           id: Bone Ball
           length: 10s
-          display: <dark_aqua>Wisp Soul
+          display: <dark_aqua>Wisp of Soul
     - mythicSkills:
           - "bone_ball"
 resourcepack:
