@@ -5,9 +5,9 @@ set.item:
     customModelData: 120
     lore:
       - ":layer_5: Grade IV Relic"
-      - <gold>A relic of ancient times which appears in Orth.
-      - <gold>Its origin and components are shrouded in mystery.
-      - <#D2D489><i>It grants blessings and curses when used.
+      - <gold>A relic of Orthian tales rumored to mimic the effects
+      - <gold>of the curse. Its origin is shrouded in obscurity.
+      - <#D2D489><i>On use it grants blessings and curses.
 #disableItemInteractions: { }
 observe:
   itemRightClick:
