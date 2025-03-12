@@ -22,6 +22,6 @@ observe:
     - cooldown:
         id: vinecharm
         length: 15s
-        display: <#617B94>Ivy Call
+        display: <#51C947>Ivy Call
     - mythicSkills:
         - "vinecharm"
