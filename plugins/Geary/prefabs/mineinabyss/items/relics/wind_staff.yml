@@ -1,6 +1,6 @@
 set.item:
   item:
-    itemName: <gold>Gust-Shot
+    itemName: <#FCF5E5>Gust-Shot
     type: PAPER
     customModelData: 140
     lore:
@@ -23,7 +23,7 @@ observe:
     - cooldown:
           id: windstaff
           length: 10s
-          display: <gold>Gust-Shot
+          display: <#FCF5E5>Gust-Shot
     - mythicSkills:
           - "windstaff"
 resourcepack:
