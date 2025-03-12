@@ -1,6 +1,6 @@
 set.item:
   item:
-    itemName: <#68CCBF>Aqua Tear
+    itemName: <#68CCBF><b>Aqua Tear
     type: TRIDENT
     customModelData: 1
     lore:
