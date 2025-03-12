@@ -2,12 +2,12 @@ set.item:
   item:
     type: minecraft:netherite_sword
     customModelData: 4
-    itemName: <#15ABC2><b>Phaos Kopis
+    itemName: <#15ABC2><b>Crescent Blade
     lore:
       - ':layer_3: Grade I Relic'
-      - <#249C9C>A giant sword-shaped relic that
-      - <#249C9C>is known to create crescent shaped slashes.
-      - <#195959><i>Destroying organic matter with every slash.
+      - <#249C9C>A weapon that can tear into the fabric of the force field.
+      - <#249C9C><i>It is known to create crescent shaped slashes damaging
+      - <#195959><i>all organic matter that it comes into contact with.
 observe:
   itemLeftClick:
     - become: parent
@@ -20,7 +20,7 @@ observe:
     - cooldown:
           id: cyanslash
           length: 1s
-          display: <dark_aqua>Phaos
+          display: <dark_aqua>Crescent
     - mythicSkills:
           - "Cyan_Slash"
 resourcepack:
