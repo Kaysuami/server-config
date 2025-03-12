@@ -26,4 +26,5 @@ observe:
     - mythicSkills:
         - "vinecharm"
 resourcepack:
-  textures: mineinabyss:item/relics/vine_charm
+  textures: mineinabyss:item/relics/vine_totem
+  
