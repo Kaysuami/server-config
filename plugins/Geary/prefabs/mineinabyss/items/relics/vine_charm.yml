@@ -2,13 +2,12 @@ set.item:
   item:
     type: minecraft:paper
     customModelData: 138
-    itemName: <#51C947><b>Fysis 
+    itemName: <#51C947><b>Ivy Call
     lore:
       - ":layer_1::layer_2: Grade II Relic"
-      - <gold>An organic relic which was made by stitching
-      - <gold>together multiple relics and plant parts.
-      - <#D2D489><i>When used it calls upon seeds to syphon the energy
-      - <#D2D489><i>in the force field to rapidly grow into vine binders.
+      - <gold>An organic talisman formed from plant parts and relics.
+      - <#D2D489><i>When used it calls upon weeds to syphon nutrients
+      - <#D2D489><i>from the force field to rapidly grow into vine binders.
 disableItemInteractions: { }
 hat: {}
 observe:
@@ -23,6 +22,6 @@ observe:
     - cooldown:
         id: vinecharm
         length: 15s
-        display: <#617B94>Fysis
+        display: <#51C947>Ivy Call
     - mythicSkills:
         - "vinecharm"

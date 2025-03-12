@@ -1,15 +1,14 @@
 set.item:
   item:
-    itemName: <#0F5191>Alma boots
+    itemName: <#976d5c>Spring Boot
     type: PAPER
     customModelData: 140
     lore:
       - ":layer_3: Grade II Relic"
-      - <gold>Boots crafted from abysal threads of Daikonchu
-      - <gold>with a relic sown onto it.
-      - <#D2D489><i>When using it, it allows the wearer to have
-      - <#D2D489><i>short burst of air when ascending. 
-      - <#D2D489><i>Giving delvers a much easier time to ascend.
+      - <gold>Boots said to imitate the innate
+      - <gold>abilities of a famous delver.
+      - <#D2D489><i>On use they grant the wearer a short boost
+      - <#D2D489><i>in strength allowing delvers to ascend faster. 
 
 #ghost_seek:
 disableItemInteractions: {}

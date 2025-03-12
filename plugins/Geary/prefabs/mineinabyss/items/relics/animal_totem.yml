@@ -1,14 +1,13 @@
 set.item:
   item:
-    itemName: <#808504><b>Leia
+    itemName: <#88D481>Fright Instinct
     type: PAPER
     customModelData: 137
     lore:
       - ":layer_1: Grade IV Relic"
-      - <gold>A relic has a ability
-      - <gold>to flee from creatures of the abyss.
-      - <#D2D489><i>Grants the user with adrenaline
-      - <#D2D489><i>upon the desire to survive when used. 
+      - <gold>A mysterious totem calling upon the desire
+      - <gold>to survive to escape from predators.
+      - <#D2D489><i>It grants the wearer adrenaline when used.
 #ghost_seek:
 disableItemInteractions: {}
 observe:
@@ -20,7 +19,7 @@ observe:
     - cooldown:
         id: animal_totem
         length: 60s
-        display: <#808504>Leia
+        display: <#88D481>Fright Instinct
     - applyPotionEffects:
         - type: minecraft:speed
           duration: 2s

@@ -5,10 +5,10 @@ set.item:
     customModelData: 137
     lore:
       - ":layer_4: Grade IV Relic"
-      - <gold>A relic from ancient civilizations that been told
-      - <gold>that have been using this relic to traverse underwater.
-      - <#D2D489>When using it, the user has the ability to breathe underwater.
-
+      - <gold>A relic composed of multiple relic materials
+      - <gold>and the gills of abyssal creatures.
+      - <#D2D489><i>On use it grants the wearer
+      - <#D2D489><i>the ability to thrive in water.
 #ghost_seek:
 disableItemInteractions: {}
 observe:
