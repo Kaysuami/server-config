@@ -17,19 +17,19 @@ dropdrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:music_disc_droplets_lament 1 1 
+  - geary mineinabyss:music_disc_droplets_lament 1 1 nolooting
 uncertaindrop:
   MaxItems: 1
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:music_disc_uncertain_surroundings 1 1
+  - geary mineinabyss:music_disc_uncertain_surroundings 1 1 nolooting
 flatdrop:
   MaxItems: 1
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:music_disc_the_flat_kazura 1 1
+  - geary mineinabyss:music_disc_the_flat_kazura 1 1 nolooting
 
 PSIntroHeadDrops:
   MaxItems: 2

@@ -2,7 +2,7 @@ l2_prayingskeletons:
   position: GROUND
   type: mm:l2prayingskeleton
   priority: 0.5
-  chance: 0.4
+  chance: 0.6
   regions:
     - l2s0
     - l2s1
@@ -10,9 +10,9 @@ l2_prayingskeletons:
   conditions:
     - maxNearby:
         amount: 1
-        radius: 600
+        radius: 500
     - mythicConditions:
-        - MobsInRadius{types=l2prayingskeleton;amount=0to3;radius=1300} true
+        - MobsInRadius{types=l2prayingskeleton;amount=0to3;radius=1100} true
   spread: 100 # The horizontal spread for them
   ySpread: 10 # And the vertical spread
 
