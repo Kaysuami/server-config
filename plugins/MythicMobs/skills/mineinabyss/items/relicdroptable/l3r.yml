@@ -7,7 +7,7 @@ giantrelicsworddrop:
 
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Crescent Blade</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=GiantRelicSwordDrop} @trigger
+  - dropitem{i=GiantRelicSwordDrop} @trigger
 giantrelichammerdrop:
   Conditions:
   - playerwithin 32
@@ -16,7 +16,7 @@ giantrelichammerdrop:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Seismic Sledge</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=GiantRelicHammerDrop} @trigger
+  - dropitem{i=GiantRelicHammerDrop} @trigger
 windstaffdrop:
   Conditions:
   - playerwithin 32
@@ -25,7 +25,7 @@ windstaffdrop:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Gust Shot</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=WindStaffDrop} @trigger
+  - dropitem{i=WindStaffDrop} @trigger
   
 relicbootsdrop:
   Conditions:
@@ -35,7 +35,7 @@ relicbootsdrop:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Propulsion charm</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=RelicBootsDrop} @trigger
+  - dropitem{i=RelicBootsDrop} @trigger
 
 critcharmdrop:
   Conditions:
@@ -45,4 +45,4 @@ critcharmdrop:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Chance Strike</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=CritCharmDrop} @trigger
+  - dropitem{i=CritCharmDrop} @trigger

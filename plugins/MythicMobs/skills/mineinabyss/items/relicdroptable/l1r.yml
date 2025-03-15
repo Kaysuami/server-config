@@ -7,7 +7,7 @@ animalcharmdrop:
 
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Fright Instinct</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=AnimalTotemDrop} @trigger
+  - dropitem{i=AnimalTotemDrop} @trigger
 verdaueffaxdrop:
   Conditions:
   - playerwithin 32
@@ -16,7 +16,7 @@ verdaueffaxdrop:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Verdau Effax</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=VerdauEffaxDrop} @trigger
+  - dropitem{i=VerdauEffaxDrop} @trigger
 
 vinecharmdrop:
   Conditions:
@@ -26,7 +26,7 @@ vinecharmdrop:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Ivy Call</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=VineCharmDrop} @trigger
+  - dropitem{i=VineCharmDrop} @trigger
   
 boundinglancedrop1:
   Conditions:
@@ -36,7 +36,7 @@ boundinglancedrop1:
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Probiscus</#AA00AA><#D2D489> relic.'} @World
-  - giveitem{i=BoundingLanceDrop} @trigger
+  - dropitem{i=BoundingLanceDrop} @trigger
 
 
 celebrate:
