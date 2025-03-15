@@ -7,8 +7,8 @@ PSIntroDrops:
   - chainmail_chestplate{name="<gold>Mysterious Chestplate";lore=":layer_1::layer_2:";enchants=FORTUNE:1} 1 0.02
   - chainmail_leggings{name="<gold>Mysterious Leggings";lore=":layer_1::layer_2:";enchants=FORTUNE:1} 1 0.02
   - chainmail_boots{name="<gold>Mysterious Boots";lore=":layer_1::layer_2:";enchants=FORTUNE:1} 1 0.02
-  - geary mineinabyss:piglin_banner_pattern 1 0.04
-  - geary mineinabyss:skull_banner_pattern 1 0.08
+  - geary mineinabyss:piglin_banner_pattern 1 0.04 nolooting
+  - geary mineinabyss:skull_banner_pattern 1 0.08 nolooting
   - bone{name="<gold>Mysterious Bone";lore=":layer_1::layer_2:";enchants=FORTUNE:1} 1 0.08 
   - disc_fragment_5{name="<gold>Disc Fragment";lore=":layer_1::layer_2:";enchants=FORTUNE:1} 1 0.1
   
@@ -17,7 +17,7 @@ dropdrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:music_disc_droplets_lament 1 1
+  - geary mineinabyss:music_disc_droplets_lament 1 1 
 uncertaindrop:
   MaxItems: 1
   Conditions:
