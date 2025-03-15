@@ -106,6 +106,7 @@ backupskele1:
     - PSHeadDrops
     - MiscPSDrops
     - PSSherdDrops
+    - DamageDrops
   Skills:
     ####### Misc
     - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.05

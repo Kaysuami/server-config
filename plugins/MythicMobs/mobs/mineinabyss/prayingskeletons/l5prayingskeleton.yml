@@ -99,6 +99,7 @@ backupskele5:
     - PSHeadDrops
     - MiscPSDrops
     - PSSherdDrops
+    - SunDrops
   Skills:
     ####### Misc
     - skill{s=luckybackup5} @self ~onSpawn 0.05
