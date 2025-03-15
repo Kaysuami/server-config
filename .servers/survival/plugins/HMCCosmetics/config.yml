@@ -23,6 +23,12 @@ cosmetic-settings:
   force-permission-join: true
   force-show-join: false
 
+  # This determines what to process what areas to process placeholders when displaying the item to the user.
+  # This can be heavy on servers with a lot of players, so if experiencing lag issues relating to setting display/lores of items, disable this.
+  item-processing:
+    display-name: true
+    lore: true
+
   # This is a list of worlds that cosmetics are hidden in. When a player enters one of these worlds, their cosmetics will be hidden.
   disabled-worlds:
   - disabledworld
@@ -45,6 +51,8 @@ cosmetic-settings:
   emote-move: false
   # This make it so it always sends the riding packets for the backpack. This sends more packets but is more reliable for servers which modify player passengers.
   backpack-force-riding-packet: false
+  # This prevents the backpack from being dark when the player is below a block at the expense of making the backpack bright
+  backpack-prevent-darkness: true
   # This helps reduce the amount of packets sent for packet entities, but reduces accuracy of the entity. This is in milliseconds. -1 to disable.
   # This is useful for servers with a lot of backpacks, as they are passengers, which means the client will update their position automatically within an area where the entity is located.
   entity-cooldown-teleport-packet: 500
@@ -95,7 +103,7 @@ menu-settings:
   shading:
     # Below is the shading mechanism behind cosmetic items. This is a bit complicated, but it allows for a lot of customization.
     # The shading is done through the title and by shifting textures around. This is done by offsets.
-    # Only Oraxen is support by default. Vanilla can't properly handle it without a lot of unicodes and ItemsAdder adds weird offsets and decolors it. (This is why it is disabled by default)
+    # Only Nexo is support by default. Vanilla can't properly handle it without a lot of unicodes and ItemsAdder adds weird offsets and decolors it. (This is why it is disabled by default)
     enabled: true
     first-row-shift: ':space_-169:'
     sequent-row-shift: ':space_-165:'
@@ -113,6 +121,7 @@ menu-settings:
 dye-menu:
   # If you use ItemsAdder, set this to "<white>:img_offset_-8::img_dye_menu:"
   # If you use Oraxen, set this to "<white><s:-8><g:dye_menu>"
+  # If you use Nexo, set this to "<white><shift:-8><glyph:dye_menu>"
   title: ':space_-8::cosmetic_dye_menu:'
   input-slot: 10
   output-slot: 16
@@ -121,10 +130,15 @@ hook-settings:
     # This causes the plugin to reload itself after any ItemsAdder change. This keeps the plugin fully up to date with IA, but
     # could cause console spam as HMCCosmetics has to reload itself as well.
     reload-on-change: false
+  nexo:
+    # This causes the plugin to reload itself after any Nexo change. This keeps the plugin fully up to date with Nexo
+    reload-on-change: true
   worldguard:
     # Checks worldguard regions for HMCC flags. If set to false, flags will not work properly.
     # Requires restart to apply changes.
     player-move-check: true
+  betterhud:
+    wardrobe-hide: true
 wardrobe:
   # how much yaw should change per tick, set to 0 for none
   rotation-speed: 3
@@ -155,6 +169,7 @@ wardrobe:
     enabled: true
     # If you use ItemsAdder, set this to "<black>%img_title%
     # If you use Oraxen, set this to "<black><glyph:title>"
+    # If you use Nexo, set this to "<black>%nexo_title%" and use PlaceholderAPI
     text: '<black>:wardrobe_transition|c:'
     delay: 20
     title-fade-in: 1000
