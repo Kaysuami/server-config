@@ -3,10 +3,15 @@ brokenscout: #200 100 50 - 10 seconds   (made with layer 1-3 mob drops)
     - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=200}
   Cooldown: 1
   Skills:
-    - command{repeat=15;repeatinterval=2;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
     - effect:particles{particle=redstone;color=#FFFF00;amount=20;hS=0.5;vS=0.5;y=0.5} @self 
+    - skill{s=brokenscoutfix} @self
     - skill{s=closescout2} @self
     - skill{s=closescout3} @self
+brokenscoutfix: #200 100 50 - 10 seconds   (made with layer 1-3 mob drops)
+  Conditions:
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=200}
+  Cooldown: 1
+  Skills:
     - delay 10
     - sound{s=block.note_block.chime;sc=master;p=0.5;v=1} @self 
 repairscout: #400 200 100 50 25 - 7 seconds  (hiso bones, charcoal sand,, relic part drops) (Graveyards can spawn after l2 boss quest)
@@ -14,7 +19,6 @@ repairscout: #400 200 100 50 25 - 7 seconds  (hiso bones, charcoal sand,, relic 
     - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=400}
   Cooldown: 1
   Skills:
-    - command{repeat=10;repeatinterval=2;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
     - effect:particles{particle=redstone;color=#0000FF;amount=20;hS=0.5;vS=0.5;y=0.5} @self
 
     - skill{s=closescout1} @self
@@ -30,7 +34,6 @@ relicscout: #500 250 100 50 25 - 7 seconds Glow Effect, can find other structure
     - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=500}
   Cooldown: 1
   Skills:
-    - command{repeat=7;repeatinterval=2;c="execute at <caster.uuid> run xp add <caster.name> -1";op=true}
     - effect:particles{particle=redstone;color=#0000FF;amount=20;hS=0.5;vS=0.5;y=0.5} @self
 
     - skill{s=closescout} @self
