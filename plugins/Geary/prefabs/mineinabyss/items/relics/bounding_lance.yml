@@ -24,6 +24,20 @@ observe:
         display: <#8C0303><b>Proboscis
     - mythicSkills:
         - "boundinglance"
+passive:
+  - match: [ inInventory ]
+    every: 12s
+    run:
+      - become: parent
+      - applyPotionEffects:
+          - type: minecraft:haste
+            duration: 2s
+            amplifier: 1
+            hasParticles: false
+          - type: minecraft:strength
+            duration: 2s
+            amplifier: 1
+            hasParticles: false
 resourcepack:
   model: mineinabyss:item/relics/bounding_lance
 

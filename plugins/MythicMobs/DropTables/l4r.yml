@@ -4,7 +4,7 @@ BlazeReapDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:blaze_reap 1 1 
+  - geary mineinabyss:blaze_reap 1-1 1 nolooting  
 
 
 TridentDrop:
@@ -13,7 +13,7 @@ TridentDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:trident 1 1 
+  - geary mineinabyss:trident 1-1 1 nolooting  
 
 
 HealingStaffDrop:
@@ -22,7 +22,7 @@ HealingStaffDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:healing_staff 1 1  
+  - geary mineinabyss:healing_staff 1-1 1 nolooting   
 
 
 RespiratisDrop:
@@ -31,7 +31,7 @@ RespiratisDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:respiratis 1 1    
+  - geary mineinabyss:respiratis 1-1 1 nolooting     
 
 
 WaveCharmDrop:
@@ -40,4 +40,4 @@ WaveCharmDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:wave_charm 1 1
+  - geary mineinabyss:wave_charm 1-1 1 nolooting 

@@ -9,5 +9,5 @@ RelicBowDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:relic_bow 1 1   
+  - geary mineinabyss:relic_bow 1-1 1 nolooting    
 

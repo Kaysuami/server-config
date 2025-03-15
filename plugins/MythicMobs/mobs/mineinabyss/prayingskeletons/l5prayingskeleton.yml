@@ -99,7 +99,7 @@ backupskele5:
     - PSHeadDrops
     - MiscPSDrops
     - PSSherdDrops
-    - SunDrops
+    - geary mineinabyss:sunsphere 1 0.15 nolooting
   Skills:
     ####### Misc
     - skill{s=luckybackup5} @self ~onSpawn 0.05

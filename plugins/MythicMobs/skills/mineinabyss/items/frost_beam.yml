@@ -27,7 +27,7 @@ Frost_Beam_HIT:
   
 Frost_Beam_EXPLODE:
   Skills:
-  - damage{a=7} @EntitiesNearOrigin{r=5}
+  - damage{a=7;pkb=false} @EntitiesNearOrigin{r=5}
   - prison{material=ICE;duration=80;breakable=false} @EntitiesNearOrigin{r=5}
   - potion{type=SLOW;duration=40;level=1;hasParticles=false} @EntitiesNearOrigin{r=5}
   - skill{s=Frost_Bolt_HIT_FX} @EntitiesNearOrigin{r=5}

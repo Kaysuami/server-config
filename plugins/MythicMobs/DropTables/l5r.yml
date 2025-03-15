@@ -4,7 +4,7 @@ BlackholeStaffDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:blackhole_staff 1 1 
+  - geary mineinabyss:blackhole_staff 1-1 1 nolooting  
 
 
 FrostStaffDrop:
@@ -13,7 +13,7 @@ FrostStaffDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:frost_staff 1 1 
+  - geary mineinabyss:frost_staff 1-1 1 nolooting 
 
 
 VoidCharmDrop:
@@ -22,7 +22,7 @@ VoidCharmDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:void_charm 1 1  
+  - geary mineinabyss:void_charm 1-1 1 nolooting   
 
 
 MonisceltiDrop:
@@ -31,4 +31,4 @@ MonisceltiDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:moniscelti 1 1    
+  - geary mineinabyss:moniscelti 1-1 1 nolooting     

@@ -6,7 +6,7 @@ BoundingLanceDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:bounding_lance 1 1 
+  - geary mineinabyss:bounding_lance 1-1 1 nolooting  
 
 
 VineCharmDrop:
@@ -15,7 +15,7 @@ VineCharmDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:vine_charm 1 1 
+  - geary mineinabyss:vine_charm 1-1 1 nolooting  
 
 
 VerdauEffaxDrop:
@@ -24,7 +24,7 @@ VerdauEffaxDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:verdaueffax 1 1  
+  - geary mineinabyss:verdaueffax 1-1 1 nolooting   
 
 
 AnimalTotemDrop:
@@ -33,5 +33,5 @@ AnimalTotemDrop:
   Conditions:
   - playerwithin 32
   Drops:
-  - geary mineinabyss:animal_totem 1 1    
+  - geary mineinabyss:animal_totem 1-1 1 nolooting    
 
