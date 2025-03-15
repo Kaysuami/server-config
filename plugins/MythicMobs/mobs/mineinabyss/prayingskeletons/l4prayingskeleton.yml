@@ -54,7 +54,7 @@ l4prayingskeleton:
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=400;minradius=150;spacing=1;onSurface=true} ~onspawn
 
     - skill{s=blazereapdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
-    - skill{s=tridentdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.005
+    - skill{s=tridentdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.004
     - skill{s=healingstaffdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
     - skill{s=wavecharmdrop;delay=15} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
     - skill{s=respiratisdrop;delay=5}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05

@@ -138,7 +138,7 @@ testbackup:
     - skill{s=verdaueffaxdrop;delay=3}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
     - skill{s=vinecharmdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=boundinglancedrop1;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
-    - skill{s=relicbowdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
+    - skill{s=relicbowdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02
 
     - skill{s=giantrelicsworddrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02
     - skill{s=giantrelichammerdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02
@@ -150,7 +150,7 @@ testbackup:
     - skill{s=tridentdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02
     - skill{s=healingstaffdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
     - skill{s=wavecharmdrop;delay=4} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
-    - skill{s=respiratisdrop;delay=5}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
+    - skill{s=respiratisdrop;delay=5}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02
 
     - skill{s=blackholestaffdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02
     - skill{s=froststaffdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.02

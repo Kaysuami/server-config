@@ -59,7 +59,7 @@ l2prayingskeleton:
     - skill{s=vinecharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=verdaueffaxdrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
     - skill{s=animalcharmdrop;delay=20} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
-    - skill{s=relicbowdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=relicbowdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
 
     - skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
     - skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025

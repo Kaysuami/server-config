@@ -53,8 +53,8 @@ l3prayingskeleton:
     - remove{delay=60000} @self ~onSpawn
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=250;minradius=100;spacing=1;onSurface=true} ~onspawn
 
-    - skill{s=giantrelicsworddrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=giantrelichammerdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=giantrelicsworddrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
+    - skill{s=giantrelichammerdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
     - skill{s=windstaffdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=critcharmdrop;delay=20}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
     - skill{s=relicbootsdrop;delay=15} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01

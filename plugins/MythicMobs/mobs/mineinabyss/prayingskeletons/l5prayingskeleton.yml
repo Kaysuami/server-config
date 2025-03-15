@@ -108,8 +108,8 @@ backupskele5:
     - cancelevent{sync=true} @Self ~onAttack
     - remove{delay=60000} @self ~onSpawn
 
-    - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
+    - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
     - skill{s=voidcharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=monisceltidrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 
