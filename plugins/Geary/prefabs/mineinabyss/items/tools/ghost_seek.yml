@@ -13,7 +13,7 @@ set.item:
 disableItemInteractions: {}
 passive:
   - match: [ equipped ]
-    every: 10s
+    every: 20s
     run:
       - become: parent
       - mythicSkills:

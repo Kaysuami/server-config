@@ -5,7 +5,7 @@ giantrelicsworddrop:
   - hasaura{aura=relicdrop} false
   Skills:
 
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=GiantRelicSwordDrop} @trigger
 giantrelichammerdrop:
@@ -14,7 +14,7 @@ giantrelichammerdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=GiantRelicHammerDrop} @trigger
 windstaffdrop:
@@ -23,7 +23,7 @@ windstaffdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Gust Shot</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=WindStaffDrop} @trigger
   
@@ -33,7 +33,7 @@ relicbootsdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Propulsion charm</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=RelicBootsDrop} @trigger
 
@@ -43,6 +43,6 @@ critcharmdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Chance Strike</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=CritCharmDrop} @trigger

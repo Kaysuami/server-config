@@ -50,13 +50,14 @@ l3prayingskeleton:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - remove{delay=60000} @self ~onSpawn
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=250;minradius=100;spacing=1;onSurface=true} ~onspawn
 
-    - skill{s=giantrelicsworddrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=giantrelichammerdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=windstaffdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=critcharmdrop;delay=5}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
-    - skill{s=relicbootsdrop;delay=4} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=giantrelicsworddrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=giantrelichammerdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=windstaffdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=critcharmdrop;delay=20}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=relicbootsdrop;delay=15} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
 
 
 backupskele3:
@@ -107,11 +108,12 @@ backupskele3:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - remove{delay=60000} @self ~onSpawn
 
 
 
-    - skill{s=giantrelicsworddrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=giantrelichammerdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=windstaffdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=giantrelicsworddrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=giantrelichammerdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=windstaffdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=critcharmdrop;delay=5}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
-    - skill{s=relicbootsdrop;delay=4} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=relicbootsdrop;delay=15} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01

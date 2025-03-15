@@ -5,7 +5,7 @@ blazereapdrop:
   - hasaura{aura=relicdrop} false
   Skills:
 
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Blaze Reap</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=BlazeReapDrop} @trigger
 tridentdrop:
@@ -14,7 +14,7 @@ tridentdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade 1 Trident</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=TridentDrop} @trigger
 healingstaffdrop:
@@ -23,7 +23,7 @@ healingstaffdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III Panacea</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=HealingStaffDrop} @trigger
   
@@ -33,7 +33,7 @@ respiratisdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Respiratis</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=RespiratisDrop} @trigger
 
@@ -43,6 +43,6 @@ wavecharmdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Tidal Dew</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=WaveCharmDrop} @trigger

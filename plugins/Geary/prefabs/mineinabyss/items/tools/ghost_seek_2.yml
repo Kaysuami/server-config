@@ -17,7 +17,7 @@ hat: {}
 disableItemInteractions: {}
 passive:
   - match: [ equipped ]
-    every: 7s
+    every: 10s
     run:
       - become: parent
       - mythicSkills:

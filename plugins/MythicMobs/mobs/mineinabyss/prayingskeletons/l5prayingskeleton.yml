@@ -50,14 +50,15 @@ l5prayingskeleton:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - remove{delay=60000} @self ~onSpawn
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=400;minradius=150;spacing=1;onSurface=true} ~onspawn
 
-    - skill{s=blackholestaffdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=froststaffdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.004
-    - skill{s=voidcharmdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=monisceltidrop;delay=4}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.004
+    - skill{s=voidcharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=monisceltidrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 
-
+    - remove{delay=60000} @self ~onSpawn
 backupskele5:
   Type: ZOMBIE
   SpawnCategory: skeleton
@@ -105,12 +106,12 @@ backupskele5:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - remove{delay=60000} @self ~onSpawn
 
-
-    - skill{s=blackholestaffdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=froststaffdrop;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=voidcharmdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=monisceltidrop;delay=4}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=voidcharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=monisceltidrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 
 
 

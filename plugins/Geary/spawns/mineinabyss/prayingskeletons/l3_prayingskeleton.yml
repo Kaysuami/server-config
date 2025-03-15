@@ -2,7 +2,7 @@ l3_prayingskeleton:
   position: GROUND
   type: mm:l3prayingskeleton
   priority: 0.4
-  chance: 0.5
+  chance: 0.4
   regions:
     - l3s0
     - l3s1
@@ -13,7 +13,7 @@ l3_prayingskeleton:
         amount: 1
         radius: 250
     - mythicConditions:
-        - MobsInRadius{types=l3prayingskeleton;amount=0to2;radius=1300} true
+        - MobsInRadius{types=l3prayingskeleton;amount=0to2;radius=1600} true
   spread: 100 # The horizontal spread for them
   ySpread: 10 # And the vertical spread
 

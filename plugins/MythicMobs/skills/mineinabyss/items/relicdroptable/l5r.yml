@@ -5,7 +5,7 @@ blackholestaffdrop:
   - hasaura{aura=relicdrop} false
   Skills:
 
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Event Horizon</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=BlackholeStaffDrop} @trigger
 froststaffdrop:
@@ -14,7 +14,7 @@ froststaffdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Verglas Breath</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=FrostStaffDrop} @trigger
 voidcharmdrop:
@@ -23,7 +23,7 @@ voidcharmdrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Grave Reach</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=VoidCharmDrop} @trigger
   
@@ -33,6 +33,6 @@ monisceltidrop:
   TargetConditions:
   - hasaura{aura=relicdrop} false
   Skills:
-  - Aura{auraName=relicdrop;onTick=celebrate;duration=6} @trigger
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Moniscelti</#AA00AA><#D2D489> relic.'} @World
   - giveitem{i=MonisceltiDrop} @trigger

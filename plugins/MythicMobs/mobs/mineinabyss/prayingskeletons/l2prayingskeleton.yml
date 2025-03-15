@@ -51,18 +51,19 @@ l2prayingskeleton:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - remove{delay=60000} @self ~onSpawn
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=300;minradius=150;spacing=1;onSurface=true} ~onspawn
 
 
-    - skill{s=boundinglancedrop2;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
-    - skill{s=vinecharmdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=verdaueffaxdrop;delay=4}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
-    - skill{s=animalcharmdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
-    - skill{s=relicbowdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=boundinglancedrop2;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
+    - skill{s=vinecharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=verdaueffaxdrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=animalcharmdrop;delay=20} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
+    - skill{s=relicbowdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 
-    - skill{s=dropletdrop;delay=3} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=uncertaindrop;delay=2} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=flatdrop;delay=1} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    - skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    - skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    - skill{s=flatdrop} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
 
 backupskele2:
   Type: ZOMBIE
@@ -114,14 +115,15 @@ backupskele2:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
+    - remove{delay=60000} @self ~onSpawn
 
-    - skill{s=boundinglancedrop2;delay=2} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
-    - skill{s=vinecharmdrop;delay=3} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=verdaueffaxdrop;delay=4}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=boundinglancedrop2;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
+    - skill{s=vinecharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
+    - skill{s=verdaueffaxdrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
     - skill{s=animalcharmdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.05
-    - skill{s=relicbowdrop;delay=1} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=relicbowdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 
-    - skill{s=dropletdrop;delay=3} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=uncertaindrop;delay=2} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
-    - skill{s=flatdrop;delay=1} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    - skill{s=dropletdrop;delay=10} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    - skill{s=uncertaindrop;delay=5} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
+    - skill{s=flatdrop} @trigger{conditions=[  - hasaura{aura=discdrop} false] ~onDeath 0.025
 
