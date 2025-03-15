@@ -6,7 +6,7 @@ L1PSOreDrops:
   Drops:
   - diamond 1-2 0.15
   - gold_ingot 1-2 0.35
-  - iron_ingot 4-6 0.6
+  - iron_ingot 2-4 0.6
   # - fuel packets 8-16 0.3 #will be added later on
   # - charcoal sand ore 1 0.05 #will be added later on
 
@@ -19,7 +19,7 @@ L2PSOreDrops:
   Drops:
   - diamond 1-2 0.15
   - gold_ingot 1-2 0.35
-  - iron_ingot 4-6 0.6
+  - iron_ingot 2-4 0.6
   # - fuel packets 8-16 0.3 #will be added later on
   # - charcoal sand ore 1 0.05 #will be added later on
 
@@ -32,7 +32,7 @@ L3PSOreDrops:
   Drops:
   - diamond 1-2 0.15
   - gold_ingot 1-2 0.35
-  - iron_ingot 4-6 0.6
+  - iron_ingot 2-4 0.6
   # - fuel packets 8-16 0.3 #will be added later on
   # - charcoal sand ore 1 0.05 #will be added later on
 
@@ -45,7 +45,7 @@ L4PSOreDrops:
   Drops:
   - diamond 1-2 0.15
   - gold_ingot 1-2 0.35
-  - iron_ingot 4-6 0.6
+  - iron_ingot 2-4 0.6
   # - fuel packets 8-16 0.3 #will be added later on
   # - charcoal sand ore 1 0.05 #will be added later on
 
@@ -58,7 +58,7 @@ L5PSOreDrops:
   Drops:
   - diamond 1-2 0.15
   - gold_ingot 1-2 0.35
-  - iron_ingot 4-6 0.6
+  - iron_ingot 2-4 0.6
   # - fuel packets 8-16 0.3 #will be added later on
   # - charcoal sand ore 1 0.05 #will be added later on
 
