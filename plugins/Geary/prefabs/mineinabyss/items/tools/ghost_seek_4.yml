@@ -16,7 +16,7 @@ disableItemInteractions: {}
 prevent.enchanting: {}
 passive:
   - match: [ equipped ]
-    every: 5s
+    every: 10s
     run:
       - become: parent
       - mythicSkills:

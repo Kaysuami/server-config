@@ -1,0 +1,15 @@
+skelewet:
+  Conditions:
+  - inblock{b=WATER} true
+  Skills:
+  - remove{delay=200} @self
+skelerock:
+  Conditions:
+  - onblock{m=BARRIER} true
+  Skills:
+  - remove{delay=200} @self
+skelehigh:
+  Conditions:
+  - altitude{h=20-255} true
+  Skills:
+  - remove{delay=20} @self

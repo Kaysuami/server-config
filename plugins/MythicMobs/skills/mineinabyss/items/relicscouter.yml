@@ -51,21 +51,28 @@ relicscoutfix:
     - delay 5
     - sound{s=block.note_block.chime;sc=master;p=0.2;v=1} @self
 
-enhancedrelicscout:  #500 250 100 50 25 - 5 seconds Glow Effect, can find other structures, block range (unobtainable until black whistle, structures cannot spawn unless player has black whistle quest (l4))
-  Conditions:
-    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=500}
+enhancedrelicscout:  #200 150 50 25 15 - 10 50 block glow, special sound when tracking golden skeletons
+ # Conditions:
+ #   - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=500}
   Cooldown: 1
   Skills:
-    - effect:particles{particle=redstone;color=#0000FF;amount=20;hS=0.5;vS=0.5;y=0.5} @self
-
-    - skill{s=closescout} @self
+    - skill{s=relicscoutfix} @self
+    - skill{s=goldentrack} @self
+    - skill{s=repairscoutfix} @self
     - skill{s=closescout2} @self
-    - skill{s=enhancedscout} @self
+    - skill{s=enhancedscout2} @self
     - skill{s=closescout4} @self
-    - skill{s=triggerskele} @self
-    - delay 5
-    - sound{s=block.note_block.chime;sc=master;p=1;v=1} @self
 
+goldentrack:
+  Conditions:
+    - mobsInRadius{types=testbackup,testskeleton;amount=1to99;radius=200}
+  Cooldown: 1
+  Skills:
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
 
 godscout:  #coords scout, unobtainable
   Conditions:
@@ -156,6 +163,18 @@ enhancedscout:
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
     - potion{type=GLOWING;duration=40;level=1} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
     - effect:glow{color=GOLD;duration=60} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
+
+enhancedscout2:
+  Conditions:
+    - MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
+  Cooldown: 1
+  Skills:
+    - delay 20
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - potion{type=GLOWING;duration=40;level=1} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=50}
+    - effect:glow{color=GOLD;duration=60} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=50}
 
 saveskelelocation:
   Skills:

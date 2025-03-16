@@ -2,7 +2,7 @@ set.item:
   item:
     itemName: Charcoal Sand Dagger
     type: DIAMOND_SWORD
-    customModelData: 4
+    customModelData: 5
     durability: 3000
 set.recipes:
   discoverRecipes: true

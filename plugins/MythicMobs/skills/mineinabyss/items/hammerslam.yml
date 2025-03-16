@@ -9,7 +9,7 @@ hammer_smash:
   - delay 10
   - leap{velocity=150} @forward{f=1;y=3}
   - delay 10
-  - onDamaged{auraName=landresist;d=20;damageMods="FALL 0.5"} @self
+  #- onDamaged{auraName=landresist;d=20;damageMods="FALL 0.5"} @self
   - leap{velocity=70} @forward{f=2;y=-5}
   - delay 12
   - skill{s=hammer_smash_damage} @self

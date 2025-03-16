@@ -1,7 +1,7 @@
 set.item:
   item:
     type: minecraft:netherite_sword
-    customModelData: 3
+    customModelData: 5
     itemName: <#FFC0CB><b>Relic Sword
     lore:
       - <#C6CC8A>A shield forged deep, unyielding, strong,
