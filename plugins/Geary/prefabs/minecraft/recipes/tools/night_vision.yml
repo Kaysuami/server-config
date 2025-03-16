@@ -9,9 +9,9 @@ set.recipes:
         J:
           prefab: mineinabyss:buroguro_lantern
         D:
-          type: DIAMOND
+          type: mineinabyss:charcoal_sand_ingot
         L: 
-          prefab: mineinabyss:tier_1_lens
+          prefab: IRON_BLOCK
           
       configuration: |-
         |JJJ|
