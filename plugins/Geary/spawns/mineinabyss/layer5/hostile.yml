@@ -37,6 +37,7 @@ l5_hostile_sand:
           - SOUL_SOIL
           - SOUL_SAND
 
+
 # Mob spawns
 
 # Default
@@ -79,3 +80,13 @@ l5_horncrier: { inherit: l5_hostile_snow, type: mm:horncrier }
 l5_spikewalker: { inherit: l5_hostile_sand, type: mm:spikewalker }
 l5_kagi_tachikiri: { inherit: l5_hostile_sand, type: mm:kagi_tachikiri }
 l5_virinsipede: { inherit: l5_hostile_sand, type: mm:virinsipede, priority: 0.1 }
+
+l5_sporemanta:
+  inherit: l5_hostile
+  type: mm:sporemanta
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: [ "moss_carpet", "lily_pad", "pink_stained_glass", "purple_stained_glass", "quartz_block", "quartz_stairs", "sea_lantern" ]
+        deny: [ "diorite" ]
