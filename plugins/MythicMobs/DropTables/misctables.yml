@@ -9,7 +9,7 @@ MiscPSDrops:
   # - custom painting of the abyss 1 0.02
   - bundle 1 0.05
   - experience_bottle 1-2 0.15
-  - geary mineinabyss:charcoal_sand_raw 1-1 0.22 nolooting
+  - geary mineinabyss:charcoal_sand_raw 1-1 0.15 nolooting
   # - geary made bundle 1 0.05
   # - relic shards
 

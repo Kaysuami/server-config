@@ -14,6 +14,6 @@ set.recipes:
           prefab: mineinabyss:charcoal_sand_ingot
 
       configuration: |-
-        |CNC|
+        |CCC|
         |CLC|
-        |CNC|
+        |CCC|

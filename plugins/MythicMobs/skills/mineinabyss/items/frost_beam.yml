@@ -19,8 +19,8 @@ Frost_Beam_TICK:
 Frost_Beam_HIT:
   TargetConditions:
   Skills:
-  - damage{a=5} @EntitiesNearOrigin{r=3}
-  - potion{type=SLOW;duration=50;level=1;hasParticles=false} @EntitiesNearOrigin{r=3}
+  - damage{a=5;pkb=true} @EntitiesNearOrigin{r=3}
+  - potion{type=SLOW;duration=40;level=3;hasParticles=false} @EntitiesNearOrigin{r=3}
   - skill{s=Frost_Bolt_HIT_FX} @EntitiesNearOrigin{r=3}
   #- effect:sound{s=glacia_sounds:samus.ice_freeze;volume=0.4;pitch=1} @self
   - skill{s=SLOW_FX_60} @EntitiesNearOrigin{r=3}

@@ -16,6 +16,6 @@ set.recipes:
           prefab: mineinabyss:tier_2_lens
 
       configuration: |-
-        |IBI|
         |HIG|
+        |III|
         |BBB|
