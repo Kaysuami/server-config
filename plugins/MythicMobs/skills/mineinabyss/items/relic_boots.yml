@@ -30,4 +30,13 @@ boot_fly:
   Skills:
   - auraremove{aura=boot;stacks=3} @self
   - sound{s=item.boot.throw;sc=hostile;p=1;v=0.6} @self
-  - velocity{m=set;x=0;y=1;z=0} @self 
+  - velocity{m=set;x=0;y=1.1;z=0} @self
+
+boot_fly_forward:
+  Conditions:
+  - hasaurastacks{n=boot;s=3} true
+  Skills:
+  - auraremove{aura=boot;stacks=3} @self
+  - command{repeat=5;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
+  - sound{s=item.boot.throw;sc=hostile;p=1;v=0.6} @self
+  - lunge{velocity=1.09;velocityY=0.1} @forward{f=3;y=0.1}
