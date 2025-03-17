@@ -20,7 +20,7 @@ observe:
             text: <red>Not Enough Health
     - cooldown:
         id: moniscelti
-        length: 15s
+        length: 20s
         display: <dark_aqua>Moniscelti
     - mythicSkills:
         - "moniscelti"

@@ -8,8 +8,8 @@ MithraSummonDeath:
 MithraDeathAnimation:
   Skills:
   - sound{s=music.dragon;p=2} @PIR{r=50}
-  - potion{t=SLOW;d=999999;l=1} @self
-  - potion{t=LEVITATION;d=900;l=1} @self
+  - potion{t=SLOW;d=300;l=1} @self
+  - potion{t=LEVITATION;d=300;l=1} @self
   - skill{s=MithraDeathSounds} @self
   - effect:particles{p=end_rod;a=30;hS=15;vS=5;repeat=130;repeatInterval=2} @origin
   - effect:particles{p=flash;a=1;hS=0;vS=0;repeat=5;repeatInterval=20;y=2} @self

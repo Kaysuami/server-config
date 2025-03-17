@@ -29,9 +29,9 @@ vac2:
    - potion{type=SLOW;duration=99999;level=100;p=false} @Self ~onSpawn
    - potion{type=LEVITATION;duration=99999;level=1;p=false} @Self ~onSpawn
    - remove{delay=74} @Self ~onSpawn
-   - shieldbreak{duration=150} @EntitiesInRadius{r=7} ~onspawn
-   - damage{a=75;ignorearmor=false;cooldown=1;delay=70} @EntitiesInRadius{r=2;ignore=players} ~onSpawn
-   - damage{a=25;ignorearmor=false;cooldown=1;delay=70} @EntitiesInRadius{r=7;ignore=players} ~onSpawn
+   - shieldbreak{duration=150} @EntitiesNearOrigin{r=7} ~onspawn
+   - damage{a=75;ignorearmor=false;cooldown=1;delay=70} @EntitiesNearOrigin{r=3;ignore=players} ~onSpawn
+   - damage{a=25;ignorearmor=false;cooldown=1;delay=70} @EntitiesNearOrigin{r=3;ignore=players} ~onSpawn
    - damage{a=50;ignorearmor=false;cooldown=1;delay=70} @PlayersNearOrigin{r=2;conditions=[
                               - playerwithin{d=2} true
                               ]} ~onSpawn

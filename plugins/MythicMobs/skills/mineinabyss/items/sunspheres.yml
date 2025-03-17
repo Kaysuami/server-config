@@ -93,11 +93,11 @@ s_end:
 l_end:
   Skills:
     - effect:particles{particle=Wax_Off;amount=100;hS=4;vS=4;y=.5}
-    - pull{velocity=5} @EntitiesNearOrigin{r=5}
+    - pull{velocity=4} @EntitiesNearOrigin{r=4}
     - dropitem{i=LureDrops}
 sun_end:
   Skills:
     - dropitem{i=SunDrops}
     - particleorbital{r=0.8;points=16;t=50;i=1;particle=Electric_Spark;oy=2.3}
-    - blackscreen{d=50} @EntitiesNearOrigin{r=2}
-    - potion{t=SLOWNESS;d=100;l=2} @EntitiesNearOrigin{r=3}
+    - blackscreen{d=40} @EntitiesNearOrigin{r=2}
+  #  - potion{t=SLOWNESS;d=100;l=2} @EntitiesNearOrigin{r=3}

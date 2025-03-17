@@ -1,7 +1,7 @@
 set.item:
   item:
-    type: minecraft:paper
-    customModelData: 102
+    type: minecraft:netherite_pickaxe
+    customModelData: 1
     itemName: <#617B94><b>Blaze Reap
     lore:
       - ":layer_4: Grade I Relic"

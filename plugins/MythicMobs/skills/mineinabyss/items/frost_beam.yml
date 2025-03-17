@@ -1,6 +1,6 @@
 Frost_Beam:
   Skills:
-  - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -5";op=true}
+  - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -4";op=true}
   - potion{t=SLOW;l=2;d=20;p=false} @Self
   - sound{s=entity.evoker.prepare_attack;volume=0.6;pitch=1.2;repeat=3;repeatinterval=5} @self
   - sound{s=block.enchantment_table.use;volume=0.5;pitch=0.8;repeat=2;repeatinterval=6} @self

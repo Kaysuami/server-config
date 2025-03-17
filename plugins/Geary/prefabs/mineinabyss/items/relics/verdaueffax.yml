@@ -18,6 +18,7 @@ passive:
       - ensure:
           mythicConditions:
             - health{h=<10}
+            - health{h=>1}
       - cooldown:
           id: Verdau Effax
           length: 240s
