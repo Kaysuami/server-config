@@ -8,8 +8,6 @@ set.recipes:
       items:
         L:
           prefab: mineinabyss:tier_1_lens
-        N:
-          type: NETHERITE_INGOT
         C: 
           prefab: mineinabyss:charcoal_sand_ingot
 

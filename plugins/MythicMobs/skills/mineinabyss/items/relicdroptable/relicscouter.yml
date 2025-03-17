@@ -167,8 +167,8 @@ enhancedscout:
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
     - delay 1
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
-    - potion{type=GLOWING;duration=40;level=1} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
-    - effect:glow{color=GOLD;duration=60} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
+    - potion{type=GLOWING;duration=40;level=1} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=15}
+    - effect:glow{color=GOLD;duration=60} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=15}
 
 enhancedscout2:
   Conditions:
@@ -179,8 +179,8 @@ enhancedscout2:
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
     - delay 1
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
-    - potion{type=GLOWING;duration=40;level=1} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=50}
-    - effect:glow{color=GOLD;duration=60} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=50}
+    - potion{type=GLOWING;duration=40;level=1} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=40}
+    - effect:glow{color=GOLD;duration=60} @MobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=40}
 
 saveskelelocation:
   Skills:

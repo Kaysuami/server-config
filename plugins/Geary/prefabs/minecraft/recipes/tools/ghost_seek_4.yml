@@ -9,7 +9,7 @@ set.recipes:
         G:
           prefab: mineinabyss:ghost_seek_3
         H:
-          type: mineinabyss:relic_core
+          prefab: mineinabyss:relic_core
         B:
           prefab: mineinabyss:sporemanta_powder
         I: 
