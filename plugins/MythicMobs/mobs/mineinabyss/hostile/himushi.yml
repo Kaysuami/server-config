@@ -30,7 +30,7 @@ himushi:
   Drops:
     - SOUL_SAND 1-2 0.6
     - MAGMA_BLOCK 1-2 0.6
-
+    - geary mineinabyss:himushi_core 1 0.2 nolooting
   Skills:
     - skill{s=displayHealth} ~onDamaged
     - bodyclamp{m=magma_snail;c=0} @self ~onSpawnOrLoad
