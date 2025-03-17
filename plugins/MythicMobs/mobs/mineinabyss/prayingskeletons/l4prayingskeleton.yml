@@ -104,6 +104,7 @@ backupskele4:
     - PSHeadDrops
     - MiscPSDrops
     - PSSherdDrops
+    - geary mineinabyss:luresphere 1-1 0.15 nolooting
   Skills:
     ####### Misc
     - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.05

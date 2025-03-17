@@ -41,6 +41,7 @@ l1prayingskeleton:
     - MiscPSDrops
     - PSSherdDrops
     - geary mineinabyss:damagesphere 1-1 0.15 nolooting
+
   Skills:
     ####### Misc
     - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.05
