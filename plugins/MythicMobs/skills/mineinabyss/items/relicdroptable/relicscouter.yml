@@ -130,11 +130,23 @@ closescout3:
     - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=25}
   Cooldown: 1
   Skills:
+
     - delay 20
+    - effect:particles{particle=redstone;color=#00FF00;amount=20;hS=0.5;vS=0.5;y=0.5} @self
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
     - delay 1
     - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
-    - effect:particles{particle=redstone;color=#00FF00;amount=20;hS=0.5;vS=0.5;y=0.5} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+    - delay 1
+    - sound{s=block.note_block.chime;sc=master;p=2;v=1} @self
+
 
 closescout4:
   Conditions:
