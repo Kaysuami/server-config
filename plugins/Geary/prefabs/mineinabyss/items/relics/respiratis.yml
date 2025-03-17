@@ -23,7 +23,7 @@ observe:
           duration: 10s
           amplifier: 1
           hasParticles: false
-        - type: minecraft:dolphin_grace
+        - type: minecraft:dolphins_grace
           duration: 10s
           amplifier: 1
           hasParticles: false

@@ -30,7 +30,7 @@ observe:
             text: <red>Out of Charge
     - mythicSkills:
         - "arc_laser"
-  itemRightClick:
+  itemLeftClick:
     - become: parent
     - ensure:
         player:
