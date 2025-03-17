@@ -33,7 +33,7 @@ sporemanta:
   Drops:
     - exp 5-15
     - geary mineinabyss:sporemanta_wing 1-2 0.5
-    - geary mineinabyss:sporemanta_powder 1 0.2
+    - geary mineinabyss:sporemanta_powder 1-2 0.2 nolooting
 
 
   Skills:
