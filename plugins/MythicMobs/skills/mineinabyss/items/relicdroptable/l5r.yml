@@ -17,6 +17,17 @@ froststaffdrop:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
   - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Verglas Breath</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=FrostStaffDrop} @trigger
+
+bonestaffdrop:
+  Conditions:
+  - playerwithin 32
+  TargetConditions:
+  - hasaura{aura=relicdrop} false
+  Skills:
+  - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
+  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade II Undying Wisp</#AA00AA><#D2D489> relic.'} @World
+  - dropitem{i=BoneStaffDrop} @trigger
+
 voidcharmdrop:
   Conditions:
   - playerwithin 32

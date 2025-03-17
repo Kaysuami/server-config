@@ -20,7 +20,7 @@ passive:
             - health{h=<10}
       - cooldown:
           id: Verdau Effax
-          length: 120s
+          length: 240s
           display: <#88D481>Absorb
       - mythicSkills:
           - "verdaueffax"
