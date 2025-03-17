@@ -154,7 +154,7 @@ octoliarWebEnd:
 octoliarWebHit:
   Cooldown: 0.0
   Skills:
-    - damage{a=<random.6to10>;pi=true;pk=true}
+    - damage{a=<random.4to6>;pi=true;pk=true}
     - sound{s=block.slime_block.step;sc=hostile;p=2.0;v=1.1}
     - sound{s=item.ink_sac.use;sc=hostile;p=2.0;v=1.1}
     - potion{t=SLOW;l=4;force=true;p=true;d=<random.120to180>}

@@ -33,15 +33,14 @@ repairscoutfix:
     - delay 5
     - sound{s=block.note_block.chime;sc=master;p=0.5;v=1} @self
 
-relicscout: #200 150 50 25 15 - 10 seconds Glow Effect, can find other structures (made with rare skeleton drop,netherite ingot,relic parts) (Structures can only spawn after l3 boss quest)
+relicscout: #200 100 50 25- 10 seconds Glow Effect, can find other structures (made with rare skeleton drop,netherite ingot,relic parts) (Structures can only spawn after l3 boss quest)
   Cooldown: 1
   Skills:
     - effect:particles{particle=redstone;color=#0000FF;amount=20;hS=0.5;vS=0.5;y=0.5} @self
     - skill{s=relicscoutfix} @self
-    - skill{s=repairscoutfix} @self
+    - skill{s=brokenscoutfix} @self
     - skill{s=closescout2} @self
     - skill{s=enhancedscout} @self
-    - skill{s=closescout4} @self
 
 relicscoutfix:
   Conditions:
@@ -51,17 +50,24 @@ relicscoutfix:
     - delay 5
     - sound{s=block.note_block.chime;sc=master;p=0.2;v=1} @self
 
-enhancedrelicscout:  #200 150 50 25 15 - 10 50 block glow, special sound when tracking golden skeletons
+enhancedrelicscout:  #250 150 100 50  - 10 50 block glow, special sound when tracking golden skeletons
  # Conditions:
  #   - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=500}
   Cooldown: 1
   Skills:
-    - skill{s=relicscoutfix} @self
+    - skill{s=enhancedscoutfix} @self
     - skill{s=goldentrack} @self
     - skill{s=repairscoutfix} @self
-    - skill{s=closescout2} @self
+    - skill{s=brokenscoutfix} @self
     - skill{s=enhancedscout2} @self
-    - skill{s=closescout4} @self
+
+enhancedscoutfix:
+  Conditions:
+    - mobsInRadius{types=l1prayingskeleton,l2prayingskeleton,l3prayingskeleton,l4prayingskeleton,l5prayingskeleton;amount=1to99;radius=200}
+  Cooldown: 1
+  Skills:
+    - delay 5
+    - sound{s=block.note_block.chime;sc=master;p=0.2;v=1} @self
 
 goldentrack:
   Conditions:
@@ -202,3 +208,6 @@ skeleping:
 godping:
   Skills:
     - message{m="&eA &B<caster.name>&e &eis residing at <caster.var.SpawnLoc>"} @Trigger
+increasexp:
+  Skills:
+  - command{repeat=10;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> 500";op=true} @trigger

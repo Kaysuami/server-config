@@ -1,6 +1,11 @@
+i_backup:
+  Skills:
+    - rally{types=ikonia,baby_ikonia;radius=30;ot=false} @Trigger
+
 tj_backup:
   Skills:
     - rally{types=titanjaw,baby_titanjaw;radius=30;ot=false} @Trigger
+
 
 tjAmbient:
   Cooldown: 0.3

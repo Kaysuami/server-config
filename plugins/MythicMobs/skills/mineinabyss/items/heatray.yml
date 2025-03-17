@@ -14,7 +14,7 @@ HeatRay:
   - delay 70
   #- skill{s=Voidstop;repeat=250;repeatInterval=1} @self
   - look{headOnly=false;immediately=true;repeat=50;repeatInterval=4} @target
-  - projectile{oH=HeatRay-onHit;oT=HeatRay-onTick;oE=HeatRay-onEnd;sE=true;sfo=0.1;i=2;hR=1.5;vR=1.5;v=20;md=60;syo=1.75;tyo=-0.2;repeat=30;repeatInterval=5;hS=true;g=0.3} @target
+  - projectile{oH=HeatRay-onHit;oT=HeatRay-onTick;oE=HeatRay-onEnd;sE=true;sfo=0.1;i=2;hR=1.5;vR=1.5;v=20;md=60;syo=1.75;tyo=-0.2;repeat=30;repeatInterval=5;hS=true;g=0.3} @targetlocation
   
 HeatRay-onHit:
   Skills:

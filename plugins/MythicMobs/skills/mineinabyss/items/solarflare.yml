@@ -24,7 +24,7 @@ SolarFlare:
   - effect:particles{p=flash;y=4;repeat=16;repeatInterval=15} @self
   #- potion{type=SLOW_FALLING;duration=250;level=1} @PIR{r=50}
   #- velocity{m=set;x=0;y=3;z=0} @PIR{r=50}
-  - missile{oT=SolarFlare-onTick;oH=SolarFlare-onHit;oE=SolarFlare-onEnd;sE=true;hnp=false;hp=true;syo=1.5;v=18;i=1;hR=1;vR=1;in=7;md=90;repeat=20;repeatInterval=10} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - missile{oT=SolarFlare-onTick;oH=SolarFlare-onHit;oE=SolarFlare-onEnd;sE=true;hnp=false;hp=true;syo=1.5;v=18;i=1;hR=1;vR=1;in=7;md=90;repeat=10;repeatInterval=14} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
   - sound{s=block.redstone_torch.burnout;p=2;v=0.5;repeat=16;repeatInterval=15} @PIR{r=50}
   
 SolarFlare-onTick:
@@ -33,7 +33,7 @@ SolarFlare-onTick:
   
 SolarFlare-onHit:
   Skills:
-  - damage{a=20}
+  - damage{a=10}
   - ignite{t=60}
   
 SolarFlare-onEnd:
