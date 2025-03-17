@@ -94,15 +94,14 @@ allyvineblaster:
   Display: "<green>Vineblaster"
   Faction: ally
   AIGoalSelectors:
-    - clear
     #- randomlookaround
     - LookAtTarget
-  AITargetSelectors:
     - clear
-    - monsters
+  AITargetSelectors:
     - OwnerTarget
+    - monsters
     - OwnerAttacker
-  Health: 5 # change this
+  Health: 20 # change this
   Damage: 0 # keep this 0
   Options:
     PreventSunburn: true
@@ -126,7 +125,7 @@ allyvineblaster:
     - skill:allyvineblasterattack @Self ~onTimer:10
     # - skill{s=vineblastermortar} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=240} @self ~onSpawn
+    - remove{delay=280} @self ~onSpawn
 
 vinepoofer:
   Type: ZOMBIE
