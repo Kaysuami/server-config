@@ -4,9 +4,9 @@ set.item:
     customModelData: 1
     itemName: <#FFC0CB><b>Spined Targe
     lore:
-      - <#C6CC8A>A shield forged deep, unyielding, strong,
-      - <#C6CC8A>Your love, my guard, through light and shade,
-      - <#C6CC8A>In every trial, our vow is made.
+      - <#3d59ab>A relic born from decades of Orthian research. A shield
+      - <#3d59ab>which is made from a rare mineral found within the abyss.
+      - <#6666ff><i>On use it dashes forward damaging organisms it touches.
 observe:
   itemLeftClick:
     - become: parent

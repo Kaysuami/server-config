@@ -2,8 +2,8 @@ set.item:
   item:
 
     itemName: <#705160><b>Proboscis
-    type: DIAMOND_SWORD
-    customModelData: 4
+    type: netherite_sword
+    customModelData: 5
     lore:
       - ":layer_2: Grade I Relic"
       - <#AB8E8A>Needle shaped spear capable of syphoning

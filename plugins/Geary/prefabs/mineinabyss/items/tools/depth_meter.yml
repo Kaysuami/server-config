@@ -7,7 +7,6 @@ set.item:
       - <aqua>Used by delvers to keep
       - <aqua>track of their depth.
       - <#3f536c><i>Show depth with left-click
-      
 set.recipes:
   discoverRecipes: true
   recipes:

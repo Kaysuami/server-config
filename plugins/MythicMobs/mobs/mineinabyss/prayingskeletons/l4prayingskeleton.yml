@@ -54,7 +54,7 @@ l4prayingskeleton:
     - skill{s=skelewet} @Self ~onTimer:20
     - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
-    - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=400;minradius=150;spacing=1;onSurface=true} ~onspawn
+    - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=500;minradius=220;spacing=1;onSurface=true} ~onspawn
 
     - skill{s=blazereapdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
     - skill{s=tridentdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.004

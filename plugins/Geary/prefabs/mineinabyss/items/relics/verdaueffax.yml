@@ -4,7 +4,7 @@ set.item:
     type: PAPER
     customModelData: 118
     lore:
-      - ":layer_1::layer_2: Grade II Relic"
+      - ":layer_1::layer_2: Grade III Relic"
       - <gold>An organic object that symbiotically attaches like a parasite.
       - <#D2D489><i>When the hosts adrenaline level spikes the 
       - <#D2D489><i>relic consumes energy reserves to heal its habitat.
@@ -18,9 +18,10 @@ passive:
       - ensure:
           mythicConditions:
             - health{h=<10}
+            - health{h=>1}
       - cooldown:
           id: Verdau Effax
-          length: 120s
+          length: 240s
           display: <#88D481>Absorb
       - mythicSkills:
           - "verdaueffax"

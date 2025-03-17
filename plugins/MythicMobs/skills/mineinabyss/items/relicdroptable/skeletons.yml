@@ -13,3 +13,10 @@ skelehigh:
   - altitude{h=20-255} true
   Skills:
   - remove{delay=20} @self
+
+#YCheck:
+ # Cooldown: 1
+ # Conditions:
+ # - heightbelow{75} true
+#  Skills:
+ # - teleportto{location=-478.5,102,-235.5} @self

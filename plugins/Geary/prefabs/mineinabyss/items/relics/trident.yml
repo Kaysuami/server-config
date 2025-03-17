@@ -11,6 +11,8 @@ set.item:
     enchantments:
       - enchant: minecraft:impaling
         level: 5
+      - enchant: minecraft:sharpness
+        level: 5      
       - enchant: minecraft:riptide
         level: 1
     unbreakable: true
@@ -30,7 +32,7 @@ observe:
         - "throwtrident"
 passive:
   - match: [ inHand ]
-    every: 1.5s
+    every: 1.2s
     run:
       - become: parent
       - ensure:

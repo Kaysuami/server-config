@@ -1,12 +1,18 @@
 disableItemInteractions: {}
 set.item:
   item:
-    itemName: Grappling Hook
+    itemName: Reg Arm
     type: GOLDEN_HOE
     customModelData: 1
-mineinabyss:grapplingHook:
-  range: 200
-  hookSpeed: 2.0
-  pullSpeed: 2.0
-  pullStrength: 4.0
-  type: MECHANICAL
+observe:
+  itemRightClick:
+    - become: parent
+    - cooldown:
+        id: grapplehook
+        length: 1s
+        display: <#616161>Reg Arm
+    - mythicSkills:
+        - "GrappleHook"
+
+
+

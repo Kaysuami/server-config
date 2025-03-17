@@ -24,3 +24,11 @@ l3_hostile:
 
 l3_yomotsubi: { inherit: l3_hostile, type: mm:yomotsubi, priority: 0.3 }
 l3_daikonchu: { inherit: l3_hostile, type: mm:daikonchu }
+l5_sporemanta:
+  inherit: l3_hostile
+  type: mm:himushi
+  conditions:
+    - $inherit
+    - $remove blockBelow
+    - blockBelow:
+        allow: ["gilded_blackstone", "coal_block", "black_concrete", "obsidian" ]
