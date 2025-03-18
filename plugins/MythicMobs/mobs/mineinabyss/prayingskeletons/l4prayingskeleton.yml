@@ -41,8 +41,8 @@ l4prayingskeleton:
     - geary mineinabyss:luresphere 1-1 0.15 nolooting
   Skills:
     ####### Misc
-    - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.05
-    - skill{s=goldenbackup;cooldown=1;delay=70} @self ~onSpawn 0.01
+    - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.03
+    - skill{s=goldenbackup;cooldown=1;delay=70} @self ~onSpawn 0.005
     - skill{s=saveskelelocation} @self ~onSpawn
     - skill{s=skeleping} ~onSignal:location
     - skill{s=godping} ~onSignal:location
@@ -107,8 +107,8 @@ backupskele4:
     - geary mineinabyss:luresphere 1-1 0.15 nolooting
   Skills:
     ####### Misc
-    - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.05
-    - skill{s=goldenbackup;cooldown=1;delay=70} @self ~onSpawn 0.01
+    - skill{s=luckybackup1;cooldown=1;delay=70} @self ~onSpawn 0.03
+    - skill{s=goldenbackup;cooldown=1;delay=70} @self ~onSpawn 0.005
     - skill{s=displayHealth} ~onDamaged
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20

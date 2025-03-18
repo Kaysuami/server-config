@@ -1,7 +1,6 @@
 i_retreat:
   Cooldown: 0
   Conditions:
-    - targetwithin{d=5}
   Skills:
     - setstance{s=running} @self
     - runaigoalselector{goal=fleeplayers} @self

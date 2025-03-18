@@ -1,6 +1,6 @@
 GrappleHook:
   Skills:
-  - projectile{bulletType=ITEM;material=GHAST_TEAR;onTick=GrappleHook_TICK;onHit=GrappleHook_END;onEnd=GrappleHook_END;v=12;i=1;hR=1;vR=1;g=0.5} @targetlocation
+  - projectile{bulletType=ITEM;material=GHAST_TEAR;onTick=GrappleHook_TICK;onHit=GrappleHook_END;onEnd=GrappleHook_END;v=16;i=1;hR=1;vR=1;g=0.6} @targetlocation
 GrappleHook_END:
   Skills:
   - summon{type=grapplehook;amount=1;radius=0}

@@ -3,7 +3,7 @@ ikonia:
   SpawnCategory: miniboss
   Modules:
     ThreatTable: true
-  Health: 140 # change this
+  Health: 160 # change this
   Damage: 0
   Display: "<#3C3B4A>Ikonia"
   Options:
@@ -23,7 +23,7 @@ ikonia:
     Scale: 1
   Drops:
     - exp 20-25
-    - geary mineinabyss:ikonia_plate 1-1 1 nolooting
+    - geary mineinabyss:ikonia_plate 1-1 0.5 nolooting
   Skills:
     ####### Misc
     - skill{s=displayHealth} ~onDamaged
