@@ -15,8 +15,6 @@ core:
 cosmetics:
   enabled: true
   equipWhistleCosmetic: false
-  equipBackpacks: false
-  defaultBackpack: "backpack"
 curse:
   enabled: true
 custom_hud:
