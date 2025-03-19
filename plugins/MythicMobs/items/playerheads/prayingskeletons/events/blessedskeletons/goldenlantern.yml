@@ -1,0 +1,9 @@
+goldenlantern:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMyYmI5OThkZTEzM2U5MzM0MTkyYWM5ZGNhZTMzZDZhYTBlY2I3ZjhjYTRjMmM2YWY3ZDU4MWI2Nzc0ZWY5YSJ9fX0=
+  Display: <#FFB302>Golden Lantern</#FFB302>
+  Lore:
+    - ':layer_1::layer_2::layer_3::layer_4:layer_5:'
+    - '<#DB9200><i>Found on blessed delvers long lost to the abyss.</#DB9200>'
+    - '<#DB9200><i>A lantern of high value supposedly used for rituals.</#DB9200>'

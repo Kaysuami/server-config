@@ -1,0 +1,10 @@
+set.item:
+  item:
+    itemName: <#88D481>Townsmen Meet
+    type: PAPER
+    customModelData: 137
+    lore:
+      - ":temeyes: Grade IV Relic"
+      - <gold>Found during April Fools 2025.
+      - <gold>A relic able to call a town to action.
+      - <#D2D489><i>On use it sounds an emergency meeting.
