@@ -1,0 +1,9 @@
+inkycore:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJkM2U5OGUwYTkzNzM1M2JkOTQ1NjY4NTM4YjlkNmJlZjVlMTI4MDIzMzY4NThjY2QzNmY5MDRkNjA3N2M2MiJ9fX0=
+  Display: <#FFB302>Cursed Core</#FFB302>
+  Lore:
+    - ':layer_1::layer_2::layer_3::layer_4:layer_5:'
+    - '<#DB9200><i>Found on cursed delvers long lost to the abyss.</#DB9200>'
+    - '<#DB9200><i>Delvers have yet to figure out what this object is.</#DB9200>'
