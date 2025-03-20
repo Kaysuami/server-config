@@ -52,10 +52,12 @@ l2prayingskeleton:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=60000} @self ~onSpawn
+    - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
     - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=ylevelhigh} @Self ~onTimer:20
+    - skill{s=ylevellow} @Self ~onTimer:20
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=350;minradius=150;spacing=1;onSurface=true} ~onspawn
 
 
@@ -120,10 +122,12 @@ backupskele2:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=60000} @self ~onSpawn
+    - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
     - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=ylevelhigh} @Self ~onTimer:20
+    - skill{s=ylevellow} @Self ~onTimer:20
 
     - skill{s=boundinglancedrop2;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
     - skill{s=vinecharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01

@@ -1,7 +1,9 @@
 set.item:
   item:
     type: minecraft:magma_cream
+
     itemName: <#FFA904>Himushi Core
+
     customModelData: 5
     lore:
       - ":layer_3:"

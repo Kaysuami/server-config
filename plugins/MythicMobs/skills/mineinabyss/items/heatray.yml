@@ -24,7 +24,7 @@ HeatRay-onHit:
   
 HeatRay-onTick:
   Skills:
-  - effect:particlering{p=block_crack;a=1;m=lava;r=0.5;points=10;hS=0;vS=0;i=1} @origin
+  - effect:particlering{p=block_crack;a=1;m=lava;r=0.2;points=5;hS=0;vS=0;i=1} @origin
   - effect:particles{p=flame;a=1;hS=0.1;vS=0.1;i=1;v=0} @origin
   
 HeatRay-onEnd:

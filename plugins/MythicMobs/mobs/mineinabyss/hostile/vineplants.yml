@@ -168,5 +168,5 @@ vinepoofer:
     - skill:vinepooferattack @Self ~onTimer:30
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=60000} @self ~onSpawn
+
 

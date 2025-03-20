@@ -10,7 +10,7 @@ Tidal_Wave_HIT:
   TargetConditions:
   - owner{} false
   Skills:
-  - damage{a=12} @EntitiesNearOrigin{r=3;i=players}
+  - damage{a=10} @EntitiesNearOrigin{r=3;i=players}
   - throw{velocity=12;velocityY=6} @EntitiesNearOrigin{r=3;i=players}
   - effect:particles{particle=splash;amount=30;hS=0;vS=0;speed=0} @origin
   - sound{s=block.water.splash;volume=0.7;pitch=0.8} @origin 

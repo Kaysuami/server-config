@@ -50,22 +50,26 @@ l5prayingskeleton:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=60000} @self ~onSpawn
+    - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
     - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=ylevelhigh} @Self ~onTimer:20
+    - skill{s=ylevellow} @Self ~onTimer:20
     - teleport{spreadh=1;spreadv=1} @RandomLocationsNearOrigin{radius=500;minradius=200;spacing=1;onSurface=true} ~onspawn
 
-    - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
-    - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.004
-    - skill{s=bonestaffdrop;delay=7} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=voidcharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
-    - skill{s=monisceltidrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
+    - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.001
+    - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.002
+    - skill{s=bonestaffdrop;delay=7} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.005
+    - skill{s=voidcharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.005
+    - skill{s=monisceltidrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.015
 
     - remove{delay=60000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
     - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=ylevelhigh} @Self ~onTimer:20
+    - skill{s=ylevellow} @Self ~onTimer:20
 backupskele5:
   Type: ZOMBIE
   SpawnCategory: skeleton
@@ -114,13 +118,17 @@ backupskele5:
     - skill:MIAPetExpNearby{exp=1} ~onDeath
     # - skill{s=vinebinderwave} @target ~onTimer:20
     - cancelevent{sync=true} @Self ~onAttack
-    - remove{delay=60000} @self ~onSpawn
+    - remove{delay=240000} @self ~onSpawn
     - skill{s=skelewet} @Self ~onTimer:20
     - skill{s=skelehigh} @Self ~onTimer:20
     - skill{s=skelerock} @Self ~onTimer:20
+    - skill{s=ylevelhigh} @Self ~onTimer:20
+    - skill{s=ylevellow} @Self ~onTimer:20
+
 
     - skill{s=blackholestaffdrop} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
     - skill{s=froststaffdrop;delay=5} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.0015
+    - skill{s=bonestaffdrop;delay=7} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.005  
     - skill{s=voidcharmdrop;delay=10} @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.01
     - skill{s=monisceltidrop;delay=15}  @trigger{conditions=[  - hasaura{aura=relicdrop} false] ~onDeath 0.025
 

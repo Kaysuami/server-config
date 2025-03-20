@@ -22,7 +22,7 @@ observe:
             text: <red>Out of Experience
     - cooldown:
           id: Bone Ball
-          length: 10s
+          length: 15s
           display: <dark_aqua>Wisp of Soul
     - mythicSkills:
           - "bone_ball"

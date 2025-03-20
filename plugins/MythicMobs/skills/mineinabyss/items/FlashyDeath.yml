@@ -29,6 +29,7 @@ MithraDeathAnimation:
   - effect:particles{p=flash;a=40;hS=15;vS=3;repeat=4;repeatInterval=20;y=2} @self
   - effect:particles{p=flash;a=7;hS=0;vS=0;repeat=25;repeatInterval=5;y=1} @self
   - delay 20
+  - orbital{oT=MithraOrbital-onTick;points=20;interval=1;duration=100;charges=1;rx=1} @self
   - effect:particles{p=flash;a=50;hS=20;vS=3;repeat=5;repeatInterval=20;y=2} @self
   - effect:particles{p=flash;a=10;hS=0;vS=0;repeat=25;repeatInterval=4;y=0} @self
   - delay 100

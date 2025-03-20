@@ -9,22 +9,33 @@ set.item:
       - <#C6CC8A>which causes ongoing explosions
       - <#C6CC8A>on whatever it is struck on.
       - <#948E61><i>Used to create powerful explosions.
-disableItemInteractions: { }
-
+    enchantments:
+      - enchant: minecraft:fortune
+        level: 3
+      - enchant: minecraft:efficiency
+        level: 5      
+    unbreakable: true
 observe:
-  itemRightClick:
+  itemLeftClick:
     - become: parent
     - ensure:
-        player:
-          sneaking: true
         mythicConditions:
           - EnchantingLevel{l=>1} true
+          - hasaurastacks{n=trident;s=4} true
       onFail:
         - sendActionBar:
-            text: <red>Out of Experience
+            text: <red>Not Primed
     - cooldown:
         id: BlazeReap
         length: 35s
         display: <#617B94>Blaze Reap
     - mythicSkills:
         - "BlazeReap"
+  itemRightClick:
+    - become: parent
+    - cooldown:
+        id: Primer
+        length: 1s
+        display: <#617B94>Primer
+    - mythicSkills:
+        - "blazereap_charge"

@@ -19,7 +19,7 @@ observe:
             text: <red>Out of Experience
     - cooldown:
         id: hammer_smash
-        length: 25s
+        length: 30s
         display: <#79EDE2>Seismic Smash
     - mythicSkills:
         - "hammer_smash"

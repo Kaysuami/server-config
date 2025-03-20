@@ -2,7 +2,7 @@ set.item:
   item:
     type: minecraft:shield
     customModelData: 1
-    itemName: <#FFC0CB><b>Spined Targe
+    itemName: <#0047AB><b>Spined Targe
     lore:
       - <#3d59ab>A relic born from decades of Orthian research. A shield
       - <#3d59ab>which is made from a rare mineral found within the abyss.

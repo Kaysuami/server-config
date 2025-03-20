@@ -43,8 +43,8 @@ shadowballhit:
   - effect:particlesphere{p=reddust;color=#000000;amount=120;radius=1;size=1} @origin
   - effect:particles{p=reddust;color=#000000;y=0.5;amount=57;speed=0.1;hS=0.7;vS=0.3} @Origin
   - effect:particles{p=smoke;y=0.5;amount=50;speed=0.1;hS=0.8;vS=0.2} @Origin
-  - damage{a=7;ignorearmor=false} @EntitiesNearOrigin{r=1.7}
-  - damage{a=0;preventknockback=true;ignorearmor=true} @EntitiesNearOrigin{r=1.7}
+  - damage{a=7;ignorearmor=false;pi=true} @EntitiesNearOrigin{r=1.7}
+  - damage{a=0;preventknockback=true;ignorearmor=true;ia=true} @EntitiesNearOrigin{r=1.7}
   - damage{a=1;ignorearmor=true} @EntitiesNearOrigin{r=2;target=monsters;ignore=players}
   - potion{type=SLOW;duration=10;lvl=2;p=false} @EntitiesNearOrigin{r=1}
   - potion{type=SLOW;duration=10;lvl=1;delay=10;p=false} @EntitiesNearOrigin{r=1}
@@ -57,8 +57,8 @@ shadowballend:
   - effect:sound{s=block.conduit.deactivate;volume=0.8;pitch=1.9} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=60;radius=1;size=1} @origin
   - sound{s=entity.dragon_fireball.explode;volume=0.5;pitch=1.6} @origin
-  - damage{a=7;ignorearmor=false} @EntitiesNearOrigin{r=2.2}
-  - damage{a=2;preventknockback=true;ignorearmor=true} @EntitiesNearOrigin{r=2.2}
+  - damage{a=7;preventknockback=true;pi=true} @EntitiesNearOrigin{r=2.2}
+  #- damage{a=2;preventknockback=true;ignorearmor=true} @EntitiesNearOrigin{r=2.2}
   - sound{s=entity.player.attack.crit;volume=0.8;pitch=0.6;cooldown=1} @origin
 
 
@@ -111,7 +111,9 @@ vaend2:
   - summon{type=vac2;amount=1;radius=0} @origin
   - delay 40
   - effect:particlesphere{p=spell_instant;color=#FFFFFF;amount=100;radius=3.1;size=4;repeat=2;repeatinterval=2} @origin
-  - delay 34
+  - delay 3
+  - skill{s=blackholedamage} @origin
+  - delay 4
   - effect:particles{p=largeexplode;amount=8;speed=0.6;hS=4;vS=4;repeat=8;repeatinterval=2} @origin
   - effect:particlesphere{p=smoke_large;amount=200;radius=3;size=7;repeat=4;repeatinterval=2;speed=0.6} @origin
   - effect:particlesphere{p=reddust;color=#000000;amount=200;radius=2;size=3;speed=1} @origin
@@ -139,6 +141,16 @@ vaend2:
   - sound{s=entity.generic.explode;volume=1;pitch=0.6} @origin
   - sound{s=block.end_portal.spawn;volume=1;pitch=0.6} @origin
   - sound{s=block.end_portal.spawn;volume=1;pitch=1.6} @origin
+
+blackholedamage:
+  Cooldown: 0
+  Skills:
+   - shieldbreak{duration=150} @EntitiesNearOrigin{r=7}
+   - damage{a=70;ignorearmor=false} @EntitiesNearOrigin{r=3;ignore=players}
+   - damage{a=30;pi=true} @EntitiesNearOrigin{r=7;ignore=players}
+   - damage{a=50;ignorearmor=false} @PlayersNearOrigin{r=2;conditions=[
+                              - playerwithin{d=2} true ]}
+   - damage{a=25;pi=true} @PlayersNearOrigin{r=7}
 
 ueco:
   Cooldown: 0

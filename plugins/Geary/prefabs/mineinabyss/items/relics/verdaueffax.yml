@@ -17,11 +17,11 @@ passive:
       - become: parent
       - ensure:
           mythicConditions:
-            - health{h=<10}
+            - health{h=<5}
             - health{h=>1}
       - cooldown:
           id: Verdau Effax
-          length: 240s
+          length: 300s
           display: <#88D481>Absorb
       - mythicSkills:
           - "verdaueffax"

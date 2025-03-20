@@ -12,7 +12,7 @@ bone_impact:
 
     - shieldbreak{duration=150} 
     - delay 1
-    - blackscreen{d=50} @EntitiesNearOrigin{r=2}
+    - blackscreen{d=40} @EntitiesNearOrigin{r=2}
     - damage{a=6;ia=true} @EntitiesNearOrigin{r=2}
 
 

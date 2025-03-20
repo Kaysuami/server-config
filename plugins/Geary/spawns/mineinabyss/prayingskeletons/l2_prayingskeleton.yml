@@ -1,8 +1,8 @@
 l2_prayingskeletons:
   position: GROUND
   type: mm:l2prayingskeleton
-  priority: 0.5
-  chance: 0.6
+  priority: 0.2
+  chance: 0.3
   regions:
     - l2s0
     - l2s1
