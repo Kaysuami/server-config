@@ -6,7 +6,7 @@ blazereapdrop:
   Skills:
 
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
-  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I Blaze Reap</#AA00AA><#D2D489> relic.'} @World
+  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade I</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=BlazeReapDrop} @trigger
 tridentdrop:
   Conditions:
@@ -15,7 +15,7 @@ tridentdrop:
   - hasaura{aura=relicdrop} false
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
-  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade 1 Trident</#AA00AA><#D2D489> relic.'} @World
+  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade 1</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=TridentDrop} @trigger
 healingstaffdrop:
   Conditions:
@@ -24,7 +24,7 @@ healingstaffdrop:
   - hasaura{aura=relicdrop} false
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
-  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III Panacea</#AA00AA><#D2D489> relic.'} @World
+  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=HealingStaffDrop} @trigger
   
 respiratisdrop:
@@ -34,7 +34,7 @@ respiratisdrop:
   - hasaura{aura=relicdrop} false
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
-  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV Respiratis</#AA00AA><#D2D489> relic.'} @World
+  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade IV</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=RespiratisDrop} @trigger
 
 wavecharmdrop:
@@ -44,5 +44,5 @@ wavecharmdrop:
   - hasaura{aura=relicdrop} false
   Skills:
   - Aura{auraName=relicdrop;onTick=celebrate;duration=30} @trigger
-  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III Tidal Dew</#AA00AA><#D2D489> relic.'} @World
+  - message{m='<#D2D489>A mail balloon whispers that</#D2D489><#f15d47> <trigger.name></#f15d47><#D2D489> has discovered a</#D2D489><#AA00AA> Grade III</#AA00AA><#D2D489> relic.'} @World
   - dropitem{i=WaveCharmDrop} @trigger
