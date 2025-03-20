@@ -1,7 +1,7 @@
 Cyan_Slash:
   Cooldown: 1
   Skills:
-  - command{repeat=3;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -2";op=true}
+  - command{repeat=2;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -5";op=true}
   - delay 1
   - randomskill{skills=Cyan_Slash_2,Cyan_Slash_3}
 Cyan_Slash_1:

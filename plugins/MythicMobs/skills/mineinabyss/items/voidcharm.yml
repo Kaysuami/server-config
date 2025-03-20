@@ -3,7 +3,7 @@ blackhole:
   Cooldown:
   Conditions:
   Skills:
-  - command{repeat=20;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -10";op=true}
+  - command{repeat=15;repeatinterval=1;c="execute at <caster.uuid> run xp add <caster.name> -10";op=true}
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=1.6} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=0.2} @origin
   - sound{s=entity.ender_dragon.shoot;;volume=2;pitch=0.6} @origin

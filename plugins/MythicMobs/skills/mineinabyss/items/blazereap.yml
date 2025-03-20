@@ -2,7 +2,7 @@ blazereap_charge:
   Cooldown: 
   Conditions:
   Skills:
-    - aura{auraName=blazereap;onStart=blazereapstack;duration=100;c=1;maxStacks=3;cotd=false} @self
+    - aura{auraName=blazereap;onStart=blazereapstack;duration=130;c=1;maxStacks=4;cotd=false} @self
     - skill{s=blazereapready} @self
     - effect:particles{particle=crit;amount=20;hS=0.5;vS=1;speed=0;y=0.5}
 

@@ -21,7 +21,7 @@ hammer_smash_damage:
   - damage{a=30;ignorearmor=false} @PIR{r=2;conditions=[
                               - playerwithin{d=2} true     ]}
   - damage{a=10;ignorearmor=false;pi=true} @PIR{r=6}
-  - damage{a=25;ignorearmor=false} @EIR{r=2;ignore=players}
+  - damage{a=35;ignorearmor=false} @EIR{r=2;ignore=players}
   - damage{a=10;ignorearmor=false;pi=true} @EIR{r=6;ignore=players}
   - throw{velocity=0;velocityY=6} @EIR{r=5}
   - effect:particlering{particle=BLOCKCRACK;material=PRISMARINE;radius=1;points=5;amount=40;hS=1;vS=0.5} @self

@@ -11,7 +11,7 @@ set.item:
       - <#695654><i>When used it simulates blessings
       - <#695654><i>in its surroundings.
 
-
+    unbreakable: true
 #ghost_seek:
 
 disableItemInteractions: {}
