@@ -1,9 +1,17 @@
 PSHeadDrops:
   MaxItems: 1
   Drops:
-  - wornoutlantern 1 0.03
-  - oldpot 1 0.03
-  - cauldronofbones 1 0.03
+  - wornoutlantern 1 0.01
+  - oldpot 1 0.01
+  - cauldronofbones 1 0.01
+  - backpackwhite 1 0.01
+  - backpackbrown 1 0.01
+  - barrelclosed 1 0.01
+  - chestbrown1 1 0.01
+  - cookingpot 1 0.005
+  - ropeold 1 0.01
+  - ropevertical 1 0.01
+  - coinbag 1 0.005
 
 L1PSHeadDrops:
   MaxItems: 1
