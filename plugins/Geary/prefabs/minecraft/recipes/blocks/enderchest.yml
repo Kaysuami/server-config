@@ -1,0 +1,18 @@
+set.recipes:
+  discoverRecipes: true
+  removeRecipes:
+    - "minecraft:ender_chest"
+  result:
+    type: minecraft:ender_chest
+    amount: 1
+  group: "looty:ender_chest"
+  recipes:
+    - type: shaped
+      items:
+        C: { prefab: mineinabyss:corpse_weeper_eye}
+        T: { prefab: mineinabyss:tachikatana_scale}
+        E: { prefab: mineinabyss:edusan_scale}
+      configuration: |-
+        |ETE|
+        |TCT|
+        |ETE|

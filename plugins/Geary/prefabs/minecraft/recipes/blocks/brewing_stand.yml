@@ -1,0 +1,25 @@
+set.recipes:
+  discoverRecipes: true
+  removeRecipes:
+    - "minecraft:brewing_stand"
+  result:
+    type: minecraft:brewing_stand
+    amount: 1
+  group: "looty:brewing_stand"
+  recipes:
+    - type: shaped
+      items:
+        S: { prefab: mineinabyss:hisoishi_shell}
+        R: { prefab: mineinabyss:rohana_tail}
+      configuration: |-
+        |   |
+        | R |
+        |SSS|
+    - type: shaped
+      items:
+        S: { prefab: mineinabyss:hagamizukin_tooth}
+        R: { prefab: mineinabyss:rohana_tail}
+      configuration: |-
+        |   |
+        | R |
+        |SSS|
