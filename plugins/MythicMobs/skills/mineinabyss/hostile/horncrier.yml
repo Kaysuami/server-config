@@ -91,10 +91,19 @@ hb_dashhit:
     - setstance{stance=dashhit} @self
     # - shieldbreak{duration=200} @target
     - damage{a=8}
-    - throw{v=10;vy=15}
-    - potion{type=DARKNESS;duration=60;level=1} 0.5
-    - delay 100
-
+    - throw{v=5;vy=25}
+    - delay 5
+    - throw{v=5;vy=25} @self
+    - delay 12
+    - skill{s=dunk_damage} @PIR{r=5}
+    - sound{s=entity.warden.attack_impact;sc=master;p=<random.float.0.2to0.5>;v=0.7} @self
+dunk_damage:
+  TargetConditions:
+    - owner{} false
+  Skills:
+    - leap{velocity=70} @forward{f=2;y=-5}
+    - damage{a=8} @PIR{r=4}
+    - damage{a=15} @self
 hb_dashmiss:
   Conditions:
     - stance{s=dashhit} false
