@@ -2,7 +2,7 @@ goldslime:
   Id: PLAYER_HEAD
   Options:
     SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBmNzg3NTYyMTA4Y2Q4ZjE4NmVhOWYzYTA3ZDQ2ZmMxNjJkNDNkNWFmNmVlM2VkNjY5ZTZmNGJlYjhmODhjNSJ9fX0=
-  Display: <#FFB302>Fools Slime</#FFB302>
+  Display: <#FFB302>Bling</#FFB302>
   Lore:
-    - ':temeyes:'
+    - ':troll:'
     - '<#DB9200><i>Found on April Fools 2025.</#DB9200>'
