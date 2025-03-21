@@ -17,3 +17,4 @@ set.recipes:
         | S |
 resourcepack:
   textures: mineinabyss:item/tools/charcoal_sand_pickaxe
+  parentModel: item/handheld

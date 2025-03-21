@@ -28,3 +28,4 @@ observe:
         radius: 2
 resourcepack:
   textures: mineinabyss:item/tools/charcoal_sand_sickle
+  parentModel: item/handheld

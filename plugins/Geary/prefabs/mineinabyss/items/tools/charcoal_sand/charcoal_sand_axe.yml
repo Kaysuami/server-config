@@ -12,8 +12,9 @@ set.recipes:
         M: mineinabyss:charcoal_sand_ingot
         S: minecraft:stick
       configuration: |-
-        | MM|
-        | SM|
-        |S  |
+        |MM |
+        |MS |
+        | S |
 resourcepack:
   textures: mineinabyss:item/tools/charcoal_sand_axe
+  parentModel: item/handheld
