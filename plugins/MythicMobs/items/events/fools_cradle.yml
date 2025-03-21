@@ -1,0 +1,8 @@
+fools_cradle:
+  Id: PAPER
+  Display: <#03AC13>Fools Cradle</#03AC13>
+  Lore:
+    - ':troll:'
+    - '<gold>Found during April Fools 2025.</gold>'
+    - '<#D2D489><i>On use it summons random</#D2D489>'
+    - '<#D2D489><i>effects on the target.</#D2D489>'
