@@ -14,7 +14,12 @@ spawn_imposter:
 spawnrandomimposter:
   Skills:
   - randomskill{skills=spawngreenimposter,spawnblackimposter,spawnpurpleimposter,spawnblueimposter,spawnlimeimposter,spawnpinkimposter,spawncyanimposter,spawnwhiteimposter,spawnyellowimposter,spawnbrownimposter,spawnorangeimposter} @self
+
+imposter_redDEATHsummon:
+  Skills:
+  - summon{t=deadamogus} @self
   
+
 spawngreenimposter:
   Skills:
   - summon{t=green_imposter} @self
@@ -650,13 +655,14 @@ imposter_redSHOOT:
   
 imposter_redDEATH:
   Skills:
+  - skill{s=MithraDeathAnimation} @self
   - effect:particles{particle=block;m=redstone_block;amount=50;hS=.25;vS=.25}
   - ChangePart{model=imposter_red;part=body;newmodel=imposter_parts;newpart=dead_red} @self
   - ChangePart{model=imposter_red;part=right_hand;newmodel=imposter_red;newpart=right_hand} @self
   - ChangePart{model=imposter_red;part=left_hand;newmodel=imposter_red;newpart=left_hand} @self
-  - delay 40
+  - delay 290
   - effect:particles{particle=poof;amount=50;hS=.25;vS=.25} @self
-  
+  - remove @self
 #### brown imposter ####
 
 imposter_brownSPAWN:

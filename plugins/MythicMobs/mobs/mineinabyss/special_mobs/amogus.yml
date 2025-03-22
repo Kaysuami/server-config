@@ -1,400 +1,4 @@
 
-
-
-imposter_vent:
-  Type: ARMOR_STAND
-  Display: 'Vent'
-  Options:
-    Marker: true
-  Skills:
-  - skill{s=spawn_imposter} @self ~onTimer:20
-  - model{mid=imposter_vent;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_vent;d=false;i=true} @self ~onLoad
-  
-green_imposter:
-  Type: SILVERFISH
-  #Disguise: ARMOR_STAND setInvisible
-  Display: 'an Imposter'
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_greenSPAWN} @self ~onSpawn
-  - skill{s=imposter_greenATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_greenDEATH} @self ~onDeath
-  - skill{s=imposter_greenSHOOT} @self ~onTimer:20
-  - model{mid=imposter_green;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_green;d=false;i=true} @self ~onLoad 
-  
-black_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_blackSPAWN} @self ~onSpawn
-  - skill{s=imposter_blackATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_blackDEATH} @self ~onDeath
-  - skill{s=imposter_blackSHOOT} @self ~onTimer:20
-  - model{mid=imposter_black;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_black;d=false;i=true} @self ~onLoad
-  
-purple_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_purpleSPAWN} @self ~onSpawn
-  - skill{s=imposter_purpleATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_purpleDEATH} @self ~onDeath
-  - skill{s=imposter_purpleSHOOT} @self ~onTimer:20
-  - model{mid=imposter_purple;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_purple;d=false;i=true} @self ~onLoad
-  
-blue_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_blueSPAWN} @self ~onSpawn
-  - skill{s=imposter_blueATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_blueDEATH} @self ~onDeath
-  - skill{s=imposter_blueSHOOT} @self ~onTimer:20
-  - model{mid=imposter_blue;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_blue;d=false;i=true} @self ~onLoad
-  
-lime_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_limeSPAWN} @self ~onSpawn
-  - skill{s=imposter_limeATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_limeDEATH} @self ~onDeath
-  - skill{s=imposter_limeSHOOT} @self ~onTimer:20
-  - model{mid=imposter_lime;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_lime;d=false;i=true} @self ~onLoad
-  
-white_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_whiteSPAWN} @self ~onSpawn
-  - skill{s=imposter_whiteATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_whiteDEATH} @self ~onDeath
-  - skill{s=imposter_whiteSHOOT} @self ~onTimer:20
-  - model{mid=imposter_white;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_white;d=false;i=true} @self ~onLoad
-  
-pink_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_pinkSPAWN} @self ~onSpawn
-  - skill{s=imposter_pinkATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_pinkDEATH} @self ~onDeath
-  - skill{s=imposter_pinkSHOOT} @self ~onTimer:20
-  - model{mid=imposter_pink;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_pink;d=false;i=true} @self ~onLoad
-  
-cyan_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_cyanSPAWN} @self ~onSpawn
-  - skill{s=imposter_cyanATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_cyanDEATH} @self ~onDeath
-  - skill{s=imposter_cyanSHOOT} @self ~onTimer:20
-  - model{mid=imposter_cyan;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_cyan;d=false;i=true} @self ~onLoad
-  
-yellow_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_yellowSPAWN} @self ~onSpawn
-  - skill{s=imposter_yellowATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_yellowDEATH} @self ~onDeath
-  - skill{s=imposter_yellowSHOOT} @self ~onTimer:20
-  - model{mid=imposter_yellow;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_yellow;d=false;i=true} @self ~onLoad
-  
-red_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_redSPAWN} @self ~onSpawn
-  - skill{s=imposter_redATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_redDEATH} @self ~onDeath
-  - skill{s=imposter_redSHOOT} @self ~onTimer:20
-  - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_red;d=false;i=true} @self ~onLoad
-  
-brown_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_brownSPAWN} @self ~onSpawn
-  - skill{s=imposter_brownATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_brownDEATH} @self ~onDeath
-  - skill{s=imposter_brownSHOOT} @self ~onTimer:20
-  - model{mid=imposter_brown;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_brown;d=false;i=true} @self ~onLoad
-  
-orange_imposter:
-  Type: SILVERFISH
-  Display: 'an Imposter'
-  #Disguise: ARMOR_STAND setInvisible
-  Health: 1
-  AITargetSelectors:
-  - players
-  Options:
-    Marker: true
-    Silent: true
-    PreventBlockInfection: true
-    PreventOtherDrops: true
-
-  Skills:
-  - skill{s=imposter_orangeSPAWN} @self ~onSpawn
-  - skill{s=imposter_orangeATTACKsync;sync=true} @self ~onAttack
-  - skill{s=imposter_orangeDEATH} @self ~onDeath
-  - skill{s=imposter_orangeSHOOT} @self ~onTimer:20
-  - model{mid=imposter_orange;d=false;i=true} @self ~onSpawn
-  - model{mid=imposter_orange;d=false;i=true} @self ~onLoad
-
-#########################################################
-## Developed by Little Room, patreon.com/littleroomdev ##
-#########################################################
-
-fighter_herobrine:
-  Type: IRON_GOLEM
-  Display: 'HEROBRINE'
-  Damage: 0  
-  BossBar:
-    Enabled: true
-    Title: '<mob.name> <caster.hp> <&fs> <caster.mhp>'
-    Range: 32
-    Color: PURPLE
-    Style: SOLID
-  Options:
-    FollowRange: 32
-    Silent: true
-    PreventOtherDrops: true
-  Modules:
-    ThreatTable: true
-  AIGoalSelectors:
-  - swim
-  AITargetSelectors:
-  - players
-  - golems
-  Health: 4000
-  Skills:
-  - Skill{s=SaveBossLocation} @self ~onSpawn
-  - skill{s=bossping} ~onSignal:location
-  - message{m="&e &BHerobrine&e &ehas spawned at <caster.var.SpawnLoc>"} ~onSpawn @PlayersOnServer
-  - message{m="&e &BHerobrine&e &espawned at <caster.var.SpawnLoc>&e has been slain."} ~onDeath @PlayersOnServer
-  - randomskill{skills=herobrineHEIGHTJUMP4,herobrineHEIGHTJUMP2,herobrineFISHING,herobrineAXE,herobrineROLL,herobrineLEAPKICK} @target ~onTimer:15
-  - setmobscore{o=herodamage;v=50} @self ~onSpawn
-  - skill{s=herobrineULTRAtele} @self ~onDamaged .25
-  - skill{s=herobrineFLINCHhit} @self ~onDamaged
-  - skill{s=herobrineFLINCH75;sync=true} @self ~onDamaged <75%
-  - skill{s=herobrineFLINCH50;sync=true} @self ~onDamaged <50%
-  - skill{s=herobrineVAULT} @forward{f=0.75} ~onTimer:20
-  - skill{s=herobrineULTRA} @self ~onDamaged <25%
-  - skill{s=herobrineBLOCK} @self ~onDamaged
-  - skill{s=herobrineBLOCKprep} @self ~onTimer:15
-  - skill{s=herobrineEAT} @self ~onTimer:20 <50%
-  - randomskill{skills=herobrineSLASHsync,herobrineSLASHsync,herobrineSLASHsync,herobrinePICKAXEsync,herobrineROUNDHOUSEsync,herobrineDOWNPUNCHsync,herobrinePOWERPUNCHsync;sync=true} @self ~onAttack
-  - skill{s=herobrineLEAPBACK} @self ~onTimer:120
-  - skill{s=herobrineLAND} @self ~onTimer:1
-  - model{mid=herobrine;n=false} @self ~onSpawn
-  - DefaultState{m=herobrine;t=WALK;s=run} @self ~onEnterCombat
-  - DefaultState{m=herobrine;t=WALK;s=walk} @self ~onDropCombat
-  - state{s=idle} @self ~onDropCombat
-  - skill{s=herobrineDEATH} @self ~onDeath
-  
-herobrine_fireworkFX:
-  Type: SILVERFISH
-  Display: 'explodeFX'
-  Equipment:
-  - torch:0
-  AITargetSelectors:
-  - clear
-  AIGoalSelectors:
-  - clear
-  Options:
-    ApplyInvisibility: true
-    PreventBlockInfection: true
-    Invincible: true
-    Silent: true
-  Skills:
-  - ignite{ticks=40} @PIR{r=2} ~onTimer:5
-  - effect:particles{particle=flame;amount=10;hS=.1;vS=.1;speed=0.02} @self ~onTimer:2
-  - effect:particles{particle=large_smoke;amount=10;hS=.2;vS=.2;speed=0;size=2} @self ~onTimer:2
-  - skill{s=herobrine_fireworkFXspawn} @self ~onSpawn
-  
-herobrine_axe:
-  Type: ARMOR_STAND
-  Display: 'herobrine axe'
-  Skills:
-  - model{mid=herobrine_axe;n=false;d=false} @self ~onSpawn
-  
-herobrine_bobber:
-  Type: SILVERFISH
-  Display: 'herobrine bobber'
-  Skills:
-  - skill{s=herobrinebobberSPAWN} @self ~onSpawn
-  - model{mid=herobrine_bobber;n=false;d=false} @self ~onSpawn
-  
-  
-  
-### steve ###
-
-fighter_steve:
-  Type: IRON_GOLEM
-  Display: 'STEVE'
-  Damage: 7  
-  BossBar:
-    Enabled: true
-    Title: '<mob.name>'
-    Range: 32
-    Color: PURPLE
-    Style: SOLID
-  Options:
-    FollowRange: 32
-    Silent: true
-    PreventOtherDrops: true
-  Modules:
-    ThreatTable: true
-  AIGoalSelectors:
-  - swim
-  AITargetSelectors:
-  - players
-  - golems
-  Health: 300
-  Skills:
-  - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
-  - randomskill{skills=herobrineHEIGHTJUMP4,herobrineHEIGHTJUMP2,herobrineFISHING,herobrineAXE,herobrineROLL,herobrineLEAPKICK} @target ~onTimer:15
-  - setmobscore{o=herodamage;v=7} @self ~onSpawn
-  - skill{s=herobrineULTRAtele} @self ~onDamaged .25
-  - skill{s=herobrineFLINCHhit} @self ~onDamaged
- # - skill{s=herobrineFLINCH75;sync=true} @self ~onDamaged <75%
- # - skill{s=herobrineFLINCH50;sync=true} @self ~onDamaged <50%
-  - skill{s=herobrineVAULT} @forward{f=0.75} ~onTimer:20
-  - skill{s=herobrineULTRA} @self ~onDamaged <25%
-  - skill{s=herobrineBLOCK} @self ~onDamaged
-  - skill{s=herobrineBLOCKprep} @self ~onTimer:15
-  - skill{s=herobrineEAT} @self ~onTimer:20 <50%
-  - randomskill{skills=herobrineSLASHsync,herobrineSLASHsync,herobrineSLASHsync,herobrinePICKAXEsync,herobrineROUNDHOUSEsync,herobrineDOWNPUNCHsync,herobrinePOWERPUNCHsync;sync=true} @self ~onAttack
-  - skill{s=herobrineLEAPBACK} @self ~onTimer:120
-  - skill{s=herobrineLAND} @self ~onTimer:1
-  - model{mid=herobrine;n=false} @self ~onSpawn
-  - DefaultState{m=herobrine;t=WALK;s=run} @self ~onEnterCombat
-  - DefaultState{m=herobrine;t=WALK;s=walk} @self ~onDropCombat
-  - state{s=idle} @self ~onDropCombat
-  - skill{s=herobrineDEATH} @self ~onDeath
-
 amogus:
   Type: IRON_GOLEM
   Display: 'AMOGUS'
@@ -474,7 +78,7 @@ amogus:
   #- skill{s=golembyedoor} @Self <2%%
 
 
-  - skill{s=imposter_redDEATH} @self ~onDeath
+  - skill{s=imposter_redDEATHsummon} @self ~ondeath
   - skill{s=imposter_redSHOOT} @self ~onTimer:20
 
   - randomskill{skills=imposter_redATTACKsync,imposter_redATTACKsync,imposter_redATTACKsync,herobrinePICKAXEsync,herobrineROUNDHOUSEsync,herobrineDOWNPUNCHsync,herobrinePOWERPUNCHsync;sync=true} @self ~onAttack
@@ -485,4 +89,45 @@ amogus:
   #- DefaultState{m=herobrine;t=WALK;s=walk} @self ~onDropCombat
   - state{s=idle} @self ~onDropCombat
  # - skill{s=herobrineDEATH} @self ~onDeath
-  - skill{s=MithraDeathAnimation} @self ~onDeath
+
+deadamogus:
+  Type: IRON_GOLEM
+  Display: 'AMOGUS'
+  Damage: 10
+  BossBar:
+    Enabled: true
+    Title: '<mob.name> 0 <&fs> 2000'
+    Range: 32
+    Color: PURPLE
+    Style: SOLID
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Modules:
+    ThreatTable: true
+  Options:
+    Despawn: false
+    MaxCombatDistance: 30
+    ShowHealth: true
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Model:
+    Id: red_imposter
+    ViewRadius: 48
+    Drive: false
+    Scale: 1.4
+    DamageTint: true
+  Drops:
+  Health: 1000
+  Skills:
+  - skill{s=imposter_redDEATH;delay=40} @self ~onspawn
+  - model{mid=imposter_red;d=false;i=true} @self ~onSpawn
+  - model{mid=imposter_red;d=false;i=true} @self ~onLoad
+  - ChangePart{model=imposter_yellow;part=body;newmodel=imposter_parts;newpart=dead_yellow;delay=40} @self ~onSpawn
