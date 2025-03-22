@@ -35,11 +35,13 @@ l4_horncrier:
         allow: [ "#base_stone_overworld", "cobblestone", "#dirt", "moss_carpet", "cyan_terracotta", "white_concrete", "calcite" ]
         deny: ["moss_block"] # prevents from spawning on goblets
 
+
+
 l4_orbpiercer:
   inherit: l4_hostile
   type: mm:orbpiercer
   chance: 0.015
-  priority: 0.4
+  priority: 0.15
   conditions:
     - $inherit
     - $remove maxNearby

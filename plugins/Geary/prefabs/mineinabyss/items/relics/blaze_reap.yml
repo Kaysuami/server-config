@@ -21,7 +21,7 @@ observe:
     - ensure:
         mythicConditions:
           - EnchantingLevel{l=>1} true
-          - hasaurastacks{n=trident;s=4} true
+          - hasaurastacks{n=blazereap;s=4} true
       onFail:
         - sendActionBar:
             text: <red>Not Primed

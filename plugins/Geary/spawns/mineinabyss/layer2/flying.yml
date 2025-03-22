@@ -17,8 +17,8 @@ l2_cyatoria: { inherit: l2_flying, type: mm:cyatoria, priority: 0.5 }
 l2_dosetori: { inherit: l2_flying, type: mm:dosetori, priority: 0.1 }
 
 # Uncommon
-l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.3 }
+l2_corpse_weeper: { inherit: l2_flying, type: mm:corpse_weeper, priority: 0.3, chance: 0.5 }
 
 
 # Rare
-l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.01 }
+l2_splitjaw: { inherit: l2_flying, type: mm:splitjaw, priority: 0.01, chance: 0.05}

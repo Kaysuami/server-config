@@ -394,3 +394,95 @@ fighter_steve:
   - DefaultState{m=herobrine;t=WALK;s=walk} @self ~onDropCombat
   - state{s=idle} @self ~onDropCombat
   - skill{s=herobrineDEATH} @self ~onDeath
+
+amogus:
+  Type: IRON_GOLEM
+  Display: 'AMOGUS'
+  Damage: 10
+  BossBar:
+    Enabled: true
+    Title: '<mob.name> <caster.hp{round=0}> <&fs> <caster.mhp{round=0}>'
+    Range: 32
+    Color: PURPLE
+    Style: SOLID
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - float
+  AITargetSelectors:
+  - clear
+  - attacker
+  - players
+  Modules:
+    ThreatTable: true
+  Options:
+    Despawn: false
+    MaxCombatDistance: 30
+    ShowHealth: true
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Silent: true
+    KnockbackResistance: 1
+    PreventSunburn: true
+  DropOptions:
+    DropMethod: FANCY
+    ShowDeathHologram: true
+    ClientSideDrops: true
+    Lootsplosion: false
+    HologramItemNames: true
+    ItemGlowByDefault: true
+    ItemBeamByDefault: true
+    ItemVFXByDefault: false
+    HologramTimeout: 2000
+  Model:
+    Id: red_imposter
+    ViewRadius: 48
+    Drive: false
+    Scale: 1.4
+    DamageTint: true
+  Drops:
+  Health: 1000
+  Skills:
+#  - skill{s=HerobrineSTEVESPAWN} @self ~onSpawn
+  - potion{type=FIRE_RESISTANCE;duration=99999;level=1} @self
+  - skill{s=bossping} ~onSignal:location
+  - skill{s=Changetarget} ~onTimer:10 <99%
+
+  - randomskill{skills=herobrineFISHING,herobrineAXE,herobrineLEAPKICK} @target ~onTimer:50
+
+  - setmobscore{o=herodamage;v=15} @self ~onSpawn
+  - skill{s=herobrineULTRAtele} @self ~onDamaged .5
+ # - skill{s=herobrineFLINCHhit} @self ~onDamaged
+ # - skill{s=herobrineFLINCH75;sync=true} @self ~onDamaged <75%
+ # - skill{s=herobrineFLINCH50;sync=true} @self ~onDamaged <50%
+ # - skill{s=herobrineVAULT} @forward{f=0.75} ~onTimer:20
+  - skill{s=herobrineBLOCK} @self ~onDamaged
+  - skill{s=herobrineBLOCKprep} @self ~onTimer:15
+  - skill{s=herobrineEAT} @self ~onTimer:20 <70%
+
+  - randomskill{skills=herobrineCROSSBOWGROUND} @target ~onTimer:50
+
+  - skill{s=gtfome} @self <80%
+  - skill{s=gtfome} @self <60%
+  - skill{s=gtfome} @self <40%
+  - skill{s=gtfome} @self <24%
+  - skill{s=bondrewdULTRA} @self ~onDamaged <25%
+  #- skill{s=mgspawn} ~onSignal:gaming
+  #- skill{s=golembyedoor} @Self <2%%
+
+
+  - skill{s=imposter_redDEATH} @self ~onDeath
+  - skill{s=imposter_redSHOOT} @self ~onTimer:20
+
+  - randomskill{skills=imposter_redATTACKsync,imposter_redATTACKsync,imposter_redATTACKsync,herobrinePICKAXEsync,herobrineROUNDHOUSEsync,herobrineDOWNPUNCHsync,herobrinePOWERPUNCHsync;sync=true} @self ~onAttack
+  - skill{s=herobrineLEAPBACK} @self ~onTimer:60
+  - skill{s=herobrineLAND} @self ~onTimer:1
+  - model{mid=imposter_red;n=false} @self ~onSpawn
+#  - DefaultState{m=herobrine;t=WALK;s=run} @self ~onEnterCombat
+  #- DefaultState{m=herobrine;t=WALK;s=walk} @self ~onDropCombat
+  - state{s=idle} @self ~onDropCombat
+ # - skill{s=herobrineDEATH} @self ~onDeath
+  - skill{s=MithraDeathAnimation} @self ~onDeath

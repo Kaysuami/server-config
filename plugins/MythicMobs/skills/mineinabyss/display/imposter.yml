@@ -55,7 +55,7 @@ spawnorangeimposter:
 
 imposter_ATTACKDamage:
   Skills:
-  - damage{a=7}
+  - damage{a=11}
   - effect:particles{particle=block;m=redstone_block;amount=50;hS=.25;vS=.25;y=.5}
 
 #### green imposter ####
@@ -615,17 +615,13 @@ imposter_redATTACKsync:
   - Skill{s=imposter_redATTACK} @self
   
 imposter_redATTACK:
-  Cooldown: 2
-  Conditions:
-  - offgcd true
   Skills:
-  - gcd{ticks=20} @self
   - state{s=stab} @self
   - ChangePart{model=imposter_red;part=right_hand;newmodel=imposter_parts;newpart=knife_red} @self
   - ChangePart{model=imposter_red;part=left_hand;newmodel=imposter_parts;newpart=left_hand_red} @self
   - delay 5
   - sound{s=entity.player.attack.sweep} @self
-  - totem{ch=5;oH=imposter_ATTACKDamage;int=1;hR=2;vR=2;md=2} @forward{f=1}
+  - totem{ch=5;oH=herobrineCROSSBOWHIT;int=1;hR=2;vR=2;md=2} @forward{f=1}
   - delay 15
   - ChangePart{model=imposter_red;part=right_hand;newmodel=imposter_red;newpart=right_hand} @self
   - ChangePart{model=imposter_red;part=left_hand;newmodel=imposter_red;newpart=left_hand} @self
@@ -645,7 +641,10 @@ imposter_redSHOOT:
   - delay 20
   - sound{s=entity.firework_rocket.large_blast} @self
   - Skill{s=imposter_ATTACKDamage} @target
-  - delay 12
+  - delay 5
+  - Skill{s=imposter_ATTACKDamage} @target
+  - delay 5
+  - Skill{s=imposter_ATTACKDamage} @target
   - ChangePart{model=imposter_red;part=right_hand;newmodel=imposter_red;newpart=right_hand} @self
   - ChangePart{model=imposter_red;part=left_hand;newmodel=imposter_red;newpart=left_hand} @self
   
@@ -846,7 +845,7 @@ herobrineLEAPKICK:
   - state{s=jump} @self
   - sound{s=mineinabyss:littleroom.herobrine.jump;v=1;sc=HOSTILE} @self
   - delay 5
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - lunge{velocity=1.75;velocityY=.25} @Target
   - sound{s=mineinabyss:littleroom.herobrine.jump;v=1;sc=HOSTILE} @self
   - state{s=inair_kick} @self
@@ -860,99 +859,125 @@ herobrineDROPKICKDamage:
   - skill{s=herobrineBLOODfx} @EIR{r=2}
   - velocity{m=set;x=0;y=0;z=0} @self @EIR{r=2}
   - throw{velocity=15;velocityY=1} @EIR{r=2}
-  - damage{a=10} @EIR{r=2}
+  - damage{a=20} @EIR{r=2}
   
 
 
 herobrineROLL:
+  Cooldown: 3
   Conditions:
   - incombat true
-  - onground true
+#  - onground true
   - offgcd true
-  - targetwithin{d=8} false
+  - targetwithin{d=7} false
   Skills:
-  - gcd{ticks=30}
+  - gcd{ticks=10}
   - state{s=roll} @self
   - delay 5
   - sound{s=mineinabyss:littleroom.herobrine.roll;v=1;sc=HOSTILE} @self
   - effect:particles{particle=campfire_cosy_smoke;amount=2;hs=.25;vs=0;y=.1;repeat=15;repeatInterval=1} @self
-  - lunge{velocity=.4;velocityY=-1;repeat=15;repeatInterval=1} @TargetLocation
+  - lunge{velocity=.4;velocityY=-1;repeat=20;repeatInterval=1} @TargetLocation
   - delay 20
-  - randomskill{s=herobrineCROSSBOWGROUND,herobrineROLLEND} @target
+ # - randomskill{s=herobrineCROSSBOWGROUND,herobrineROLLEND} @target
   
 herobrineROLLEND:
   Skills:
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   
 herobrineCROSSBOWGROUND:
+  Cooldown: 5
   TargetConditions:
   - lineofsight true
   Conditions:
-  - targetwithin{d=3} false
+  - targetwithin{d=5} false
   Skills:
   - sound{s=minecraft:item.crossbow.loading_start;v=1;sc=HOSTILE} @self
-  - gcd{ticks=20}
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - state{s=crossbow_straight} @self
-  - delay 5
-  - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=crossbow_loaded} @self
-  - delay 5
   - sound{s=minecraft:item.crossbow.shoot;v=1;sc=HOSTILE} @self
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=crossbow_unloaded} @self
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=2;sfo=1;hnp=true}
-  - delay 3
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=2;sfo=1;hnp=true}
-  - delay 3
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=2;sfo=1;hnp=true}
-  - delay 4
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true}
+  - delay 2
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
+  - delay 2
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=0.5;sfo=1;hnp=true;a=0.8}
+  - delay 2
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine;newpart=lefthand} @self
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   
 herobrineLEAPBACK:
   Conditions:
-  - onground true
+  #- onground true
   - offgcd true
-  - targetwithin{d=3} true
+  - targetwithin{d=5} true
   Skills:
-  - setspeed{speed=0;type=walking}
+# # - setspeed{speed=0.3;type=walking} @self
   - gcd{ticks=80}
   - sound{s=mineinabyss:littleroom.herobrine.jump;v=1;sc=HOSTILE} @self
   - state{s=jump} @self
   - delay 8
   - lunge{velocity=1.25;velocityY=.8} @forward{f=-8}
-  - setspeed{speed=2;type=walking}
-  - randomskill{skills=herobrineCROSSBOW} @target
+#  - setspeed{speed=2;type=walking}
+  - randomskill{skills=triplespin} @target
   - delay 5
   - setstance{stance=inair} @self
-  
 
-  
-herobrineCROSSBOW:
+
+bulletspin:
   Skills:
-  - sound{s=minecraft:item.crossbow.loading_start;v=1;sc=HOSTILE} @self
-  - state{s=inair_crossbow} @self
-  - delay 5
-  - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=crossbow_loaded} @self
-  - delay 5
-  - sound{s=minecraft:item.crossbow.shoot;v=1;sc=HOSTILE} @self
-  - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine_bits;newpart=crossbow_unloaded} @self
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=2;sfo=1;hnp=true}
-  - delay 3
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=2;sfo=1;hnp=true}
-  - delay 3
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;v=50;i=1;hR=.5;vR=.5;syo=2;sfo=1;hnp=true}
-  - delay 4
-  - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine;newpart=lefthand} @self
-  
+    - sound{s=entity.creeper.death;v=1;p=1.3} @PIR{r=30}
+    - sound{s=entity.creeper.death;v=1;p=1.3} @PIR{r=30}
+    - sound{s=entity.creeper.death;v=1;p=1.3} @PIR{r=30}
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=0;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=20;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=40;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=60;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=80;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=100;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=120;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=140;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=160;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=180;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=200;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=220;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=240;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=260;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=280;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=300;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=320;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=340;sE=true;syo=0.5;hR=2;tyo=1} @target
+    - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWTICK;onHit=herobrineCROSSBOWHIT;i=1;v=16;mr=20;hO=360;sE=true;syo=0.5;hR=2;tyo=1} @target
+triplespin:
+  Cooldown:
+  Skills:
+    - skill{s=bulletspin} @target
+    - delay 5
+    - skill{s=bulletspin} @target
 herobrineCROSSBOWTICK:
   Skills:
-  - effect:particles{p=dragon_breath;amount=3;speed=0;hS=0.2;vS=0.2} @origin
+  - effect:particles{p=crit;amount=3;speed=0;hS=0.2;vS=0.2} @origin
 
 herobrineCROSSBOWHIT:
   Skills:
-  - damage{a=10;pi=true}
+  - damage{a=13}
   - skill{s=herobrineBLOODfx}
-  
+
+gtfome:
+  Cooldown: 5
+  Skills:
+  - delay 5
+  - throw{velocity=15;velocityY=3} @PlayersInRadius{r=10}
+  - damage{amount=6;ignoreArmor=false} @PlayersInRadius{r=10} 
+  - effect:particlering{particle=BLOCKCRACK;material=OBSIDIAN;radius=1;points=5;amount=30;hS=1;vS=1} @Self 
+  - delay 2
+  - effect:particlering{particle=BLOCKCRACK;material=OBSIDIAN;radius=2;points=7;amount=20;hS=1;vS=1} @Self 
+  - delay 2
+  - effect:particlering{particle=BLOCKCRACK;material=OBSIDIAN;radius=3;points=9;amount=10;hS=1;vS=1} @Self 
+  - delay 2
+  - effect:particlering{particle=BLOCKCRACK;material=OBSIDIAN;radius=4;points=11;amount=10;hS=1;vS=1} @Self 
+  - delay 2
+
+
 herobrineLAND:
   Conditions:
   - onground true
@@ -962,7 +987,7 @@ herobrineLAND:
   - sound{s=minecraft:entity.generic.small_fall;v=1;sc=HOSTILE} @self
   - gcd{ticks=20}
   - state{s=land} @self
-  - setspeed{speed=2;type=walking}
+#  - setspeed{speed=2;type=walking}
   - setstance{stance=grounded} @self
   
 herobrineSLASHsync:
@@ -972,34 +997,34 @@ herobrineSLASHsync:
   
 herobrineSLASH:
   Conditions:
-  - onground true
-  - targetwithin{d=3} true
+  #- onground true
+  - targetwithin{d=5} true
   - offgcd true
   Skills:
   - skill{s=herobrineswingsound} @self
-  - setspeed{speed=0;type=walking}
-  - gcd{ticks=10}
-  - lunge{velocity=.75;velocityY=-1} @target
+ # - setspeed{speed=0.3;type=walking} @self
+  - gcd{ticks=5}
+  - lunge{velocity=1;velocityY=-1} @target
   - effect:particles{p=sweep_attack;amount=1} @ModelPart{m=herobrine;p=lefthand}
   - state{s=sword1} @self
   - delay 1
   - ChangePart{model=red_imposter;part=h_left_hand;newmodel=herobrine_bits;newpart=sword} @self
-  - totem{ch=5;oH=herobrineSLASHDamage;int=1;hR=2;md=2;hnp=true} @Forward{f=1}
-  - delay 10
+  - totem{ch=5;oH=herobrineSLASHDamage;int=1;hR=3;md=2;hnp=true} @Forward{f=1}
+  - delay 2
   - ChangePart{model=herobrine;part=lefthand;newmodel=red_imposter;part=h_left_hand} @self
-  - setspeed{speed=2;type=walking}
+#  - setspeed{speed=2;type=walking}
   - skill{s=herobrineSLASH2} @self .8
   
 herobrineSLASH2:
   Conditions:
-  - onground true
-  - targetwithin{d=3} true
+ # - onground true
+  - targetwithin{d=5} true
   - offgcd true
   Skills:
   - skill{s=herobrineswingsound} @self
-  - setspeed{speed=0;type=walking}
-  - gcd{ticks=10}
-  - lunge{velocity=.75;velocityY=-1} @target
+ # - setspeed{speed=0.3;type=walking} @self
+  - gcd{ticks=5}
+  - lunge{velocity=1;velocityY=-1} @target
   - effect:particles{p=sweep_attack;amount=1} @ModelPart{m=herobrine;p=lefthand}
   - state{s=sword2} @self
   - delay 1
@@ -1007,12 +1032,12 @@ herobrineSLASH2:
   - totem{ch=5;oH=herobrineSLASHDamage;int=1;hR=1;md=2;hnp=true} @Forward{f=1}
   - delay 10
   - ChangePart{model=herobrine;part=lefthand;newmodel=red_imposter;part=h_left_hand} @self
-  - setspeed{speed=2;type=walking}
+#  - setspeed{speed=2;type=walking}
   - skill{s=herobrineSLASH} @self .5
   
 herobrineSLASHDamage:
   Skills:
-  - damage{a=7} @EIR{r=2}
+  - damage{a=13;ia=true} @EIR{r=2}
   - skill{s=herobrineBLOODfx} @EIR{r=2}
   
 herobrinePICKAXEsync:
@@ -1021,14 +1046,14 @@ herobrinePICKAXEsync:
   - skill{s=herobrinePICKAXE} @self
   
 herobrinePICKAXE:
-  Cooldown: 30
+  Cooldown: 10
   Conditions:
-  - onground true
-  - targetwithin{d=3} true
+  #- onground true
+  - targetwithin{d=5} true
   - offgcd true
   Skills:
   - gcd{ticks=30} @self
-  - setspeed{speed=0;type=walking}
+ # - setspeed{speed=0.3;type=walking} @self
   - state{s=swipeup} @self
   - delay 1
   - ChangePart{model=red_imposter;part=h_left_hand;newmodel=herobrine_bits;newpart=pickaxe} @self
@@ -1039,24 +1064,24 @@ herobrinePICKAXE:
   - ChangePart{model=herobrine;part=lefthand;model=red_imposter;part=h_left_hand} @self
   - delay 5
   - skill{s=herobrineCROSSBOWup} @target
-  - setspeed{speed=2;type=walking}
+  #- setspeed{speed=2;type=walking}
   
 herobrinePICKAXEDamage:
   Skills:
-  - damage{a=10} @EIR{r=2}
-  - throw{velocity=6;velocityY=12} @EIR{r=2}
+  - damage{a=25} @EIR{r=2}
+  - throw{velocity=6;velocityY=13} @EIR{r=2}
   - skill{s=herobrineBLOODfx} @EIR{r=2}
   
 herobrineCROSSBOWup:
   TargetConditions:
   - yDiff{diff=>3} true
   Conditions:
-  - onground true  
+  #- onground true  
   - targetwithin{d=3} false
   Skills:
   - sound{s=minecraft:item.crossbow.loading_start;v=1;sc=HOSTILE} @self
   - gcd{ticks=20}
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - state{s=crossbow_up} @self
   - delay 5
   - ChangePart{model=model=red_imposter;part=h_left_hand;newmodel=herobrine_bits;newpart=crossbow_loaded} @self
@@ -1067,11 +1092,13 @@ herobrineCROSSBOWup:
   - ChangePart{model=model=red_imposter;part=h_left_hand;newmodel=herobrine_bits;newpart=crossbow_unloaded} @self
   - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1.5;vR=1;sfo=1;hnp=true}
   - delay 3
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1.5;vR=1;sfo=1;hnp=true}
-  - delay 3
-  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1.5;vR=1;sfo=1;hnp=true}
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1;vR=1;sfo=1;a=0.8;hnp=false}
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1;vR=1;sfo=1;a=0.8;hnp=false}
+  - delay 5
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1;vR=1;sfo=1;a=0.8;hnp=false}
+  - projectile{bulletType=ARROW;onTick=herobrineCROSSBOWfireworkTICK;onHit=herobrineCROSSBOWfireworkHIT;v=50;i=1;hR=1;vR=1;sfo=1;a=0.8;hnp=false}
   - ChangePart{model=herobrine;part=lefthand;newmodel=red_imposter;part=h_left_hand} @self
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   
 herobrineCROSSBOWfireworkTICK:
   Skills:
@@ -1084,7 +1111,7 @@ herobrineCROSSBOWfireworkHIT:
   - sound{s=minecraft:entity.firework_rocket.launch;v=1;sc=HOSTILE} @self
   - throw{velocity=5;velocityY=-1} @EntitiesNearOrigin{r=4}
   - summon{t=herobrine_fireworkFX;a=3;r=3;yr=4} @origin
-  - damage{amount=7;element=FIRE} @EntitiesNearOrigin{r=3}
+  - damage{amount=15;element=FIRE;ia=true;ie=true} @EntitiesNearOrigin{r=3}
   - effect:particles{p=flame;repeat=10;repeatInterval=2;hs=.25;vs=1} @EntitiesNearOrigin{r=4}
   - effect:particles{p=large_smoke;repeat=10;repeatInterval=2;hs=.25;vs=1} @EntitiesNearOrigin{r=4}
   - effect:particles{p=flash} @origin
@@ -1124,7 +1151,7 @@ herobrineROUNDHOUSEsync:
 herobrineROUNDHOUSE:
   Cooldown: 7
   Conditions:
-  - targetwithin{d=3} true
+  - targetwithin{d=5} true
   Skills:
   - gcd{ticks=30}
   - state{s=kick} @self
@@ -1135,7 +1162,7 @@ herobrineROUNDHOUSE:
 herobrineROUNDHOUSEDamage:
   Skills:
   - skill{s=herobrineBLOODfx} @EIR{r=2}
-  - damage{a=12} @EIR{r=2}
+  - damage{a=18} @EIR{r=2}
   - throw{velocity=20;velocityY=-10} @EIR{r=2}
 
 herobrinePOWERPUNCHsync:
@@ -1147,11 +1174,11 @@ herobrinePOWERPUNCH:
   Cooldown: 5
   Conditions:
   - onground true
-  - targetwithin{d=3} true
+  - targetwithin{d=5} true
   - offgcd true
   Skills:
   - sound{s=mineinabyss:littleroom.herobrine.powerpunch;v=1;sc=HOSTILE} @self
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - gcd{ticks=30}
   - state{s=falcon_punch} @self
   - delay 18
@@ -1159,12 +1186,11 @@ herobrinePOWERPUNCH:
   - lunge{velocity=3;velocityY=-5} @target
   - delay 5
   - totem{ch=1;oH=herobrinePOWERPUNCHDamage;int=1;hR=2;md=10;hnp=true} @Forward{f=.5}
-  - delay 10
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   
 herobrinePOWERPUNCHDamage:
   Skills:
-  - damage{a="10*2"} @EIR{r=2}
+  - damage{a="13*2"} @EIR{r=2}
   - skill{s=herobrineBLOODfx} @EIR{r=2}
   - throw{velocity=20;velocityY=3} @EIR{r=2}
   
@@ -1177,21 +1203,21 @@ herobrineDOWNPUNCH:
   Cooldown: 15
   Conditions:
   - onground true
-  - targetwithin{d=3} true
+  - targetwithin{d=5} true
   - offgcd true
   Skills:
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - gcd{ticks=20}
   - state{s=punch_down} @self
   - skill{s=herobrineswingsound} @self
   - delay 8
   - totem{ch=5;oH=herobrineDOWNPUNCHDamage;int=1;hR=2;md=2;hnp=true} @Forward{f=1}
   - delay 10
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   
 herobrineDOWNPUNCHDamage:
   Skills:
-  - damage{a=10} @EIR{r=2}
+  - damage{a=15} @EIR{r=2}
   - skill{s=herobrineBLOODfx} @EIR{r=2}
   
 herobrineBLOODfx:
@@ -1221,37 +1247,35 @@ herobrineBLOCK:
   - gcd{ticks=15} @self
   - sound{s=item.shield.block} @self
   - ChangePart{model=imposter_red;part=h_left_hand;newmodel=herobrine_bits;newpart=shield} @self
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - delay 1
   - state{s=block} @self
   - delay 15
   #- SwapModel{m=herobrine;nid=herobrine;d=true} @self
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - ChangePart{model=herobrine;part=lefthand;newmodel=imposter_red;part=h_left_hand} @self
   
 herobrineULTRA:
   Conditions:
-  - onground true  
+  #- onground true  
   - offgcd true
   Cooldown: 220
   Skills:
-  - sound{s=mineinabyss:littleroom.herobrine.powerup;v=1;sc=HOSTILE} @self
   - setspeed{speed=0;type=walking} @self
   - gcd{ticks=60} @self
   - state{s=powerup} @self
   - velocity{m=set;x=0;y=0;z=0;repeat=30;repeatInterval=1} @self
   - effect:particles{particle=dragon_breath;amount=10;dir=0,1,0;d=true;speed=.1;hs=1;vs=.25;repeat=3;repeatInterval=5} @self
   - delay 15
-  - setspeed{speed=2.1;type=walking} @self
-  - setmobscore{o=herodamage;v=15}
-  - throw{velocity=20;velocityY=4} @EIR{r=4}
-  - potion{type=SPEED;duration=480;level=1} @self
-  - potion{type=STRENGTH;duration=480;level=1} @self
+  - throw{velocity=20;velocityY=2} @EIR{r=4}
+  - potion{type=SPEED;duration=880;level=1} @self
+  - potion{type=STRENGTH;duration=880;level=1} @self
+  - potion{type=REGENERATION;duration=1000;level=1} @self
   - effect:particles{particle=dragon_breath;amount=5;dir=0,1,0;d=true;speed=.1;hs=.25;vs=1;repeat=480;repeatInterval=1} @self
   - effect:particles{particle=flash;amount=1} @self
   - effect:particlesphere{particle=end_rod;amount=128;radius=3;speed=1} @self
   - delay 40
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - delay 480
   - setmobscore{o=herodamage;v=10}
   
@@ -1275,7 +1299,7 @@ herobrineAXE:
   Cooldown: 10
   Skills:
   - delay 1
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - gcd{ticks=30} @self
   - state{s=axe_throw} @self
   - delay 1
@@ -1283,16 +1307,19 @@ herobrineAXE:
   - skill{s=herobrineswingsound} @self
   - delay 8
   - sound{s=mineinabyss:littleroom.herobrine.axe_spinning;v=1;sc=HOSTILE} @self
-  - projectile{bulletType=MOB;mob=herobrine_axe;onHit=herobrineAXEHIT;v=13;i=1;hR=1;vR=1;sfo=1.25;tyo=1;hnp=true;syo=2}
+  - projectile{bulletType=MOB;mob=herobrine_axe;onHit=herobrineAXEHIT;v=13;i=1;hR=1;vR=1;sfo=1.25;tyo=1;hnp=true;syo=0.5}
+  - projectile{bulletType=MOB;mob=herobrine_axe;onHit=herobrineAXEHIT;v=13;i=1;hR=1;vR=1;sfo=1.25;tyo=1;hnp=true;syo=0.5;hO=25}
+  - projectile{bulletType=MOB;mob=herobrine_axe;onHit=herobrineAXEHIT;v=13;i=1;hR=1;vR=1;sfo=1.25;tyo=1;hnp=true;syo=0.5;hO=335}
+  - projectile{bulletType=MOB;mob=herobrine_axe;onHit=herobrineAXEHIT;v=13;i=1;hR=1;vR=1;sfo=1.25;tyo=1;hnp=true;syo=0.5;hO=50}
+  - projectile{bulletType=MOB;mob=herobrine_axe;onHit=herobrineAXEHIT;v=13;i=1;hR=1;vR=1;sfo=1.25;tyo=1;hnp=true;syo=0.5;hO=310}
   - delay 1
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine;newpart=lefthand} @self
-  - delay 10
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
 
 herobrineAXEHIT:
   Skills:
   - potion{type=SLOW;duration=40;level=1}
-  - damage{a=10}
+  - damage{a=25}
   - skill{s=herobrineBLOODfx}
   
 herobrineFISHING:
@@ -1306,7 +1333,7 @@ herobrineFISHING:
   - incombat true
   Cooldown: 15
   Skills:
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - gcd{ticks=30} @self
   - state{s=fishing_rod} @self
   - delay 1
@@ -1321,7 +1348,7 @@ herobrineFISHING:
   - delay 10
   - skill{s=herobrinePOWERPUNCH} @self .75
   - ChangePart{model=herobrine;part=lefthand;newmodel=herobrine;newpart=lefthand} @self
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   
 herobrinefishinglineHIT:
   Skills:
@@ -1343,12 +1370,12 @@ herobrineHEIGHTJUMP4:
   - offgcd true
   Skills:
   - gcd{ticks=20}
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - sound{s=mineinabyss:littleroom.herobrine.jump;v=1;sc=HOSTILE} @self
   - state{s=jump} @self
   - delay 5
   - lunge{velocity=1.5;velocityY=.7} @Target
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - delay 10
   - lunge{velocity=.5;velocityY=.1} @Target
   - skill{s=herobrineswingsound} @self
@@ -1365,12 +1392,12 @@ herobrineHEIGHTJUMP2:
   - offgcd true
   Skills:
   - gcd{ticks=20}
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - sound{s=mineinabyss:littleroom.herobrine.jump;v=1;sc=HOSTILE} @self
   - state{s=jump} @self
   - delay 5
   - lunge{velocity=1.5;velocityY=.6} @Target
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - delay 10
   - lunge{velocity=.5;velocityY=.1} @Target
   - skill{s=herobrineswingsound} @self
@@ -1392,10 +1419,10 @@ herobrineFLINCH75:
   - gcd{ticks=90}
   - delay 1
   - state{s=stun} @self  
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - setstance{stance=flinch} @self
   - delay 90
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - setstance{stance=grounded} @self  
   
 herobrineFLINCH50:
@@ -1407,9 +1434,9 @@ herobrineFLINCH50:
   - delay 1
   - state{s=stun} @self 
   - setstance{stance=flinch} @self
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - delay 90
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - setstance{stance=grounded} @self  
   
 
@@ -1427,7 +1454,7 @@ herobrineVAULTcheck:
   Skills:
   - gcd{ticks=30} @self
   - setAI{ai=false} @self
-  - setspeed{speed=0;type=walking} @self
+ # - setspeed{speed=0.3;type=walking} @self
   - look{headOnly=false;immediately=true;repeat=20;repeatInterval=1}
   - state{s=vault} @self
   - delay 5
@@ -1435,7 +1462,7 @@ herobrineVAULTcheck:
   - throw{velocity=10;velocityY=2} @EIR{r=3}
   - teleport{spreadh=0;spreadv=0;repeat=10;repeatInterval=1} @forward{f=.1}
   - delay 10
-  - setspeed{speed=2;type=walking} @self
+##  - setspeed{speed=2;type=walking} @self
   - setAI{ai=true} @self
   
 herobrineDEATH:

@@ -18,7 +18,7 @@ SJ_Attack_DAMAGE:
   TargetConditions:
     - isblocking false
   Skills:
-    - damage{a=8;pkb=true;hnp=true;hp=true} @target
+    - damage{a=8;pkb=true;hnp=true;hp=true;ie=true} @target
 
 SJ_Hit:
   Cooldown: 1
