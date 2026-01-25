@@ -1,6 +1,6 @@
 set.item:
   type: minecraft:potion
-  itemName: <gold>Heat Stone
+  customName: <gold>Heat Stone
   itemModel: mineinabyss:relics/heatstone
   lore:
   - <yellow>A fleshy bottle filled with a thick, black, oily substance.
