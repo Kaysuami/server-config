@@ -120,7 +120,7 @@ yukonokage_soul_collision:
   - sound{s=entity.allay.hurt;sc=ui;p=1.5;v=0.6} @targetedtarget
   - sound{s=entity.allay.hurt;sc=ui;p=0.2;v=0.6} @targetedtarget
   - damage{a=4;ie=true;ia=true;is=true} @targetedtarget{ignore=animal,creature,monster} 
-  - damage{a=clamp(<target.mhp> * 0.15,10,50);ie=true;ia=true} @targetedtarget{ignore=player} 
+  - damage{a=clamp(<target.mhp> * 0.12,15,40);ie=true;ia=true} @targetedtarget{ignore=player} 
 
 yukonokage_soul_repel:
   Conditions:
@@ -311,7 +311,7 @@ yukonokage_soul_display_10:
 
 yukonokage_soul_tick:
   Skills:
-  - effect:particlesphere{particle=snowflake;amount=1;radius=3;hS=1;vS=0.5;s=0.2} @caster
+  #- effect:particlesphere{particle=snowflake;amount=1;radius=3;hS=1;vS=0.5;s=0.2} @caster
   - effect:particles{particle=dust_color_transition;amount=1;speed=0;color=#ac12ff;color2=#ffffff} @origin
 
 yukonokage_skull_end:

@@ -22,8 +22,9 @@ blocky:furniture:
   interactionHitbox:
     - width: 1.0
       height: 1.6
-      offset:
-        y: -0.5
+      offset: 0,-0.5,0
+  properties:
+    translation: 0,0.5,0
 blocky:preventItemstackUpdate:
   forceWhenDifferentMaterial: true
 blocky:placableOn:

@@ -3,7 +3,7 @@ set.item:
   itemName: <#b754c2>Raw Billabonk Leg
   itemModel: mineinabyss:materials_mobs/billabonk_leg_raw
   lore:
-  - ':layer_2:'
+  - '<emojy:layer_2>'
   - <#0357AB><i>Do the stanky leg
   food:
     saturation: 0.4

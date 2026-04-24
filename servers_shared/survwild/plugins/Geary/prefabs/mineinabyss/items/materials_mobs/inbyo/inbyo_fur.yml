@@ -3,7 +3,7 @@ set.item:
   itemName: <#3D3D3D>Inbyo Fur
   itemModel: mineinabyss:materials_mobs/inbyo_fur
   lore:
-  - ':layer_2:'
+  - '<emojy:layer_2>'
   - <#B5B5B5><i>This stench is nauseating...
 disableItemInteractions: {}
 resourcepack:

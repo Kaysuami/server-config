@@ -3,7 +3,7 @@ set.item:
   itemName: <#85562D>Shroombear Meat
   itemModel: mineinabyss:materials_mobs/shroombear_meat_raw
   lore:
-  - ':layer_4:'
+  - '<emojy:layer_4>'
   - <yellow>It's edible and dark in colour.
   - <#694600>Might smell like excrement
   - <#694600>if you don't clean it well...

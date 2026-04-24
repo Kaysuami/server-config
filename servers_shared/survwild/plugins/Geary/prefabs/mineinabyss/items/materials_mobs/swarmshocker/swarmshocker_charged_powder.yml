@@ -3,7 +3,7 @@ set.item:
   itemName: <#257BEB>Swarmshocker Charged Powder
   itemModel: mineinabyss:materials_mobs/swarmshocker_charged_powder
   lore:
-  - ':layer_4::layer_5:'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <#1B5BAD><i>This stores an impressive amount of energy!
 disableItemInteractions: {}
 resourcepack:

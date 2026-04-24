@@ -39,7 +39,7 @@ lootCrates:
 misc:
   enabled: true
 music:
-  enabled: false
+  enabled: true
 shopkeeping:
   enabled: true
 okiboTravel:

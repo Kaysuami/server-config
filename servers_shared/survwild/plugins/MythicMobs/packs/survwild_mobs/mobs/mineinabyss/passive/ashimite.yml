@@ -5,7 +5,7 @@ ashimite:
   Display: "<#2597D9>Ashimite"
   AIGoalSelectors:
     - clear
-    - fleeplayers{distance=5;speed=2;safespeed=2;conditions=[ - inlineofsight true ]}
+    - fleeplayers{distance=5;speed=1.5;safespeed=1.5;conditions=[ - inlineofsight true ]}
     - panicWhenOnFire
     - randomstroll
     - lookatplayers

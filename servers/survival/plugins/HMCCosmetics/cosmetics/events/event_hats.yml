@@ -68,3 +68,31 @@ scarf_hat1:
     material: PAPER
     name: "Red Scarf"
     model-id: mineinabyss:cosmetics/hats/scarf_hat1
+artist_hat:
+  slot: HELMET
+  permission: "hmccosmetics.hat.artist_hat"
+  item:
+    material: PAPER
+    name: "Artist Hat"
+    model-id: mineinabyss:cosmetics/hats/artist_hat
+gas_mask_1:
+  slot: HELMET
+  permission: "hmccosmetics.hat.gas_mask_1"
+  item:
+    name: Gasmask
+    material: PAPER
+    model-id: mineinabyss:cosmetics/hats/gas_mask_1
+gas_mask_2:
+  slot: HELMET
+  permission: "hmccosmetics.hat.gas_mask_2"
+  item:
+    name: Gasmask with Glasses
+    material: PAPER
+    model-id: mineinabyss:cosmetics/hats/gas_mask_2
+gas_mask_3:
+  slot: HELMET
+  permission: "hmccosmetics.hat.gas_mask_3"
+  item:
+    name: Gasmask with Helmet
+    material: PAPER
+    model-id: mineinabyss:cosmetics/hats/gas_mask_3

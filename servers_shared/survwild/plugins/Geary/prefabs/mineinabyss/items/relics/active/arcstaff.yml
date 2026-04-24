@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/arc_staff
   lore:
-  - ':layer_4: Grade I Relic'
+  - '<emojy:layer_4> Grade I Relic'
   - <#3C8C82>A spear shape object carved out of the core from
   - <#3C8C82>a Goblet of Giants containing netherworld runes.
   - <#265c55><i>It is rumored to return to the user after being thrown.

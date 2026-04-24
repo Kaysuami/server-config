@@ -3,7 +3,7 @@ set.item:
   itemName: <#0B6623>Hagamizukin Tooth
   itemModel: mineinabyss:materials_mobs/hagamizukin_tooth
   lore:
-  - ':layer_4::layer_5:'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <#A759FF>Warped and sharp like some of
   - <#A759FF>the tempestuous abyssal bedrock.
 resourcepack:

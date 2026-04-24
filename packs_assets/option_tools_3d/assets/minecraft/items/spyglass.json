@@ -5,7 +5,7 @@
             {
                 "model": {
                     "type": "minecraft:model",
-                    "model": "mineinabyss:gear/tools/spyglass"
+                    "model": "mineinabyss:gear/tools/spyglass_in_hand"
                 },
                 "when": [
                     "gui",

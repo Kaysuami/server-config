@@ -3,7 +3,7 @@ set.item:
   itemName: <#C74040>Orb Piercer Face Fragments
   itemModel: mineinabyss:materials_mobs/orb_piercer_face_fragments
   lore:
-  - ':layer_4::cosmetic_orth_coin:'
+  - '<emojy:layer_4>:cosmetic_orth_coin:'
   - <#D9D9D9><i>I wonder if I collect enough, will I
   - <#D9D9D9><i>be able to see it as well?
   - <#D9D9D9><i>Probably just wishful thinking...

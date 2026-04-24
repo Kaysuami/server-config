@@ -3,7 +3,7 @@ set.item:
   itemName: <#963c0f>Woodcrier Horn
   itemModel: mineinabyss:materials_mobs/woodcrier_horn
   lore:
-  - ':layer_1::layer_2::cosmetic_orth_coin:'
+  - '<emojy:layer_1><emojy:layer_2>:cosmetic_orth_coin:'
   - <#A68348><i>Its hard and solid...
   - <#A68348><i>I can build structures with this.
 resourcepack:

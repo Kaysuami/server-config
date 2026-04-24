@@ -3,7 +3,7 @@ set.item:
   itemName: <#FF771C>Makihige Tentacle
   itemModel: mineinabyss:materials_mobs/makihige_tentacle
   lore:
-  - ':layer_4::layer_5::cosmetic_orth_coin:'
+  - '<emojy:layer_4><emojy:layer_5>:cosmetic_orth_coin:'
   - <#5221A6>Seems useful. I better keep this...
 resourcepack:
   model: mineinabyss:materials_mobs/makihige_tentacle

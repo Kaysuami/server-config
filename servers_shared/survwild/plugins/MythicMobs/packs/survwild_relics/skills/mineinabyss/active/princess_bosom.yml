@@ -11,4 +11,4 @@ princess_bosom:
     - potion{t=CONFUSION;d=80} @EIR{r=3}
     - potion{t=UNLUCK;d=180} @self
     - potion{t=CONFUSION;d=80} @self
-    - potion{t=ABSORPTION;d=200} @self
+    - potion{t=ABSORPTION;d=160} @self

@@ -3,7 +3,7 @@ set.item:
   itemName: <#E0E0E0>Fuwagi Hide
   itemModel: mineinabyss:materials_mobs/fuwagi_hide
   lore:
-  - ':layer_1::layer_2:'
+  - '<emojy:layer_1><emojy:layer_2>'
   - <#FF3A24><i>Soft and cozy. You can make some
   - <#FF3A24><i>quality fabric out of this.
 resourcepack:

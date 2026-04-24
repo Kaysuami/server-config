@@ -3,7 +3,7 @@ set.item:
   itemName: <#10DEA7>Okibo Fur
   itemModel: mineinabyss:materials_mobs/okibo_fur
   lore:
-  - ':layer_orth::layer_1:'
+  - '<emojy:layer_orth><emojy:layer_1>'
   - <#BDBDBD><i>Looks like it will keep me warm
   - <#BDBDBD><i>through the entire winter if needed.
 resourcepack:

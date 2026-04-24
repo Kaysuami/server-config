@@ -3,7 +3,7 @@ set.item:
   itemName: <#3D3D3D>Raw Inbyo Meat
   itemModel: mineinabyss:materials_mobs/inbyo_meat_raw
   lore:
-  - ':layer_2:'
+  - '<emojy:layer_2>'
   - <#B5B5B5><i>Doesn't look very tasty...
   food:
     saturation: 1.8

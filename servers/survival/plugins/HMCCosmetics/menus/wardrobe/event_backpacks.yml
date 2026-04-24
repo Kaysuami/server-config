@@ -3,8 +3,7 @@ rows: 6
 id: wardrobe_event_backpacks
 items:
   mallet_chisel_wooden:
-    slots:
-      - 0
+    slots: 0
     item:
       material: hmccosmetics:mallet_chisel_wooden
       lore:
@@ -30,8 +29,7 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   mallet_chisel_bronze:
-    slots:
-      - 1
+    slots: 1
     item:
       material: hmccosmetics:mallet_chisel_bronze
       lore:
@@ -57,8 +55,7 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   mallet_chisel_silver:
-    slots:
-      - 2
+    slots: 2
     item:
       material: hmccosmetics:mallet_chisel_silver
       lore:
@@ -84,8 +81,7 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   mallet_chisel_gold:
-    slots:
-      - 3
+    slots: 3
     item:
       material: hmccosmetics:mallet_chisel_gold
       lore:
@@ -111,8 +107,7 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   camera_normal:
-    slots:
-      - 6
+    slots: 6
     item:
       material: hmccosmetics:camera_normal
       lore:
@@ -138,8 +133,7 @@ items:
         on-unequip:
           - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   camera_bronze:
-    slots:
-      - 7
+    slots: 7
     item:
       material: hmccosmetics:camera_bronze
       lore:
@@ -165,8 +159,7 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   camera_silver:
-    slots:
-      - 8
+    slots: 8
     item:
       material: hmccosmetics:camera_silver
       lore:
@@ -192,8 +185,7 @@ items:
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
   camera_gold:
-    slots:
-      - 9
+    slots: 9
     item:
       material: hmccosmetics:camera_gold
       lore:
@@ -218,6 +210,39 @@ items:
         - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
       on-unequip:
         - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"
+  okibo_wuv_backpack:
+    slots: 10
+    item:
+      material: hmccosmetics:okibo_wuv_backpack
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    equipped-item:
+      material: hmccosmetics:okibo_wuv_backpack
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+        - "<rainbow>[Right Click - <i>Dye</i>]"
+    locked-equipped-item:
+
+      material: hmccosmetics:okibo_wuv_backpack
+      lore:
+        - "<red>Locked</red>"
+        - "<yellow>[Left Click - <i>Try</i>]"
+    locked-item:
+
+      material: hmccosmetics:okibo_wuv_backpack
+      lore:
+        - "<red>Locked</red>"
+        - "<yellow>[Left Click - <i>Try</i>]"
+    type: mia_cosmetic
+    cosmetic: okibo_wuv_backpack
+    actions:
+      on-equip:
+        - "[SOUND] minecraft:item.armor.equip_generic 1.0 1.0"
+      on-unequip:
+        - "[SOUND] minecraft:item.armor.unequip_generic 1.0 1.0"      
 
   home_button:
     slots: 49

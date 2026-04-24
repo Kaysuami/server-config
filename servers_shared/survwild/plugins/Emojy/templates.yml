@@ -1,5 +1,6 @@
 roles:
   font: mineinabyss:roles
+  atlas: minecraft:gui
   height: 8
   ascent: 7
 starcompass:

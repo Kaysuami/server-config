@@ -3,7 +3,7 @@ set.item:
   itemName: <#b754c2>Cooked Billabonk Leg
   itemModel: mineinabyss:materials_mobs/billabonk_leg_cooked
   lore:
-  - ':layer_2:'
+  - '<emojy:layer_2>'
   - <#0357AB><i>Moves when you apply electricity.
   food:
     saturation: 6

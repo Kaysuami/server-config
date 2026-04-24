@@ -1,0 +1,8 @@
+set.recipes:
+  discoverRecipes: true
+  removeRecipes:
+    - "minecraft:sentry_armor_trim_smithing_template"
+  result:
+    type: minecraft:sentry_armor_trim_smithing_template
+    amount: 1
+  recipes: []

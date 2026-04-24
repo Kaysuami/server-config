@@ -3,7 +3,7 @@ set.item:
   itemName: <#c4fcf2>Horncrier Horn
   itemModel: mineinabyss:materials_mobs/horncrier_horn
   lore:
-  - ':layer_4::layer_5:'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <#fbfc92><i>These colors are unlike anything
   - <#fbfc92><i>I've encountered before.
   - <#fbfc92><i>Admire

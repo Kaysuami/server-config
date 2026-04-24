@@ -3,7 +3,7 @@ set.item:
   itemName: <#50C878>Tosubachi
   itemModel: mineinabyss:dishes/tosubachi
   lore:
-  - ':layer_2:'
+  - '<emojy:layer_2>'
   - <green>A dried Tesuchi. Seen as a delicacy, its
   - <green>toughness is made up for by its unique flavor.
   food:

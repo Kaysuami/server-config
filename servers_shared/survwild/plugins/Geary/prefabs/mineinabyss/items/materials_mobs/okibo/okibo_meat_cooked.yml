@@ -3,7 +3,7 @@ set.item:
   itemName: <#10DEA7>Cooked Okibo Meat
   itemModel: mineinabyss:materials_mobs/okibo_meat_cooked
   lore:
-  - ':layer_orth::layer_1:'
+  - '<emojy:layer_orth><emojy:layer_1>'
   - <yellow>There is a ritual in <green>Orth<yellow>, for whenever
   - <yellow>a <dark_gray>Black Whistle <yellow>or <white>White Whistle
   - <yellow>return from their plunge into the <green>Abyss<yellow>.

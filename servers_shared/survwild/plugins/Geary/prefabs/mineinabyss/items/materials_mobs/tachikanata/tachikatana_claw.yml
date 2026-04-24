@@ -3,7 +3,7 @@ set.item:
   itemName: <#00FFFF>Tachikatana Claw
   itemModel: mineinabyss:materials_mobs/tachikatana_claw
   lore:
-  - ':layer_4::layer_5::cosmetic_orth_coin:'
+  - '<emojy:layer_4><emojy:layer_5>:cosmetic_orth_coin:'
   - <#1B5BAD><i>Striking it in a particular way emits
   - <#1B5BAD><i>a shockwave..
 resourcepack:

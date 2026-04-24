@@ -1,4 +1,7 @@
 emotes:
+# event
+  - id: silhouette
+  - id: face
 # logo
   - id: logo
     font: minecraft:default
@@ -259,6 +262,9 @@ emotes:
   - id: relw
     font: mineinabyss:whistles
     texture: mineinabyss:ui/prefixes/whistle_patreon/relw.png
+  - id: pinceredw
+    font: mineinabyss:whistles
+    texture: mineinabyss:ui/prefixes/whistle_patreon/pinceredw.png
 # prefixes: server
   - id: adventure
     template: roles

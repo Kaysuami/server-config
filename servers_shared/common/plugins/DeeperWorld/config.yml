@@ -41,7 +41,7 @@ sections:
     refBottom: 49152,-256,0
   - name: l2s0
     region:
-      start: 48385,72,-767
+      start: 48385,73,-767
       end: 49918,-256,766
     world: world
     refTop: 49152,224,0
@@ -58,7 +58,7 @@ sections:
   - name: l2s2
     region:
       start: 80513,255,-1407
-      end: 83326,-23,1405
+      end: 83326,-22,1405
     world: world
     refTop: 81920,224,0
     # refBottom should connect to the refTop of the next section.
@@ -97,7 +97,7 @@ sections:
     refBottom: 131072,-256,0
   - name: l4s1
     region:
-      start: 130177,6,-895
+      start: 130177,7,-895
       end: 131966,-256,894
     world: world
     refTop: 131072,224,0
@@ -137,7 +137,7 @@ sections:
     refBottom: 196608,-256,0
   - name: l5s1
     region:
-      start: 193921,131,-2687
+      start: 193921,132,-2687
       end: 199422,-256,2814
     world: world
     refTop: 196608,224,0
@@ -182,5 +182,6 @@ time:
   # The worlds where time should be synchronized with the mainWorld. Optionally specify a time offset (leave 0 if no offset is desired)
   syncedWorlds:
     world: 0
+bedrockBlockingInvalidTeleport: true
 worlds:
   - world

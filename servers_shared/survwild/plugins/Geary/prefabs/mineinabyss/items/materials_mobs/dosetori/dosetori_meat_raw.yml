@@ -3,7 +3,7 @@ set.item:
   itemName: <#59ac7a>Raw Dosetori Meat
   itemModel: mineinabyss:materials_mobs/dosetori_meat_raw
   lore:
-  - ':layer_2::layer_3:'
+  - '<emojy:layer_2><emojy:layer_3>'
   - <#d6b12c><i>Tastes like chicken.
   food:
     saturation: 1.2

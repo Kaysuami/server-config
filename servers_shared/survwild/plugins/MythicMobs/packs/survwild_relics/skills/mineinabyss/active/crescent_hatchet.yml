@@ -55,7 +55,7 @@ crescent_slash_4:
   - delay 1
   - sound{s=block.trial_spawner.ominous_activate;sc=ui;p=1.5;v=1.1} @self
   - sound{s=block.trial_spawner.ominous_activate;sc=ui;p=1.5;v=1.1} @self
-  - projectile{bulletType=MOB;mob=crescent_projectile;onHit=crescent_hit_3;v=16;i=1;hR=1.5;vR=1.5;mr=8;hnp=true;hp=true;hO=0;sE=false;sB=true;d=150;hs=false;syo=2.75} @forward{f=1000}
+  - projectile{bulletType=MOB;mob=crescent_projectile;onHit=crescent_hit_4;v=16;i=1;hR=1.5;vR=1.5;mr=8;hnp=true;hp=true;hO=0;sE=false;sB=true;d=150;hs=false;syo=2.75} @forward{f=1000}
   - auraremove{aura=crescentprimer;stacks=10} @self
 
 crescent_debuff:

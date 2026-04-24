@@ -3,7 +3,7 @@ set.item:
   itemName: <#9C0F2C>Yomotsubi Wing
   itemModel: mineinabyss:materials_mobs/yomotsubi_wing
   lore:
-  - ':layer_3::layer_5:'
+  - '<emojy:layer_3><emojy:layer_5>'
   - <#9c5d2c>A sturdy, metallic wing.
   - <#9c5d2c><i>Perhaps i can mold this into something...
 resourcepack:

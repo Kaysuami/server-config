@@ -3,7 +3,7 @@ set.item:
   itemName: <#824243>Beniguma Fur
   itemModel: mineinabyss:materials_mobs/beniguma_fur
   lore:
-  - ':layer_1:'
+  - '<emojy:layer_1>'
   - <#4a4558><i>This used to be a cute fox-like creature...
 disableItemInteractions: {}
 resourcepack:

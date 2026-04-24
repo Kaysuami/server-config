@@ -3,6 +3,7 @@ rock_top:
   Conditions:
   Skills:
   - aura{auraName=rocktopspin;onTick=rock_top_spin;onEnd=rock_top_confusion;duration=50;c=1;maxStacks=1;cotd=false} @self
+  #- skill{s=rock_top_static}
 
 rock_top_spin:
   Cooldown:
@@ -17,3 +18,79 @@ rock_top_confusion:
   Conditions:
   Skills:
   - potion{type=CONFUSION;duration=80;p=false} @self
+
+# rock_top_static:
+#   Cooldown: 200
+#   TargetConditions:
+#     - onblock{m=#wool,#wool_carpet,COBWEB,RESIN_BLOCK} true
+#   Skills:
+#   - aura{auraName=rocktopstatic;onTick=rock_top_static_tick;duration=30000;c=1;maxStacks=1000;cotd=false;rd=true;cod=true;ma=true;i=10} @self
+
+# rock_top_static_tick:
+#   Cooldown:
+#   Conditions:
+#   Skills:
+#   - effect:particles{particle=scrape;amount=3;y=1;hS=0.5;vS=0.8;speed=0.1} @self
+#   - skill{s=rock_top_static_tick_checker_1000;delay=0}
+#   - skill{s=rock_top_static_tick_checker_900;delay=1}
+#   - skill{s=rock_top_static_tick_checker_800;delay=2}
+#   - skill{s=rock_top_static_tick_checker_700;delay=3}
+#   - skill{s=rock_top_static_tick_checker_600;delay=4}
+#   - skill{s=rock_top_static_tick_checker_500;delay=5}
+#   - skill{s=rock_top_static_tick_checker_400;delay=6}
+#   - skill{s=rock_top_static_tick_checker_300;delay=7}
+#   - skill{s=rock_top_static_tick_checker_200;delay=8}
+#   - skill{s=rock_top_static_tick_checker_100;delay=9}
+#   - skill{s=rock_top_static_tick_checker_10;delay=10}
+
+# rock_top_static_tick_checker_1000:
+#   Cooldown:
+#   Conditions:
+#     - hasaurastacks{n=rocktopstatic;s=1000} true
+#   Skills:
+#   - onAttack{oH=rock_top_static_discharge_1000;cE=false;auraname=rocktopstaticdischarge1000}
+#   - skill{s=rock_top_static_self_discharge_1000}
+
+# rock_top_static_discharge_1000:
+#   Cooldown: 200
+#   Skills:
+#   - fakelightning @target
+#   - auraremove{aura=rocktopstatic} @self
+#   - delay 5
+#   - damage{a=50} @target
+
+# rock_top_static_self_discharge_1000:
+#   Cooldown: 200
+#   TargetConditions:
+#     - onblock{m=WATER,IRON_BLOCK} true
+#   Skills:
+#   - fakelightning @self
+#   - auraremove{aura=rocktopstatic} @self
+#   - delay 5
+#   - damage{a=100} @self
+
+# rock_top_static_tick_checker_900:
+#   Cooldown:
+#   Conditions:
+#     - hasaurastacks{n=rocktopstatic;s=10} true
+#   Skills:
+#   - onAttack{oH=rock_top_static_discharge_900;cE=false;auraname=rocktopstaticdischarge1000}
+#   - skill{s=rock_top_static_self_discharge_900}
+
+# rock_top_static_discharge_900:
+#   Cooldown: 200
+#   Skills:
+#   - fakelightning @target
+#   - auraremove{aura=rocktopstatic} @self
+#   - delay 5
+#   - damage{a=40} @target
+
+# rock_top_static_self_discharge_900:
+#   Cooldown: 200
+#   TargetConditions:
+#     - onblock{m=WATER,IRON_BLOCK} true
+#   Skills:
+#   - fakelightning @self
+#   - auraremove{aura=rocktopstatic} @self
+#   - delay 5
+#   - damage{a=100} @self

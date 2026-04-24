@@ -3,7 +3,7 @@ set.item:
   itemName: <#6CE5F5>Cooked Spiralsquid
   itemModel: mineinabyss:materials_mobs/spiralsquid_cooked
   lore:
-  - ':layer_1::layer_4:'
+  - '<emojy:layer_1><emojy:layer_4>'
   - <#35ADBD><i>Seems like a great source of food!
   food:
     saturation: 6

@@ -3,7 +3,7 @@ set.item:
   itemName: <#A63535>Orb Piercer Spike
   itemModel: mineinabyss:materials_mobs/orb_piercer_spike
   lore:
-  - ':layer_4::cosmetic_orth_coin:'
+  - '<emojy:layer_4>:cosmetic_orth_coin:'
   - <#D9D9D9>Drops from the fiercely territorial
   - <#D9D9D9>Orb Piercer. Handle carefully!
   - <#D9D9D9>Its venom is very lethal.

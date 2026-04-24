@@ -3,7 +3,7 @@ set.item:
   itemName: <#00FFFF>Tachikatana Leg
   itemModel: mineinabyss:materials_mobs/tachikatana_leg
   lore:
-  - ':layer_4::layer_5:'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <#1B5BAD><i>Tastes like crab!
   - <#1B5BAD><i>Too tough to cook!
   food:

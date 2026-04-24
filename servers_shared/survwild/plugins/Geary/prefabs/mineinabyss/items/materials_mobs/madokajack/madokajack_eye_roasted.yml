@@ -3,7 +3,7 @@ set.item:
   itemName: <#1C439E>Roasted Madokajack Eye
   itemModel: mineinabyss:materials_mobs/madokajack_eye_roasted
   lore:
-  - ':layer_3:'
+  - '<emojy:layer_3>'
   - <yellow>I wonder how many people in Orth
   - <yellow>would like to eat this...
 set.recipes:

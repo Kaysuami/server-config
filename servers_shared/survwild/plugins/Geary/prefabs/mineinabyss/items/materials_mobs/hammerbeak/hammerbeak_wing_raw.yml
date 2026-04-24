@@ -3,7 +3,7 @@ set.item:
   itemName: <#613F0C>Raw Hammerbeak Wing
   itemModel: mineinabyss:materials_mobs/hammerbeak_wing_raw
   lore:
-  - ':layer_1::layer_2::layer_4:'
+  - '<emojy:layer_1><emojy:layer_2><emojy:layer_4>'
   - <#A9CCCA><i>This meat seems delicious
   - <#A9CCCA><i>if cooked properly!
   food:

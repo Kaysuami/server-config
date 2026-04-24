@@ -3,7 +3,7 @@ set.item:
   itemName: <#257BEB>Cooked Demonfish
   itemModel: mineinabyss:materials_mobs/demonfish_cooked
   lore:
-  - ':layer_5:'
+  - '<emojy:layer_5>'
   - <#1B5BAD>A staple food among delvers.
   food:
     saturation: 9.6

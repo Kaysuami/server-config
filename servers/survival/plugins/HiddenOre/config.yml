@@ -569,7 +569,7 @@ layers:
                 type: LAPIS_ORE
             tools:
               - anything
-            chance: 0.0008
+            chance: 0.008
             minAmount: 1
             maxAmount: 3
             transformIfAble: true

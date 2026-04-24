@@ -3,7 +3,7 @@ set.item:
   itemName: <#303e77>Hisoishi Shell
   itemModel: mineinabyss:materials_mobs/hisoishi_shell
   lore:
-  - ':layer_2::layer_3:'
+  - '<emojy:layer_2><emojy:layer_3>'
   - <#649378><i>The shell is hard as amethyst
   - <#649378><i>to keep out predators.
 resourcepack:

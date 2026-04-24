@@ -3,7 +3,7 @@ set.item:
   itemName: <#BE6400>Rock-walker Mandible
   itemModel: mineinabyss:materials_mobs/rockwalker_mandible
   lore:
-  - ':layer_2::layer_3::cosmetic_orth_coin:'
+  - '<emojy:layer_2><emojy:layer_3>:cosmetic_orth_coin:'
   - <#A68348><i>The rockwalkers use these as their climbing
   - <#A68348><i>gear, and its toughness sure looks the part.
 resourcepack:

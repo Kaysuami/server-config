@@ -1,0 +1,10 @@
+okibo_wuv_backpack:
+  slot: BACKPACK
+  permission: "hmccosmetics.backpack.okibo_wuv_backpack"
+  item:
+    name: Okibo Plush Backpack
+    material: PAPER
+    model-id: mineinabyss:cosmetics/backpacks/okibo_wuv_backpack
+  firstperson-item:
+    material: PAPER
+    model-id: mineinabyss:cosmetics/backpacks/okibo_wuv_backpack_fp

@@ -1,10 +1,8 @@
 # The min/max amount of time to wait before playing a song after once finishes
 # Default is 10-20 minutes in Minecraft.
-minSongWaitTime: 5m
-maxSongWaitTime: 10m
+songWaitTime: 5m..10m
 # How long to wait before playing a song after a player logs in
-minWaitTimeOnLogin: 2m
-maxWaitTimeOnLogin: 4m
+waitTimeOnLogin: 2m..4m
 # A list of song definitions, options are:
 # key: The resourcepack key for this song
 # duration: How long the song lasts
@@ -13,14 +11,10 @@ maxWaitTimeOnLogin: 4m
 # pitch: The pitch of the song (default is 1)
 # regions: Layers & sections this song can play in (can play anywhere if empty)
 songs:
-  - key: mineinabyss:music.orth.orth_waltz
+  - key: mineinabyss:music.orth_waltz
     duration: 1m 41s
     regions:
       - orth
-  # - key: mineinabyss:music.orth.deep_in_abyss
-  #   duration: 1m 30s
-  #   regions:
-  #     - orth
   - key: mineinabyss:music.droplets_lament
     duration: 3m 54s
     regions:

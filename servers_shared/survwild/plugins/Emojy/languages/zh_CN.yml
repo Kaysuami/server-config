@@ -1,0 +1,171 @@
+mineinabyss.tutorial.start.1: >
+  <yellow>欢迎来到<bold><gradient:#ff7043:#ffca28:#ff7043>来自深渊服务器<!bold><yellow>!
+  
+  <#FBFB98>请跟随新手教程指引。
+
+mineinabyss.tutorial.start.2: >
+  <#FBFB98>本教程将指引你
+  
+  前往<yellow><bold>阿比斯深渊<!bold><#FBFB98> -->
+
+mineinabyss.tutorial.climb.1: >
+  <#44CCCC>你可以<aqua><bold>攀爬墙壁<!bold></aqua>:
+
+   
+
+  - 紧靠墙面站立，
+  
+  - 将视线对准墙面，
+  
+  - 按住<aqua><italic>鼠标右键<!italic></aqua>，
+
+  - 最后按下<aqua><italic>空格键<!italic></aqua>以向上攀爬。
+
+mineinabyss.tutorial.climb.2: >
+  <#44CCCC>既然能直接爬墙
+
+  又何必垂直搭垫脚方块呢？ :siggy:
+
+mineinabyss.tutorial.climb.3: >
+  <blue><bold>小贴士：<!bold><#3B3BB0> 攀爬在墙面上
+  
+  并点击左键可以进行攀跃。
+
+mineinabyss.tutorial.water: >
+  <green><bold>流动的水<!bold>
+  
+  <#3BB23B>会对你造成伤害。
+
+mineinabyss.tutorial.falling: >
+  <green><bold>水并不会
+  
+  免疫坠落伤害。<!bold>
+  
+  <#3BB23B>在本服务器内没有
+  
+  办法能免疫坠落伤害。
+
+mineinabyss.tutorial.rules.1: >
+  <yellow><bold><underlined>服务器规则:</underlined><!bold>
+
+  行为类规则：
+
+  <#FBFB98>>禁止<#FFCC66>开挂</#FFCC66>,<#FFCC66>恶意破坏</#FFCC66>或<#FFCC66>偷窃行为</#FFCC66>。
+
+  > 禁止<#FFCC66>蓄意利用</#FFCC66>服务器漏洞(bug)。
+  
+    请将这些漏洞汇报在discord上。
+
+  > 请不要在公共聊天频道<#FFCC66>刷屏</#FFCC66>或<#FFCC66>与他人争吵</#FFCC66>。
+
+  > 请不要<#FFCC66>欺凌</#FFCC66>或<#FFCC66>骚扰</#FFCC66>他人。
+
+   
+
+  <yellow>其他类规则：
+
+  <#FBFB98>> 请不要在一层，二层，三层内建造
+  
+    大规模的楼梯或任何形式的电梯。
+
+  > 请不要在公共聊天频道讨论
+  
+    《来自深渊》动画第二季之后的内容
+
+   
+
+  <yellow>若要查询完整的服务器规则，请访问
+  
+  <italic>www.mineinabyss.com/rules<!italic>
+
+mineinabyss.tutorial.rules.2: >
+  <#44CCCC>走出这扇门
+  
+  则代表你<aqua><italic>同意
+  
+  遵守服务器规则<!italic></aqua>
+
+  然后即可<aqua><italic><bold>前往
+  
+  阿比斯深渊...<!bold><!italic></aqua>
+
+mineinabyss.tutorial.bonfire: >
+  <#FBFB98>你可以制作一种
+  
+  叫作篝火（Bonfire）的<aqua><bold>重生点<!bold></aqua>
+  
+  打开<aqua>工作台界面的
+  
+  配方书</aqua>以了解相关配方。
+
+mineinabyss.tutorial.outside.1: >
+  <#B2B2B2>输入<#7D7D7D><bold>/tutorial<!bold></#7D7D7D>来重新开始新手教程。
+
+mineinabyss.tutorial.outside.2: >
+  <aqua>沿此路向下进入
+  
+  <blue><bold>深渊<!bold></blue>...
+
+mineinabyss.tutorial.outside.3: >
+  <#FBFB98>沿此路向上前往
+  
+  <gold><bold>奥斯<!bold></gold>...
+
+mineinabyss.tutorial.links: >
+  <white>如果你有任何疑问，
+  
+  请在聊天栏输入<#FFCC66><bold>/wiki<!bold></#FFCC66>，以打开服务器维基百科。
+
+   
+  
+  <#3B3BB0>使用<blue><bold>/discord<!bold></blue>
+  
+  加入我们的Discord社区。
+  
+
+mineinabyss.tutorial.emotes: >
+  <green>若想打出表情包，
+  
+  请输入<dark_green><underlined>:表情包名称:</underlined> :siggy:
+
+  <green>你可以输入<dark_green><bold>/emojy list<!dark_gree><!bold>
+  
+  来查询所有表情包的名称。
+
+   
+
+  <gold>Patreon <yellow>以及<gold>Ko-Fi 支持者
+  
+  <yellow>可以使用
+
+  <yellow>动图表情包，比如<white>:gurawave:
+
+mineinabyss.tutorial.recipes: >
+  <#3BB23B>本服务器有很多<green><bold>专属物品<!bold></green>
+  
+  以及<green><bold>专属制作配方<!bold></green>!
+  
+  若想查询, 请打开你的物品栏
+  
+  然后点击<green><italic>配方书<!italic></green>。
+
+mineinabyss.tutorial.end:
+  <dark_aqua>现在你已经能独当一面了。
+  
+  找到或踏出属于你的道路吧...
+
+mineinabyss.tutorial.guildhq.1: >
+  <#FBFB98>沿此路前往<gold><bold>奥斯<!bold></gold>
+
+mineinabyss.tutorial.guildhq.2: >
+  <aqua>沿此路前往<blue><bold>阿比斯深渊<!bold></blue>
+
+mineinabyss.tutorial.guildhq.3: >
+  <aqua>沿此路向下前往<blue><bold>阿比斯深渊<!bold>
+
+mineinabyss.tutorial.cosmetics.1: <yellow>沿此路前往<gold><bold>时装商店！
+mineinabyss.tutorial.cosmetics.2: <gold><bold>时装商店！
+
+mineinabyss.poi.orth_netherworldgate: >
+  <aqua>沿此路前往
+  <blue><bold>水车大吊笼<!bold></blue>.

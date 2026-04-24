@@ -3,7 +3,7 @@ set.item:
   itemName: <#1C439E>Madokajack Scales
   itemModel: mineinabyss:materials_mobs/madokajack_scales
   lore:
-  - ':layer_3::cosmetic_orth_coin:'
+  - '<emojy:layer_3>:cosmetic_orth_coin:'
   - <#369AFF>Though hard, these scales are
   - <#369AFF>slimy and smell of feces!?
 resourcepack:

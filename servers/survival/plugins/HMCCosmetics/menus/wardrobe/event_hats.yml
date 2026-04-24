@@ -183,6 +183,78 @@ items:
         - "<red>Locked</red>"
     type: cosmetic
     cosmetic: scarf_hat1
+  artist_hat:
+    slots: 10
+    item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:artist_hat
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: artist_hat
+  gas_mask_1:
+    slots: 11
+    item:
+      material: hmccosmetics:gas_mask_1
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:gas_mask_1
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:gas_mask_1
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: gas_mask_1
+  gas_mask_2:
+    slots: 12
+    item:
+      material: hmccosmetics:gas_mask_2
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:gas_mask_2
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:gas_mask_2
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: gas_mask_2
+  gas_mask_3:
+    slots: 13
+    item:
+      material: hmccosmetics:gas_mask_3
+      lore:
+        - ""
+        - "<yellow>[Left Click - <i>Equip</i>]"
+    equipped-item:
+      material: hmccosmetics:gas_mask_3
+      lore:
+        - ""
+        - "<red>[Left Click - <i>Unequip</i>]"
+    locked-item:
+      material: hmccosmetics:gas_mask_3
+      lore:
+        - "<red>Locked</red>"
+    type: cosmetic
+    cosmetic: gas_mask_3
 
   home_button:
     slots: 49

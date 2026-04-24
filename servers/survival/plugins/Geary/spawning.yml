@@ -20,6 +20,8 @@ range:
   playerCapRadius: 220
   # Radius to count nearby mobs for the maxNearby condition.
   defaultNearbyRange: 150.0
+# The delay between each spawning-task run
+spawnDelay: 2t
 # How often should each spawn category, attempt spawns. The higher a value, the more time between spawn attempts.
 runTimes:
   GROUND: 400ms

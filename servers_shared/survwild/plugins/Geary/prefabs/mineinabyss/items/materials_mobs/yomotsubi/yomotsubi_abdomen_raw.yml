@@ -3,7 +3,7 @@ set.item:
   itemName: <#9C0F2C>Yomotsubi Abdomen
   itemModel: mineinabyss:yomotsubi_abdomen_raw
   lore:
-  - ':layer_3::layer_5:'
+  - '<emojy:layer_3><emojy:layer_5>'
   - <#9c5d2c><i>Perhaps this could be cooked...
   food:
     saturation: 0.2

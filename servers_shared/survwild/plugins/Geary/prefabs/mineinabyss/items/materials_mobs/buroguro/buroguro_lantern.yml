@@ -3,7 +3,7 @@ set.item:
   itemName: <#a3f7a2>Buroguro Lantern
   itemModel: mineinabyss:materials_mobs/buroguro_lantern
   lore:
-  - ':layer_3:'
+  - '<emojy:layer_3>'
   - <#38896d><i>Seems to be poisonous.
   - <#38896d><i>I best not eat it...
 resourcepack:

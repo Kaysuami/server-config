@@ -1,9 +1,187 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "mineinabyss:gear/utility/bonfire_lit",
-	"texture_size": [64, 64],
+	"texture_size": [32, 32],
 	"textures": {
-		"fire": "minecraft:block/soul_campfire_fire",
-		"particle": "minecraft:block/soul_campfire_fire"
-	}
+		"2": "mineinabyss:gear/utility/bonfire",
+		"4": "mineinabyss:gear/utility/bonfire_fire_selected",
+		"particle": "mineinabyss:gear/utility/campfire_log"
+	},
+	"elements": [
+		{
+			"from": [3.8, -6, 8],
+			"to": [13.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2.25, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"south": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#4"}
+			}
+		},
+		{
+			"from": [8, -6, 2.8],
+			"to": [8, 16, 13.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, -2.25, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"east": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"west": {"uv": [0, 0, 7, 11], "texture": "#4"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#4"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#4"}
+			}
+		},
+		{
+			"from": [1, -7, 0],
+			"to": [5, -3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "north"},
+				"east": {"uv": [0, 1, 16, 5], "texture": "#particle"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 4], "texture": "#particle"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, -4, 11],
+			"to": [16, 0, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2.25, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 4], "texture": "#particle"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#particle"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [0, 4, 16, 8], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [11, -7, 0],
+			"to": [15, -3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#particle"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "south"},
+				"west": {"uv": [16, 1, 0, 5], "texture": "#particle"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [0, 0, 16, 4], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, -4, 1],
+			"to": [16, 0, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#particle"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "east"},
+				"south": {"uv": [16, 0, 0, 4], "texture": "#particle"},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#particle", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 4], "rotation": 180, "texture": "#particle"},
+				"down": {"uv": [0, 4, 16, 8], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [5, -7, 0],
+			"to": [11, -6, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 15, 6, 16], "texture": "#particle", "cullface": "north"},
+				"south": {"uv": [10, 15, 16, 16], "texture": "#particle", "cullface": "south"},
+				"up": {"uv": [0, 8, 16, 14], "rotation": 90, "texture": "#particle"},
+				"down": {"uv": [0, 8, 16, 14], "rotation": 90, "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [13, 0, 2],
+			"to": [15, 24, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, -7, 4]},
+			"faces": {
+				"north": {"uv": [4.5, 8, 5, 14], "texture": "#2"},
+				"east": {"uv": [5, 8, 5.5, 14], "texture": "#2"},
+				"south": {"uv": [3.5, 8, 4, 14], "texture": "#2"},
+				"west": {"uv": [4, 8, 4.5, 14], "texture": "#2"},
+				"up": {"uv": [7, 10.75, 7.5, 11.25], "texture": "#2"},
+				"down": {"uv": [7.5, 10.75, 8, 11.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [1, 0, 12],
+			"to": [3, 24, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -7, 12]},
+			"faces": {
+				"north": {"uv": [3.5, 8, 4, 14], "texture": "#2"},
+				"east": {"uv": [4, 8, 4.5, 14], "texture": "#2"},
+				"south": {"uv": [4.5, 8, 5, 14], "texture": "#2"},
+				"west": {"uv": [5, 8, 5.5, 14], "texture": "#2"},
+				"up": {"uv": [7.5, 11.25, 7, 10.75], "texture": "#2"},
+				"down": {"uv": [8, 10.75, 7.5, 11.25], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-3.75, 21, 8],
+			"to": [18, 22, 9],
+			"rotation": {"angle": 39.50549, "axis": "y", "origin": [7, 21, 7]},
+			"faces": {
+				"north": {"uv": [10.5, 0, 16, 0.25], "texture": "#2"},
+				"east": {"uv": [7, 3.25, 7.25, 3.5], "texture": "#2"},
+				"south": {"uv": [10.5, 0.25, 16, 0.5], "texture": "#2"},
+				"west": {"uv": [7.25, 3.25, 7.5, 3.5], "texture": "#2"},
+				"up": {"uv": [16, 0.75, 10.5, 0.5], "texture": "#2"},
+				"down": {"uv": [16, 0.75, 10.5, 1], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 10.5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "awesomenameforallbonfireassets",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "fire_types",
+					"origin": [8, 4.75, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "saved",
+							"origin": [8, 4.75, 8],
+							"scope": 0,
+							"color": 0,
+							"children": [0, 1]
+						}
+					]
+				},
+				{
+					"name": "basic_campfire",
+					"origin": [8, 8, 8],
+					"scope": 0,
+					"color": 0,
+					"children": [2, 3, 4, 5, 6]
+				},
+				{
+					"name": "1_player",
+					"origin": [13, 0, 2],
+					"scope": 0,
+					"color": 0,
+					"children": [7, 8, 9]
+				}
+			]
+		}
+	]
 }

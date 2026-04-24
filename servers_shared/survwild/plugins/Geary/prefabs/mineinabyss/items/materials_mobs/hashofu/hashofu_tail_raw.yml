@@ -3,7 +3,7 @@ set.item:
   itemName: <#454545>Hashofu Tail
   itemModel: mineinabyss:materials_mobs/hashofu_tail_raw
   lore:
-  - ':layer_4::layer_5:'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <#595959><i>It is said it tastes like sushi.
   - <#595959><i>Though by it's smell I doubt it...
   food:

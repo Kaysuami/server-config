@@ -1,0 +1,54 @@
+firstJoinLocation: 81,60,0 106.2,0 selector
+tutorialEntities:
+  - location: 54.5,54,-35.5 selector
+    text: >
+      <#f56111>To the world of the of the
+
+      <#ffa51f><b>3rd survival cycle</b></#ffa51f>
+
+       
+
+      survive.mineinabyss.com
+
+      <#ffa51f>Aug. 2021 - Nov. 2023</#ffa51f>
+  - location: 31.5,52,16.5 selector
+    text: >
+      <#f56111>To the world of the of the
+
+      <#ffa51f><b>2nd survival cycle</b></#ffa51f>
+
+       
+
+      survive.mineinabyss.com
+
+      <#ffa51f>Feb. 2020 - Aug. 2021</#ffa51f>
+  - location: 85,59,-9 selector
+    text: >
+      <#3ba7ff><b>Welcome to archive!</b>
+
+      <#37cced>You can visit survival worlds from
+      the past here.
+
+       
+
+      Enter the craters in this garden to
+
+      warp to the other worlds.
+  - location: -564.5,132,-25.5 survival2023
+    text: >
+      <#ffff57>Do <#ffa51f><b>/fly</b></#ffa51f> to fly around.
+  - location: -564.5,132,-35.5 survival2023
+    text: >
+      <#ffff57>Do <#ffa51f><b>/warp -hub-</b></#ffa51f>
+      to return
+      
+      to the hub!
+  - location: -136,165,487 survival2021
+    text: >
+      <#ffff57>Do <#ffa51f><b>/fly</b></#ffa51f> to fly around.
+  - location: -129,167,483 survival2021
+    text: >
+      <#ffff57>Do <#ffa51f><b>/warp -hub-</b></#ffa51f>
+      to return
+      
+      to the hub!

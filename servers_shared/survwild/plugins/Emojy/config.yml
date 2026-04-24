@@ -1,9 +1,11 @@
 defaultNamespace: emojy
 defaultFolder: emotes
 defaultFont: emojy:emotes
+defaultAtlas: null
 defaultHeight: 8
 defaultAscent: 8
-defaultGifType: SHADER
+defaultGifType: SPRITE
+generateShader: false
 spaceFont: minecraft:space
 requirePermissions: true
 supportForceUnicode: true
@@ -29,3 +31,4 @@ supportedLanguages:
   - ru_RU
   - ja_JP
   - es_ES
+  - zh_CN

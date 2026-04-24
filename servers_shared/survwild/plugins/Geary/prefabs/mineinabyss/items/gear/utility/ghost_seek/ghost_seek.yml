@@ -3,7 +3,7 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:gear/utility/ghost_seek_on
   lore:
-    - 'Grade III relic'
+    - 'Grade III Relic'
     - <#D2D489>A mysterious device attuned to the lingering souls of the Abyss.
     - <#D2D489>Its ethereal hum grows louder as it nears a praying skeleton,
     - <#D2D489>guiding its wielder toward hidden relics.

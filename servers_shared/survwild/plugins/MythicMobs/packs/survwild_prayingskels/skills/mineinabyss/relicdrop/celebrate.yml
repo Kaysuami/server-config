@@ -1,3 +1,6 @@
 celebrate:
   Skills:
-  - particle{p=HEART;a=20;hs=1;vs=1;y=1.5}
+  - particle{p=block;material=orange_glazed_terracotta;a=3;hs=1;vs=1;y=1.5}
+  - particle{p=block;material=red_glazed_terracotta;a=3;hs=1;vs=1;y=1.5}
+  - particle{p=block;material=lime_glazed_terracotta;a=3;hs=1;vs=1;y=1.5}
+  - particle{p=totem_of_undying;a=5;hs=1;vs=1;y=1.5}

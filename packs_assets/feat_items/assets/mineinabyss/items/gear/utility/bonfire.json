@@ -27,29 +27,41 @@
             {
               "threshold": 1.0,
               "model": {
-                "type": "model",
-                "model": "mineinabyss:gear/utility/bonfire_1"
+                "type": "composite",
+                "models": [ { "type": "model", "model": "mineinabyss:gear/utility/bonfire_1" } ]
               }
             },
             {
               "threshold": 2.0,
               "model": {
-                "type": "model",
-                "model": "mineinabyss:gear/utility/bonfire_2"
+                "type": "composite",
+                "models": [
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_1" },
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_2" }
+                ]
               }
             },
             {
               "threshold": 3.0,
               "model": {
-                "type": "model",
-                "model": "mineinabyss:gear/utility/bonfire_3"
+                "type": "composite",
+                "models": [
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_1" },
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_2" },
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_3" }
+                ]
               }
             },
             {
               "threshold": 4.0,
               "model": {
-                "type": "model",
-                "model": "mineinabyss:gear/utility/bonfire_4"
+                "type": "composite",
+                "models": [
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_1" },
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_2" },
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_3" },
+                  { "type": "model", "model": "mineinabyss:gear/utility/bonfire_4" }
+                ]
               }
             }
           ],

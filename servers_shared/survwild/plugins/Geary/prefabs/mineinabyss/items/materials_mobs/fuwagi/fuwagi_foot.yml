@@ -3,7 +3,7 @@ set.item:
   itemName: <#E0E0E0>Fuwagi Foot
   itemModel: mineinabyss:materials_mobs/fuwagi_foot
   lore:
-  - ':layer_1::layer_2:'
+  - '<emojy:layer_1><emojy:layer_2>'
   - <#FF3A24><i>Rumor has it if you have a fuwagi
   - <#FF3A24><i>foot in your inventory, you will
   - <#FF3A24><i>have good luck.

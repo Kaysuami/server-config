@@ -3,7 +3,7 @@ set.item:
   itemName: <#116AAD>Silkfang Eye
   itemModel: mineinabyss:materials_mobs/silkfang_eye
   lore:
-  - ':layer_1::layer_2::cosmetic_orth_coin:'
+  - '<emojy:layer_1><emojy:layer_2>:cosmetic_orth_coin:'
   - <#ED4C4C><i>Rumor has it that a
   - <#ED4C4C><i>larger arachnid can stare back
   - <#ED4C4C><i>at you through this...

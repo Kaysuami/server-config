@@ -14,4 +14,4 @@ i_hurt:
   Conditions:
     - stance{s=running} true
   Skills:
-    - potion{t=SPEED;l=5;force=true;p=false;d=30} @self
+    - potion{t=SPEED;l=4;force=true;p=false;d=30} @self

@@ -3,7 +3,7 @@ set.item:
   itemName: <#85512E>Cooked Squidfly Brain
   itemModel: mineinabyss:materials_mobs/squidfly_brain_cooked
   lore:
-  - ':layer_3:'
+  - '<emojy:layer_3>'
   - <#C27643><i>Perhaps I will become smarter
   - <#C27643><i>if I consume this brain?
   food:

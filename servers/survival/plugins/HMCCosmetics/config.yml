@@ -16,11 +16,19 @@ database-settings:
     enabled: false
     delay: 20
 cosmetic-settings:
-  tick-period: 20
+  # In ticks, determines how many times a player cosmetics should be updated. -1 to disable.
   # Ticking periods is something that ensures new players near a player get the packets to actually apply to the user.
+  tick-period: 20
 
+  # The engine HMCCosmetics will use to find nearby players.
+  # Valid Options: BUKKIT, OCTREE
+  player-search-implmentation: BUKKIT
+
+  # If when a player dies, their cosmetics should be unapplied. If this is true, use hmccosmetics.unapplydeath.bypass to bypass
   unapply-on-death: false
+  # Checks a player permission if they can have a cosmetic when they join the server.
   force-permission-join: true
+  # If the plugin should attempt to force show a player's cosmetics when they join the server by removing all hidden flags.
   force-show-join: false
 
   # This determines what to process what areas to process placeholders when displaying the item to the user.
@@ -28,6 +36,9 @@ cosmetic-settings:
   item-processing:
     display-name: false
     lore: false
+
+  # This prevents the offhand from being swapped with the mainhand. Only affects if a user has a cosmetic in their offhand
+  offhand-prevent-swapping: false
 
   # This is a list of worlds that cosmetics are hidden in. When a player enters one of these worlds, their cosmetics will be hidden.
   disabled-worlds:
@@ -38,24 +49,10 @@ cosmetic-settings:
     gamemodes:
       - SPECTATOR
 
-  # This disables the entire internal emote system within the plugin. This option requires a restart.
-  emote-enable: false
-  emote-distance: -3
-  emote-block-check: true
-  emote-air-check: true
-  emote-damage-leave: true
-  emote-invincible: false
-  # If a player should be put into camera mode when looking at an emote. Highly recommend keeping it as true.
-  emote-camera: true
-  # If a player should be able to move in an emote. This option really only affects if "emote-camera" is false
-  emote-move: false
   # This make it so it always sends the riding packets for the backpack. This sends more packets but is more reliable for servers which modify player passengers.
   backpack-force-riding-packet: false
   # This prevents the backpack from being dark when the player is below a block at the expense of making the backpack bright
   backpack-prevent-darkness: true
-  # This helps reduce the amount of packets sent for packet entities, but reduces accuracy of the entity. This is in milliseconds. -1 to disable.
-  # This is useful for servers with a lot of backpacks, as they are passengers, which means the client will update their position automatically within an area where the entity is located.
-  entity-cooldown-teleport-packet: 500
   # This forces the offhand to always show the cosmetic. False means it will only show when the slot is empty.
 
   slot-options:
@@ -67,6 +64,7 @@ cosmetic-settings:
     chestplate:
       add-enchantments: false
       require-empty: false
+      add-elytra-componnt: true
     leggings:
       add-enchantments: false
       require-empty: false
@@ -120,10 +118,11 @@ menu-settings:
     unequip-click: LEFT
     dye-click: RIGHT
 dye-menu:
-  # If you use ItemsAdder, set this to "<white>:img_offset_-8::img_dye_menu:"
-  # If you use Oraxen, set this to "<white><s:-8><g:dye_menu>"
-  # If you use Nexo, set this to "<white><shift:-8><glyph:dye_menu>"
-  title: ":space_-8::cosmetic_dye_menu:"
+  enabled: true
+  # If you use ItemsAdder, set this to "<white>:img_offset_-8::img_hmcc_dye_menu:"
+  # If you use Oraxen, set this to "<white><s:-8><g:hmcc_dye_menu>"
+  # If you use Nexo, set this to "<white><shift:-8><glyph:hmcc_dye_menu>"
+  title: ':space_-8::cosmetic_dye_menu:'
   input-slot: 10
   output-slot: 16
 hook-settings:
@@ -132,7 +131,8 @@ hook-settings:
     # could cause console spam as HMCCosmetics has to reload itself as well.
     reload-on-change: false
   nexo:
-    # This causes the plugin to reload itself after any Nexo change. This keeps the plugin fully up to date with Nexo
+    # This causes the plugin to reload itself after any Nexo change. This keeps the plugin fully up to date with Nexo, but
+    # could cause console spam as HMCCosmetics has to reload itself as well.
     reload-on-change: true
   worldguard:
     # Checks worldguard regions for HMCC flags. If set to false, flags will not work properly.
@@ -140,6 +140,9 @@ hook-settings:
     player-move-check: true
   betterhud:
     wardrobe-hide: true
+  hmccolor:
+    # If HMCColor is available, prefer hmccolor dye menu rather than the internal menu. Requires a restart.
+    prefer-hmccolor-menu: true
 wardrobe:
   # how much yaw should change per tick, set to 0 for none
   rotation-speed: 3

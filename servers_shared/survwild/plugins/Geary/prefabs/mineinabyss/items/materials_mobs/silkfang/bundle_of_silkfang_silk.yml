@@ -3,7 +3,7 @@ set.item:
   itemName: <#116AAD>Bundle of Silkfang Silk
   itemModel: mineinabyss:materials_mobs/bundle_of_silkfang_silk
   lore:
-  - ':layer_1::layer_2:'
+  - '<emojy:layer_1><emojy:layer_2>'
   - <#ED4C4C>Most people don't enjoy getting
   - <#ED4C4C>stuck in this.
 resourcepack:

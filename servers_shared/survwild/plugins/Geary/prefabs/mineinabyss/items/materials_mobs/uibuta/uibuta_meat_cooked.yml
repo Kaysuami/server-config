@@ -3,7 +3,7 @@ set.item:
   itemName: <#8F2222>Cooked Uibuta Meat
   itemModel: mineinabyss:materials_mobs/uibuta_meat_cooked
   lore:
-  - ':layer_4::layer_5:'
+  - '<emojy:layer_4><emojy:layer_5>'
   - <#C42F2F><i>This should be enough food
   - <#C42F2F><i>to last for daaaaayyss!!
   food:

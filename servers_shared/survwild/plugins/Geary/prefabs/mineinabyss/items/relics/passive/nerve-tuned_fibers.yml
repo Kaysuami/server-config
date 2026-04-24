@@ -3,10 +3,10 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/nerve-tuned_fibers
   lore:
-  - ':layer_5: Grade III Relic'
+  - '<emojy:layer_5> Grade III Relic'
   - <#d7c9b3>Bearers of this organic armor describe wearing it as disgusting,
   - <#d7c9b3>though some insist it makes them feel less alone in the vast Abyss.
-  - <#ebdcc6><i>Passive slot ability. Twitches and grants haste.
+  - <font:small_text><gray><shadow:#00000000>Passive slot ability. Twitches and grants haste.
 passive:
 - match:
   - inInventory

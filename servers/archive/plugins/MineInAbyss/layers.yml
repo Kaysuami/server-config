@@ -1,7 +1,4 @@
 layers:
-  - id: "hub"
-    name: "World-Hub"
-    sub: ""
   - id: "orth"
     name: "<#FFA812>Orth"
     sub: "<#FFC421>City of the Great Pit"
@@ -143,4 +140,4 @@ layers:
       - "2023_l5s2"
       - "2023_l5s3"
     equipWhistleCosmetic: false
-hubSectionName: "hub"
+hubSectionName: "2021_l1s1"

@@ -1,9 +1,9 @@
 set.item:
   type: minecraft:clock
   itemName: <#454545>Cooked Tesuchi Tail
-  itemModel: mineinabyss:materials_mobs/tesuchi_cooked
+  itemModel: mineinabyss:materials_mobs/tesuchi_tail
   lore:
-  - ':layer_1::layer_2:'
+  - '<emojy:layer_1><emojy:layer_2>'
   - <yellow>Obtained by cutting of the <#616161>Tail</#616161> in the
   - <green>Edge of the Abyss<yellow>and <green>Forest of Temptation<yellow>.
   - <#595959><i>tastes more like chicken now.

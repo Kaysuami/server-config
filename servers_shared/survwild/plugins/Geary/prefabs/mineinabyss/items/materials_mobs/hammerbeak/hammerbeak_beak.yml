@@ -3,7 +3,7 @@ set.item:
   itemName: <#613F0C>Hammerbeak Beak
   itemModel: mineinabyss:materials_mobs/hammerbeak_beak
   lore:
-  - ':layer_1::layer_2::layer_4::cosmetic_orth_coin:'
+  - '<emojy:layer_1><emojy:layer_2><emojy:layer_4>:cosmetic_orth_coin:'
   - <yellow>Can be used as a fire starter
   - <yellow>when combined with a little steel.
   - <#A9CCCA><i>It seems sharp enough

@@ -21,8 +21,6 @@ set.recipes:
     items:
       H:
         prefab: mineinabyss:himushi_core
-      C:
-        prefab: mineinabyss:charcoal_sand_ingot
       F:
         prefab: mineinabyss:hammerbeak_feather
       I:
@@ -30,13 +28,11 @@ set.recipes:
     configuration: |-
       |IHI|
       |FFF|
-      |ICI|
+      |III|
   - type: shaped
     items:
       H:
         prefab: mineinabyss:himushi_core
-      C:
-        prefab: mineinabyss:charcoal_sand_ingot
       F:
         prefab: mineinabyss:onitsuchi_feather
       I:
@@ -44,13 +40,11 @@ set.recipes:
     configuration: |-
       |IHI|
       |FFF|
-      |ICI|
+      |III|
   - type: shaped
     items:
       H:
         prefab: mineinabyss:himushi_core
-      C:
-        prefab: mineinabyss:charcoal_sand_ingot
       F:
         prefab: mineinabyss:cyatoria_feather
       I:
@@ -58,13 +52,11 @@ set.recipes:
     configuration: |-
       |IHI|
       |FFF|
-      |ICI|
+      |III|
   - type: shaped
     items:
       H:
         prefab: mineinabyss:himushi_core
-      C:
-        prefab: mineinabyss:charcoal_sand_ingot
       F:
         prefab: mineinabyss:corpse_weeper_feather
       I:
@@ -72,4 +64,4 @@ set.recipes:
     configuration: |-
       |IHI|
       |FFF|
-      |ICI|
+      |III|

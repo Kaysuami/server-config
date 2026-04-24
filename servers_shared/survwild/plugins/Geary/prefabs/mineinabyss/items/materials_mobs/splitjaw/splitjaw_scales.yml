@@ -3,7 +3,7 @@ set.item:
   itemName: <#9A1CAD>Splitjaw Scales
   itemModel: mineinabyss:materials_mobs/splitjaw_scales
   lore:
-  - ':layer_1::layer_2::layer_3::cosmetic_orth_coin:'
+  - '<emojy:layer_1><emojy:layer_2><emojy:layer_3>:cosmetic_orth_coin:'
   - <reset><light_purple><i>Can be used to
   - <reset><light_purple><i>make certain blocks.
 resourcepack:

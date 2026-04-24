@@ -3,7 +3,7 @@ set.item:
   itemName: <#1FB53D>Kuongatari Abdomen
   itemModel: mineinabyss:materials_mobs/kuongatari_abdomen
   lore:
-  - ':layer_4::layer_5::cosmetic_orth_coin:'
+  - '<emojy:layer_4><emojy:layer_5>:cosmetic_orth_coin:'
   - <#167D2A>Only the desperate eat this raw...
   food:
     saturation: 0.2

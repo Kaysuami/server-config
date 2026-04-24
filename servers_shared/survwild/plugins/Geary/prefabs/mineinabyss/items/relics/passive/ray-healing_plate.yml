@@ -3,11 +3,11 @@ set.item:
   type: minecraft:clock
   itemModel: mineinabyss:relics/ray-healing_plate
   lore:
-  - ':layer_1: Grade III Relic'
+  - '<emojy:layer_1> Grade III Relic'
   - <#d7c9b3>Holders of this Relic report that it feels warm
   - <#d7c9b3>and comfortable to the touch, even in cold climates.
-  - <#ebdcc6><i>Passive slot ability. Slowly heals the user
-  - <#ebdcc6><i>when above a specific light level.
+  - <font:small_text><gray><shadow:#00000000>Passive slot ability. Slowly heals the user
+  - <font:small_text><gray><shadow:#00000000>when above a specific light level.
 passive:
 - match:
   - inInventory
@@ -15,6 +15,8 @@ passive:
   run:
   - become: parent
   - ensure:
+        mythicConditions:
+          - hasaura{n=reliceffectcancel} false
         inSlot:
           slots: [ 9, 10 ]
           item: mineinabyss:ray-healing_plate

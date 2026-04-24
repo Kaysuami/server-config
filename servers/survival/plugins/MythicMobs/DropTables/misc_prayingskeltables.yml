@@ -69,11 +69,11 @@ PSSherdDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.02
-  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.02
-  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.02
-  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.02
-  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.02
+  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.02
+  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.02
+  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.02
+  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.02
+  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.02
 
 L1PSSherdDrops: 
   
@@ -81,11 +81,11 @@ L1PSSherdDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
+  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
 
 L2PSSherdDrops: 
   
@@ -93,11 +93,11 @@ L2PSSherdDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
-  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.01
+  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
+  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.01
 
 L3PSSherdDrops: 
   
@@ -105,11 +105,11 @@ L3PSSherdDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.014
-  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.014
-  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.014
-  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.014
-  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.014
+  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.014
+  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.014
+  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.014
+  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.014
+  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.014
 
 L4PSSherdDrops: 
   
@@ -117,11 +117,11 @@ L4PSSherdDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.025
-  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.025
-  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.025
-  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.025
-  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.025
+  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.025
+  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.025
+  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.025
+  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.025
+  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.025
 
 L5PSSherdDrops: 
   
@@ -129,8 +129,8 @@ L5PSSherdDrops:
   Conditions:
   - playerwithin 32
   Drops:
-  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.028
-  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.028
-  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.028
-  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.028
-  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore=":layer_1::layer_2::layer_3::layer_4::layer_5:"} 1 0.028
+  - skull_pottery_sherd{name="<#818380>Skull Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.028
+  - archer_pottery_sherd{name="<#818380>Archer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.028
+  - miner_pottery_sherd{name="<#818380>Miner Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.028
+  - explorer_pottery_sherd{name="<#818380>Explorer Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.028
+  - blade_pottery_sherd{name="<#818380>Blade Pottery Sherd";lore="<sprite:gui:'mineinabyss:ui/prefixes/layer/layer_1'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_2'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_3'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_4'><sprite:gui:'mineinabyss:ui/prefixes/layer/layer_5'>"} 1 0.028

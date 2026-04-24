@@ -3,7 +3,7 @@ set.item:
   itemName: <#9ff3f3>Cooked Ikenosuke
   itemModel: mineinabyss:materials_mobs/ikenosuke_cooked
   lore:
-  - ':layer_2::layer_3::layer_4:'
+  - '<emojy:layer_2><emojy:layer_3><emojy:layer_4>'
   - <#edfeff>The skin is tough, but the meat... Yum!
   food:
     saturation: 7

@@ -3,7 +3,7 @@ set.item:
   itemName: <#3D3D3D>Cooked Inbyo Meat
   itemModel: mineinabyss:materials_mobs/inbyo_meat_cooked
   lore:
-  - ':layer_2:'
+  - '<emojy:layer_2>'
   - <#B5B5B5><i>Seems more edible now, though
   - <#B5B5B5><i>it still smells horrid...
   food:

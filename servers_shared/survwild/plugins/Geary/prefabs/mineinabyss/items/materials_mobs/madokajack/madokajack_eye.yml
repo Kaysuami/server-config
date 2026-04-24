@@ -3,7 +3,7 @@ set.item:
   itemName: <#1C439E>Madokajack Eye
   itemModel: mineinabyss:materials_mobs/madokajack_eye
   lore:
-  - ':layer_3:'
+  - '<emojy:layer_3>'
   - <yellow>It looks so derpy without its body.
 replaceBurnedDrop:
   prefab: mineinabyss:madokajack_eye_roasted
